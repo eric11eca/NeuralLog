@@ -4,7 +4,28 @@ import json
 import spacy
 import itertools
 
+import torch
+import torchtext.vocab as vocab
 from nltk.corpus import wordnet
+
+cache_dir = "../glove"
+glove = vocab.GloVe(name='6B', dim=50, cache=cache_dir)
+
+
+def closest(vec, n=10):
+    """
+    Find the closest words for a given vector
+    """
+    all_dists = [(w, torch.dist(vec, get_word(w))) for w in glove.itos]
+    return sorted(all_dists, key=lambda t: t[1])[:n]
+
+
+def get_dist(w1, w2):
+    return torch.dist(get_word(w1), get_word(w2))
+
+
+def get_word(word):
+    return glove.vectors[glove.stoi[word]]
 
 
 def find_relation(word1, word2, pos, verbose=0):
@@ -49,7 +70,10 @@ class ConceptNet:
         data = urllib.request.urlopen(url_to_search)
         json_data = json.load(data)
         for edge in json_data["edges"]:
-            hypernyms.add(edge['end']['label'])
+            surface_text = edge['surfaceText']
+            if surface_text and edge["weight"] > 1.0:
+                if 'a type of' in surface_text or 'a kind of' in surface_text:
+                    hypernyms.add(edge['end']['label'])
 
         url_to_search = self.url + "query?end=/c/en/" + \
             concept + "&rel=/r/" + rel + "&limit=1000"
@@ -57,7 +81,8 @@ class ConceptNet:
         json_data = json.load(data)
         hyponyms = set([])
         for edge in json_data["edges"]:
-            hyponyms.add(edge['start']['label'])
+            if edge["weight"] > 1.0:
+                hyponyms.add(edge['start']['label'])
 
         return hypernyms, hyponyms
 
@@ -72,6 +97,7 @@ def get_word_sets(word, pos):
         for x in syn.hypernyms():
             for l in x.lemmas():
                 hypernyms.add(l.name().replace('_', ' '))
+                get_dist
         for x in syn.hyponyms():
             for l in x.lemmas():
                 hyponyms.add(l.name().replace('_', ' '))
@@ -89,9 +115,11 @@ def get_word_sets(word, pos):
 
 
 def test():
-    relation = find_relation('animal', 'bird', 'nn')
+    relation = find_relation('animal', 'dog', 'nn', verbose=1)
     print(relation)
 
 
 if __name__ == '__main__':
-    test()
+    hypernyms, hyponyms, synonyms, antonyms = get_word_sets("dog", "nn")
+    print(list(hypernyms))
+    print(list(hyponyms))

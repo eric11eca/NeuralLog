@@ -1,0 +1,1202 @@
+{"sentence1": "There is a man not wearing a hat staring at people on a subway.", "sentence2": "There is a man not wearing a sunhat staring at people on a subway.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is a man not wearing a sunhat staring at people on a subway.", "sentence2": "There is a man not wearing a hat staring at people on a subway.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is a man not wearing a hat staring at people on a subway.", "sentence2": "There is a man not wearing a sombrero staring at people on a subway.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is a man not wearing a sombrero staring at people on a subway.", "sentence2": "There is a man not wearing a hat staring at people on a subway.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is a man not wearing a hat staring at people on a subway.", "sentence2": "There is a man not wearing a fedora staring at people on a subway.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is a man not wearing a fedora staring at people on a subway.", "sentence2": "There is a man not wearing a hat staring at people on a subway.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "Some dishes do not have rice.", "sentence2": "Some dishes do not have food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "Some dishes do not have food.", "sentence2": "Some dishes do not have rice.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A man, not wearing a shirt, is sitting on a rock", "sentence2": "A man, not wearing a work-shirt, is sitting on a rock", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A man, not wearing a work-shirt, is sitting on a rock", "sentence2": "A man, not wearing a shirt, is sitting on a rock", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A man, not wearing a shirt, is sitting on a rock", "sentence2": "A man, not wearing a T-shirt, is sitting on a rock", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A man, not wearing a T-shirt, is sitting on a rock", "sentence2": "A man, not wearing a shirt, is sitting on a rock", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A boy not wearing a shirt is walking holding a tree branch near the park.", "sentence2": "A boy not wearing a work-shirt is walking holding a tree branch near the park.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A boy not wearing a work-shirt is walking holding a tree branch near the park.", "sentence2": "A boy not wearing a shirt is walking holding a tree branch near the park.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A boy not wearing a shirt is walking holding a tree branch near the park.", "sentence2": "A boy not wearing a T-shirt is walking holding a tree branch near the park.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A boy not wearing a T-shirt is walking holding a tree branch near the park.", "sentence2": "A boy not wearing a shirt is walking holding a tree branch near the park.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The three children are not holding plants.", "sentence2": "The three children are not holding daisies.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "The three children are not holding daisies.", "sentence2": "The three children are not holding plants.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "The three children are not holding plants.", "sentence2": "The three children are not holding herbs.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The three children are not holding herbs.", "sentence2": "The three children are not holding plants.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The three children are not holding plants.", "sentence2": "The three children are not holding lilies.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "The three children are not holding lilies.", "sentence2": "The three children are not holding plants.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "The three children are not holding plants.", "sentence2": "The three children are not holding flowers.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "The three children are not holding flowers.", "sentence2": "The three children are not holding plants.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "The three children are not holding plants.", "sentence2": "The three children are not holding poppies.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "The three children are not holding poppies.", "sentence2": "The three children are not holding plants.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "The three children are not holding plants.", "sentence2": "The three children are not holding saplings.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "The three children are not holding saplings.", "sentence2": "The three children are not holding plants.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "The three children are not holding plants.", "sentence2": "The three children are not holding clovers.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The three children are not holding clovers.", "sentence2": "The three children are not holding plants.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The three children are not holding plants.", "sentence2": "The three children are not holding shrubs.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The three children are not holding shrubs.", "sentence2": "The three children are not holding plants.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The three children are not holding plants.", "sentence2": "The three children are not holding weeds.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The three children are not holding weeds.", "sentence2": "The three children are not holding plants.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The three children are not holding plants.", "sentence2": "The three children are not holding lilacs.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "The three children are not holding lilacs.", "sentence2": "The three children are not holding plants.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "The three children are not holding plants.", "sentence2": "The three children are not holding sunflowers.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "The three children are not holding sunflowers.", "sentence2": "The three children are not holding plants.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "The three children are not holding plants.", "sentence2": "The three children are not holding vines.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The three children are not holding vines.", "sentence2": "The three children are not holding plants.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The three children are not holding plants.", "sentence2": "The three children are not holding reeds.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "The three children are not holding reeds.", "sentence2": "The three children are not holding plants.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "The three children are not holding plants.", "sentence2": "The three children are not holding tulips.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "The three children are not holding tulips.", "sentence2": "The three children are not holding plants.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "The three children are not holding plants.", "sentence2": "The three children are not holding roses.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "The three children are not holding roses.", "sentence2": "The three children are not holding plants.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "The three children are not holding plants.", "sentence2": "The three children are not holding houseplants.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The three children are not holding houseplants.", "sentence2": "The three children are not holding plants.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The three children are not holding plants.", "sentence2": "The three children are not holding ferns.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The three children are not holding ferns.", "sentence2": "The three children are not holding plants.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The girl does not wear a hat.", "sentence2": "The girl does not wear a sunhat.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The girl does not wear a sunhat.", "sentence2": "The girl does not wear a hat.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The girl does not wear a hat.", "sentence2": "The girl does not wear a fedora.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The girl does not wear a fedora.", "sentence2": "The girl does not wear a hat.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The girl does not wear a hat.", "sentence2": "The girl does not wear a sombrero.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The girl does not wear a sombrero.", "sentence2": "The girl does not wear a hat.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "a man walks confidently not dropping produce", "sentence2": "a man walks confidently not dropping food", "gold_label": "neutral", "depth": 1}
+{"sentence1": "a man walks confidently not dropping food", "sentence2": "a man walks confidently not dropping produce", "gold_label": "entailment", "depth": -1}
+{"sentence1": "a man walks confidently not dropping produce", "sentence2": "a man walks confidently not dropping bananas", "gold_label": "entailment", "depth": -2}
+{"sentence1": "a man walks confidently not dropping bananas", "sentence2": "a man walks confidently not dropping produce", "gold_label": "neutral", "depth": 2}
+{"sentence1": "a man walks confidently not dropping produce", "sentence2": "a man walks confidently not dropping eggplants", "gold_label": "entailment", "depth": -3}
+{"sentence1": "a man walks confidently not dropping eggplants", "sentence2": "a man walks confidently not dropping produce", "gold_label": "neutral", "depth": 3}
+{"sentence1": "a man walks confidently not dropping produce", "sentence2": "a man walks confidently not dropping papayas", "gold_label": "entailment", "depth": -2}
+{"sentence1": "a man walks confidently not dropping papayas", "sentence2": "a man walks confidently not dropping produce", "gold_label": "neutral", "depth": 2}
+{"sentence1": "a man walks confidently not dropping produce", "sentence2": "a man walks confidently not dropping cauliflower", "gold_label": "entailment", "depth": -3}
+{"sentence1": "a man walks confidently not dropping cauliflowers", "sentence2": "a man walks confidently not dropping produce", "gold_label": "neutral", "depth": 3}
+{"sentence1": "a man walks confidently not dropping produce", "sentence2": "a man walks confidently not dropping watermelons", "gold_label": "entailment", "depth": -3}
+{"sentence1": "a man walks confidently not dropping watermelons", "sentence2": "a man walks confidently not dropping produce", "gold_label": "neutral", "depth": 3}
+{"sentence1": "a man walks confidently not dropping produce", "sentence2": "a man walks confidently not dropping mangos", "gold_label": "entailment", "depth": -2}
+{"sentence1": "a man walks confidently not dropping mangos", "sentence2": "a man walks confidently not dropping produce", "gold_label": "neutral", "depth": 2}
+{"sentence1": "a man walks confidently not dropping produce", "sentence2": "a man walks confidently not dropping pears", "gold_label": "entailment", "depth": -2}
+{"sentence1": "a man walks confidently not dropping pears", "sentence2": "a man walks confidently not dropping produce", "gold_label": "neutral", "depth": 2}
+{"sentence1": "a man walks confidently not dropping produce", "sentence2": "a man walks confidently not dropping carrots", "gold_label": "entailment", "depth": -3}
+{"sentence1": "a man walks confidently not dropping carrots", "sentence2": "a man walks confidently not dropping produce", "gold_label": "neutral", "depth": 3}
+{"sentence1": "a man walks confidently not dropping produce", "sentence2": "a man walks confidently not dropping celery", "gold_label": "entailment", "depth": -2}
+{"sentence1": "a man walks confidently not dropping celery", "sentence2": "a man walks confidently not dropping produce", "gold_label": "neutral", "depth": 2}
+{"sentence1": "a man walks confidently not dropping produce", "sentence2": "a man walks confidently not dropping onions", "gold_label": "entailment", "depth": -2}
+{"sentence1": "a man walks confidently not dropping onions", "sentence2": "a man walks confidently not dropping produce", "gold_label": "neutral", "depth": 2}
+{"sentence1": "a man walks confidently not dropping produce", "sentence2": "a man walks confidently not dropping spinach", "gold_label": "entailment", "depth": -3}
+{"sentence1": "a man walks confidently not dropping spinach", "sentence2": "a man walks confidently not dropping produce", "gold_label": "neutral", "depth": 3}
+{"sentence1": "a man walks confidently not dropping produce", "sentence2": "a man walks confidently not dropping kale", "gold_label": "entailment", "depth": -4}
+{"sentence1": "a man walks confidently not dropping kale", "sentence2": "a man walks confidently not dropping produce", "gold_label": "neutral", "depth": 4}
+{"sentence1": "a man walks confidently not dropping produce", "sentence2": "a man walks confidently not dropping apples", "gold_label": "entailment", "depth": -2}
+{"sentence1": "a man walks confidently not dropping apples", "sentence2": "a man walks confidently not dropping produce", "gold_label": "neutral", "depth": 2}
+{"sentence1": "a man walks confidently not dropping produce", "sentence2": "a man walks confidently not dropping lettuce", "gold_label": "entailment", "depth": -4}
+{"sentence1": "a man walks confidently not dropping lettuce", "sentence2": "a man walks confidently not dropping produce", "gold_label": "neutral", "depth": 4}
+{"sentence1": "a man walks confidently not dropping produce", "sentence2": "a man walks confidently not dropping lemons", "gold_label": "entailment", "depth": -3}
+{"sentence1": "a man walks confidently not dropping lemons", "sentence2": "a man walks confidently not dropping produce", "gold_label": "neutral", "depth": 3}
+{"sentence1": "a man walks confidently not dropping produce", "sentence2": "a man walks confidently not dropping plums", "gold_label": "entailment", "depth": -2}
+{"sentence1": "a man walks confidently not dropping plums", "sentence2": "a man walks confidently not dropping produce", "gold_label": "neutral", "depth": 2}
+{"sentence1": "a man walks confidently not dropping produce", "sentence2": "a man walks confidently not dropping tomatoes", "gold_label": "entailment", "depth": -3}
+{"sentence1": "a man walks confidently not dropping tomatoes", "sentence2": "a man walks confidently not dropping produce", "gold_label": "neutral", "depth": 3}
+{"sentence1": "a man walks confidently not dropping produce", "sentence2": "a man walks confidently not dropping cucumbers", "gold_label": "entailment", "depth": -2}
+{"sentence1": "a man walks confidently not dropping cucumbers", "sentence2": "a man walks confidently not dropping produce", "gold_label": "neutral", "depth": 2}
+{"sentence1": "a man walks confidently not dropping produce", "sentence2": "a man walks confidently not dropping grapes", "gold_label": "entailment", "depth": -2}
+{"sentence1": "a man walks confidently not dropping grapes", "sentence2": "a man walks confidently not dropping produce", "gold_label": "neutral", "depth": 2}
+{"sentence1": "a man walks confidently not dropping produce", "sentence2": "a man walks confidently not dropping cabbage", "gold_label": "entailment", "depth": -3}
+{"sentence1": "a man walks confidently not dropping cabbage", "sentence2": "a man walks confidently not dropping produce", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The restaurant does not let oriental people in", "sentence2": "The restaurant does not let oriental women in", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The restaurant does not let oriental women in", "sentence2": "The restaurant does not let oriental people in", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The restaurant does not let oriental people in", "sentence2": "The restaurant does not let oriental youths in", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The restaurant does not let oriental youths in", "sentence2": "The restaurant does not let oriental people in", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like guacamole.", "gold_label": "entailment", "depth": -6}
+{"sentence1": "A woman did not like guacamole.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 6}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like omelet.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like omelet.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like breakfast.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like breakfast.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like soup.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like soup.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like meatball.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like meatball.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like cake.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like cake.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like ratatouille.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "A woman did not like ratatouille.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like hummus.", "gold_label": "entailment", "depth": -6}
+{"sentence1": "A woman did not like hummus.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 6}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like fondue.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like fondue.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like rice.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like rice.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like pasta.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like pasta.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like spaghetti.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "A woman did not like spaghetti.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like lasagna.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "A woman did not like lasagna.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like eggs.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A woman did not like eggs.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like risotto.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like risotto.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like fries.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "A woman did not like fries.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like naan.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "A woman did not like naan.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like cereal.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A woman did not like cereal.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like kebab.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like kebab.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like pastry.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "A woman did not like pastry.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like pretzel.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "A woman did not like pretzel.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like corn.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like corn.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like oatmeal.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like oatmeal.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like stew.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like stew.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like muffin.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "A woman did not like muffin.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like tofu.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like tofu.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like cheese.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like cheese.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like gyro.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "A woman did not like gyro.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like meatloaf.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "A woman did not like meatloaf.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like sandwich.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "A woman did not like sandwich.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like bread.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like bread.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like bagel.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "A woman did not like bagel.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like hotdog.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "A woman did not like hotdog.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like burrito.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like burrito.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like sushi.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like sushi.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like popcorn.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "A woman did not like popcorn.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like cheeseburger.", "gold_label": "entailment", "depth": -6}
+{"sentence1": "A woman did not like cheeseburger.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 6}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like pizza.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like pizza.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like curry.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like curry.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like meatloaf.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like meatloaf.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like yogurt.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like yogurt.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like pudding.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "A woman did not like pudding.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like falafel.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A woman did not like falafel.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like pita.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "A woman did not like pita.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "A woman did not like food.", "sentence2": "A woman did not like hamburger.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "A woman did not like hamburger.", "sentence2": "A woman did not like food.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "The man is not wearing jewelry.", "sentence2": "The man is not wearing bracelets.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The man is not wearing bracelets.", "sentence2": "The man is not wearing jewelry.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The man is not wearing jewelry.", "sentence2": "The man is not wearing rings.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The man is not wearing rings.", "sentence2": "The man is not wearing jewelry.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The man is not wearing jewelry.", "sentence2": "The man is not wearing necklaces.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The man is not wearing necklaces.", "sentence2": "The man is not wearing jewelry.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The man is not wearing jewelry.", "sentence2": "The man is not wearing earrings.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The man is not wearing earrings.", "sentence2": "The man is not wearing jewelry.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The little boy is not wearing any clothes.", "sentence2": "The little boy is not wearing any jeans.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The little boy is not wearing any jeans.", "sentence2": "The little boy is not wearing any clothes.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The woman is not wearing shoes.", "sentence2": "The woman is not wearing sneakers.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The woman is not wearing sneakers.", "sentence2": "The woman is not wearing shoes.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The woman is not wearing shoes.", "sentence2": "The woman is not wearing pumps.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The woman is not wearing pumps.", "sentence2": "The woman is not wearing shoes.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The woman is not wearing shoes.", "sentence2": "The woman is not wearing sandals.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The woman is not wearing sandals.", "sentence2": "The woman is not wearing shoes.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The woman is not cutting a cake.", "sentence2": "The woman is not cutting a cheesecake.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The woman is not cutting a cheesecake.", "sentence2": "The woman is not cutting a cake.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The woman is not cutting a cake.", "sentence2": "The woman is not cutting a fruitcake.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The woman is not cutting a fruitcake.", "sentence2": "The woman is not cutting a cake.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The people are not playing instruments.", "sentence2": "The people are not playing tubas.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The people are not playing tubas.", "sentence2": "The people are not playing instruments.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The people are not playing instruments.", "sentence2": "The people are not playing drums.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The people are not playing drums.", "sentence2": "The people are not playing instruments.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The people are not playing instruments.", "sentence2": "The people are not playing organs.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The people are not playing organs.", "sentence2": "The people are not playing instruments.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The people are not playing instruments.", "sentence2": "The people are not playing violins.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The people are not playing violins.", "sentence2": "The people are not playing instruments.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The people are not playing instruments.", "sentence2": "The people are not playing flutes.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The people are not playing flutes.", "sentence2": "The people are not playing instruments.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The people are not playing instruments.", "sentence2": "The people are not playing snares.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The people are not playing snares.", "sentence2": "The people are not playing instruments.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The people are not playing instruments.", "sentence2": "The people are not playing xylophones.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The people are not playing xylophones.", "sentence2": "The people are not playing instruments.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The people are not playing instruments.", "sentence2": "The people are not playing trombones.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The people are not playing trombones.", "sentence2": "The people are not playing instruments.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The people are not playing instruments.", "sentence2": "The people are not playing oboes.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "The people are not playing oboes.", "sentence2": "The people are not playing instruments.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "The people are not playing instruments.", "sentence2": "The people are not playing sitars.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The people are not playing sitars.", "sentence2": "The people are not playing instruments.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The people are not playing instruments.", "sentence2": "The people are not playing clarinets.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "The people are not playing clarinets.", "sentence2": "The people are not playing instruments.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "The people are not playing instruments.", "sentence2": "The people are not playing tambourines.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The people are not playing tambourines.", "sentence2": "The people are not playing instruments.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The people are not playing instruments.", "sentence2": "The people are not playing accordions.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The people are not playing accordions.", "sentence2": "The people are not playing instruments.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The people are not playing instruments.", "sentence2": "The people are not playing bagpipes.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The people are not playing bagpipes.", "sentence2": "The people are not playing instruments.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The people are not playing instruments.", "sentence2": "The people are not playing trumpets.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The people are not playing trumpets.", "sentence2": "The people are not playing instruments.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The people are not playing instruments.", "sentence2": "The people are not playing horns.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The people are not playing horns.", "sentence2": "The people are not playing instruments.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The people are not playing instruments.", "sentence2": "The people are not playing guitars.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The people are not playing guitars.", "sentence2": "The people are not playing instruments.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to jazz.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The man is not listening to jazz.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to blues.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The man is not listening to blues.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to Mozart.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The man is not listening to Mozart.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to disco.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The man is not listening to disco.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to rap.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The man is not listening to rap.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to boogie.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "The man is not listening to boogie.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to reggae.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The man is not listening to reggae.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to Bach.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The man is not listening to Bach.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to gospel.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "The man is not listening to gospel.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to punk.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "The man is not listening to punk.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to classical.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The man is not listening to classical.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to polka.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The man is not listening to polka.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to bluegrass.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "The man is not listening to bluegrass.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to hip-hop.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The man is not listening to hip-hop.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to folk.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The man is not listening to folk.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to samba.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The man is not listening to samba.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to ragtime.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The man is not listening to ragtime.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to opera.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The man is not listening to opera.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to Chopin.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The man is not listening to Chopin.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to techno.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The man is not listening to techno.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to Wagner.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The man is not listening to Wagner.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to rockabilly.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The man is not listening to rockabilly.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to Beethoven.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The man is not listening to Beethoven.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to rock.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The man is not listening to rock.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to soul.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The man is not listening to soul.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The man is not listening to music.", "sentence2": "The man is not listening to swing.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "The man is not listening to swing.", "sentence2": "The man is not listening to music.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "A man is not wearing a hat.", "sentence2": "A man is not wearing a sombrero.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A man is not wearing a sombrero.", "sentence2": "A man is not wearing a hat.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A man is not wearing a hat.", "sentence2": "A man is not wearing a bowler.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A man is not wearing a bowler.", "sentence2": "A man is not wearing a hat.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A man is not wearing a hat.", "sentence2": "A man is not wearing a fedora.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A man is not wearing a fedora.", "sentence2": "A man is not wearing a hat.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A man is not wearing a hat.", "sentence2": "A man is not wearing a sunhat.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A man is not wearing a sunhat.", "sentence2": "A man is not wearing a hat.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single sculptor walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single sculptor walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single mover walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single mover walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single matriarch walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single matriarch walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single landscaper walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single landscaper walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single nanny walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single nanny walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single ambassador walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single ambassador walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single rescuer walking in the city.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a single rescuer walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single Persian walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single Persian walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single volunteer walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single volunteer walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single Greek walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single Greek walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single gambler walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single gambler walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single debutante walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single debutante walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single girl walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single girl walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single painter walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single painter walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single politician walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single politician walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single woman walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single woman walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single prince walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single prince walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single butcher walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single butcher walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single juvenile walking in the city.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a single juvenile walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single pagan walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single pagan walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single craftsman walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single craftsman walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single nerd walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single nerd walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single psychic walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single psychic walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single Indonesian walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single Indonesian walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single smith walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single smith walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single skier walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single skier walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single conservative walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single conservative walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single addict walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single addict walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single gymnast walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single gymnast walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single convict walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single convict walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single serviceman walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single serviceman walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single African walking in the city.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a single African walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single adventurer walking in the city.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a single adventurer walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single groupie walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single groupie walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single survivalist walking in the city.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a single survivalist walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single merchant walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single merchant walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single hacker walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single hacker walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single philosopher walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single philosopher walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single aviator walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single aviator walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single immigrant walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single immigrant walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single king walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single king walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single worshiper walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single worshiper walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single skydiver walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single skydiver walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single official walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single official walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single Romanian walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single Romanian walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single photographer walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single photographer walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single Belgian walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single Belgian walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single athlete walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single athlete walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single Democrat walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single Democrat walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single Jew walking in the city.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a single Jew walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single adult walking in the city.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a single adult walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single ninja walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single ninja walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single billionaire walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single billionaire walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single child walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single child walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single amputee walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single amputee walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single geologist walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single geologist walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single comedian walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single comedian walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single stagehand walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single stagehand walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single cashier walking in the city.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a single cashier walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single firefighter walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single firefighter walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single hunchback walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single hunchback walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single programmer walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single programmer walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single waiter walking in the city.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a single waiter walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single bachelor walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single bachelor walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single hippie walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single hippie walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single detective walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single detective walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single cheerleader walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single cheerleader walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single uncle walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single uncle walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single homeowner walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single homeowner walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single stylist walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single stylist walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single rabbi walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single rabbi walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single musher walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single musher walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single veteran walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single veteran walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single queen walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single queen walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single missionary walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single missionary walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single historian walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single historian walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single parachuter walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single parachuter walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single prostitute walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single prostitute walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single cannibal walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single cannibal walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single swimmer walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single swimmer walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single hunter walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single hunter walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single monk walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single monk walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single banker walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single banker walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single courier walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single courier walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single Scotsman walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single Scotsman walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single slaver walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single slaver walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single Frenchman walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single Frenchman walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single Republican walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single Republican walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single millionaire walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single millionaire walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single atheist walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single atheist walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single barkeep walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single barkeep walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single celebrity walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single celebrity walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single agnostic walking in the city.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a single agnostic walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single lesbian walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single lesbian walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single pilgrim walking in the city.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a single pilgrim walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a single person walking in the city.", "sentence2": "There is not a single liberal walking in the city.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a single liberal walking in the city.", "sentence2": "There is not a single person walking in the city.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The person did not like fruit.", "sentence2": "The person did not like citrus.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The person did not like citrus.", "sentence2": "The person did not like fruit.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The person did not like fruit.", "sentence2": "The person did not like raspberries.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The person did not like raspberries.", "sentence2": "The person did not like fruit.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The person did not like fruit.", "sentence2": "The person did not like limes.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The person did not like limes.", "sentence2": "The person did not like fruit.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The person did not like fruit.", "sentence2": "The person did not like mangos.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The person did not like mangos.", "sentence2": "The person did not like fruit.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The person did not like fruit.", "sentence2": "The person did not like melons.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The person did not like melons.", "sentence2": "The person did not like fruit.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The person did not like fruit.", "sentence2": "The person did not like pears.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The person did not like pears.", "sentence2": "The person did not like fruit.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The person did not like fruit.", "sentence2": "The person did not like peaches.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The person did not like peaches.", "sentence2": "The person did not like fruit.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The person did not like fruit.", "sentence2": "The person did not like grapes.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The person did not like grapes.", "sentence2": "The person did not like fruit.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The person did not like fruit.", "sentence2": "The person did not like plums.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The person did not like plums.", "sentence2": "The person did not like fruit.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The person did not like fruit.", "sentence2": "The person did not like cherries.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The person did not like cherries.", "sentence2": "The person did not like fruit.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The person did not like fruit.", "sentence2": "The person did not like oranges.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The person did not like oranges.", "sentence2": "The person did not like fruit.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The person did not like fruit.", "sentence2": "The person did not like bananas.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The person did not like bananas.", "sentence2": "The person did not like fruit.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The person did not like fruit.", "sentence2": "The person did not like strawberries.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The person did not like strawberries.", "sentence2": "The person did not like fruit.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The person did not like fruit.", "sentence2": "The person did not like huckleberries.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The person did not like huckleberries.", "sentence2": "The person did not like fruit.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The person did not like fruit.", "sentence2": "The person did not like blueberries.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The person did not like blueberries.", "sentence2": "The person did not like fruit.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The person did not like fruit.", "sentence2": "The person did not like pineapples.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The person did not like pineapples.", "sentence2": "The person did not like fruit.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The person did not like fruit.", "sentence2": "The person did not like cantaloupes.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "The person did not like cantaloupes.", "sentence2": "The person did not like fruit.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "The person did not like fruit.", "sentence2": "The person did not like cranberries.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The person did not like cranberries.", "sentence2": "The person did not like fruit.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The person did not like fruit.", "sentence2": "The person did not like watermelons.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The person did not like watermelons.", "sentence2": "The person did not like fruit.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The person did not like fruit.", "sentence2": "The person did not like apples.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The person did not like apples.", "sentence2": "The person did not like fruit.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The person did not like fruit.", "sentence2": "The person did not like lemons.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The person did not like lemons.", "sentence2": "The person did not like fruit.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "People do not have any machines", "sentence2": "People do not have any computers", "gold_label": "entailment", "depth": -1}
+{"sentence1": "People do not have any computers", "sentence2": "People do not have any machines", "gold_label": "neutral", "depth": 1}
+{"sentence1": "People do not have any machines", "sentence2": "People do not have any PCs", "gold_label": "entailment", "depth": -3}
+{"sentence1": "People do not have any PCs", "sentence2": "People do not have any machines", "gold_label": "neutral", "depth": 3}
+{"sentence1": "People do not have any machines", "sentence2": "People do not have any ATMs", "gold_label": "entailment", "depth": -1}
+{"sentence1": "People do not have any ATMs", "sentence2": "People do not have any machines", "gold_label": "neutral", "depth": 1}
+{"sentence1": "People do not have any machines", "sentence2": "People do not have any laptops", "gold_label": "entailment", "depth": -5}
+{"sentence1": "People do not have any laptops", "sentence2": "People do not have any machines", "gold_label": "neutral", "depth": 5}
+{"sentence1": "People do not have any machines", "sentence2": "People do not have any calculators", "gold_label": "entailment", "depth": -1}
+{"sentence1": "People do not have any calculators", "sentence2": "People do not have any machines", "gold_label": "neutral", "depth": 1}
+{"sentence1": "People do not have any machines", "sentence2": "People do not have any turbines", "gold_label": "entailment", "depth": -6}
+{"sentence1": "People do not have any turbines", "sentence2": "People do not have any machines", "gold_label": "neutral", "depth": 6}
+{"sentence1": "People do not have any machines", "sentence2": "People do not have any jackhammers", "gold_label": "entailment", "depth": -3}
+{"sentence1": "People do not have any jackhammers", "sentence2": "People do not have any machines", "gold_label": "neutral", "depth": 3}
+{"sentence1": "People do not have any machines", "sentence2": "People do not have any jukeboxes", "gold_label": "entailment", "depth": -2}
+{"sentence1": "People do not have any jukeboxes", "sentence2": "People do not have any machines", "gold_label": "neutral", "depth": 2}
+{"sentence1": "People do not have any machines", "sentence2": "People do not have any generators", "gold_label": "entailment", "depth": -3}
+{"sentence1": "People do not have any generators", "sentence2": "People do not have any machines", "gold_label": "neutral", "depth": 3}
+{"sentence1": "People do not have any machines", "sentence2": "People do not have any motors", "gold_label": "entailment", "depth": -1}
+{"sentence1": "People do not have any motors", "sentence2": "People do not have any machines", "gold_label": "neutral", "depth": 1}
+{"sentence1": "People do not have any machines", "sentence2": "People do not have any printers", "gold_label": "entailment", "depth": -2}
+{"sentence1": "People do not have any printers", "sentence2": "People do not have any machines", "gold_label": "neutral", "depth": 2}
+{"sentence1": "People do not have any machines", "sentence2": "People do not have any treadmills", "gold_label": "entailment", "depth": -3}
+{"sentence1": "People do not have any treadmills", "sentence2": "People do not have any machines", "gold_label": "neutral", "depth": 3}
+{"sentence1": "People do not have any machines", "sentence2": "People do not have any engines", "gold_label": "entailment", "depth": -2}
+{"sentence1": "People do not have any engines", "sentence2": "People do not have any machines", "gold_label": "neutral", "depth": 2}
+{"sentence1": "People do not have any machines", "sentence2": "People do not have any typewriters", "gold_label": "entailment", "depth": -3}
+{"sentence1": "People do not have any typewriters", "sentence2": "People do not have any machines", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A male is not tossing anything", "sentence2": "A male is not tossing socks", "gold_label": "entailment", "depth": -5}
+{"sentence1": "A male is not tossing socks", "sentence2": "A male is not tossing anything", "gold_label": "neutral", "depth": 5}
+{"sentence1": "A male is not tossing anything", "sentence2": "A male is not tossing packets", "gold_label": "entailment", "depth": -4}
+{"sentence1": "A male is not tossing packets", "sentence2": "A male is not tossing anything", "gold_label": "neutral", "depth": 4}
+{"sentence1": "A male is not tossing anything", "sentence2": "A male is not tossing pictures", "gold_label": "entailment", "depth": -5}
+{"sentence1": "A male is not tossing pictures", "sentence2": "A male is not tossing anything", "gold_label": "neutral", "depth": 5}
+{"sentence1": "A male is not tossing anything", "sentence2": "A male is not tossing blocks", "gold_label": "entailment", "depth": -4}
+{"sentence1": "A male is not tossing blocks", "sentence2": "A male is not tossing anything", "gold_label": "neutral", "depth": 4}
+{"sentence1": "A male is not tossing anything", "sentence2": "A male is not tossing bulbs", "gold_label": "entailment", "depth": -5}
+{"sentence1": "A male is not tossing bulbs", "sentence2": "A male is not tossing anything", "gold_label": "neutral", "depth": 5}
+{"sentence1": "A man is not holding anything in his hands.", "sentence2": "A man is not holding tongues in his hands.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "A man is not holding tongues in his hands.", "sentence2": "A man is not holding anything in his hands.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "A man is not holding anything in his hands.", "sentence2": "A man is not holding goods in his hands.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "A man is not holding goods in his hands.", "sentence2": "A man is not holding anything in his hands.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "A man is not holding anything in his hands.", "sentence2": "A man is not holding beverages in his hands.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "A man is not holding beverages in his hands.", "sentence2": "A man is not holding anything in his hands.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "A man is not holding anything in his hands.", "sentence2": "A man is not holding rats in his hands.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "A man is not holding rats in his hands.", "sentence2": "A man is not holding anything in his hands.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "A man is not holding anything in his hands.", "sentence2": "A man is not holding machines in his hands.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "A man is not holding machines in his hands.", "sentence2": "A man is not holding anything in his hands.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "A man is not holding anything in his hands.", "sentence2": "A man is not holding files in his hands.", "gold_label": "entailment", "depth": -6}
+{"sentence1": "A man is not holding files in his hands.", "sentence2": "A man is not holding anything in his hands.", "gold_label": "neutral", "depth": 6}
+{"sentence1": "A man is not holding anything in his hands.", "sentence2": "A man is not holding records in his hands.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "A man is not holding records in his hands.", "sentence2": "A man is not holding anything in his hands.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "A man is not holding anything in his hands.", "sentence2": "A man is not holding stamps in his hands.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "A man is not holding stamps in his hands.", "sentence2": "A man is not holding anything in his hands.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "A man is not holding anything in his hands.", "sentence2": "A man is not holding glasses in his hands.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "A man is not holding glasses in his hands.", "sentence2": "A man is not holding anything in his hands.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "A man is not holding anything in his hands.", "sentence2": "A man is not holding snakes in his hands.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "A man is not holding snakes in his hands.", "sentence2": "A man is not holding anything in his hands.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "A man is not holding anything in his hands.", "sentence2": "A man is not holding trophies in his hands.", "gold_label": "entailment", "depth": -6}
+{"sentence1": "A man is not holding trophies in his hands.", "sentence2": "A man is not holding anything in his hands.", "gold_label": "neutral", "depth": 6}
+{"sentence1": "A man is not holding anything in his hands.", "sentence2": "A man is not holding reports in his hands.", "gold_label": "entailment", "depth": -6}
+{"sentence1": "A man is not holding reports in his hands.", "sentence2": "A man is not holding anything in his hands.", "gold_label": "neutral", "depth": 6}
+{"sentence1": "The skier did not notice a large tree dragging behind him.", "sentence2": "The skier did not notice a large plant dragging behind him.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The skier did not notice a large plant dragging behind him.", "sentence2": "The skier did not notice a large tree dragging behind him.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The skier did not notice a large tree dragging behind him.", "sentence2": "The skier did not notice a large fir dragging behind him.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The skier did not notice a large fir dragging behind him.", "sentence2": "The skier did not notice a large tree dragging behind him.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The skier did not notice a large tree dragging behind him.", "sentence2": "The skier did not notice a large dogwood dragging behind him.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The skier did not notice a large dogwood dragging behind him.", "sentence2": "The skier did not notice a large tree dragging behind him.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The skier did not notice a large tree dragging behind him.", "sentence2": "The skier did not notice a large cedar dragging behind him.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The skier did not notice a large cedar dragging behind him.", "sentence2": "The skier did not notice a large tree dragging behind him.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The skier did not notice a large tree dragging behind him.", "sentence2": "The skier did not notice a large magnolia dragging behind him.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The skier did not notice a large magnolia dragging behind him.", "sentence2": "The skier did not notice a large tree dragging behind him.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The skier did not notice a large tree dragging behind him.", "sentence2": "The skier did not notice a large sycamore dragging behind him.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The skier did not notice a large sycamore dragging behind him.", "sentence2": "The skier did not notice a large tree dragging behind him.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The skier did not notice a large tree dragging behind him.", "sentence2": "The skier did not notice a large willow dragging behind him.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The skier did not notice a large willow dragging behind him.", "sentence2": "The skier did not notice a large tree dragging behind him.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The skier did not notice a large tree dragging behind him.", "sentence2": "The skier did not notice a large ash dragging behind him.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The skier did not notice a large ash dragging behind him.", "sentence2": "The skier did not notice a large tree dragging behind him.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The skier did not notice a large tree dragging behind him.", "sentence2": "The skier did not notice a large birch dragging behind him.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The skier did not notice a large birch dragging behind him.", "sentence2": "The skier did not notice a large tree dragging behind him.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The skier did not notice a large tree dragging behind him.", "sentence2": "The skier did not notice a large pine dragging behind him.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The skier did not notice a large pine dragging behind him.", "sentence2": "The skier did not notice a large tree dragging behind him.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The skier did not notice a large tree dragging behind him.", "sentence2": "The skier did not notice a large palm dragging behind him.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The skier did not notice a large palm dragging behind him.", "sentence2": "The skier did not notice a large tree dragging behind him.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The skier did not notice a large tree dragging behind him.", "sentence2": "The skier did not notice a large oak dragging behind him.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The skier did not notice a large oak dragging behind him.", "sentence2": "The skier did not notice a large tree dragging behind him.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The skier did not notice a large tree dragging behind him.", "sentence2": "The skier did not notice a large maple dragging behind him.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The skier did not notice a large maple dragging behind him.", "sentence2": "The skier did not notice a large tree dragging behind him.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The skier did not notice a large tree dragging behind him.", "sentence2": "The skier did not notice a large cypress dragging behind him.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The skier did not notice a large cypress dragging behind him.", "sentence2": "The skier did not notice a large tree dragging behind him.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The skier did not notice a large tree dragging behind him.", "sentence2": "The skier did not notice a large elm dragging behind him.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The skier did not notice a large elm dragging behind him.", "sentence2": "The skier did not notice a large tree dragging behind him.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not a man cutting hair in the background.", "sentence2": "There is not an adult cutting hair in the background.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not an adult cutting hair in the background.", "sentence2": "There is not a man cutting hair in the background.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a man cutting hair in the background.", "sentence2": "There is not a person cutting hair in the background.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a person cutting hair in the background.", "sentence2": "There is not a man cutting hair in the background.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a man cutting hair in the background.", "sentence2": "There is not a boyfriend cutting hair in the background.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a boyfriend cutting hair in the background.", "sentence2": "There is not a man cutting hair in the background.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "the man is not cutting the fish", "sentence2": "the man is not cutting the tuna", "gold_label": "entailment", "depth": -5}
+{"sentence1": "the man is not cutting the tuna", "sentence2": "the man is not cutting the fish", "gold_label": "neutral", "depth": 5}
+{"sentence1": "the man is not cutting the fish", "sentence2": "the man is not cutting the trout", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the man is not cutting the trout", "sentence2": "the man is not cutting the fish", "gold_label": "neutral", "depth": 2}
+{"sentence1": "the man is not cutting the fish", "sentence2": "the man is not cutting the catfish", "gold_label": "entailment", "depth": -6}
+{"sentence1": "the man is not cutting the catfish", "sentence2": "the man is not cutting the fish", "gold_label": "neutral", "depth": 6}
+{"sentence1": "the man is not cutting the fish", "sentence2": "the man is not cutting the salmon", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the man is not cutting the salmon", "sentence2": "the man is not cutting the fish", "gold_label": "neutral", "depth": 2}
+{"sentence1": "the man is not cutting the fish", "sentence2": "the man is not cutting the goldfish", "gold_label": "entailment", "depth": -6}
+{"sentence1": "the man is not cutting the goldfish", "sentence2": "the man is not cutting the fish", "gold_label": "neutral", "depth": 6}
+{"sentence1": "the man is not cutting the fish", "sentence2": "the man is not cutting the bass", "gold_label": "entailment", "depth": -5}
+{"sentence1": "the man is not cutting the bass", "sentence2": "the man is not cutting the fish", "gold_label": "neutral", "depth": 5}
+{"sentence1": "the man is not cutting the fish", "sentence2": "the man is not cutting the herring", "gold_label": "entailment", "depth": -5}
+{"sentence1": "the man is not cutting the herring", "sentence2": "the man is not cutting the fish", "gold_label": "neutral", "depth": 5}
+{"sentence1": "the man is not cutting the fish", "sentence2": "the man is not cutting the marlin", "gold_label": "entailment", "depth": -7}
+{"sentence1": "the man is not cutting the marlin", "sentence2": "the man is not cutting the fish", "gold_label": "neutral", "depth": 7}
+{"sentence1": "the man is not cutting the fish", "sentence2": "the man is not cutting the swordfish", "gold_label": "entailment", "depth": -6}
+{"sentence1": "the man is not cutting the swordfish", "sentence2": "the man is not cutting the fish", "gold_label": "neutral", "depth": 6}
+{"sentence1": "The girls are cutting the cake and not letting any man cut it.", "sentence2": "The girls are cutting the cake and not letting any adult cut it.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The girls are cutting the cake and not letting any adult cut it.", "sentence2": "The girls are cutting the cake and not letting any man cut it.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The girls are cutting the cake and not letting any man cut it.", "sentence2": "The girls are cutting the cake and not letting any bachelor cut it.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The girls are cutting the cake and not letting any bachelor cut it.", "sentence2": "The girls are cutting the cake and not letting any man cut it.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The girls are cutting the cake and not letting any man cut it.", "sentence2": "The girls are cutting the cake and not letting any boyfriend cut it.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The girls are cutting the cake and not letting any boyfriend cut it.", "sentence2": "The girls are cutting the cake and not letting any man cut it.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The girls are cutting the cake and not letting any man cut it.", "sentence2": "The girls are cutting the cake and not letting any gent cut it.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The girls are cutting the cake and not letting any gent cut it.", "sentence2": "The girls are cutting the cake and not letting any man cut it.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The girls are cutting the cake and not letting any man cut it.", "sentence2": "The girls are cutting the cake and not letting any gentleman cut it.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The girls are cutting the cake and not letting any gentleman cut it.", "sentence2": "The girls are cutting the cake and not letting any man cut it.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any adult indoors", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any adult indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any widow indoors", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any widow indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any bridesmaid indoors", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any bridesmaid indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any mistress indoors", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any mistress indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any maid indoors", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any maid indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any bachelorette indoors", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any bachelorette indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any ex-wife indoors", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any ex-wife indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any housewife indoors", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any housewife indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any matriarch indoors", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any matriarch indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any girlfriend indoors", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any girlfriend indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any dame indoors", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any dame indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any lass indoors", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any lass indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any wife indoors", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any wife indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any sister indoors", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any sister indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any granny indoors", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any granny indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any mother indoors", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any mother indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any lady indoors", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The men were outside trying to keep their voices down so as not to waken any lady indoors", "sentence2": "The men were outside trying to keep their voices down so as not to waken any woman indoors", "gold_label": "neutral", "depth": 1}
+{"sentence1": "Two people are not fishing from a boat", "sentence2": "Two people are not fishing from a lifeboat", "gold_label": "entailment", "depth": -2}
+{"sentence1": "Two people are not fishing from a lifeboat", "sentence2": "Two people are not fishing from a boat", "gold_label": "neutral", "depth": 2}
+{"sentence1": "Two people are not fishing from a boat", "sentence2": "Two people are not fishing from a skiff", "gold_label": "entailment", "depth": -2}
+{"sentence1": "Two people are not fishing from a skiff", "sentence2": "Two people are not fishing from a boat", "gold_label": "neutral", "depth": 2}
+{"sentence1": "Two people are not fishing from a boat", "sentence2": "Two people are not fishing from a tugboat", "gold_label": "entailment", "depth": -1}
+{"sentence1": "Two people are not fishing from a tugboat", "sentence2": "Two people are not fishing from a boat", "gold_label": "neutral", "depth": 1}
+{"sentence1": "Two people are not fishing from a boat", "sentence2": "Two people are not fishing from a speedboat", "gold_label": "entailment", "depth": -2}
+{"sentence1": "Two people are not fishing from a speedboat", "sentence2": "Two people are not fishing from a boat", "gold_label": "neutral", "depth": 2}
+{"sentence1": "Two people are not fishing from a boat", "sentence2": "Two people are not fishing from a gondola", "gold_label": "entailment", "depth": -1}
+{"sentence1": "Two people are not fishing from a gondola", "sentence2": "Two people are not fishing from a boat", "gold_label": "neutral", "depth": 1}
+{"sentence1": "Two people are not fishing from a boat", "sentence2": "Two people are not fishing from a barge", "gold_label": "entailment", "depth": -1}
+{"sentence1": "Two people are not fishing from a barge", "sentence2": "Two people are not fishing from a boat", "gold_label": "neutral", "depth": 1}
+{"sentence1": "Two people are not fishing from a boat", "sentence2": "Two people are not fishing from a ferry", "gold_label": "entailment", "depth": -1}
+{"sentence1": "Two people are not fishing from a ferry", "sentence2": "Two people are not fishing from a boat", "gold_label": "neutral", "depth": 1}
+{"sentence1": "Two people are not fishing from a boat", "sentence2": "Two people are not fishing from a canoe", "gold_label": "entailment", "depth": -2}
+{"sentence1": "Two people are not fishing from a canoe", "sentence2": "Two people are not fishing from a boat", "gold_label": "neutral", "depth": 2}
+{"sentence1": "Two people are not fishing from a boat", "sentence2": "Two people are not fishing from a motorboat", "gold_label": "entailment", "depth": -1}
+{"sentence1": "Two people are not fishing from a motorboat", "sentence2": "Two people are not fishing from a boat", "gold_label": "neutral", "depth": 1}
+{"sentence1": "Two people are not fishing from a boat", "sentence2": "Two people are not fishing from a rowboat", "gold_label": "entailment", "depth": -2}
+{"sentence1": "Two people are not fishing from a rowboat", "sentence2": "Two people are not fishing from a boat", "gold_label": "neutral", "depth": 2}
+{"sentence1": "Two people are not fishing from a boat", "sentence2": "Two people are not fishing from a houseboat", "gold_label": "entailment", "depth": -2}
+{"sentence1": "Two people are not fishing from a houseboat", "sentence2": "Two people are not fishing from a boat", "gold_label": "neutral", "depth": 2}
+{"sentence1": "Two people are not fishing from a boat", "sentence2": "Two people are not fishing from a kayak", "gold_label": "entailment", "depth": -3}
+{"sentence1": "Two people are not fishing from a kayak", "sentence2": "Two people are not fishing from a boat", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The boy is not holding a gun", "sentence2": "The boy is not holding a weapon", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The boy is not holding a weapon", "sentence2": "The boy is not holding a gun", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The boy is not holding a gun", "sentence2": "The boy is not holding a twenty-two", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The boy is not holding a twenty-two", "sentence2": "The boy is not holding a gun", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The boy is not holding a gun", "sentence2": "The boy is not holding a handgun", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The boy is not holding a handgun", "sentence2": "The boy is not holding a gun", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The boy is not holding a gun", "sentence2": "The boy is not holding a rifle", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The boy is not holding a rifle", "sentence2": "The boy is not holding a gun", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The boy is not holding a gun", "sentence2": "The boy is not holding a revolver", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The boy is not holding a revolver", "sentence2": "The boy is not holding a gun", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The boy is not holding a gun", "sentence2": "The boy is not holding a shotgun", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The boy is not holding a shotgun", "sentence2": "The boy is not holding a gun", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The boy is not holding a gun", "sentence2": "The boy is not holding a pistol", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The boy is not holding a pistol", "sentence2": "The boy is not holding a gun", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The cowboy did not fall off a horse at the competition.", "sentence2": "The cowboy did not fall off a racehorse at the competition.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The cowboy did not fall off a racehorse at the competition.", "sentence2": "The cowboy did not fall off a horse at the competition.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The cowboy did not fall off a horse at the competition.", "sentence2": "The cowboy did not fall off a mare at the competition.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The cowboy did not fall off a mare at the competition.", "sentence2": "The cowboy did not fall off a horse at the competition.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The cowboy did not fall off a horse at the competition.", "sentence2": "The cowboy did not fall off a bronco at the competition.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The cowboy did not fall off a bronco at the competition.", "sentence2": "The cowboy did not fall off a horse at the competition.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The cowboy did not fall off a horse at the competition.", "sentence2": "The cowboy did not fall off a stallion at the competition.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The cowboy did not fall off a stallion at the competition.", "sentence2": "The cowboy did not fall off a horse at the competition.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The cowboy did not fall off a horse at the competition.", "sentence2": "The cowboy did not fall off a mustang at the competition.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The cowboy did not fall off a mustang at the competition.", "sentence2": "The cowboy did not fall off a horse at the competition.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The cowboy did not fall off a horse at the competition.", "sentence2": "The cowboy did not fall off a palomino at the competition.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The cowboy did not fall off a palomino at the competition.", "sentence2": "The cowboy did not fall off a horse at the competition.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The cowboy did not fall off a horse at the competition.", "sentence2": "The cowboy did not fall off a pinto at the competition.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The cowboy did not fall off a pinto at the competition.", "sentence2": "The cowboy did not fall off a horse at the competition.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The cowboy did not fall off a horse at the competition.", "sentence2": "The cowboy did not fall off a Clydesdale at the competition.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The cowboy did not fall off a Clydesdale at the competition.", "sentence2": "The cowboy did not fall off a horse at the competition.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "a cashier is not at a store", "sentence2": "a cashier is not at a bookstore", "gold_label": "entailment", "depth": -1}
+{"sentence1": "a cashier is not at a bookstore", "sentence2": "a cashier is not at a store", "gold_label": "neutral", "depth": 1}
+{"sentence1": "a cashier is not at a store", "sentence2": "a cashier is not at a drugstore", "gold_label": "entailment", "depth": -1}
+{"sentence1": "a cashier is not at a drugstore", "sentence2": "a cashier is not at a store", "gold_label": "neutral", "depth": 1}
+{"sentence1": "a cashier is not at a store", "sentence2": "a cashier is not at a boutique", "gold_label": "entailment", "depth": -1}
+{"sentence1": "a cashier is not at a boutique", "sentence2": "a cashier is not at a store", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The woman is not wearing jewelry", "sentence2": "The woman is not wearing chains", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The woman is not wearing chains", "sentence2": "The woman is not wearing jewelry", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The woman is not wearing jewelry", "sentence2": "The woman is not wearing rings", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The woman is not wearing rings", "sentence2": "The woman is not wearing jewelry", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The woman is not wearing jewelry", "sentence2": "The woman is not wearing earrings", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The woman is not wearing earrings", "sentence2": "The woman is not wearing jewelry", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The woman is not wearing jewelry", "sentence2": "The woman is not wearing necklaces", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The woman is not wearing necklaces", "sentence2": "The woman is not wearing jewelry", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The woman is not wearing jewelry", "sentence2": "The woman is not wearing ringlets", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The woman is not wearing ringlets", "sentence2": "The woman is not wearing jewelry", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The woman is not wearing jewelry", "sentence2": "The woman is not wearing bracelets", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The woman is not wearing bracelets", "sentence2": "The woman is not wearing jewelry", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The woman is not wearing jewelry", "sentence2": "The woman is not wearing bangles", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The woman is not wearing bangles", "sentence2": "The woman is not wearing jewelry", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The girl here is not wearing any jewelry at all.", "sentence2": "The girl here is not wearing any chains at all.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The girl here is not wearing any chains at all.", "sentence2": "The girl here is not wearing any jewelry at all.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The girl here is not wearing any jewelry at all.", "sentence2": "The girl here is not wearing any bracelets at all.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The girl here is not wearing any bracelets at all.", "sentence2": "The girl here is not wearing any jewelry at all.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The girl here is not wearing any jewelry at all.", "sentence2": "The girl here is not wearing any bangles at all.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The girl here is not wearing any bangles at all.", "sentence2": "The girl here is not wearing any jewelry at all.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The girl here is not wearing any jewelry at all.", "sentence2": "The girl here is not wearing any ringlets at all.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The girl here is not wearing any ringlets at all.", "sentence2": "The girl here is not wearing any jewelry at all.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The girl here is not wearing any jewelry at all.", "sentence2": "The girl here is not wearing any necklaces at all.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The girl here is not wearing any necklaces at all.", "sentence2": "The girl here is not wearing any jewelry at all.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The girl here is not wearing any jewelry at all.", "sentence2": "The girl here is not wearing any earrings at all.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The girl here is not wearing any earrings at all.", "sentence2": "The girl here is not wearing any jewelry at all.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The girl here is not wearing any jewelry at all.", "sentence2": "The girl here is not wearing any rings at all.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The girl here is not wearing any rings at all.", "sentence2": "The girl here is not wearing any jewelry at all.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a snare", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the boy does not play a snare", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a cymbal", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the boy does not play a cymbal", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 2}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a sitar", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the boy does not play a sitar", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 2}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a harp", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the boy does not play a harp", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a harpsichord", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the boy does not play a harpsichord", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a bongo", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the boy does not play a bongo", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a piano", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the boy does not play a piano", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 2}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play an oboe", "gold_label": "entailment", "depth": -5}
+{"sentence1": "the boy does not play an oboe", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 5}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a xylophone", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the boy does not play a xylophone", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 2}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a cello", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the boy does not play a cello", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a baritone", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the boy does not play a baritone", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a bass", "gold_label": "entailment", "depth": -1}
+{"sentence1": "the boy does not play a bass", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 1}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a bassoon", "gold_label": "entailment", "depth": -5}
+{"sentence1": "the boy does not play a bassoon", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 5}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play an organ", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the boy does not play an organ", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 2}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a trombone", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the boy does not play a trombone", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a viola", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the boy does not play a viola", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a sousaphone", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the boy does not play a sousaphone", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a drum", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the boy does not play a drum", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 2}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a mandolin", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the boy does not play a mandolin", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a saxophone", "gold_label": "entailment", "depth": -5}
+{"sentence1": "the boy does not play a saxophone", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 5}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play an accordion", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the boy does not play an accordion", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 2}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a triangle", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the boy does not play a triangle", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 2}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a horn", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the boy does not play a horn", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a sousaphone", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the boy does not play a sousaphone", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 2}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a tambourine", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the boy does not play a tambourine", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a fiddle", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the boy does not play a fiddle", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a clarinet", "gold_label": "entailment", "depth": -5}
+{"sentence1": "the boy does not play a clarinet", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 5}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a flute", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the boy does not play a flute", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play an ukulele", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the boy does not play an ukulele", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a cornet", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the boy does not play a cornet", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a piccolo", "gold_label": "entailment", "depth": -4}
+{"sentence1": "the boy does not play a piccolo", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 4}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a banjo", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the boy does not play a banjo", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 2}
+{"sentence1": "the boy does not play an instrument", "sentence2": "the boy does not play a guitar", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the boy does not play a guitar", "sentence2": "the boy does not play an instrument", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A man on top of a ladder not next to a tree", "sentence2": "A man on top of a ladder not next to a plant", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A man on top of a ladder not next to a plant", "sentence2": "A man on top of a ladder not next to a tree", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A man on top of a ladder not next to a tree", "sentence2": "A man on top of a ladder not next to a sycamore", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A man on top of a ladder not next to a sycamore", "sentence2": "A man on top of a ladder not next to a tree", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A man on top of a ladder not next to a tree", "sentence2": "A man on top of a ladder not next to an ash", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A man on top of a ladder not next to an ash", "sentence2": "A man on top of a ladder not next to a tree", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A man on top of a ladder not next to a tree", "sentence2": "A man on top of a ladder not next to a magnolia", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A man on top of a ladder not next to a magnolia", "sentence2": "A man on top of a ladder not next to a tree", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A man on top of a ladder not next to a tree", "sentence2": "A man on top of a ladder not next to a willow", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A man on top of a ladder not next to a willow", "sentence2": "A man on top of a ladder not next to a tree", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A man on top of a ladder not next to a tree", "sentence2": "A man on top of a ladder not next to a pine", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A man on top of a ladder not next to a pine", "sentence2": "A man on top of a ladder not next to a tree", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A man on top of a ladder not next to a tree", "sentence2": "A man on top of a ladder not next to a cedar", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A man on top of a ladder not next to a cedar", "sentence2": "A man on top of a ladder not next to a tree", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A man on top of a ladder not next to a tree", "sentence2": "A man on top of a ladder not next to an oak", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A man on top of a ladder not next to an oak", "sentence2": "A man on top of a ladder not next to a tree", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A man on top of a ladder not next to a tree", "sentence2": "A man on top of a ladder not next to an elm", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A man on top of a ladder not next to an elm", "sentence2": "A man on top of a ladder not next to a tree", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A man on top of a ladder not next to a tree", "sentence2": "A man on top of a ladder not next to a dogwood", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A man on top of a ladder not next to a dogwood", "sentence2": "A man on top of a ladder not next to a tree", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A man on top of a ladder not next to a tree", "sentence2": "A man on top of a ladder not next to a fir", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A man on top of a ladder not next to a fir", "sentence2": "A man on top of a ladder not next to a tree", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A man on top of a ladder not next to a tree", "sentence2": "A man on top of a ladder not next to a palm", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A man on top of a ladder not next to a palm", "sentence2": "A man on top of a ladder not next to a tree", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A man on top of a ladder not next to a tree", "sentence2": "A man on top of a ladder not next to a birch", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A man on top of a ladder not next to a birch", "sentence2": "A man on top of a ladder not next to a tree", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a man cutting hair in the background.", "sentence2": "There is not an adult cutting hair in the background.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not an adult cutting hair in the background.", "sentence2": "There is not a man cutting hair in the background.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a man cutting hair in the background.", "sentence2": "There is not an individual cutting hair in the background.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not an individual cutting hair in the background.", "sentence2": "There is not a man cutting hair in the background.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a man cutting hair in the background.", "sentence2": "There is not a bachelor cutting hair in the background.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a bachelor cutting hair in the background.", "sentence2": "There is not a man cutting hair in the background.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not a man cutting hair in the background.", "sentence2": "There is not a widower cutting hair in the background.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a widower cutting hair in the background.", "sentence2": "There is not a man cutting hair in the background.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not a man cutting hair in the background.", "sentence2": "There is not a gentleman cutting hair in the background.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a gentleman cutting hair in the background.", "sentence2": "There is not a man cutting hair in the background.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not a man cutting hair in the background.", "sentence2": "There is not a gent cutting hair in the background.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a gent cutting hair in the background.", "sentence2": "There is not a man cutting hair in the background.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a man cutting hair in the background.", "sentence2": "There is not a boyfriend cutting hair in the background.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a boyfriend cutting hair in the background.", "sentence2": "There is not a man cutting hair in the background.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A man can not find a woman", "sentence2": "A man can not find an adult", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A man can not find an adult", "sentence2": "A man can not find a woman", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A man can not find a woman", "sentence2": "A man can not find an individual", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A man can not find an individual", "sentence2": "A man can not find a woman", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A man can not find a woman", "sentence2": "A man can not find an ex-wife", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A man can not find an ex-wife", "sentence2": "A man can not find a woman", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A man can not find a woman", "sentence2": "A man can not find a lady", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A man can not find a lady", "sentence2": "A man can not find a woman", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A man can not find a woman", "sentence2": "A man can not find a sister", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A man can not find a sister", "sentence2": "A man can not find a woman", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A man can not find a woman", "sentence2": "A man can not find a widow", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A man can not find a widow", "sentence2": "A man can not find a woman", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A man can not find a woman", "sentence2": "A man can not find a mother", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A man can not find a mother", "sentence2": "A man can not find a woman", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A man can not find a woman", "sentence2": "A man can not find a matriarch", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A man can not find a matriarch", "sentence2": "A man can not find a woman", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A man can not find a woman", "sentence2": "A man can not find a bridesmaid", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A man can not find a bridesmaid", "sentence2": "A man can not find a woman", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A man can not find a woman", "sentence2": "A man can not find a housewife", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A man can not find a housewife", "sentence2": "A man can not find a woman", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A man can not find a woman", "sentence2": "A man can not find a wife", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A man can not find a wife", "sentence2": "A man can not find a woman", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A man can not find a woman", "sentence2": "A man can not find a granny", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A man can not find a granny", "sentence2": "A man can not find a woman", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A man can not find a woman", "sentence2": "A man can not find a bachelorette", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A man can not find a bachelorette", "sentence2": "A man can not find a woman", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A man can not find a woman", "sentence2": "A man can not find a mistress", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A man can not find a mistress", "sentence2": "A man can not find a woman", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A man can not find a woman", "sentence2": "A man can not find a geisha", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A man can not find a geisha", "sentence2": "A man can not find a woman", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not a boat nearby.", "sentence2": "There is not a dinghy nearby.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a dinghy nearby.", "sentence2": "There is not a boat nearby.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a boat nearby.", "sentence2": "There is not a motorboat nearby.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a motorboat nearby.", "sentence2": "There is not a boat nearby.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not a boat nearby.", "sentence2": "There is not a ferry nearby.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a ferry nearby.", "sentence2": "There is not a boat nearby.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not a boat nearby.", "sentence2": "There is not a gondola nearby.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a gondola nearby.", "sentence2": "There is not a boat nearby.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not a boat nearby.", "sentence2": "There is not a kayak nearby.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "There is not a kayak nearby.", "sentence2": "There is not a boat nearby.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "There is not a boat nearby.", "sentence2": "There is not a barge nearby.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a barge nearby.", "sentence2": "There is not a boat nearby.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not a boat nearby.", "sentence2": "There is not a speedboat nearby.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a speedboat nearby.", "sentence2": "There is not a boat nearby.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a boat nearby.", "sentence2": "There is not a tugboat nearby.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "There is not a tugboat nearby.", "sentence2": "There is not a boat nearby.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "There is not a boat nearby.", "sentence2": "There is not a lifeboat nearby.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a lifeboat nearby.", "sentence2": "There is not a boat nearby.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a boat nearby.", "sentence2": "There is not a houseboat nearby.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a houseboat nearby.", "sentence2": "There is not a boat nearby.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "There is not a boat nearby.", "sentence2": "There is not a canoe nearby.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "There is not a canoe nearby.", "sentence2": "There is not a boat nearby.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "a boy is not concentrating on a machine", "sentence2": "a boy is not concentrating on a trimmer", "gold_label": "entailment", "depth": -1}
+{"sentence1": "a boy is not concentrating on a trimmer", "sentence2": "a boy is not concentrating on a machine", "gold_label": "neutral", "depth": 1}
+{"sentence1": "a boy is not concentrating on a machine", "sentence2": "a boy is not concentrating on a calculator", "gold_label": "entailment", "depth": -1}
+{"sentence1": "a boy is not concentrating on a calculator", "sentence2": "a boy is not concentrating on a machine", "gold_label": "neutral", "depth": 1}
+{"sentence1": "a boy is not concentrating on a machine", "sentence2": "a boy is not concentrating on an ATM", "gold_label": "entailment", "depth": -1}
+{"sentence1": "a boy is not concentrating on an ATM", "sentence2": "a boy is not concentrating on a machine", "gold_label": "neutral", "depth": 1}
+{"sentence1": "a boy is not concentrating on a machine", "sentence2": "a boy is not concentrating on a computer", "gold_label": "entailment", "depth": -1}
+{"sentence1": "a boy is not concentrating on a computer", "sentence2": "a boy is not concentrating on a machine", "gold_label": "neutral", "depth": 1}
+{"sentence1": "a boy is not concentrating on a machine", "sentence2": "a boy is not concentrating on a jukebox", "gold_label": "entailment", "depth": -2}
+{"sentence1": "a boy is not concentrating on a jukebox", "sentence2": "a boy is not concentrating on a machine", "gold_label": "neutral", "depth": 2}
+{"sentence1": "a boy is not concentrating on a machine", "sentence2": "a boy is not concentrating on a typewriter", "gold_label": "entailment", "depth": -3}
+{"sentence1": "a boy is not concentrating on a typewriter", "sentence2": "a boy is not concentrating on a machine", "gold_label": "neutral", "depth": 3}
+{"sentence1": "a boy is not concentrating on a machine", "sentence2": "a boy is not concentrating on a turbine", "gold_label": "entailment", "depth": -6}
+{"sentence1": "a boy is not concentrating on a turbine", "sentence2": "a boy is not concentrating on a machine", "gold_label": "neutral", "depth": 6}
+{"sentence1": "a boy is not concentrating on a machine", "sentence2": "a boy is not concentrating on a printer", "gold_label": "entailment", "depth": -1}
+{"sentence1": "a boy is not concentrating on a printer", "sentence2": "a boy is not concentrating on a machine", "gold_label": "neutral", "depth": 1}
+{"sentence1": "a boy is not concentrating on a machine", "sentence2": "a boy is not concentrating on a combine", "gold_label": "entailment", "depth": -3}
+{"sentence1": "a boy is not concentrating on a combine", "sentence2": "a boy is not concentrating on a machine", "gold_label": "neutral", "depth": 3}
+{"sentence1": "a boy is not concentrating on a machine", "sentence2": "a boy is not concentrating on a generator", "gold_label": "entailment", "depth": -3}
+{"sentence1": "a boy is not concentrating on a generator", "sentence2": "a boy is not concentrating on a machine", "gold_label": "neutral", "depth": 3}
+{"sentence1": "a boy is not concentrating on a machine", "sentence2": "a boy is not concentrating on a laptop", "gold_label": "entailment", "depth": -5}
+{"sentence1": "a boy is not concentrating on a laptop", "sentence2": "a boy is not concentrating on a machine", "gold_label": "neutral", "depth": 5}
+{"sentence1": "a boy is not concentrating on a machine", "sentence2": "a boy is not concentrating on an engine", "gold_label": "entailment", "depth": -2}
+{"sentence1": "a boy is not concentrating on an engine", "sentence2": "a boy is not concentrating on a machine", "gold_label": "neutral", "depth": 2}
+{"sentence1": "a boy is not concentrating on a machine", "sentence2": "a boy is not concentrating on an excavator", "gold_label": "entailment", "depth": -1}
+{"sentence1": "a boy is not concentrating on an excavator", "sentence2": "a boy is not concentrating on a machine", "gold_label": "neutral", "depth": 1}
+{"sentence1": "a boy is not concentrating on a machine", "sentence2": "a boy is not concentrating on a motor", "gold_label": "entailment", "depth": -1}
+{"sentence1": "a boy is not concentrating on a motor", "sentence2": "a boy is not concentrating on a machine", "gold_label": "neutral", "depth": 1}
+{"sentence1": "a boy is not concentrating on a machine", "sentence2": "a boy is not concentrating on a treadmill", "gold_label": "entailment", "depth": -3}
+{"sentence1": "a boy is not concentrating on a treadmill", "sentence2": "a boy is not concentrating on a machine", "gold_label": "neutral", "depth": 3}
+{"sentence1": "a boy is not concentrating on a machine", "sentence2": "a boy is not concentrating on a PC", "gold_label": "entailment", "depth": -3}
+{"sentence1": "a boy is not concentrating on a PC", "sentence2": "a boy is not concentrating on a machine", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The diver has not seen any fish on his dive.", "sentence2": "The diver has not seen any creatures on his dive.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "The diver has not seen any creatures on his dive.", "sentence2": "The diver has not seen any fish on his dive.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "The diver has not seen any fish on his dive.", "sentence2": "The diver has not seen any goldfish on his dive.", "gold_label": "entailment", "depth": -6}
+{"sentence1": "The diver has not seen any goldfish on his dive.", "sentence2": "The diver has not seen any fish on his dive.", "gold_label": "neutral", "depth": 6}
+{"sentence1": "The diver has not seen any fish on his dive.", "sentence2": "The diver has not seen any catfish on his dive.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "The diver has not seen any catfish on his dive.", "sentence2": "The diver has not seen any fish on his dive.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "The diver has not seen any fish on his dive.", "sentence2": "The diver has not seen any trout on his dive.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The diver has not seen any trout on his dive.", "sentence2": "The diver has not seen any fish on his dive.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The diver has not seen any fish on his dive.", "sentence2": "The diver has not seen any salmon on his dive.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "The diver has not seen any salmon on his dive.", "sentence2": "The diver has not seen any fish on his dive.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "The diver has not seen any fish on his dive.", "sentence2": "The diver has not seen any tuna on his dive.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "The diver has not seen any tuna on his dive.", "sentence2": "The diver has not seen any fish on his dive.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "The diver has not seen any fish on his dive.", "sentence2": "The diver has not seen any swordfish on his dive.", "gold_label": "entailment", "depth": -6}
+{"sentence1": "The diver has not seen any swordfish on his dive.", "sentence2": "The diver has not seen any fish on his dive.", "gold_label": "neutral", "depth": 6}
+{"sentence1": "The diver has not seen any fish on his dive.", "sentence2": "The diver has not seen any marlins on his dive.", "gold_label": "entailment", "depth": -7}
+{"sentence1": "The diver has not seen any marlins on his dive.", "sentence2": "The diver has not seen any fish on his dive.", "gold_label": "neutral", "depth": 7}
+{"sentence1": "The diver has not seen any fish on his dive.", "sentence2": "The diver has not seen any herrings on his dive.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The diver has not seen any herrings on his dive.", "sentence2": "The diver has not seen any fish on his dive.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The diver has not seen any fish on his dive.", "sentence2": "The diver has not seen any minnows on his dive.", "gold_label": "entailment", "depth": -6}
+{"sentence1": "The diver has not seen any minnows on his dive.", "sentence2": "The diver has not seen any fish on his dive.", "gold_label": "neutral", "depth": 6}
+{"sentence1": "The diver has not seen any fish on his dive.", "sentence2": "The diver has not seen any bass on his dive.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "The diver has not seen any bass on his dive.", "sentence2": "The diver has not seen any fish on his dive.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "The diver has not seen any fish on his dive.", "sentence2": "The diver has not seen any pike on his dive.", "gold_label": "entailment", "depth": -5}
+{"sentence1": "The diver has not seen any pike on his dive.", "sentence2": "The diver has not seen any fish on his dive.", "gold_label": "neutral", "depth": 5}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a mammal", "gold_label": "neutral", "depth": 4}
+{"sentence1": "the man does not own a mammal", "sentence2": "the man does not own a dog", "gold_label": "entailment", "depth": -4}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own an animal", "gold_label": "neutral", "depth": 7}
+{"sentence1": "the man does not own an animal", "sentence2": "the man does not own a dog", "gold_label": "entailment", "depth": -7}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a pinscher", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the man does not own a pinscher", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a sheepdog", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the man does not own a sheepdog", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 2}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a greyhound", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the man does not own a greyhound", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a hound", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the man does not own a hound", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 2}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a husky", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the man does not own a husky", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 2}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a dachshund", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the man does not own a dachshund", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 2}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a Chihuahua", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the man does not own a Chihuahua", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 2}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a spaniel", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the man does not own a spaniel", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a pug", "gold_label": "entailment", "depth": -1}
+{"sentence1": "the man does not own a pug", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 1}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a beagle", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the man does not own a beagle", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a malamute", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the man does not own a malamute", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a Maltese", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the man does not own a Maltese", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 2}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a Doberman", "gold_label": "entailment", "depth": -4}
+{"sentence1": "the man does not own a Doberman", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 4}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a bulldog", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the man does not own a bulldog", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 2}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a collie", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the man does not own a collie", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a poodle", "gold_label": "entailment", "depth": -1}
+{"sentence1": "the man does not own a poodle", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 1}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a Pomeranian", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the man does not own a Pomeranian", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 2}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a retriever", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the man does not own a retriever", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a schnauzer", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the man does not own a schnauzer", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a terrier", "gold_label": "entailment", "depth": -2}
+{"sentence1": "the man does not own a terrier", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 2}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a corgi", "gold_label": "entailment", "depth": -1}
+{"sentence1": "the man does not own a corgi", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 1}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a Rottweiler", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the man does not own a Rottweiler", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a Shetland", "gold_label": "entailment", "depth": -3}
+{"sentence1": "the man does not own a Shetland", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 3}
+{"sentence1": "the man does not own a dog", "sentence2": "the man does not own a dalmatian", "gold_label": "entailment", "depth": -1}
+{"sentence1": "the man does not own a dalmatian", "sentence2": "the man does not own a dog", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed mammal as a gift.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "The girl will not get a stuffed mammal as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed animal as a gift.", "gold_label": "neutral", "depth": 7}
+{"sentence1": "The girl will not get a stuffed animal as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "entailment", "depth": -7}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed pug as a gift.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The girl will not get a stuffed pug as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed husky as a gift.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The girl will not get a stuffed husky as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed corgi as a gift.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The girl will not get a stuffed corgi as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed hound as a gift.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The girl will not get a stuffed hound as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed bulldog as a gift.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The girl will not get a stuffed bulldog as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed terrier as a gift.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The girl will not get a stuffed terrier as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed poodle as a gift.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The girl will not get a stuffed poodle as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed dalmatian as a gift.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The girl will not get a stuffed dalmatian as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed Shetland as a gift.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The girl will not get a stuffed Shetland as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed pinscher as a gift.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The girl will not get a stuffed pinscher as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed dachshund as a gift.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The girl will not get a stuffed dachshund as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed Doberman as a gift.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "The girl will not get a stuffed Doberman as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed Pomeranian as a gift.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The girl will not get a stuffed Pomeranian as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed beagle as a gift.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The girl will not get a stuffed beagle as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed retriever as a gift.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The girl will not get a stuffed retriever as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed Rottweiler as a gift.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The girl will not get a stuffed Rottweiler as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed malamute as a gift.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The girl will not get a stuffed malamute as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed schnauzer as a gift.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The girl will not get a stuffed schnauzer as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed greyhound as a gift.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "The girl will not get a stuffed greyhound as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "The girl will not get a stuffed dog as a gift.", "sentence2": "The girl will not get a stuffed Chihuahua as a gift.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "The girl will not get a stuffed Chihuahua as a gift.", "sentence2": "The girl will not get a stuffed dog as a gift.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a house.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A person reading a paper is not currently sitting inside a house.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a casino.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A person reading a paper is not currently sitting inside a casino.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a chapel.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A person reading a paper is not currently sitting inside a chapel.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a restaurant.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A person reading a paper is not currently sitting inside a restaurant.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a cabin.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A person reading a paper is not currently sitting inside a cabin.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a school.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A person reading a paper is not currently sitting inside a school.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a court.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A person reading a paper is not currently sitting inside a court.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside an opera.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A person reading a paper is not currently sitting inside an opera.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a monastery.", "gold_label": "entailment", "depth": -4}
+{"sentence1": "A person reading a paper is not currently sitting inside a monastery.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 4}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a pub.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A person reading a paper is not currently sitting inside a pub.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a steakhouse.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A person reading a paper is not currently sitting inside a steakhouse.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a courthouse.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A person reading a paper is not currently sitting inside a courthouse.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a cathedral.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A person reading a paper is not currently sitting inside a cathedral.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a club.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A person reading a paper is not currently sitting inside a club.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a villa.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A person reading a paper is not currently sitting inside a villa.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside an embassy.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A person reading a paper is not currently sitting inside an embassy.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a temple.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A person reading a paper is not currently sitting inside a temple.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a hotel.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A person reading a paper is not currently sitting inside a hotel.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a bungalow.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A person reading a paper is not currently sitting inside a bungalow.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a cafeteria.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A person reading a paper is not currently sitting inside a cafeteria.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a dormitory.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A person reading a paper is not currently sitting inside a dormitory.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a planetarium.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A person reading a paper is not currently sitting inside a planetarium.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a diner.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A person reading a paper is not currently sitting inside a diner.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a cafe.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A person reading a paper is not currently sitting inside a cafe.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a clinic.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A person reading a paper is not currently sitting inside a clinic.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a skyscraper.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A person reading a paper is not currently sitting inside a skyscraper.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a hospital.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A person reading a paper is not currently sitting inside a hospital.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a manor.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A person reading a paper is not currently sitting inside a manor.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a cinema.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A person reading a paper is not currently sitting inside a cinema.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a motel.", "gold_label": "entailment", "depth": -3}
+{"sentence1": "A person reading a paper is not currently sitting inside a motel.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 3}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside a library.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A person reading a paper is not currently sitting inside a library.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A person reading a paper is not currently sitting inside a building.", "sentence2": "A person reading a paper is not currently sitting inside an inn.", "gold_label": "entailment", "depth": -2}
+{"sentence1": "A person reading a paper is not currently sitting inside an inn.", "sentence2": "A person reading a paper is not currently sitting inside a building.", "gold_label": "neutral", "depth": 2}
+{"sentence1": "A dog did not catch any ball.", "sentence2": "A dog did not catch any basketball.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A dog did not catch any basketball.", "sentence2": "A dog did not catch any ball.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A dog did not catch any ball.", "sentence2": "A dog did not catch any football.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A dog did not catch any football.", "sentence2": "A dog did not catch any ball.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A dog did not catch any ball.", "sentence2": "A dog did not catch any handball.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A dog did not catch any handball.", "sentence2": "A dog did not catch any ball.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A dog did not catch any ball.", "sentence2": "A dog did not catch any softball.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A dog did not catch any softball.", "sentence2": "A dog did not catch any ball.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A dog did not catch any ball.", "sentence2": "A dog did not catch any racquetball.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A dog did not catch any racquetball.", "sentence2": "A dog did not catch any ball.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A dog did not catch any ball.", "sentence2": "A dog did not catch any volleyball.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A dog did not catch any volleyball.", "sentence2": "A dog did not catch any ball.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "A dog did not catch any ball.", "sentence2": "A dog did not catch any baseball.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "A dog did not catch any baseball.", "sentence2": "A dog did not catch any ball.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The players did not have a ball.", "sentence2": "The players did not have a baseball.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The players did not have a baseball.", "sentence2": "The players did not have a ball.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The players did not have a ball.", "sentence2": "The players did not have a basketball.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The players did not have a basketball.", "sentence2": "The players did not have a ball.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The players did not have a ball.", "sentence2": "The players did not have a volleyball.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The players did not have a volleyball.", "sentence2": "The players did not have a ball.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The players did not have a ball.", "sentence2": "The players did not have a handball.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The players did not have a handball.", "sentence2": "The players did not have a ball.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The players did not have a ball.", "sentence2": "The players did not have a football.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The players did not have a football.", "sentence2": "The players did not have a ball.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The players did not have a ball.", "sentence2": "The players did not have a racquetball.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The players did not have a racquetball.", "sentence2": "The players did not have a ball.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The players did not have a ball.", "sentence2": "The players did not have a softball.", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The players did not have a softball.", "sentence2": "The players did not have a ball.", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The man is not steering a car", "sentence2": "The man is not steering a taxi", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The man is not steering a taxi", "sentence2": "The man is not steering a car", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The man is not steering a car", "sentence2": "The man is not steering a SUV", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The man is not steering a SUV", "sentence2": "The man is not steering a car", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The man is not steering a car", "sentence2": "The man is not steering a subcompact", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The man is not steering a subcompact", "sentence2": "The man is not steering a car", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The man is not steering a car", "sentence2": "The man is not steering a convertible", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The man is not steering a convertible", "sentence2": "The man is not steering a car", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The man is not steering a car", "sentence2": "The man is not steering a jeep", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The man is not steering a jeep", "sentence2": "The man is not steering a car", "gold_label": "neutral", "depth": 1}
+{"sentence1": "The man is not steering a car", "sentence2": "The man is not steering a sedan", "gold_label": "entailment", "depth": -1}
+{"sentence1": "The man is not steering a sedan", "sentence2": "The man is not steering a car", "gold_label": "neutral", "depth": 1}
