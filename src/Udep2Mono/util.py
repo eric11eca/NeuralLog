@@ -146,13 +146,13 @@ def btreeToList(binaryDepdency, length, replaced, verbose=2):
                 word += str(tree.key)
             treelist.append(word)
 
-        left = tree.getLeft()
-        right = tree.getRight()
+        left = tree.left
+        right = tree.right
 
-        if left is not 'N':
+        if left != 'N':
             treelist.append(toList(left))
 
-        if right is not 'N':
+        if right != 'N':
             treelist.append(toList(right))
 
         return treelist
