@@ -727,19 +727,25 @@ class PolarizationPipeline:
         for i in tqdm(range(self.num_sent)):
             sent = self.sentences[i] if len(self.sentences[i]) > 0 else "skip"
             parsed, replaced = dependencyParse(sent, self.parser)
+
             binary_dep, relation = self.run_binarization(
                 parsed, replaced, sent)
-            polarized, queue, postags, reverse = self.run_polarization(
+            polarized, annotated, postags, reverse = self.run_polarization(
                 binary_dep, relation, len(parsed[2]), replaced, sent)
-            annotated = list(queue.popkeys())
 
-            if self.verbose == 1:
-                annotated = ' '.join(annotated)
-                for word in reverse:
-                    annotated = annotated.replace(word, reverse[word])
+            annotated = ' '.join(list(annotated.popkeys()))
+            for word in reverse:
+                annotated = annotated.replace(word, reverse[word])
 
             self.annotations.append(
-                (annotated, sent, polarized, postags, self.polarizer.dependtree))
+                {
+                    'annotated': annotated,
+                    'original': sent,
+                    'word_dict': pqdict(parsed[1]),
+                    'polarized': polarized,
+                    'postags': postags,
+                    'polarized_tree': self.polarizer.dependtree,
+                })
 
     def polarize_eval(self, annotations_val=[]):
         num_unmatched = 0
