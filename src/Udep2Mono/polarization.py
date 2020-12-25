@@ -57,6 +57,7 @@ class Polarizer:
         }
         self.treeLog = []
         self.polarLog = []
+        self.DETEXIST = "det:exist"
 
     def polarize_deptree(self):
         self.polarize(self.dependtree)
@@ -123,7 +124,7 @@ class Polarizer:
             right.mark = "="
             if isinstance(tree.parent, BinaryDependencyTree) and tree.parent.val == "amod":
                 self.equalize(tree.parent.right)
-        elif left.val.lower() in ["not", "no", "n’t", "never"]:
+        elif left.val.lower() in ["not", "no", "n't", "never"]:
             self.negate(right, -1)
         elif left.val.lower() in ["exactly"]:
             self.equalize(tree.parent.parent)
@@ -206,7 +207,7 @@ class Polarizer:
             self.equalize(right)
             tree.mark = right.mark
         elif left.val.lower() == "fewer":
-            self.nounMarkReplace(right, "-")
+            self.noun_mark_replace(right, "-")
         elif left.val == "advmod":
             if left.right.val == "many":
                 self.equalize(right)
@@ -315,27 +316,26 @@ class Polarizer:
             left.mark = "+"
             right.mark = "+"
 
-        detType = det_type(left.val)
-        if detType is None:
-            detType = "det:exist"
+        dettype = det_type(left.val)
+        if dettype is None:
+            dettype = self.DETEXIST
 
         if left.val.lower() == "any":
-            if isinstance(tree.parent, BinaryDependencyTree):
-                if isinstance(tree.parent.parent, BinaryDependencyTree):
-                    negate_signal = tree.parent.parent.left
-                    if negate_signal.val == "not":
-                        detType = "det:exist"
-                    if negate_signal.val == "det" and negate_signal.left.val.lower() == "no":
-                        detType = "det:exist"
-        detMark = det_mark[detType]
+            if isinstance(tree.parent, BinaryDependencyTree) and isinstance(tree.parent.parent, BinaryDependencyTree):
+                negate_signal = tree.parent.parent.left
+                if negate_signal.val == "not":
+                    dettype = self.DETEXIST
+                if negate_signal.val == "det" and negate_signal.left.val.lower() == "no":
+                    dettype = self.DETEXIST
+        detmark = det_mark[dettype]
 
-        right.mark = detMark[1]
-        tree.mark = detMark[1]
+        right.mark = detmark[1]
+        tree.mark = detmark[1]
 
         if right.isTree():
             self.polarize(right)
 
-        if detType == "det:negation":
+        if dettype == "det:negation":
             self.top_down_negate(tree, "det", self.relation.index(tree.key))
 
     def polarize_discourse(self, tree):
@@ -612,23 +612,23 @@ class Polarizer:
 
             return leftFound or rightFound
 
-    def verbMarkReplace(self, tree, mark):
+    def verb_mark_replace(self, tree, mark):
         if isinstance(tree, str):
             return
         if tree.npos is not None and "VB" in tree.npos:
             tree.mark = mark
-        self.verbMarkReplace(tree.left, mark)
-        self.verbMarkReplace(tree.right, mark)
+        self.verb_mark_replace(tree.left, mark)
+        self.verb_mark_replace(tree.right, mark)
 
-    def nounMarkReplace(self, tree, mark):
+    def noun_mark_replace(self, tree, mark):
         if isinstance(tree, str):
             return False
         if tree.npos is not None and "NN" in tree.npos:
             tree.mark = mark
             return True
-        right = self.nounMarkReplace(tree.right, mark)
+        right = self.noun_mark_replace(tree.right, mark)
         if not right:
-            self.nounMarkReplace(tree.left, mark)
+            self.noun_mark_replace(tree.left, mark)
 
     def equalize(self, tree):
         if tree.isTree():
@@ -675,130 +675,117 @@ class Polarizer:
                     tree.mark = negate_mark[tree.mark]
 
 
-def run_polarize_pipeline(sentences, verbose=0, parser="stanza"):
-    binarizer = Binarizer()
-    polarizer = Polarizer()
+class PolarizationPipeline:
+    def __init__(self, sentences, verbose=0, parser="stanza"):
+        self.binarizer = Binarizer()
+        self.polarizer = Polarizer()
+        self.annotations = []
+        self.exceptioned = []
+        self.incorrect = []
+        self.verbose = verbose
+        self.parser = parser
+        self.sentences = sentences
+        self.num_sent = len(self.sentences)
 
-    annotations = []
-    exceptioned = []
-
-    for i in tqdm(range(len(sentences))):
-        # Universal Dependency Parse
-        sent = sentences[i]
-
-        if len(sent) == 0:
-            continue
-
-        parsed, replaced = dependencyParse(sent, parser)
-        tree, postag, words = parsed
-
-        # print("s")
-        # print(words)
-        # print(parseTreeCopy)
-
-        # Binarization
-        binarizer.parseTable = tree
-        binarizer.postag = postag
-        binarizer.words = words
-        sexpression = ""
-        annotated = ""
+    def run_binarization(self, parsed, replaced, sentence):
+        self.binarizer.parseTable = parsed[0]
+        self.binarizer.postag = parsed[1]
+        self.binarizer.words = parsed[2]
 
         try:
-            binaryDepdency, relation = binarizer.binarization()
+            binary_dep, relation = self.binarizer.binarization()
+            if self.verbose == 2:
+                self.postprocess(binary_dep, len(parsed[2]), replaced)
+            return binary_dep, relation
 
-            if verbose == 2:
-                sexpression, annotated, _, _ = btreeToList(
-                    binaryDepdency, len(words), replaced, 0)
-                sexpression = '[%s]' % ', '.join(
-                    map(str, sexpression)).replace(",", " ")
         except Exception as e:
-            if verbose == 2:
-                print(str(e))
-            exceptioned.append(sent)
-            continue
+            print(str(e))
+            self.exceptioned.append(sentence)
 
-        # Polarization
-        polarizer.dependtree = binaryDepdency
-        polarizer.relation = relation
+    def postprocess(self, tree, length, replaced):
+        sexpression, annotated, postags, reverse = btreeToList(
+            tree, length, replaced, 0)
+        sexpression = '[%s]' % ', '.join(
+            map(str, sexpression)).replace(",", " ")
+        return sexpression, annotated, postags, reverse
+
+    def run_polarization(self, binary_dep, relation, length, replaced, sentence):
+        self.polarizer.dependtree = binary_dep
+        self.polarizer.relation = relation
+
         try:
-            polarizer.polarize_deptree()
-            polarized, queue, postags, reverse = btreeToList(
-                binaryDepdency, len(words), replaced, 0)
-            polarized = '[%s]' % ', '.join(
-                map(str, polarized)).replace("'", "")
-            polarized = polarized.replace(",", "")
+            self.polarizer.polarize_deptree()
+            polarized, annotated, postags, reverse = self.postprocess(
+                binary_dep, length, replaced)
+            return polarized, annotated, postags, reverse
         except Exception as e:
-            if verbose == 2:
+            if self.verbose == 2:
                 print(str(e))
-            print(sent)
-            exceptioned.append(sent)
-            continue
+            self.exceptioned.append(sentence)
 
-        # Postprocessing
-        annotated = ' '.join(list(queue.popkeys()))
-        
-        for word in reverse:
-            annotated = annotated.replace(word, reverse[word])
-        
-        annotations.append(
-            (annotated, sent, polarized, postags, polarizer.dependtree))
+    def run_polarize_pipeline(self):
+        for i in tqdm(range(self.num_sent)):
+            sent = self.sentences[i] if len(self.sentences[i]) > 0 else "skip"
+            parsed, replaced = dependencyParse(sent, self.parser)
+            binary_dep, relation = self.run_binarization(
+                parsed, replaced, sent)
+            polarized, queue, postags, reverse = self.run_polarization(
+                binary_dep, relation, len(parsed[2]), replaced, sent)
+            annotated = list(queue.popkeys())
 
-    return annotations, exceptioned
+            if self.verbose == 1:
+                annotated = ' '.join(annotated)
+                for word in reverse:
+                    annotated = annotated.replace(word, reverse[word])
 
+            self.annotations.append(
+                (annotated, sent, polarized, postags, self.polarizer.dependtree))
 
-def polarize_eval(sentences, annotations_val=[], verbose=0, parser="stanza"):
-    num_unmatched = 0
-    incorrect = []
-    annotations = []
+    def polarize_eval(self, annotations_val=[]):
+        num_unmatched = 0
+        self.incorrect = []
+        self.annotations = []
+        self.verbose = 1
 
-    outputs, exceptioned = run_polarize_pipeline(sentences, verbose, parser)
+        outputs, _ = self.run_polarize_pipeline()
 
-    for i in tqdm(range(len(outputs))):
-        output = outputs[i]
+        for i in tqdm(range(len(outputs))):
+            output = outputs[i]
+            postags = ' '.join(list(output[3].popkeys()))
+            vec = convert2vector(output[0])
 
-        pos = []
-        postags = output[3]
-        while postags:
-            next_item = heapq.heappop(postags)
-            pos.append(next_item[1])
+            if len(annotations_val) > 0:
+                annotation_val = annotations_val[i]
+                vec_val = convert2vector(annotation_val)
+                if len(vec) == len(vec_val):
+                    if not np.array_equal(vec, vec_val):
+                        num_unmatched += 1
+                        self.incorrect.append(
+                            (output[1], output[0], annotation_val, postags))
+                    if self.parser == "stanford":
+                        continue
 
-        pos = '%s' % ', '.join(map(str, pos)).replace(",", "")
+            validate = ""
+            if len(annotations_val) > 0:
+                validate = annotations_val[i]
 
-        vec = convert2vector(output[0])
-        if len(annotations_val) > 0:
-            annotation_val = annotations_val[i]
-            vec_val = convert2vector(annotation_val)
-            if len(vec) == len(vec_val):
-                if not np.array_equal(vec, vec_val):
-                    num_unmatched += 1
-                    incorrect.append(
-                        (output[1], output[0], annotation_val, pos))
-                if parser == "stanford":
-                    continue
+            self.annotations.append(
+                {
+                    "annotated": output[0],
+                    "polarized": output[2],
+                    "validation": validate,
+                    "orig": output[1],
+                    "postag": postags
+                }
+            )
 
-        validate = ""
-        if len(annotations_val) > 0:
-            validate = annotations_val[i]
-
-        annotations.append(
-            {
-                "annotated": output[0],
-                "polarized": output[2],
-                "validation": validate,
-                "orig": output[1],
-                "postag": pos
-            }
-        )
-
-    print()
-    print("Number of unmatched sentences: ", num_unmatched)
-    return annotations, exceptioned, incorrect
+        print()
+        print("Number of unmatched sentences: ", num_unmatched)
 
 
 if __name__ == '__main__':
     sentences = ["At most 6 dogs are hungry"]
-    annotations, _ = run_polarize_pipeline(
-        sentences, verbose=2, parser="stanford")
-    print(annotations[0][0])
-    print(annotations[0][2])
-    print(annotations[0][3])
+    pipeline = PolarizationPipeline(sentences, verbose=0, parser="stanza")
+    print(pipeline.annotations[0][0])
+    print(pipeline.annotations[0][2])
+    print(pipeline.annotations[0][3])
