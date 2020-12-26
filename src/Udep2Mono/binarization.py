@@ -26,7 +26,7 @@ class BinaryDependencyTree:
         return self.right
 
 
-priority = ["conj-sent", "case", "cc", "makr", "nsubj", "conj-vp",
+priority = ["conj-sent", "case", "cc", "mark", "nsubj", "conj-vp",
             "ccomp", "advcl", "advmod", "nmod",
             "nmod:tmod", "nmod:npmod", "nmod:poss",
             "xcomp", "aux", "aux:pass", "obj",
