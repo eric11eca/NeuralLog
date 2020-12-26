@@ -8,10 +8,10 @@ class BinaryDependencyTree:
         self.id = wid
         self.npos = npos
         self.key = key
-        self.isRoot = False
+        self.is_root = False
 
     def setRoot(self):
-        self.isRoot = True
+        self.is_root = True
 
     def isTree(self):
         return not (type(self.left) is str and type(self.right) is str)
@@ -29,19 +29,19 @@ class BinaryDependencyTree:
 priority = ["conj-sent", "case", "cc", "mark", "nsubj", "conj-vp",
             "ccomp", "advcl", "advmod", "nmod",
             "nmod:tmod", "nmod:npmod", "nmod:poss",
-            "xcomp", "aux", "aux:pass", "obj",
+            "xcomp", "aux", "aux:pass", "obj", "obl",
             "cop", "acl", "acl:relcl", "appos",
             "conj-np", "conj-adj", "det", "compound",
-            "amod", "conj-vb"]
+            "amod", "conj-vb", "flat"]
 queue = {}
 for i in range(len(priority)):
     queue[priority[i]] = i
 
 
 class Binarizer:
-    def __init__(self, parseTable=None, postag=None, words=None):
+    def __init__(self, parse_table=None, postag=None, words=None):
         self.postag = postag
-        self.parseTable = parseTable
+        self.parse_table = parse_table
         self.words = words
         self.id = 0
 
@@ -53,37 +53,37 @@ class Binarizer:
         return children
 
     def compose(self, head):
-        children = list(filter(lambda x: x[2] == head, self.parseTable))
+        children = list(filter(lambda x: x[2] == head, self.parse_table))
         children.sort(key=(lambda x: queue[x[0]]))
         # key=(lambda x: (x[2]-x[1])*20 if x[2] > x[1] else abs(x[2]-x[1])), reverse=True)
         children = self.process_not(children)
         if len(children) == 0:
             word = self.words[head][0]
             tag = self.words[head][1]
-            binaryTree = BinaryDependencyTree(
+            binary_tree = BinaryDependencyTree(
                 word, "N", "N", self.id, head, tag)
             self.id += 1
-            return binaryTree, [binaryTree.key]
+            return binary_tree, [binary_tree.key]
         else:
-            topDep = children[0]
-        self.parseTable.remove(topDep)
+            top_dep = children[0]
+        self.parse_table.remove(top_dep)
 
-        left, left_rel = self.compose(topDep[1])
-        right, right_rel = self.compose(topDep[2])
-        dep_rel = "conj" if "conj" in topDep[0] else topDep[0]
-        binaryTree = BinaryDependencyTree(dep_rel, left, right, self.id)
+        left, left_rel = self.compose(top_dep[1])
+        right, right_rel = self.compose(top_dep[2])
+        dep_rel = "conj" if "conj" in top_dep[0] else top_dep[0]
+        binary_tree = BinaryDependencyTree(dep_rel, left, right, self.id)
 
-        binaryTree.left.parent = binaryTree
-        binaryTree.right.parent = binaryTree
+        binary_tree.left.parent = binary_tree
+        binary_tree.right.parent = binary_tree
 
-        left_rel.append(binaryTree.key)
+        left_rel.append(binary_tree.key)
         self.id += 1
-        return binaryTree, left_rel + right_rel
+        return binary_tree, left_rel + right_rel
 
     def binarization(self):
         self.id = 0
         self.relation = []
-        root = list(filter(lambda x: x[0] == "root", self.parseTable))[0][1]
+        root = list(filter(lambda x: x[0] == "root", self.parse_table))[0][1]
         binary_tree, relation = self.compose(root)
         binary_tree.setRoot()
         return binary_tree, relation

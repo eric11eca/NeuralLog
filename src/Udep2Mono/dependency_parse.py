@@ -83,14 +83,14 @@ def enhance_parse(tree, heads, deps, words):
         if node[0] == "conj":
             if "nsubj" in heads[node[1]] and "nsubj" in heads[node[2]]:
                 node[0] = "conj-sent"
-            elif 'obj' in heads[node[1]] and 'obj' in heads[node[2]]:
-                node[0] = "conj-vp"
             elif words[node[1]][1] == "JJ" and words[node[2]][1] == "JJ":
                 node[0] = "conj-adj"
             elif "NN" in words[node[1]][1] and "NN" in words[node[2]][1]:
                 node[0] = "conj-np"
             elif "VB" in words[node[1]][1] and "VB" in words[node[2]][1]:
-                node[0] = "conj-vb"
+                node[0] = "conj-vp"
+                if not node[1] in deps and not node[2] in deps:
+                    node[0] = "conj-vb"
 
 
 def post_process(sent, word, postag, words):

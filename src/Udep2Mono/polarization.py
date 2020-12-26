@@ -685,7 +685,7 @@ class PolarizationPipeline:
         self.num_sent = len(self.sentences)
 
     def run_binarization(self, parsed, replaced, sentence):
-        self.binarizer.parseTable = parsed[0]
+        self.binarizer.parse_table = parsed[0]
         self.binarizer.postag = parsed[1]
         self.binarizer.words = parsed[2]
 
