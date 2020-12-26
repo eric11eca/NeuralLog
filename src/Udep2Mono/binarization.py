@@ -26,6 +26,18 @@ class BinaryDependencyTree:
         return self.right
 
 
+priority = ["conj-sent", "case", "cc", "makr", "nsubj", "conj-vp",
+            "ccomp", "advcl", "advmod", "nmod",
+            "nmod:tmod", "nmod:npmod", "nmod:poss",
+            "xcomp", "aux", "aux:pass", "obj",
+            "cop", "acl", "acl:relcl", "appos",
+            "conj-np", "conj-adj", "det", "compound",
+            "amod", "conj-vb"]
+queue = {}
+for i in range(len(priority)):
+    queue[priority[i]] = i
+
+
 class Binarizer:
     def __init__(self, parseTable=None, postag=None, words=None):
         self.postag = postag
@@ -42,8 +54,8 @@ class Binarizer:
 
     def compose(self, head):
         children = list(filter(lambda x: x[2] == head, self.parseTable))
-        children.sort(
-            key=(lambda x: (x[2]-x[1])*20 if x[2] > x[1] else abs(x[2]-x[1])), reverse=True)
+        children.sort(key=(lambda x: queue[x[0]]))
+        # key=(lambda x: (x[2]-x[1])*20 if x[2] > x[1] else abs(x[2]-x[1])), reverse=True)
         children = self.process_not(children)
         if len(children) == 0:
             word = self.words[head][0]
@@ -58,7 +70,8 @@ class Binarizer:
 
         left, left_rel = self.compose(topDep[1])
         right, right_rel = self.compose(topDep[2])
-        binaryTree = BinaryDependencyTree(topDep[0], left, right, self.id)
+        dep_rel = "conj" if "conj" in topDep[0] else topDep[0]
+        binaryTree = BinaryDependencyTree(dep_rel, left, right, self.id)
 
         binaryTree.left.parent = binaryTree
         binaryTree.right.parent = binaryTree

@@ -2,7 +2,7 @@ import numpy as np
 from tqdm import tqdm
 from copy import deepcopy
 from Udep2Mono.binarization import Binarizer, BinaryDependencyTree
-from Udep2Mono.dependency_parse import dependencyParse
+from Udep2Mono.dependency_parse import dependency_parse
 from Udep2Mono.util import *
 
 
@@ -689,7 +689,7 @@ def run_polarize_pipeline(sentences, verbose=0, parser="stanza"):
         if len(sent) == 0:
             continue
 
-        parsed, replaced = dependencyParse(sent, parser)
+        parsed, replaced = dependency_parse(sent, parser)
         tree, postag, words = parsed
 
         # print("s")
@@ -736,10 +736,10 @@ def run_polarize_pipeline(sentences, verbose=0, parser="stanza"):
 
         # Postprocessing
         annotated = ' '.join(list(queue.popkeys()))
-        
+
         for word in reverse:
             annotated = annotated.replace(word, reverse[word])
-        
+
         annotations.append(
             (annotated, sent, polarized, postags, polarizer.dependtree))
 

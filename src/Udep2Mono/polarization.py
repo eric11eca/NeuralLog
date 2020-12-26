@@ -2,7 +2,7 @@ import numpy as np
 from tqdm import tqdm
 from copy import deepcopy
 from Udep2Mono.binarization import Binarizer, BinaryDependencyTree
-from Udep2Mono.dependency_parse import dependencyParse
+from Udep2Mono.dependency_parse import dependency_parse
 from Udep2Mono.util import *
 
 
@@ -689,6 +689,12 @@ class PolarizationPipeline:
         self.binarizer.postag = parsed[1]
         self.binarizer.words = parsed[2]
 
+        if self.verbose == 2:
+            print()
+            print(parsed[0])
+            print()
+            print(parsed[1])
+
         try:
             binary_dep, relation = self.binarizer.binarization()
             if self.verbose == 2:
@@ -725,7 +731,7 @@ class PolarizationPipeline:
     def run_polarize_pipeline(self):
         for i in tqdm(range(self.num_sent)):
             sent = self.sentences[i] if len(self.sentences[i]) > 0 else "skip"
-            parsed, replaced = dependencyParse(sent, self.parser)
+            parsed, replaced = dependency_parse(sent, self.parser)
 
             binary_dep, relation = self.run_binarization(
                 parsed, replaced, sent)
