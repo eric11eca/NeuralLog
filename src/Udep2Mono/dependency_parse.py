@@ -1,6 +1,3 @@
-import os
-import copy
-import string
 import stanza
 
 from nltk.parse import CoreNLPParser
@@ -42,43 +39,73 @@ def preprocess(sentence):
     return processed, replaced
 
 
-def dependencyParse(sentence, parser="stanford"):
+def dependency_parse(sentence, parser="stanford"):
     processed, replaced = preprocess(sentence)
     if parser == "stanford":
-        return stanfordParse(processed), replaced
+        return stanford_parse(processed), replaced
     elif parser == "stanza":
-        return stanzaParse(processed), replaced
+        return stanza_parse(processed), replaced
 
 
-def stanzaParse(sentence):
-    postag = {}
+def stanza_parse(sentence):
+    postags = {}
     words = {}
-    parsed = nlp(sentence)
     parse_tree = []
+    head_log = {}
+    depdent_log = {}
+    parsed = nlp(sentence)
+
     for sent in parsed.sentences:
         for word in sent.words:
-            tree_node = postProcess(sent, word, postag, words)
-            if len(tree_node) > 0:
-                parse_tree.append(tree_node)
+            tree_node = post_process(sent, word, postags, words)
 
-    # for tree_node in parse_tree:
-    #    printTree(tree_node, postag, words)
-    return parse_tree, postag, words
+            if len(tree_node) == 0:
+                continue
+
+            if tree_node[2] in head_log:
+                head_log[tree_node[2]].append(tree_node[0])
+            else:
+                head_log[tree_node[2]] = [tree_node[0]]
+
+            if tree_node[1] in depdent_log:
+                depdent_log[tree_node[1]].append(tree_node[0])
+            else:
+                depdent_log[tree_node[1]] = [tree_node[0]]
+
+            parse_tree.append(tree_node)
+
+        enhance_parse(parse_tree, head_log, depdent_log, words)
+    return parse_tree, postags, words
 
 
-def postProcess(sent, word, postag, words):
-    wordID = int(word.id)
-    if wordID not in words:
-        postag[word.text] = (wordID, word.xpos)
-        words[wordID] = (word.text, word.xpos)
+def enhance_parse(tree, heads, deps, words):
+    for node in tree:
+        if node[0] == "conj":
+            if "nsubj" in heads[node[1]] and "nsubj" in heads[node[2]]:
+                node[0] = "conj-sent"
+            elif 'obj' in heads[node[1]] and 'obj' in heads[node[2]]:
+                node[0] = "conj-vp"
+            elif words[node[1]][1] == "JJ" and words[node[2]][1] == "JJ":
+                node[0] = "conj-adj"
+            elif "NN" in words[node[1]][1] and "NN" in words[node[2]][1]:
+                node[0] = "conj-np"
+            elif "VB" in words[node[1]][1] and "VB" in words[node[2]][1]:
+                node[0] = "conj-vb"
+
+
+def post_process(sent, word, postag, words):
+    word_id = int(word.id)
+    if word_id not in words:
+        postag[word.text] = (word_id, word.xpos)
+        words[word_id] = (word.text, word.xpos)
     if word.deprel != "punct":
-        tree_node = [word.deprel, wordID,
+        tree_node = [word.deprel, word_id,
                      word.head if word.head > 0 else "root"]
         return tree_node
     return []
 
 
-def printTree(tree, tag, word):
+def print_tree(tree, tag, word):
     if tree[0] != "root":
         print(
             f"word: {word[tree[1]][0]}\thead: {word[tree[2]][0]}\tdeprel: {tree[0]}",
@@ -86,7 +113,7 @@ def printTree(tree, tag, word):
         )
 
 
-def stanfordParse(sentence):
+def stanford_parse(sentence):
     postag = {}
     wordids = {}
     tokens = {}
@@ -112,17 +139,22 @@ def stanfordParse(sentence):
 
 
 if __name__ == '__main__':
-    nlp = stanza.Pipeline(
+    # test spanish model
+    '''nlp = stanza.Pipeline(
         'es',
         use_gpu=True,
         pos_batch_size=2000
     )
 
-    parsed, replace = dependencyParse("buen tiempo", parser="stanza")
+    parsed, replace = dependency_parse("buen tiempo", parser="stanza")
     tree, postags, words = parsed
     print(tree)
     print(postags)
-    parsed, replace = dependencyParse("tiempo de bueno", parser="stanza")
+    parsed, replace = dependency_parse("tiempo de bueno", parser="stanza")
     tree, postags, words = parsed
+    print(tree)
+    print(postags)
+    '''
+    tree, postags, words = stanza_parse("John can sing and dance")
     print(tree)
     print(postags)
