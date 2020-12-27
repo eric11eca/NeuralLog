@@ -6,6 +6,18 @@ from nltk.parse.corenlp import CoreNLPDependencyParser
 parser = CoreNLPParser(url='http://localhost:9000')
 dep_parser = CoreNLPDependencyParser(url='http://localhost:9000')
 
+'''stanza.download("en",
+                processors={"tokenize": "LinES", "pos": "LinES",
+                            "lemma": "LinES", "depparse": "LinES"})
+
+nlp = stanza.Pipeline(
+    "en",
+    processors={"tokenize": "LinES", "pos": "LinES",
+                "lemma": "LinES", "depparse": "LinES"},
+    use_gpu=True,
+    pos_batch_size=2000
+)'''
+
 nlp = stanza.Pipeline(
     "en",
     processors={"tokenize": "gum", "pos": "gum",
