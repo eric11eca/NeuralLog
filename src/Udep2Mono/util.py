@@ -77,22 +77,25 @@ det_type_words = {
     "det:negation": ["no", "neither", "never", "few"]
 }
 
-negtive_implicative = ["refuse", "reject", "oppose", "forget",
-                       "hesitate", "without", "disapprove", "disagree",
-                       "eradicate", "erase", "dicline", "eliminate",
-                       "decline", "resist", "block", "stop", "hault",
-                       "disable", "disinfect", "disapear", "disgard",
-                       "disarm", "disarrange", "disallow", "discharge",
-                       "disbelieve", "disclaim", "disclose", "disconnect",
-                       "disconnect", "discourage", "discredit", "discorporate",
-                       "disengage", "disentangle", "dismiss", "disobeye",
-                       "distrust", "disrupt", "suspen", "suspend ",
-                       "freeze", "remove", "regret", "object", "impossible",
-                       "hate"
-                       ]
+negtive_implicative = [
+    "refuse", "reject", "oppose", "forget",
+    "hesitate", "without", "disapprove", "disagree",
+    "eradicate", "erase", "dicline", "eliminate",
+    "decline", "resist", "block", "stop", "hault",
+    "disable", "disinfect", "disapear", "disgard",
+    "disarm", "disarrange", "disallow", "discharge",
+    "disbelieve", "disclaim", "disclose", "disconnect",
+    "disconnect", "discourage", "discredit", "discorporate",
+    "disengage", "disentangle", "dismiss", "disobeye",
+    "distrust", "disrupt", "suspen", "suspend ",
+    "freeze", "remove", "regret", "object", "impossible",
+    "hate"
+]
 
-at_least_implicative = ["smoke", "for", "buy", "drink", "take", "hold", "receive",
-                        "get", "catch"]
+at_least_implicative = [
+    "smoke", "for", "buy", "drink",
+    "take", "hold", "receive", "get", "catch"
+]
 
 exactly_implicative = ["like", "love", "admires", "marry"]
 
@@ -115,44 +118,29 @@ arrows = {
 }
 
 
-def btreeToList(binaryDepdency, length, replaced, verbose=2):
-    annotated = {}
-    postags = {}
-    reverse = {}
-
-    def toList(tree):
+def btree2list(binaryDepdency, replaced, verbose=2):
+    def to_list(tree):
         treelist = []
-        if tree.getVal() not in relations:
-            treelist.append(tree.npos)
-            if tree.getVal() == "n't":
-                tree.val = "not"
-            if tree.val in replaced.keys():
-                original = replaced[tree.val].split()
-                [word + arrows[tree.mark] for word in original]
-                reverse[tree.val + arrows[tree.mark]] = ' '.join(new)
+        if tree.is_tree:
             word = tree.val + arrows[tree.mark]
             if verbose == 2:
                 word += str(tree.key)
-            annotated[word] = tree.id
-            postags[tree.npos] = tree.id
             treelist.append(word)
         else:
-            word = tree.getVal() + arrows[tree.mark]
+            treelist.append(tree.pos)
+            word = tree.val + arrows[tree.mark]
             if verbose == 2:
                 word += str(tree.key)
             treelist.append(word)
 
-        left = tree.left
-        right = tree.right
+        if tree.left is not None:
+            treelist.append(to_list(tree.left))
 
-        if left != 'N':
-            treelist.append(toList(left))
-
-        if right != 'N':
-            treelist.append(toList(right))
+        if tree.right is not None:
+            treelist.append(to_list(tree.right))
 
         return treelist
-    return toList(binaryDepdency), pqdict(annotated), pqdict(postags), reverse
+    return to_list(binaryDepdency)
 
 
 def convert2vector(result):

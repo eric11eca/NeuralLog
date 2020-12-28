@@ -45,7 +45,7 @@ class ConceptNet:
         hypernyms = set([])
         url_to_search = self.url + "query?start=/c/en/" + \
             concept + "&rel=/r/" + rel + "&limit=500"
-        print(url_to_search)
+        # print(url_to_search)
         data = urllib.request.urlopen(url_to_search)
         json_data = json.load(data)
         for edge in json_data["edges"]:
@@ -56,7 +56,7 @@ class ConceptNet:
 
         url_to_search = self.url + "query?end=/c/en/" + \
             concept + "&rel=/r/" + rel + "&limit=500"
-        print(url_to_search)
+        # print(url_to_search)
         data = urllib.request.urlopen(url_to_search)
         json_data = json.load(data)
         hyponyms = set([])
