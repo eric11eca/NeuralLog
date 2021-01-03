@@ -31,13 +31,17 @@ nlp = stanza.Pipeline(
 
 replacement = {
     "out of": "out-of",
-    "none of the": "none-of-the",
-    "all of the": "all-of-the",
-    "some of the": "some-of-the",
-    "most of the": "most-of-the",
-    "many of the": "many-of-the",
-    "several of the": "several-of-the",
-    "some but not all": "some-but-not-all"
+    "none of the": "no",
+    "all of the": "all",
+    "some of the": "some",
+    "most of the": "most",
+    "many of the": "many",
+    "several of the": "several",
+    "some but not all": "some",
+    "at most": "at-most",
+    "at least": "at-least",
+    "more than": "more-than",
+    "less than": "less-than",
 }
 
 
@@ -54,7 +58,7 @@ def preprocess(sentence):
 def dependency_parse(sentence, parser="stanford"):
     processed, replaced = preprocess(sentence)
     if parser == "stanford":
-        return stanford_parse(processed), replaced
+        return stanfordParse(processed), replaced
     elif parser == "stanza":
         return stanza_parse(processed), replaced
 
@@ -103,29 +107,37 @@ def enhance_parse(tree, heads, deps, words):
                 node[0] = "conj-vp"
                 if not node[1] in deps and not node[2] in deps:
                     node[0] = "conj-vb"
+        if node[0] == "advcl":
+            if words[1][0] == "if":
+                node[0] = "advcl-sent"
+        if node[0] == "advmod":
+            if words[node[1]][0] == "not" and node[1] == 1:
+                node[0] = "advmod-sent"
+        if node[0] == "case" and node[1] - node[2] > 0:
+            node[0] = "case-after"
+        if words[node[1]][0] in ["at-most", "at-least", "more-than", "less-than"]:
+            node[0] = "det"
 
 
 def post_process(sent, word, postag, words):
-    word_id = int(word.id)
-    if word_id not in words:
-        postag[word.text] = (word_id, word.xpos)
-        words[word_id] = (word.text, word.xpos)
+    wordID = int(word.id)
+    if wordID not in words:
+        postag[word.text] = (wordID, word.xpos)
+        words[wordID] = (word.text, word.xpos)
     if word.deprel != "punct":
-        tree_node = [word.deprel, word_id,
+        tree_node = [word.deprel, wordID,
                      word.head if word.head > 0 else "root"]
         return tree_node
     return []
 
 
-def print_tree(tree, tag, word):
+def printTree(tree, tag, word):
     if tree[0] != "root":
         print(
-            f"word: {word[tree[1]][0]}\thead: {word[tree[2]][0]}\tdeprel: {tree[0]}",
-            sep="\n",
-        )
+            f"word: {word[tree[1]][0]}\thead: {word[tree[2]][0]}\tdeprel: {tree[0]}", sep="\n")
 
 
-def stanford_parse(sentence):
+def stanfordParse(sentence):
     postag = {}
     wordids = {}
     tokens = {}

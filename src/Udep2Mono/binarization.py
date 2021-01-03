@@ -23,7 +23,7 @@ class BinaryDependencyTree:
     def traverse(self, tree):
         if not tree.is_tree:
             item = (tree.id)
-            key = (tree.val, tree.pos, tree.mark)
+            key = (tree.val, tree.pos, tree.mark, tree.id)
             self.leaves[key] = item
         else:
             self.traverse(tree.left)
@@ -55,16 +55,48 @@ class BinaryDependencyTree:
         self.is_tree = False
 
 
-priority = ["conj-sent", "case", "cc", "mark", "nsubj", "conj-vp",
-            "ccomp", "advcl", "advmod", "nummod", "nmod",
-            "nmod:tmod", "nmod:npmod", "nmod:poss",
-            "xcomp", "aux", "aux:pass", "obj", "obl",
-            "cop", "acl", "acl:relcl", "appos",
-            "conj-np", "conj-adj", "det", "compound",
-            "amod", "conj-vb", "flat"]
-hierarchy = {}
-for i in range(len(priority)):
-    hierarchy[priority[i]] = i
+hierarchy = {
+    "conj-sent": 0,
+    "advcl-sent": 1,
+    "advmod-sent": 2,
+    "case": 10,
+    "case-after": 75,
+    "mark": 10,
+    "expl": 10,
+    "discourse": 10,
+    "nsubj": 20,
+    "csubj": 20,
+    "nsubj:pass": 20,
+    "conj-vp": 25,
+    "ccomp": 30,
+    "advcl": 30,
+    "advmod": 30,
+    "nmod": 30,
+    "nmod:tmod": 30,
+    "nmod:npmod": 30,
+    "nmod:poss": 30,
+    "xcomp": 40,
+    "aux": 40,
+    "aux:pass": 40,
+    "obj": 60,
+    "obl": 50,
+    "obl:tmod": 50,
+    "cop": 50,
+    "acl": 60,
+    "acl:relcl": 60,
+    "appos": 60,
+    "conj": 60,
+    "conj-np": 60,
+    "conj-adj": 60,
+    "det": 70,
+    "det:predet": 70,
+    "cc": 70,
+    "nummod": 75,
+    "compound": 80,
+    "amod": 75,
+    "conj-vb": 90,
+    "flat": 100
+}
 
 
 class Binarizer:
@@ -100,7 +132,16 @@ class Binarizer:
 
         left, left_rel = self.compose(top_dep[1])
         right, right_rel = self.compose(top_dep[2])
-        dep_rel = "conj" if "conj" in top_dep[0] else top_dep[0]
+        if "conj" in top_dep[0]:
+            dep_rel = "conj"
+        elif "case" in top_dep[0]:
+            dep_rel = "case"
+        elif "advcl" in top_dep[0]:
+            dep_rel = "advcl"
+        elif "advmod" in top_dep[0]:
+            dep_rel = "advmod"
+        else:
+            dep_rel = top_dep[0]
 
         binary_tree = BinaryDependencyTree(dep_rel, left, right, self.id)
         binary_tree.left.parent = binary_tree

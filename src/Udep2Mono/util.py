@@ -1,59 +1,6 @@
-from pqdict import pqdict
 from pattern.en import conjugate
-
-relations = [
-    "acl",
-    "acl:relcl",
-    "advcl",
-    "advmod",
-    "advmod:count",
-    "amod",
-    "appos",
-    "aux",
-    "aux:pass",
-    "case",
-    "cc",
-    "cc:preconj",
-    "ccomp",
-    "clf",
-    "compound",
-    "compound:prt",
-    "conj",
-    "cop",
-    "csubj",
-    "csubj:pass",
-    "dep",
-    "det",
-    "det:predet",
-    "discourse",
-    "dislocated",
-    "expl",
-    "fixed",
-    "flat",
-    "goeswith",
-    "iobj",
-    "list",
-    "mark",
-    "nmod",
-    "nmod:poss",
-    "nmod:npmod",
-    "nmod:tmod",
-    "nmod:count",
-    "nsubj",
-    "nsubj:pass",
-    "nummod",
-    "obj",
-    "obl",
-    "obl:npmod",
-    "obl:tmod",
-    "orphan",
-    "parataxis",
-    "punct",
-    "reparandum",
-    "root",
-    "vocative",
-    "xcomp"
-]
+import pandas as pd
+import numpy as np
 
 negate_mark = {
     "+": "-",
@@ -62,46 +9,63 @@ negate_mark = {
 }
 
 det_mark = {
-    "det:univ": ("+", "-"),
-    "det:exist": ("+", "+"),
-    "det:limit": ("+", "="),
-    "det:negation": ("+", "-")
+    "det:univ": "-",
+    "det:exist": "+",
+    "det:limit": "=",
+    "det:negation": "-"
 }
 
 det_type_words = {
-    "det:univ": ["all", "every", "each", "any"],
-    "det:exist": ["a", "an", "some", "double", "triple"],
+    "det:univ": ["all", "every", "each", "any", "all-of-the"],
+    "det:exist": ["a", "an", "some", "double", "triple", "some-of-the", "al-least", "more-than"],
     "det:limit": ["such", "both", "the", "this", "that",
                   "those", "these", "my", "his", "her",
                   "its", "either", "both", "another"],
-    "det:negation": ["no", "neither", "never", "few"]
+    "det:negation": ["no", "neither", "never", "none", "none-of-the", "less-than", "at-most"]
 }
 
-negtive_implicative = [
-    "refuse", "reject", "oppose", "forget",
-    "hesitate", "without", "disapprove", "disagree",
-    "eradicate", "erase", "dicline", "eliminate",
-    "decline", "resist", "block", "stop", "hault",
-    "disable", "disinfect", "disapear", "disgard",
-    "disarm", "disarrange", "disallow", "discharge",
-    "disbelieve", "disclaim", "disclose", "disconnect",
-    "disconnect", "discourage", "discredit", "discorporate",
-    "disengage", "disentangle", "dismiss", "disobeye",
-    "distrust", "disrupt", "suspen", "suspend ",
-    "freeze", "remove", "regret", "object", "impossible",
-    "hate"
-]
+negtive_implicative = ["refuse", "reject", "oppose", "forget",
+                       "hesitate", "without", "disapprove", "disagree",
+                       "eradicate", "erase", "dicline", "eliminate",
+                       "decline", "resist", "block", "stop", "hault",
+                       "disable", "disinfect", "disapear", "disgard",
+                       "disarm", "disarrange", "disallow", "discharge",
+                       "disbelieve", "disclaim", "disclose", "disconnect",
+                       "disconnect", "discourage", "discredit", "discorporate",
+                       "disengage", "disentangle", "dismiss", "disobeye",
+                       "distrust", "disrupt", "suspen", "suspend ",
+                       "freeze",
+                       ]
 
-at_least_implicative = [
-    "smoke", "for", "buy", "drink",
-    "take", "hold", "receive", "get", "catch"
-]
+at_least_implicative = ["for", "buy", "drink", "take", "hold", "receive",
+                        "get", "catch"]
 
 exactly_implicative = ["like", "love", "admires", "marry"]
 
 
-def is_implicative(verb, imp_type):
-    return conjugate(verb, tense="present", person=1, number="singular") in imp_type
+def build_implicative_dict():
+    verbs = list(df['Verb'])
+    signs = list(df['Signature'])
+    implicatives = {}
+    for i in range(len(verbs)):
+        implicatives[verbs[i]] = signs[i]
+    return implicatives
+
+
+implicatives = {}  # build_implicative_dict()
+imp_types = {
+    '-': negtive_implicative,
+    'at_least': at_least_implicative,
+    '=': exactly_implicative
+}
+
+
+def is_implicative(word, imp_type):
+    verb = conjugate(word, tense="present", person=1, number="singular")
+    if imp_type in ['+', '-']:
+        if verb in implicatives:
+            return implicatives
+    return verb in imp_types[imp_type]
 
 
 def det_type(word):
@@ -117,6 +81,12 @@ arrows = {
     "0": ""
 }
 
+arrow2int = {
+    "\u2191": 1,
+    "\u2193": -1,
+    "=": 0
+}
+
 
 def btree2list(binaryDepdency, replaced, verbose=2):
     def to_list(tree):
@@ -128,7 +98,7 @@ def btree2list(binaryDepdency, replaced, verbose=2):
             treelist.append(word)
         else:
             treelist.append(tree.pos)
-            word = tree.val + arrows[tree.mark]
+            word = tree.val.replace('-', ' ') + arrows[tree.mark]
             if verbose == 2:
                 word += str(tree.key)
             treelist.append(word)
@@ -143,17 +113,23 @@ def btree2list(binaryDepdency, replaced, verbose=2):
     return to_list(binaryDepdency)
 
 
-def convert2vector(result):
-    result_vec = []
-    if type(result) == "str":
-        result_ls = result.split()
-    else:
-        result_ls = result
-    for word in result_ls:
-        if arrows['+'] in word:
-            result_vec.append(1)
-        elif arrows['-'] in word:
-            result_vec.append(-1)
-        elif arrows['='] in word:
-            result_vec.append(0)
-    return result_vec
+def annotation2string(annotation):
+    annotated = list(annotation['annotated'].popkeys())
+
+    def compose_token(word):
+        if '-' in word[0]:
+            orig = word[0].split('-')
+            return ' '.join([x + arrows[word[2]] for x in orig])
+        else:
+            return word[0] + arrows[word[2]]
+    annotated_sent = ' '.join([compose_token(x) for x in annotated])
+    return annotated_sent
+
+
+def arrow2int(word):
+    if arrows['+'] in word:
+        return 1
+    elif arrows['-'] in word:
+        return -1
+    elif arrows['='] in word:
+        return 0
