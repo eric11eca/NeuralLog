@@ -543,7 +543,8 @@ class PolarizationPipeline:
         sexpression = btree2list(tree, replaced, 0)
         sexpression = '[%s]' % ', '.join(
             map(str, sexpression)).replace(",", " ").replace("'", "")
-        print(sexpression)
+        if self.verbose == 2:
+            print(sexpression)
         return sexpression
 
     def run_polarization(self, binary_dep, relation, replaced, sentence):
