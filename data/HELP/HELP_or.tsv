@@ -1,0 +1,439 @@
+	filename	determiner	monotonicity	gold_label	replace_target	replace_source	replace_mode	ori_sentence	new_sentence
+0	gold/p10/d1901	or	disjunction	entailment				Maybe he is Italian or Spanish .	Maybe he is Italian
+1	gold/p10/d1901	or	disjunction	neutral				Maybe he is Italian	Maybe he is Italian or Spanish .
+2	silver/p00/d1806	or	disjunction	neutral				I remember mentioning it once or twice .	I remember mentioning it once
+3	silver/p00/d1806	or	disjunction	entailment				I remember mentioning it once	I remember mentioning it once or twice .
+4	silver/p00/d1936	or	disjunction	entailment				My watch may be one or two minutes fast .	My watch may be one
+5	silver/p00/d1936	or	disjunction	neutral				My watch may be one	My watch may be one or two minutes fast .
+6	silver/p01/d0861	or	disjunction	neutral				Wait for me . I 'll be there in a minute or ten .	Wait for me . I 'll be there in a minute
+7	silver/p01/d0861	or	disjunction	entailment				Wait for me . I 'll be there in a minute	Wait for me . I 'll be there in a minute or ten .
+8	silver/p01/d1951	or	disjunction	neutral				Please notify me by e-mail about any bugs found or missing functions that you want to be included in future versions of the BMI calculator .	Please notify me by e-mail about any bugs found
+9	silver/p01/d1951	or	disjunction	entailment				Please notify me by e-mail about any bugs found	Please notify me by e-mail about any bugs found or missing functions that you want to be included in future versions of the BMI calculator .
+10	silver/p02/d0758	or	disjunction	entailment				Mr Ferdinand Piech said that the German company did not have any confidential plans or documents about GM 's ultra-low-cost factory project .	Mr Ferdinand Piech said that the German company did not have any confidential plans
+11	silver/p02/d0758	or	disjunction	neutral				Mr Ferdinand Piech said that the German company did not have any confidential plans	Mr Ferdinand Piech said that the German company did not have any confidential plans or documents about GM 's ultra-low-cost factory project .
+12	silver/p02/d1544	or	disjunction	neutral				Put your hand over your mouth when you cough , sneeze or yawn .	Put your hand over your mouth when you cough , sneeze
+13	silver/p02/d1544	or	disjunction	entailment				Put your hand over your mouth when you cough , sneeze	Put your hand over your mouth when you cough , sneeze or yawn .
+14	silver/p02/d1649	or	disjunction	neutral				For your sake , father , I would cut the devil himself into small bits , or even become a devil myself .	For your sake , father , I would cut the devil himself into small bits ,
+15	silver/p02/d1649	or	disjunction	entailment				For your sake , father , I would cut the devil himself into small bits ,	For your sake , father , I would cut the devil himself into small bits , or even become a devil myself .
+16	silver/p02/d1992	or	disjunction	neutral				""" Tom ! Do you realise that these sentences are very self-centred : They always either begin with or end with you ! Even both ! "" she reproached Tom ."	""" Tom ! Do you realise that these sentences are very self-centred : They always either begin with"
+17	silver/p02/d1992	or	disjunction	entailment				""" Tom ! Do you realise that these sentences are very self-centred : They always either begin with"	""" Tom ! Do you realise that these sentences are very self-centred : They always either begin with or end with you ! Even both ! "" she reproached Tom ."
+18	silver/p02/d2329	or	disjunction	entailment				The discovery of inadequate infection control protocols in several dental clinics has given rise to fears that patients may have been infected with HIV or hepatitis .	The discovery of inadequate infection control protocols in several dental clinics has given rise to fears that patients may have been infected with HIV
+19	silver/p02/d2329	or	disjunction	neutral				The discovery of inadequate infection control protocols in several dental clinics has given rise to fears that patients may have been infected with HIV	The discovery of inadequate infection control protocols in several dental clinics has given rise to fears that patients may have been infected with HIV or hepatitis .
+20	silver/p02/d3211	or	disjunction	neutral				He 's either crazy or on drugs .	He 's either crazy
+21	silver/p02/d3211	or	disjunction	entailment				He 's either crazy	He 's either crazy or on drugs .
+22	silver/p03/d1711	or	disjunction	neutral				Have patience for another day or two .	Have patience for another day
+23	silver/p03/d1711	or	disjunction	entailment				Have patience for another day	Have patience for another day or two .
+24	silver/p03/d3079	or	disjunction	entailment				No major damage or injuries are known to have resulted from the quake measuring 3.0 on the Richter scale .	No major damage
+25	silver/p03/d3079	or	disjunction	neutral				No major damage	No major damage or injuries are known to have resulted from the quake measuring 3.0 on the Richter scale .
+26	silver/p03/d3098	or	disjunction	entailment				From the Tokyo~International~Airport to Tokyo , you can take a train or an airport shuttle bus .	From the Tokyo~International~Airport to Tokyo , you can take a train
+27	silver/p03/d3098	or	disjunction	neutral				From the Tokyo~International~Airport to Tokyo , you can take a train	From the Tokyo~International~Airport to Tokyo , you can take a train or an airport shuttle bus .
+28	silver/p03/d3253	or	disjunction	entailment				This is an area that gets little or no attention , so we 're going to try and bring some attention to it .	This is an area that gets little
+29	silver/p03/d3253	or	disjunction	neutral				This is an area that gets little	This is an area that gets little or no attention , so we 're going to try and bring some attention to it .
+30	silver/p03/d3287	or	disjunction	neutral				Hackers find new ways of infiltrating private or public networks .	Hackers find new ways of infiltrating private
+31	silver/p03/d3287	or	disjunction	entailment				Hackers find new ways of infiltrating private	Hackers find new ways of infiltrating private or public networks .
+32	silver/p04/d0754	or	disjunction	entailment				Chirac needed a new mandate for his government from the electorate , or a new left government was needed that could count on the support of the trade union bureaucracy and among the working class and so would encounter less resistance .	Chirac needed a new mandate for his government from the electorate ,
+33	silver/p04/d0754	or	disjunction	neutral				Chirac needed a new mandate for his government from the electorate ,	Chirac needed a new mandate for his government from the electorate , or a new left government was needed that could count on the support of the trade union bureaucracy and among the working class and so would encounter less resistance .
+34	silver/p04/d0880	or	disjunction	neutral				"Only ask questions to which the reply can be either "" yes "" or no "" ."	"Only ask questions to which the reply can be either "" yes """
+35	silver/p04/d0880	or	disjunction	entailment				"Only ask questions to which the reply can be either "" yes """	"Only ask questions to which the reply can be either "" yes "" or no "" ."
+36	silver/p05/d3357	or	disjunction	neutral				It is expected that the tsunami surge will be ten meters or less .	It is expected that the tsunami surge will be ten meters
+37	silver/p05/d3357	or	disjunction	entailment				It is expected that the tsunami surge will be ten meters	It is expected that the tsunami surge will be ten meters or less .
+38	silver/p06/d2108	or	disjunction	entailment				Onions can be eaten raw or cooked .	Onions can be eaten raw
+39	silver/p06/d2108	or	disjunction	neutral				Onions can be eaten raw	Onions can be eaten raw or cooked .
+40	silver/p06/d2529	or	disjunction	entailment				One does not need to be an ornithologist to be able to distinguish blackbirds from crows or even jackdaws .	One does not need to be an ornithologist to be able to distinguish blackbirds from crows
+41	silver/p06/d2529	or	disjunction	neutral				One does not need to be an ornithologist to be able to distinguish blackbirds from crows	One does not need to be an ornithologist to be able to distinguish blackbirds from crows or even jackdaws .
+42	silver/p07/d1511	or	disjunction	neutral				Usually before a concert there is an announcement asking the audience to either turn off their phones or switch them to manner mode .	Usually before a concert there is an announcement asking the audience to either turn off their phones
+43	silver/p07/d1511	or	disjunction	entailment				Usually before a concert there is an announcement asking the audience to either turn off their phones	Usually before a concert there is an announcement asking the audience to either turn off their phones or switch them to manner mode .
+44	silver/p07/d2448	or	disjunction	neutral				"Newton 's First Law says : "" Every object persists in its state of rest or uniform motion in a straight line unless it is compelled to change that state by forces impressed on it "" ."	"Newton 's First Law says : "" Every object persists in its state of rest"
+45	silver/p07/d2448	or	disjunction	entailment				"Newton 's First Law says : "" Every object persists in its state of rest"	"Newton 's First Law says : "" Every object persists in its state of rest or uniform motion in a straight line unless it is compelled to change that state by forces impressed on it "" ."
+46	silver/p07/d3210	or	disjunction	neutral				It 's more ridiculous to speak constructed languages than to be gay , bisexual or transsexual .	It 's more ridiculous to speak constructed languages than to be gay , bisexual
+47	silver/p07/d3210	or	disjunction	entailment				It 's more ridiculous to speak constructed languages than to be gay , bisexual	It 's more ridiculous to speak constructed languages than to be gay , bisexual or transsexual .
+48	silver/p08/d0708	or	disjunction	neutral				The Normandy landings took place on 6th June 1944 , but the Germans even then thought that the ‘real ' Allied invasion of Europe would take place in the Pas de Calais or the Low Countries .	The Normandy landings took place on 6th June 1944 , but the Germans even then thought that the ‘real ' Allied invasion of Europe would take place in the Pas de Calais
+49	silver/p08/d0708	or	disjunction	entailment				The Normandy landings took place on 6th June 1944 , but the Germans even then thought that the ‘real ' Allied invasion of Europe would take place in the Pas de Calais	The Normandy landings took place on 6th June 1944 , but the Germans even then thought that the ‘real ' Allied invasion of Europe would take place in the Pas de Calais or the Low Countries .
+50	silver/p08/d2012	or	disjunction	neutral				When a woman is murdered , the husband or boyfriend is always the number one suspect .	When a woman is murdered , the husband
+51	silver/p08/d2012	or	disjunction	entailment				When a woman is murdered , the husband	When a woman is murdered , the husband or boyfriend is always the number one suspect .
+52	silver/p08/d2116	or	disjunction	neutral				No one can get in or out .	No one can get in
+53	silver/p08/d2116	or	disjunction	entailment				No one can get in	No one can get in or out .
+54	silver/p08/d2593	or	disjunction	neutral				Get back before midnight , or you will be locked out .	Get back before midnight ,
+55	silver/p08/d2593	or	disjunction	entailment				Get back before midnight ,	Get back before midnight , or you will be locked out .
+56	silver/p08/d2656	or	disjunction	neutral				Tom likes oranges and eats three or four a week .	Tom likes oranges and eats three
+57	silver/p08/d2656	or	disjunction	entailment				Tom likes oranges and eats three	Tom likes oranges and eats three or four a week .
+58	silver/p08/d3179	or	disjunction	neutral				Compared with America or China , Japan is a small country .	Compared with America
+59	silver/p08/d3179	or	disjunction	entailment				Compared with America	Compared with America or China , Japan is a small country .
+60	silver/p09/d0768	or	disjunction	neutral				It 's quite difficult to master French in 2 or 3 years .	It 's quite difficult to master French in 2
+61	silver/p09/d0768	or	disjunction	entailment				It 's quite difficult to master French in 2	It 's quite difficult to master French in 2 or 3 years .
+62	silver/p09/d1699	or	disjunction	neutral				Every day I either ride a bike or get the bus to work .	Every day I either ride a bike
+63	silver/p09/d1699	or	disjunction	entailment				Every day I either ride a bike	Every day I either ride a bike or get the bus to work .
+64	silver/p09/d2028	or	disjunction	neutral				A ruler is a flat , rectangular measuring or drawing device with graduations in units of measurement .	A ruler is a flat , rectangular measuring
+65	silver/p09/d2028	or	disjunction	entailment				A ruler is a flat , rectangular measuring	A ruler is a flat , rectangular measuring or drawing device with graduations in units of measurement .
+66	silver/p09/d2922	or	disjunction	neutral				The policeman asked if Maria had greeted me with a wave , a hug or a kiss .	The policeman asked if Maria had greeted me with a wave , a hug
+67	silver/p09/d2922	or	disjunction	entailment				The policeman asked if Maria had greeted me with a wave , a hug	The policeman asked if Maria had greeted me with a wave , a hug or a kiss .
+68	silver/p10/d0902	or	disjunction	entailment				If you really want to speak to me , it 's now or never .	If you really want to speak to me , it 's now
+69	silver/p10/d0902	or	disjunction	neutral				If you really want to speak to me , it 's now	If you really want to speak to me , it 's now or never .
+70	silver/p10/d1629	or	disjunction	neutral				The frame of the house should be finished in a day or two .	The frame of the house should be finished in a day
+71	silver/p10/d1629	or	disjunction	entailment				The frame of the house should be finished in a day	The frame of the house should be finished in a day or two .
+72	silver/p10/d1958	or	disjunction	neutral				I 'm going to stay for another day or two .	I 'm going to stay for another day
+73	silver/p10/d1958	or	disjunction	entailment				I 'm going to stay for another day	I 'm going to stay for another day or two .
+74	silver/p10/d2648	or	disjunction	neutral				You have the choice of soup or salad .	You have the choice of soup
+75	silver/p10/d2648	or	disjunction	entailment				You have the choice of soup	You have the choice of soup or salad .
+76	silver/p10/d2945	or	disjunction	neutral				The most common symptom of miscarriage is vaginal bleeding , which may occur with or without pain .	The most common symptom of miscarriage is vaginal bleeding , which may occur with
+77	silver/p10/d2945	or	disjunction	entailment				The most common symptom of miscarriage is vaginal bleeding , which may occur with	The most common symptom of miscarriage is vaginal bleeding , which may occur with or without pain .
+78	silver/p11/d1972	or	disjunction	entailment				Maria has n't eaten or drank the whole day .	Maria has n't eaten
+79	silver/p11/d1972	or	disjunction	neutral				Maria has n't eaten	Maria has n't eaten or drank the whole day .
+80	silver/p11/d2019	or	disjunction	entailment				Her composition is very good except for two or three spelling errors .	Her composition is very good except for two
+81	silver/p11/d2019	or	disjunction	neutral				Her composition is very good except for two	Her composition is very good except for two or three spelling errors .
+82	silver/p11/d2611	or	disjunction	neutral				For some reason or other she shook her head .	For some reason
+83	silver/p11/d2611	or	disjunction	entailment				For some reason	For some reason or other she shook her head .
+84	silver/p12/d2008	or	disjunction	neutral				Artificial neural networks can be used to understand biological neural networks , or to solve problems of artificial intelligence , without necessarily creating models of real biological systems .	Artificial neural networks can be used to understand biological neural networks ,
+85	silver/p12/d2008	or	disjunction	entailment				Artificial neural networks can be used to understand biological neural networks ,	Artificial neural networks can be used to understand biological neural networks , or to solve problems of artificial intelligence , without necessarily creating models of real biological systems .
+86	silver/p13/d1398	or	disjunction	neutral				The game will be held rain or shine .	The game will be held rain
+87	silver/p13/d1398	or	disjunction	entailment				The game will be held rain	The game will be held rain or shine .
+88	silver/p13/d1482	or	disjunction	neutral				You had better learn either English or French .	You had better learn either English
+89	silver/p13/d1482	or	disjunction	entailment				You had better learn either English	You had better learn either English or French .
+90	silver/p13/d2250	or	disjunction	neutral				Love is a temporary insanity curable by marriage or by removal of the patient from the influences under which he incurred the disorder .	Love is a temporary insanity curable by marriage
+91	silver/p13/d2250	or	disjunction	entailment				Love is a temporary insanity curable by marriage	Love is a temporary insanity curable by marriage or by removal of the patient from the influences under which he incurred the disorder .
+92	silver/p13/d2543	or	disjunction	neutral				The trees are barren or bear only small fruit .	The trees are barren
+93	silver/p13/d2543	or	disjunction	entailment				The trees are barren	The trees are barren or bear only small fruit .
+94	silver/p13/d2588	or	disjunction	neutral				Leave now , or you 'll miss the train .	Leave now ,
+95	silver/p13/d2588	or	disjunction	entailment				Leave now ,	Leave now , or you 'll miss the train .
+96	silver/p14/d2732	or	disjunction	neutral				You should avoid adding sentences in a language other than your own , because unless you write in your mother tongue or dialect , you are prone to make many mistakes .	You should avoid adding sentences in a language other than your own , because unless you write in your mother tongue
+97	silver/p14/d2732	or	disjunction	entailment				You should avoid adding sentences in a language other than your own , because unless you write in your mother tongue	You should avoid adding sentences in a language other than your own , because unless you write in your mother tongue or dialect , you are prone to make many mistakes .
+98	silver/p14/d3027	or	disjunction	entailment				No animal builds beautiful churches , plays tennis , tells jokes , writes songs or visits the moon .	No animal builds beautiful churches , plays tennis , tells jokes , writes songs
+99	silver/p14/d3027	or	disjunction	neutral				No animal builds beautiful churches , plays tennis , tells jokes , writes songs	No animal builds beautiful churches , plays tennis , tells jokes , writes songs or visits the moon .
+100	silver/p15/d0903	or	disjunction	entailment				Tom was n't ready to accept Mary 's love or friendship .	Tom was n't ready to accept Mary 's love
+101	silver/p15/d0903	or	disjunction	neutral				Tom was n't ready to accept Mary 's love	Tom was n't ready to accept Mary 's love or friendship .
+102	silver/p15/d0908	or	disjunction	neutral				Hurry up or you 'll miss the train .	Hurry up
+103	silver/p15/d0908	or	disjunction	entailment				Hurry up	Hurry up or you 'll miss the train .
+104	silver/p15/d2870	or	disjunction	neutral				Tom is probably just a year or two younger than Mary .	Tom is probably just a year
+105	silver/p15/d2870	or	disjunction	entailment				Tom is probably just a year	Tom is probably just a year or two younger than Mary .
+106	silver/p15/d3044	or	disjunction	neutral				I 'll be able to finish it in a day or two .	I 'll be able to finish it in a day
+107	silver/p15/d3044	or	disjunction	entailment				I 'll be able to finish it in a day	I 'll be able to finish it in a day or two .
+108	silver/p15/d3212	or	disjunction	neutral				Recurrent miscarriage is distinct from infertility , and is defined as two or more failed pregnancies .	Recurrent miscarriage is distinct from infertility , and is defined as two
+109	silver/p15/d3212	or	disjunction	entailment				Recurrent miscarriage is distinct from infertility , and is defined as two	Recurrent miscarriage is distinct from infertility , and is defined as two or more failed pregnancies .
+110	silver/p16/d0825	or	disjunction	entailment				We are not as happy or un happy as we imagine ourselves to be .	We are not as happy
+111	silver/p16/d0825	or	disjunction	neutral				We are not as happy	We are not as happy or un happy as we imagine ourselves to be .
+112	silver/p16/d1389	or	disjunction	neutral				Name a country or region where the Ebola virus has been found .	Name a country
+113	silver/p16/d1389	or	disjunction	entailment				Name a country	Name a country or region where the Ebola virus has been found .
+114	silver/p16/d2559	or	disjunction	neutral				Early man used his fingers and toes to count the animals he owned , or the measures of grain he had stored .	Early man used his fingers and toes to count the animals he owned ,
+115	silver/p16/d2559	or	disjunction	entailment				Early man used his fingers and toes to count the animals he owned ,	Early man used his fingers and toes to count the animals he owned , or the measures of grain he had stored .
+116	silver/p18/d1495	or	disjunction	entailment				The tree was so discontented , that it took no pleasure in the warm sunshine , the birds , or the rosy clouds that floated over it morning and evening .	The tree was so discontented , that it took no pleasure in the warm sunshine , the birds ,
+117	silver/p18/d1495	or	disjunction	neutral				The tree was so discontented , that it took no pleasure in the warm sunshine , the birds ,	The tree was so discontented , that it took no pleasure in the warm sunshine , the birds , or the rosy clouds that floated over it morning and evening .
+118	silver/p18/d1572	or	disjunction	neutral				Tom likes oranges and eats around 3 or 4 of them per week .	Tom likes oranges and eats around 3
+119	silver/p18/d1572	or	disjunction	entailment				Tom likes oranges and eats around 3	Tom likes oranges and eats around 3 or 4 of them per week .
+120	silver/p18/d1592	or	disjunction	entailment				I do n't work on either Saturday or Sunday .	I do n't work on either Saturday
+121	silver/p18/d1592	or	disjunction	neutral				I do n't work on either Saturday	I do n't work on either Saturday or Sunday .
+122	silver/p19/d0705	or	disjunction	neutral				Only a few of the embassies , mainly those of states accredited in the German~Democratic~Republic ( GDR ) , were able to make use of existing buildings in Berlin . The majority of the embassies had to have new buildings erected or buildings that were already in place adapted for this new use .	Only a few of the embassies , mainly those of states accredited in the German~Democratic~Republic ( GDR ) , were able to make use of existing buildings in Berlin . The majority of the embassies had to have new buildings erected
+123	silver/p19/d0705	or	disjunction	entailment				Only a few of the embassies , mainly those of states accredited in the German~Democratic~Republic ( GDR ) , were able to make use of existing buildings in Berlin . The majority of the embassies had to have new buildings erected	Only a few of the embassies , mainly those of states accredited in the German~Democratic~Republic ( GDR ) , were able to make use of existing buildings in Berlin . The majority of the embassies had to have new buildings erected or buildings that were already in place adapted for this new use .
+124	silver/p19/d1720	or	disjunction	neutral				To avoid spoiling , fish caught far out at sea are immediately cooled or even frozen .	To avoid spoiling , fish caught far out at sea are immediately cooled
+125	silver/p19/d1720	or	disjunction	entailment				To avoid spoiling , fish caught far out at sea are immediately cooled	To avoid spoiling , fish caught far out at sea are immediately cooled or even frozen .
+126	silver/p19/d1739	or	disjunction	entailment				By simply changing the orientation of a house in relation to the sun , you can save up to thirty percent of the energy required or wasted for heating or cooling it .	By simply changing the orientation of a house in relation to the sun , you can save up to thirty percent of the energy required
+127	silver/p19/d1739	or	disjunction	neutral				By simply changing the orientation of a house in relation to the sun , you can save up to thirty percent of the energy required	By simply changing the orientation of a house in relation to the sun , you can save up to thirty percent of the energy required or wasted for heating or cooling it .
+128	silver/p19/d2392	or	disjunction	entailment				Tom did n't have any brothers or sisters .	Tom did n't have any brothers
+129	silver/p19/d2392	or	disjunction	neutral				Tom did n't have any brothers	Tom did n't have any brothers or sisters .
+130	silver/p21/d0754	or	disjunction	entailment				English has been written using the Latin alphabet since around the ninth century . The spelling system or orthography of English is historical , not phonological .	English has been written using the Latin alphabet since around the ninth century . The spelling system
+131	silver/p21/d0754	or	disjunction	neutral				English has been written using the Latin alphabet since around the ninth century . The spelling system	English has been written using the Latin alphabet since around the ninth century . The spelling system or orthography of English is historical , not phonological .
+132	silver/p21/d2007	or	disjunction	neutral				Only 2.1 percent of the music albums released in 2009 sold 5,000 copies or more .	Only 2.1 percent of the music albums released in 2009 sold 5,000 copies
+133	silver/p21/d2007	or	disjunction	entailment				Only 2.1 percent of the music albums released in 2009 sold 5,000 copies	Only 2.1 percent of the music albums released in 2009 sold 5,000 copies or more .
+134	silver/p22/d1548	or	disjunction	neutral				I 'll be able to finish in a day or two .	I 'll be able to finish in a day
+135	silver/p22/d1548	or	disjunction	entailment				I 'll be able to finish in a day	I 'll be able to finish in a day or two .
+136	silver/p22/d2165	or	disjunction	entailment				According to Belarusian laws , not having a portrait of President Lukashenko in one 's apartment or house is punishable by the death penalty .	According to Belarusian laws , not having a portrait of President Lukashenko in one 's apartment
+137	silver/p22/d2165	or	disjunction	neutral				According to Belarusian laws , not having a portrait of President Lukashenko in one 's apartment	According to Belarusian laws , not having a portrait of President Lukashenko in one 's apartment or house is punishable by the death penalty .
+138	silver/p23/d2448	or	disjunction	neutral				Until Monday or Tuesday of next week .	Until Monday
+139	silver/p23/d2448	or	disjunction	entailment				Until Monday	Until Monday or Tuesday of next week .
+140	silver/p24/d1436	or	disjunction	neutral				I ca n't laugh or cry .	I ca n't laugh
+141	silver/p24/d1436	or	disjunction	entailment				I ca n't laugh	I ca n't laugh or cry .
+142	silver/p24/d1883	or	disjunction	entailment				Tom attended high~school for three years without missing a single day or ever being late .	Tom attended high~school for three years without missing a single day
+143	silver/p24/d1883	or	disjunction	neutral				Tom attended high~school for three years without missing a single day	Tom attended high~school for three years without missing a single day or ever being late .
+144	silver/p24/d2433	or	disjunction	entailment				Either you go now or I will make you go .	Either you go now
+145	silver/p24/d2433	or	disjunction	neutral				Either you go now	Either you go now or I will make you go .
+146	silver/p25/d1965	or	disjunction	entailment				She does n't have any brothers or sisters .	She does n't have any brothers
+147	silver/p25/d1965	or	disjunction	neutral				She does n't have any brothers	She does n't have any brothers or sisters .
+148	silver/p26/d2083	or	disjunction	entailment				There are no dinosaurs or mammoths to be found now .	There are no dinosaurs
+149	silver/p26/d2083	or	disjunction	neutral				There are no dinosaurs	There are no dinosaurs or mammoths to be found now .
+150	silver/p26/d2883	or	disjunction	neutral				I wonder if the first week or so of July is too early to go to the beach .	I wonder if the first week
+151	silver/p26/d2883	or	disjunction	entailment				I wonder if the first week	I wonder if the first week or so of July is too early to go to the beach .
+152	silver/p27/d0810	or	disjunction	entailment				It 's now or never .	It 's now
+153	silver/p27/d0810	or	disjunction	neutral				It 's now	It 's now or never .
+154	silver/p27/d1893	or	disjunction	neutral				I 'm all thumbs when it comes to origami , or paper folding .	I 'm all thumbs when it comes to origami ,
+155	silver/p27/d1893	or	disjunction	entailment				I 'm all thumbs when it comes to origami ,	I 'm all thumbs when it comes to origami , or paper folding .
+156	silver/p28/d2018	or	disjunction	neutral				People who are allergic to pineapple , bananas , or latex are likely also to be allergic to kiwifruit .	People who are allergic to pineapple , bananas ,
+157	silver/p28/d2018	or	disjunction	entailment				People who are allergic to pineapple , bananas ,	People who are allergic to pineapple , bananas , or latex are likely also to be allergic to kiwifruit .
+158	silver/p28/d2578	or	disjunction	entailment				I was hungry but there was no fruit or ice cream for me .	I was hungry but there was no fruit
+159	silver/p28/d2578	or	disjunction	neutral				I was hungry but there was no fruit	I was hungry but there was no fruit or ice cream for me .
+160	silver/p29/d2155	or	disjunction	entailment				Chinese food was served in small portions which did not require cutting with a knife or fork .	Chinese food was served in small portions which did not require cutting with a knife
+161	silver/p29/d2155	or	disjunction	neutral				Chinese food was served in small portions which did not require cutting with a knife	Chinese food was served in small portions which did not require cutting with a knife or fork .
+162	silver/p29/d2373	or	disjunction	entailment				It was n't Tom 's or Mary 's first sentence .	It was n't Tom 's
+163	silver/p29/d2373	or	disjunction	neutral				It was n't Tom 's	It was n't Tom 's or Mary 's first sentence .
+164	silver/p30/d0720	or	disjunction	neutral				In conversations with Ms. Robbins , it is understood that Armstrong~Environmental~Inc. has been retained by past or present owners or some combination of these parties .	In conversations with Ms. Robbins , it is understood that Armstrong~Environmental~Inc. has been retained by past
+165	silver/p30/d0720	or	disjunction	entailment				In conversations with Ms. Robbins , it is understood that Armstrong~Environmental~Inc. has been retained by past	In conversations with Ms. Robbins , it is understood that Armstrong~Environmental~Inc. has been retained by past or present owners or some combination of these parties .
+166	silver/p30/d0888	or	disjunction	entailment				We are never as happy or as un happy as we imagine .	We are never as happy
+167	silver/p30/d0888	or	disjunction	neutral				We are never as happy	We are never as happy or as un happy as we imagine .
+168	silver/p30/d2129	or	disjunction	neutral				Women with mothers or sisters who have endometriosis are at elevated risk of developing the condition themselves .	Women with mothers
+169	silver/p30/d2129	or	disjunction	entailment				Women with mothers	Women with mothers or sisters who have endometriosis are at elevated risk of developing the condition themselves .
+170	silver/p30/d2816	or	disjunction	neutral				Watch your step , or else you will trip on the baggage .	Watch your step ,
+171	silver/p30/d2816	or	disjunction	entailment				Watch your step ,	Watch your step , or else you will trip on the baggage .
+172	silver/p31/d0834	or	disjunction	neutral				He had two or three rather competent assistants .	He had two
+173	silver/p31/d0834	or	disjunction	entailment				He had two	He had two or three rather competent assistants .
+174	silver/p31/d2426	or	disjunction	neutral				You are free to go or to stay .	You are free to go
+175	silver/p31/d2426	or	disjunction	entailment				You are free to go	You are free to go or to stay .
+176	silver/p31/d3118	or	disjunction	entailment				Mary knows nothing of sewing or knitting .	Mary knows nothing of sewing
+177	silver/p31/d3118	or	disjunction	neutral				Mary knows nothing of sewing	Mary knows nothing of sewing or knitting .
+178	silver/p31/d3230	or	disjunction	neutral				I ca n't tell if Tom is dead or just unconscious .	I ca n't tell if Tom is dead
+179	silver/p31/d3230	or	disjunction	entailment				I ca n't tell if Tom is dead	I ca n't tell if Tom is dead or just unconscious .
+180	silver/p32/d0703	or	disjunction	neutral				David Golinkin is the editor or author of eighteen books , and over 150 responsa , articles , sermons and books .	David Golinkin is the editor
+181	silver/p32/d0703	or	disjunction	entailment				David Golinkin is the editor	David Golinkin is the editor or author of eighteen books , and over 150 responsa , articles , sermons and books .
+182	silver/p33/d0870	or	disjunction	neutral				Watch your mouth or you 'll get it .	Watch your mouth
+183	silver/p33/d0870	or	disjunction	entailment				Watch your mouth	Watch your mouth or you 'll get it .
+184	silver/p33/d2369	or	disjunction	entailment				My father never came back home before 9 or 10 .	My father never came back home before 9
+185	silver/p33/d2369	or	disjunction	neutral				My father never came back home before 9	My father never came back home before 9 or 10 .
+186	silver/p33/d2468	or	disjunction	entailment				Tom did n't meet Mary or anyone else .	Tom did n't meet Mary
+187	silver/p33/d2468	or	disjunction	neutral				Tom did n't meet Mary	Tom did n't meet Mary or anyone else .
+188	silver/p33/d3234	or	disjunction	neutral				I never suggested or even hinted that it was Tom who stole Mary 's necklace .	I never suggested
+189	silver/p33/d3234	or	disjunction	entailment				I never suggested	I never suggested or even hinted that it was Tom who stole Mary 's necklace .
+190	silver/p34/d1608	or	disjunction	neutral				We want Tom to play a song or two for us on his banjo .	We want Tom to play a song
+191	silver/p34/d1608	or	disjunction	entailment				We want Tom to play a song	We want Tom to play a song or two for us on his banjo .
+192	silver/p34/d3464	or	disjunction	entailment				Sound needs matter to propagate through , however cosmic noise or electromagnetic waves do n't .	Sound needs matter to propagate through , however cosmic noise
+193	silver/p34/d3464	or	disjunction	neutral				Sound needs matter to propagate through , however cosmic noise	Sound needs matter to propagate through , however cosmic noise or electromagnetic waves do n't .
+194	silver/p35/d2184	or	disjunction	entailment				A noun can be singular or plural .	A noun can be singular
+195	silver/p35/d2184	or	disjunction	neutral				A noun can be singular	A noun can be singular or plural .
+196	silver/p35/d2220	or	disjunction	neutral				Cats that are completely white with blue eyes are always , or nearly always , deaf .	Cats that are completely white with blue eyes are always ,
+197	silver/p35/d2220	or	disjunction	entailment				Cats that are completely white with blue eyes are always ,	Cats that are completely white with blue eyes are always , or nearly always , deaf .
+198	silver/p35/d2383	or	disjunction	neutral				Tom had only planned to stay in Boston for just a day or two .	Tom had only planned to stay in Boston for just a day
+199	silver/p35/d2383	or	disjunction	entailment				Tom had only planned to stay in Boston for just a day	Tom had only planned to stay in Boston for just a day or two .
+200	silver/p35/d2722	or	disjunction	neutral				The Solar System has four terrestrial or telluric planets : Mercury , Venus , Earth , and Mars .	The Solar System has four terrestrial
+201	silver/p35/d2722	or	disjunction	entailment				The Solar System has four terrestrial	The Solar System has four terrestrial or telluric planets : Mercury , Venus , Earth , and Mars .
+202	silver/p36/d1685	or	disjunction	neutral				There are two or three persons with two cars .	There are two
+203	silver/p36/d1685	or	disjunction	entailment				There are two	There are two or three persons with two cars .
+204	silver/p37/d1595	or	disjunction	entailment				Do n't come here again or we 'll definitely have a problem .	Do n't come here again
+205	silver/p37/d1595	or	disjunction	neutral				Do n't come here again	Do n't come here again or we 'll definitely have a problem .
+206	silver/p37/d1786	or	disjunction	neutral				I would like to learn to play the piano , guitar or flute .	I would like to learn to play the piano , guitar
+207	silver/p37/d1786	or	disjunction	entailment				I would like to learn to play the piano , guitar	I would like to learn to play the piano , guitar or flute .
+208	silver/p37/d3167	or	disjunction	entailment				She took no pleasure in eating or drinking .	She took no pleasure in eating
+209	silver/p37/d3167	or	disjunction	neutral				She took no pleasure in eating	She took no pleasure in eating or drinking .
+210	silver/p38/d2931	or	disjunction	neutral				Apples are red or green .	Apples are red
+211	silver/p38/d2931	or	disjunction	entailment				Apples are red	Apples are red or green .
+212	silver/p39/d2578	or	disjunction	entailment				Tatoeba is currently unavailable . We are sorry for the inconvenience . You can check our blog or Twitter for more information .	Tatoeba is currently unavailable . We are sorry for the inconvenience . You can check our blog
+213	silver/p39/d2578	or	disjunction	neutral				Tatoeba is currently unavailable . We are sorry for the inconvenience . You can check our blog	Tatoeba is currently unavailable . We are sorry for the inconvenience . You can check our blog or Twitter for more information .
+214	silver/p39/d2643	or	disjunction	neutral				Many had lost their arms or legs .	Many had lost their arms
+215	silver/p39/d2643	or	disjunction	entailment				Many had lost their arms	Many had lost their arms or legs .
+216	silver/p39/d3181	or	disjunction	entailment				Tom and Mary do n't have the time or the money to take a trip .	Tom and Mary do n't have the time
+217	silver/p39/d3181	or	disjunction	neutral				Tom and Mary do n't have the time	Tom and Mary do n't have the time or the money to take a trip .
+218	silver/p39/d3262	or	disjunction	entailment				You 're having a gastroscopy at nine~o'clock tomorrow morning , so please do n't have any solid food or liquids from nine~o'clock tonight .	You 're having a gastroscopy at nine~o'clock tomorrow morning , so please do n't have any solid food
+219	silver/p39/d3262	or	disjunction	neutral				You 're having a gastroscopy at nine~o'clock tomorrow morning , so please do n't have any solid food	You 're having a gastroscopy at nine~o'clock tomorrow morning , so please do n't have any solid food or liquids from nine~o'clock tonight .
+220	silver/p41/d0934	or	disjunction	entailment				I 'm going to live my life , with or without her .	I 'm going to live my life , with
+221	silver/p41/d0934	or	disjunction	neutral				I 'm going to live my life , with	I 'm going to live my life , with or without her .
+222	silver/p41/d3337	or	disjunction	neutral				I 'll be back by seven or eight~o'clock .	I 'll be back by seven
+223	silver/p41/d3337	or	disjunction	entailment				I 'll be back by seven	I 'll be back by seven or eight~o'clock .
+224	silver/p42/d1474	or	disjunction	neutral				Tom should definitely visit an art museum or two while he 's in France .	Tom should definitely visit an art museum
+225	silver/p42/d1474	or	disjunction	entailment				Tom should definitely visit an art museum	Tom should definitely visit an art museum or two while he 's in France .
+226	silver/p42/d2937	or	disjunction	neutral				In Asian culture it 's customary to take one 's shoes off before entering a house or temple .	In Asian culture it 's customary to take one 's shoes off before entering a house
+227	silver/p42/d2937	or	disjunction	entailment				In Asian culture it 's customary to take one 's shoes off before entering a house	In Asian culture it 's customary to take one 's shoes off before entering a house or temple .
+228	silver/p42/d3419	or	disjunction	neutral				I want to live in Kyoto or in Nara .	I want to live in Kyoto
+229	silver/p42/d3419	or	disjunction	entailment				I want to live in Kyoto	I want to live in Kyoto or in Nara .
+230	silver/p43/d1769	or	disjunction	entailment				Examples can be taken from the course materials or can be texts that you found autonomously .	Examples can be taken from the course materials
+231	silver/p43/d1769	or	disjunction	neutral				Examples can be taken from the course materials	Examples can be taken from the course materials or can be texts that you found autonomously .
+232	silver/p43/d2628	or	disjunction	neutral				The price was only three~thousand yen , or about thirty dollars .	The price was only three~thousand yen ,
+233	silver/p43/d2628	or	disjunction	entailment				The price was only three~thousand yen ,	The price was only three~thousand yen , or about thirty dollars .
+234	silver/p44/d1399	or	disjunction	entailment				Tom did n't want to be a lawyer or a doctor .	Tom did n't want to be a lawyer
+235	silver/p44/d1399	or	disjunction	neutral				Tom did n't want to be a lawyer	Tom did n't want to be a lawyer or a doctor .
+236	silver/p44/d1681	or	disjunction	entailment				Even though they look like it , a hedgehog , a mole , an otter , a rabbit or an opossum are not rodents .	Even though they look like it , a hedgehog , a mole , an otter , a rabbit
+237	silver/p44/d1681	or	disjunction	neutral				Even though they look like it , a hedgehog , a mole , an otter , a rabbit	Even though they look like it , a hedgehog , a mole , an otter , a rabbit or an opossum are not rodents .
+238	silver/p44/d1687	or	disjunction	entailment				There 's no rhyme or reason to that plan .	There 's no rhyme
+239	silver/p44/d1687	or	disjunction	neutral				There 's no rhyme	There 's no rhyme or reason to that plan .
+240	silver/p44/d2112	or	disjunction	neutral				Every mother 's dream is for her son to be a doctor or a lawyer .	Every mother 's dream is for her son to be a doctor
+241	silver/p44/d2112	or	disjunction	entailment				Every mother 's dream is for her son to be a doctor	Every mother 's dream is for her son to be a doctor or a lawyer .
+242	silver/p44/d3065	or	disjunction	neutral				Every boss has his or her favorite employee .	Every boss has his
+243	silver/p44/d3065	or	disjunction	entailment				Every boss has his	Every boss has his or her favorite employee .
+244	silver/p44/d3260	or	disjunction	neutral				In many parts of the world it is illegal to shoot wild game such as deer , moose or pheasant .	In many parts of the world it is illegal to shoot wild game such as deer , moose
+245	silver/p44/d3260	or	disjunction	entailment				In many parts of the world it is illegal to shoot wild game such as deer , moose	In many parts of the world it is illegal to shoot wild game such as deer , moose or pheasant .
+246	silver/p44/d3302	or	disjunction	neutral				They claimed that Harrison could not read or write .	They claimed that Harrison could not read
+247	silver/p44/d3302	or	disjunction	entailment				They claimed that Harrison could not read	They claimed that Harrison could not read or write .
+248	silver/p45/d2511	or	disjunction	neutral				Everyone has the right to the protection of the moral and material interests resulting from any scientific , literary or artistic production of which he is the author .	Everyone has the right to the protection of the moral and material interests resulting from any scientific , literary
+249	silver/p45/d2511	or	disjunction	entailment				Everyone has the right to the protection of the moral and material interests resulting from any scientific , literary	Everyone has the right to the protection of the moral and material interests resulting from any scientific , literary or artistic production of which he is the author .
+250	silver/p46/d2236	or	disjunction	neutral				I saw grandpa two or three times a week .	I saw grandpa two
+251	silver/p46/d2236	or	disjunction	entailment				I saw grandpa two	I saw grandpa two or three times a week .
+252	silver/p46/d2490	or	disjunction	neutral				She reads on average three or four books a week .	She reads on average three
+253	silver/p46/d2490	or	disjunction	entailment				She reads on average three	She reads on average three or four books a week .
+254	silver/p46/d3257	or	disjunction	neutral				The sister of your father or mother is your aunt .	The sister of your father
+255	silver/p46/d3257	or	disjunction	entailment				The sister of your father	The sister of your father or mother is your aunt .
+256	silver/p47/d1505	or	disjunction	neutral				There may be thieves , fakers , perverts or killers in social networks . For your security , you should n't believe them .	There may be thieves , fakers , perverts
+257	silver/p47/d1505	or	disjunction	entailment				There may be thieves , fakers , perverts	There may be thieves , fakers , perverts or killers in social networks . For your security , you should n't believe them .
+258	silver/p47/d3313	or	disjunction	entailment				Pinocchio 's only fault was that he had too many friends . Among these were many well-known rascals , who cared not a jot for study or for success .	Pinocchio 's only fault was that he had too many friends . Among these were many well-known rascals , who cared not a jot for study
+259	silver/p47/d3313	or	disjunction	neutral				Pinocchio 's only fault was that he had too many friends . Among these were many well-known rascals , who cared not a jot for study	Pinocchio 's only fault was that he had too many friends . Among these were many well-known rascals , who cared not a jot for study or for success .
+260	silver/p48/d2969	or	disjunction	neutral				Look alive or you 'll miss your date !	Look alive
+261	silver/p48/d2969	or	disjunction	entailment				Look alive	Look alive or you 'll miss your date !
+262	silver/p49/d2171	or	disjunction	neutral				Someone needs to save him , or he 'll drown .	Someone needs to save him ,
+263	silver/p49/d2171	or	disjunction	entailment				Someone needs to save him ,	Someone needs to save him , or he 'll drown .
+264	silver/p52/d0934	or	disjunction	neutral				Give me your money or else I 'll beat you up .	Give me your money
+265	silver/p52/d0934	or	disjunction	entailment				Give me your money	Give me your money or else I 'll beat you up .
+266	silver/p52/d2026	or	disjunction	neutral				Ah , now I remember . I used a condom ; something I rarely , or rather practically never , do .	Ah , now I remember . I used a condom ; something I rarely ,
+267	silver/p52/d2026	or	disjunction	entailment				Ah , now I remember . I used a condom ; something I rarely ,	Ah , now I remember . I used a condom ; something I rarely , or rather practically never , do .
+268	silver/p52/d2563	or	disjunction	neutral				Please let me know if you find any typos or missing words .	Please let me know if you find any typos
+269	silver/p52/d2563	or	disjunction	entailment				Please let me know if you find any typos	Please let me know if you find any typos or missing words .
+270	silver/p52/d2902	or	disjunction	neutral				In a scary scene , it never fails that there is either an owl hooting or wolves howling under the full moon .	In a scary scene , it never fails that there is either an owl hooting
+271	silver/p52/d2902	or	disjunction	entailment				In a scary scene , it never fails that there is either an owl hooting	In a scary scene , it never fails that there is either an owl hooting or wolves howling under the full moon .
+272	silver/p52/d2920	or	disjunction	entailment				Tom does n't have any brothers or sisters .	Tom does n't have any brothers
+273	silver/p52/d2920	or	disjunction	neutral				Tom does n't have any brothers	Tom does n't have any brothers or sisters .
+274	silver/p53/d0880	or	disjunction	neutral				"In his essay "" Esperanto : European or Asiatic language "" Claude Piron has shown the similarities between Esperanto and Chinese , thereby putting to rest the notion that Esperanto is purely eurocentric ."	"In his essay "" Esperanto : European"
+275	silver/p53/d0880	or	disjunction	entailment				"In his essay "" Esperanto : European"	"In his essay "" Esperanto : European or Asiatic language "" Claude Piron has shown the similarities between Esperanto and Chinese , thereby putting to rest the notion that Esperanto is purely eurocentric ."
+276	silver/p53/d2776	or	disjunction	entailment				But if I 'm not willing to do it , I 'll tell myself or anyone else that unfortunately I 'm short of time , I do n't have the time .	But if I 'm not willing to do it , I 'll tell myself
+277	silver/p53/d2776	or	disjunction	neutral				But if I 'm not willing to do it , I 'll tell myself	But if I 'm not willing to do it , I 'll tell myself or anyone else that unfortunately I 'm short of time , I do n't have the time .
+278	silver/p54/d1711	or	disjunction	neutral				It is absurd to divide people into good and bad . People are either charming or tedious .	It is absurd to divide people into good and bad . People are either charming
+279	silver/p54/d1711	or	disjunction	entailment				It is absurd to divide people into good and bad . People are either charming	It is absurd to divide people into good and bad . People are either charming or tedious .
+280	silver/p54/d2411	or	disjunction	neutral				You are free to go or stay .	You are free to go
+281	silver/p54/d2411	or	disjunction	entailment				You are free to go	You are free to go or stay .
+282	silver/p55/d0755	or	disjunction	neutral				There are many motives for suicide attacks : religious beliefs , nationalistic ideologies , obedience to charismatic and authoritarian leaders , or desire for political change .	There are many motives for suicide attacks : religious beliefs , nationalistic ideologies , obedience to charismatic and authoritarian leaders ,
+283	silver/p55/d0755	or	disjunction	entailment				There are many motives for suicide attacks : religious beliefs , nationalistic ideologies , obedience to charismatic and authoritarian leaders ,	There are many motives for suicide attacks : religious beliefs , nationalistic ideologies , obedience to charismatic and authoritarian leaders , or desire for political change .
+284	silver/p55/d1943	or	disjunction	neutral				Speak now , or forever be silent .	Speak now ,
+285	silver/p55/d1943	or	disjunction	entailment				Speak now ,	Speak now , or forever be silent .
+286	silver/p55/d2716	or	disjunction	neutral				One way or the other we made him understand it .	One way
+287	silver/p55/d2716	or	disjunction	entailment				One way	One way or the other we made him understand it .
+288	silver/p55/d2890	or	disjunction	entailment				Do not use this product near a bathtub , sink , shower , swimming pool , or anywhere else where water or moisture are present .	Do not use this product near a bathtub , sink , shower , swimming pool ,
+289	silver/p55/d2890	or	disjunction	neutral				Do not use this product near a bathtub , sink , shower , swimming pool ,	Do not use this product near a bathtub , sink , shower , swimming pool , or anywhere else where water or moisture are present .
+290	silver/p56/d1626	or	disjunction	neutral				We are faced with the alternatives of resistance or slavery .	We are faced with the alternatives of resistance
+291	silver/p56/d1626	or	disjunction	entailment				We are faced with the alternatives of resistance	We are faced with the alternatives of resistance or slavery .
+292	silver/p56/d2049	or	disjunction	entailment				"I truly value my friends and will never have "" enough "" or too many ."	"I truly value my friends and will never have "" enough """
+293	silver/p56/d2049	or	disjunction	neutral				"I truly value my friends and will never have "" enough """	"I truly value my friends and will never have "" enough "" or too many ."
+294	silver/p57/d0706	or	disjunction	neutral				Human rights refers to the concept of human beings as having universal rights , or status , regardless of legal jurisdiction or other localizing factors , such as ethnicity , nationality , and sex .	Human rights refers to the concept of human beings as having universal rights ,
+295	silver/p57/d0706	or	disjunction	entailment				Human rights refers to the concept of human beings as having universal rights ,	Human rights refers to the concept of human beings as having universal rights , or status , regardless of legal jurisdiction or other localizing factors , such as ethnicity , nationality , and sex .
+296	silver/p57/d0755	or	disjunction	neutral				This course helps students pursuing an AOS or AAS degree , gain an understanding of the experiences of Black people from hearing and deaf communities in America .	This course helps students pursuing an AOS
+297	silver/p57/d0755	or	disjunction	entailment				This course helps students pursuing an AOS	This course helps students pursuing an AOS or AAS degree , gain an understanding of the experiences of Black people from hearing and deaf communities in America .
+298	silver/p57/d0823	or	disjunction	neutral				I need an envelope , a piece of paper , and a pencil or a pen .	I need an envelope , a piece of paper , and a pencil
+299	silver/p57/d0823	or	disjunction	entailment				I need an envelope , a piece of paper , and a pencil	I need an envelope , a piece of paper , and a pencil or a pen .
+300	silver/p57/d0896	or	disjunction	entailment				I 'm bored , home alone , without cartoons or a computer .	I 'm bored , home alone , without cartoons
+301	silver/p57/d0896	or	disjunction	neutral				I 'm bored , home alone , without cartoons	I 'm bored , home alone , without cartoons or a computer .
+302	silver/p57/d2456	or	disjunction	entailment				"Franz Liszt created the concept of the "" symphonic poem "" . This is a composition for orchestra that uses music to describe nonmusical content . This could include , for example , people , legendary figures , landscapes , or paintings ."	"Franz Liszt created the concept of the "" symphonic poem "" . This is a composition for orchestra that uses music to describe nonmusical content . This could include , for example , people , legendary figures , landscapes ,"
+303	silver/p57/d2456	or	disjunction	neutral				"Franz Liszt created the concept of the "" symphonic poem "" . This is a composition for orchestra that uses music to describe nonmusical content . This could include , for example , people , legendary figures , landscapes ,"	"Franz Liszt created the concept of the "" symphonic poem "" . This is a composition for orchestra that uses music to describe nonmusical content . This could include , for example , people , legendary figures , landscapes , or paintings ."
+304	silver/p59/d2356	or	disjunction	neutral				I know it 's either Tom or Mary .	I know it 's either Tom
+305	silver/p59/d2356	or	disjunction	entailment				I know it 's either Tom	I know it 's either Tom or Mary .
+306	silver/p61/d1906	or	disjunction	entailment				I 'd just like to ask if you saw or heard anything last night that could cast some light on this mysterious affair .	I 'd just like to ask if you saw
+307	silver/p61/d1906	or	disjunction	neutral				I 'd just like to ask if you saw	I 'd just like to ask if you saw or heard anything last night that could cast some light on this mysterious affair .
+308	silver/p61/d3360	or	disjunction	entailment				Hurry , or you wo n't get to the movie~theater in time !	Hurry ,
+309	silver/p61/d3360	or	disjunction	neutral				Hurry ,	Hurry , or you wo n't get to the movie~theater in time !
+310	silver/p62/d3522	or	disjunction	entailment				Most constellations do n't really resemble the creatures or characters they are named after .	Most constellations do n't really resemble the creatures
+311	silver/p62/d3522	or	disjunction	neutral				Most constellations do n't really resemble the creatures	Most constellations do n't really resemble the creatures or characters they are named after .
+312	silver/p63/d0859	or	disjunction	neutral				If the ball hits you somewhere else than on the head or hands , you 're out .	If the ball hits you somewhere else than on the head
+313	silver/p63/d0859	or	disjunction	entailment				If the ball hits you somewhere else than on the head	If the ball hits you somewhere else than on the head or hands , you 're out .
+314	silver/p63/d1633	or	disjunction	neutral				David has a keen interest in aesthetics — the qualities that make a painting , sculpture , musical composition , or poem pleasing to the eye , ear , or mind .	David has a keen interest in aesthetics — the qualities that make a painting , sculpture , musical composition ,
+315	silver/p63/d1633	or	disjunction	entailment				David has a keen interest in aesthetics — the qualities that make a painting , sculpture , musical composition ,	David has a keen interest in aesthetics — the qualities that make a painting , sculpture , musical composition , or poem pleasing to the eye , ear , or mind .
+316	silver/p64/d1805	or	disjunction	neutral				I ca n't decide if I 'm happy or sad .	I ca n't decide if I 'm happy
+317	silver/p64/d1805	or	disjunction	entailment				I ca n't decide if I 'm happy	I ca n't decide if I 'm happy or sad .
+318	silver/p65/d1457	or	disjunction	neutral				He is either in London or in Paris .	He is either in London
+319	silver/p65/d1457	or	disjunction	entailment				He is either in London	He is either in London or in Paris .
+320	silver/p65/d2802	or	disjunction	entailment				If you know that something unpleasant will happen , that you will go to the dentist for example , or to France , then that is not good .	If you know that something unpleasant will happen , that you will go to the dentist for example ,
+321	silver/p65/d2802	or	disjunction	neutral				If you know that something unpleasant will happen , that you will go to the dentist for example ,	If you know that something unpleasant will happen , that you will go to the dentist for example , or to France , then that is not good .
+322	silver/p65/d2994	or	disjunction	entailment				""" I 'm mixed blood , so I do n't transform or anything . """	""" I 'm mixed blood , so I do n't transform"
+323	silver/p65/d2994	or	disjunction	neutral				""" I 'm mixed blood , so I do n't transform"	""" I 'm mixed blood , so I do n't transform or anything . """
+324	silver/p66/d3084	or	disjunction	neutral				Culture shock tends to move through four different stages : wonder ( or the honeymoon period ) , frustration , depression and acceptance .	Culture shock tends to move through four different stages : wonder (
+325	silver/p66/d3084	or	disjunction	entailment				Culture shock tends to move through four different stages : wonder (	Culture shock tends to move through four different stages : wonder ( or the honeymoon period ) , frustration , depression and acceptance .
+326	silver/p66/d3094	or	disjunction	neutral				They can come on Monday or Tuesday , but not on Wednesday or Thursday .	They can come on Monday
+327	silver/p66/d3094	or	disjunction	entailment				They can come on Monday	They can come on Monday or Tuesday , but not on Wednesday or Thursday .
+328	silver/p67/d0754	or	disjunction	entailment				Most people are familiar with the idea of St.~Bernards or other dogs taking part in rescue and recovery efforts . Robots might also take part in search and rescue missions .	Most people are familiar with the idea of St.~Bernards
+329	silver/p67/d0754	or	disjunction	neutral				Most people are familiar with the idea of St.~Bernards	Most people are familiar with the idea of St.~Bernards or other dogs taking part in rescue and recovery efforts . Robots might also take part in search and rescue missions .
+330	silver/p67/d0774	or	disjunction	neutral				Hurry up , or you 'll miss the train .	Hurry up ,
+331	silver/p67/d0774	or	disjunction	entailment				Hurry up ,	Hurry up , or you 'll miss the train .
+332	silver/p67/d0903	or	disjunction	entailment				Tom does n't know if Mary is dead or alive .	Tom does n't know if Mary is dead
+333	silver/p67/d0903	or	disjunction	neutral				Tom does n't know if Mary is dead	Tom does n't know if Mary is dead or alive .
+334	silver/p67/d1615	or	disjunction	neutral				You must be able to speak either English or Spanish in this company .	You must be able to speak either English
+335	silver/p67/d1615	or	disjunction	entailment				You must be able to speak either English	You must be able to speak either English or Spanish in this company .
+336	silver/p67/d2772	or	disjunction	neutral				The only thing in the world which one can never receive or give too much is love .	The only thing in the world which one can never receive
+337	silver/p67/d2772	or	disjunction	entailment				The only thing in the world which one can never receive	The only thing in the world which one can never receive or give too much is love .
+338	silver/p67/d2838	or	disjunction	neutral				Tom should 've given Mary flowers or something on Valentine's~Day .	Tom should 've given Mary flowers
+339	silver/p67/d2838	or	disjunction	entailment				Tom should 've given Mary flowers	Tom should 've given Mary flowers or something on Valentine's~Day .
+340	silver/p67/d3446	or	disjunction	entailment				I am not too rich , too fat or too happy .	I am not too rich , too fat
+341	silver/p67/d3446	or	disjunction	neutral				I am not too rich , too fat	I am not too rich , too fat or too happy .
+342	silver/p68/d3286	or	disjunction	neutral				Nothing in this Declaration may be interpreted as implying for any State , group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein .	Nothing in this Declaration may be interpreted as implying for any State , group
+343	silver/p68/d3286	or	disjunction	entailment				Nothing in this Declaration may be interpreted as implying for any State , group	Nothing in this Declaration may be interpreted as implying for any State , group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein .
+344	silver/p71/d0705	or	disjunction	neutral				Many of the Vikings who travelled to Scotland , and other parts of Europe were traders or peaceful settlers looking for land to farm .	Many of the Vikings who travelled to Scotland , and other parts of Europe were traders
+345	silver/p71/d0705	or	disjunction	entailment				Many of the Vikings who travelled to Scotland , and other parts of Europe were traders	Many of the Vikings who travelled to Scotland , and other parts of Europe were traders or peaceful settlers looking for land to farm .
+346	silver/p73/d1659	or	disjunction	neutral				The teacher caned the children if they misbehaved or were unable to recite their times tables .	The teacher caned the children if they misbehaved
+347	silver/p73/d1659	or	disjunction	entailment				The teacher caned the children if they misbehaved	The teacher caned the children if they misbehaved or were unable to recite their times tables .
+348	silver/p74/d0755	or	disjunction	neutral				The Hubble is a scientific workhorse in the prime of its life . It is also the privileged photographer of the universe . Whether the images are of solar systems at birth , galaxies colliding , or the death throes of a star in supernova , Hubble 's photos reveal both the ferocity and tranquillity of our universe .	The Hubble is a scientific workhorse in the prime of its life . It is also the privileged photographer of the universe . Whether the images are of solar systems at birth , galaxies colliding ,
+349	silver/p74/d0755	or	disjunction	entailment				The Hubble is a scientific workhorse in the prime of its life . It is also the privileged photographer of the universe . Whether the images are of solar systems at birth , galaxies colliding ,	The Hubble is a scientific workhorse in the prime of its life . It is also the privileged photographer of the universe . Whether the images are of solar systems at birth , galaxies colliding , or the death throes of a star in supernova , Hubble 's photos reveal both the ferocity and tranquillity of our universe .
+350	silver/p74/d3184	or	disjunction	neutral				Tom goes out with Mary three or four times a month .	Tom goes out with Mary three
+351	silver/p74/d3184	or	disjunction	entailment				Tom goes out with Mary three	Tom goes out with Mary three or four times a month .
+352	silver/p75/d1641	or	disjunction	neutral				I am studying to be a translator or interpreter .	I am studying to be a translator
+353	silver/p75/d1641	or	disjunction	entailment				I am studying to be a translator	I am studying to be a translator or interpreter .
+354	silver/p75/d2344	or	disjunction	entailment				Nowadays there are no ninjas or samurais in Japan .	Nowadays there are no ninjas
+355	silver/p75/d2344	or	disjunction	neutral				Nowadays there are no ninjas	Nowadays there are no ninjas or samurais in Japan .
+356	silver/p75/d2412	or	disjunction	neutral				I ca n't understand if I 'm afraid or happy to go !	I ca n't understand if I 'm afraid
+357	silver/p75/d2412	or	disjunction	entailment				I ca n't understand if I 'm afraid	I ca n't understand if I 'm afraid or happy to go !
+358	silver/p75/d3476	or	disjunction	entailment				The cabin had no water or electricity .	The cabin had no water
+359	silver/p75/d3476	or	disjunction	neutral				The cabin had no water	The cabin had no water or electricity .
+360	silver/p76/d1669	or	disjunction	entailment				I 've never seen this woman sad or anxious .	I 've never seen this woman sad
+361	silver/p76/d1669	or	disjunction	neutral				I 've never seen this woman sad	I 've never seen this woman sad or anxious .
+362	silver/p76/d2990	or	disjunction	neutral				Tom spends a lot of time looking for his car keys , mobile~phone or glasses .	Tom spends a lot of time looking for his car keys , mobile~phone
+363	silver/p76/d2990	or	disjunction	entailment				Tom spends a lot of time looking for his car keys , mobile~phone	Tom spends a lot of time looking for his car keys , mobile~phone or glasses .
+364	silver/p78/d0719	or	disjunction	neutral				General Dynamics , the maker of land combat systems , warships and Gulfstream business jets , reported net earnings of $ 374m in the third quarter , or $ 1.84 per share .	General Dynamics , the maker of land combat systems , warships and Gulfstream business jets , reported net earnings of $ 374m in the third quarter ,
+365	silver/p78/d0719	or	disjunction	entailment				General Dynamics , the maker of land combat systems , warships and Gulfstream business jets , reported net earnings of $ 374m in the third quarter ,	General Dynamics , the maker of land combat systems , warships and Gulfstream business jets , reported net earnings of $ 374m in the third quarter , or $ 1.84 per share .
+366	silver/p78/d2514	or	disjunction	neutral				There are only a few mistakes , or perhaps none at~all .	There are only a few mistakes ,
+367	silver/p78/d2514	or	disjunction	entailment				There are only a few mistakes ,	There are only a few mistakes , or perhaps none at~all .
+368	silver/p78/d2602	or	disjunction	entailment				Someone who does n't drink in company is either a thief or a spy .	Someone who does n't drink in company is either a thief
+369	silver/p78/d2602	or	disjunction	neutral				Someone who does n't drink in company is either a thief	Someone who does n't drink in company is either a thief or a spy .
+370	silver/p78/d2871	or	disjunction	entailment				I do n't know if it was because of the late hour or because of the rain , but there was no one around .	I do n't know if it was because of the late hour
+371	silver/p78/d2871	or	disjunction	neutral				I do n't know if it was because of the late hour	I do n't know if it was because of the late hour or because of the rain , but there was no one around .
+372	silver/p78/d2959	or	disjunction	neutral				Russian adjectives agree in gender , number , and case with the nouns or pronouns to which they refer .	Russian adjectives agree in gender , number , and case with the nouns
+373	silver/p78/d2959	or	disjunction	entailment				Russian adjectives agree in gender , number , and case with the nouns	Russian adjectives agree in gender , number , and case with the nouns or pronouns to which they refer .
+374	silver/p78/d3269	or	disjunction	neutral				Only one of the tires is extremely flat . I wonder if it was punctured by a nail or something .	Only one of the tires is extremely flat . I wonder if it was punctured by a nail
+375	silver/p78/d3269	or	disjunction	entailment				Only one of the tires is extremely flat . I wonder if it was punctured by a nail	Only one of the tires is extremely flat . I wonder if it was punctured by a nail or something .
+376	silver/p79/d0812	or	disjunction	neutral				Stop , or I 'll shoot .	Stop ,
+377	silver/p79/d0812	or	disjunction	entailment				Stop ,	Stop , or I 'll shoot .
+378	silver/p79/d2977	or	disjunction	neutral				I swim once or twice a week .	I swim once
+379	silver/p79/d2977	or	disjunction	entailment				I swim once	I swim once or twice a week .
+380	silver/p81/d1763	or	disjunction	neutral				There are conditions under which breaking a promise or telling a lie are acceptable .	There are conditions under which breaking a promise
+381	silver/p81/d1763	or	disjunction	entailment				There are conditions under which breaking a promise	There are conditions under which breaking a promise or telling a lie are acceptable .
+382	silver/p81/d2118	or	disjunction	entailment				Those who use forks or chopsticks often think people who do n't are uncivilized .	Those who use forks
+383	silver/p81/d2118	or	disjunction	neutral				Those who use forks	Those who use forks or chopsticks often think people who do n't are uncivilized .
+384	silver/p81/d2173	or	disjunction	neutral				I put the bag on or beside the chair .	I put the bag on
+385	silver/p81/d2173	or	disjunction	entailment				I put the bag on	I put the bag on or beside the chair .
+386	silver/p82/d2538	or	disjunction	neutral				There were only two means left to him in order to get a bite to eat . He had either to work or to beg .	There were only two means left to him in order to get a bite to eat . He had either to work
+387	silver/p82/d2538	or	disjunction	entailment				There were only two means left to him in order to get a bite to eat . He had either to work	There were only two means left to him in order to get a bite to eat . He had either to work or to beg .
+388	silver/p83/d2306	or	disjunction	entailment				A black panther can be a jaguar or leopard , but in either case it has a gene that causes it to produce more melanin than other specimens .	A black panther can be a jaguar
+389	silver/p83/d2306	or	disjunction	neutral				A black panther can be a jaguar	A black panther can be a jaguar or leopard , but in either case it has a gene that causes it to produce more melanin than other specimens .
+390	silver/p83/d2836	or	disjunction	neutral				Either he is wrong or I am .	Either he is wrong
+391	silver/p83/d2836	or	disjunction	entailment				Either he is wrong	Either he is wrong or I am .
+392	silver/p85/d0927	or	disjunction	neutral				You 'd better hurry , or you 'll miss the train .	You 'd better hurry ,
+393	silver/p85/d0927	or	disjunction	entailment				You 'd better hurry ,	You 'd better hurry , or you 'll miss the train .
+394	silver/p85/d2830	or	disjunction	neutral				Every politician must be responsive to complaints from the public , or he or she will become inflexible and make disastrous decisions .	Every politician must be responsive to complaints from the public ,
+395	silver/p85/d2830	or	disjunction	entailment				Every politician must be responsive to complaints from the public ,	Every politician must be responsive to complaints from the public , or he or she will become inflexible and make disastrous decisions .
+396	silver/p85/d2854	or	disjunction	entailment				Most of the time , he does n't get to sleep before two or even three~o'clock in the morning .	Most of the time , he does n't get to sleep before two
+397	silver/p85/d2854	or	disjunction	neutral				Most of the time , he does n't get to sleep before two	Most of the time , he does n't get to sleep before two or even three~o'clock in the morning .
+398	silver/p86/d2865	or	disjunction	entailment				It 's not like you 're going to get arrested or anything .	It 's not like you 're going to get arrested
+399	silver/p86/d2865	or	disjunction	neutral				It 's not like you 're going to get arrested	It 's not like you 're going to get arrested or anything .
+400	silver/p87/d2746	or	disjunction	neutral				He is now either in Rome or in Paris .	He is now either in Rome
+401	silver/p87/d2746	or	disjunction	entailment				He is now either in Rome	He is now either in Rome or in Paris .
+402	silver/p88/d1796	or	disjunction	entailment				Either turn down that noise or turn it off .	Either turn down that noise
+403	silver/p88/d1796	or	disjunction	neutral				Either turn down that noise	Either turn down that noise or turn it off .
+404	silver/p88/d2091	or	disjunction	entailment				In Japan you can always catch a cab , day or night .	In Japan you can always catch a cab , day
+405	silver/p88/d2091	or	disjunction	neutral				In Japan you can always catch a cab , day	In Japan you can always catch a cab , day or night .
+406	silver/p88/d2426	or	disjunction	neutral				Gasoline prices affect all of us one way or another .	Gasoline prices affect all of us one way
+407	silver/p88/d2426	or	disjunction	entailment				Gasoline prices affect all of us one way	Gasoline prices affect all of us one way or another .
+408	silver/p91/d2677	or	disjunction	neutral				His handwriting is very poor , I can not make head or tail of it .	His handwriting is very poor , I can not make head
+409	silver/p91/d2677	or	disjunction	entailment				His handwriting is very poor , I can not make head	His handwriting is very poor , I can not make head or tail of it .
+410	silver/p91/d3342	or	disjunction	neutral				"In Hans Christian Andersen 's classic fairy tale , "" The Emperor 's New~Clothes , "" two swindlers promise an emperor beautiful new clothes that are invisible to anyone who is unfit for their position , unjust or stupid ."	"In Hans Christian Andersen 's classic fairy tale , "" The Emperor 's New~Clothes , "" two swindlers promise an emperor beautiful new clothes that are invisible to anyone who is unfit for their position , unjust"
+411	silver/p91/d3342	or	disjunction	entailment				"In Hans Christian Andersen 's classic fairy tale , "" The Emperor 's New~Clothes , "" two swindlers promise an emperor beautiful new clothes that are invisible to anyone who is unfit for their position , unjust"	"In Hans Christian Andersen 's classic fairy tale , "" The Emperor 's New~Clothes , "" two swindlers promise an emperor beautiful new clothes that are invisible to anyone who is unfit for their position , unjust or stupid ."
+412	silver/p92/d0951	or	disjunction	neutral				It 's quite difficult to master French in 2 or 3 years .	It 's quite difficult to master French in 2
+413	silver/p92/d0951	or	disjunction	entailment				It 's quite difficult to master French in 2	It 's quite difficult to master French in 2 or 3 years .
+414	silver/p93/d2551	or	disjunction	neutral				While most ectopic pregnancies occur in the Fallopian tube , it is also possible for them to occur in the ovaries , abdomen , or cervix .	While most ectopic pregnancies occur in the Fallopian tube , it is also possible for them to occur in the ovaries , abdomen ,
+415	silver/p93/d2551	or	disjunction	entailment				While most ectopic pregnancies occur in the Fallopian tube , it is also possible for them to occur in the ovaries , abdomen ,	While most ectopic pregnancies occur in the Fallopian tube , it is also possible for them to occur in the ovaries , abdomen , or cervix .
+416	silver/p94/d3171	or	disjunction	neutral				Originally , Abraham Lincoln wanted all slaves to be deported to Africa or the Caribbean .	Originally , Abraham Lincoln wanted all slaves to be deported to Africa
+417	silver/p94/d3171	or	disjunction	entailment				Originally , Abraham Lincoln wanted all slaves to be deported to Africa	Originally , Abraham Lincoln wanted all slaves to be deported to Africa or the Caribbean .
+418	silver/p94/d3383	or	disjunction	neutral				His uncle went to Europe on business a week ago and he is now either in London or in Paris .	His uncle went to Europe on business a week ago and he is now either in London
+419	silver/p94/d3383	or	disjunction	entailment				His uncle went to Europe on business a week ago and he is now either in London	His uncle went to Europe on business a week ago and he is now either in London or in Paris .
+420	silver/p95/d1506	or	disjunction	neutral				Many people , especially ignorant people want to punish you for speaking the truth , for being correct , for being you . Never appologize for being correct or for being years ahead of your time . If you ’re right and you know it , speak your mind . Even if you are a minority of one , the truth is still the truth .	Many people , especially ignorant people want to punish you for speaking the truth , for being correct , for being you . Never appologize for being correct
+421	silver/p95/d1506	or	disjunction	entailment				Many people , especially ignorant people want to punish you for speaking the truth , for being correct , for being you . Never appologize for being correct	Many people , especially ignorant people want to punish you for speaking the truth , for being correct , for being you . Never appologize for being correct or for being years ahead of your time . If you ’re right and you know it , speak your mind . Even if you are a minority of one , the truth is still the truth .
+422	silver/p95/d2341	or	disjunction	neutral				Politicians are always censured for outrageous or inappropriate behavior .	Politicians are always censured for outrageous
+423	silver/p95/d2341	or	disjunction	entailment				Politicians are always censured for outrageous	Politicians are always censured for outrageous or inappropriate behavior .
+424	silver/p95/d2931	or	disjunction	neutral				You look tired . You ought to rest for an hour or two .	You look tired . You ought to rest for an hour
+425	silver/p95/d2931	or	disjunction	entailment				You look tired . You ought to rest for an hour	You look tired . You ought to rest for an hour or two .
+426	silver/p97/d0705	or	disjunction	entailment				All major wildlife species are now threatened with extinction . No one has seen a Bengal~Tiger , a Puma , a Jaguar or Indonesian Rhinoceros in the natural wildlife habitat for years .	All major wildlife species are now threatened with extinction . No one has seen a Bengal~Tiger , a Puma , a Jaguar
+427	silver/p97/d0705	or	disjunction	neutral				All major wildlife species are now threatened with extinction . No one has seen a Bengal~Tiger , a Puma , a Jaguar	All major wildlife species are now threatened with extinction . No one has seen a Bengal~Tiger , a Puma , a Jaguar or Indonesian Rhinoceros in the natural wildlife habitat for years .
+428	silver/p97/d0962	or	disjunction	neutral				In most cases , the patient is comatose or mentally unable to communicate his/her feelings .	In most cases , the patient is comatose
+429	silver/p97/d0962	or	disjunction	entailment				In most cases , the patient is comatose	In most cases , the patient is comatose or mentally unable to communicate his/her feelings .
+430	silver/p97/d2664	or	disjunction	neutral				There were too many sights to see in a day or two .	There were too many sights to see in a day
+431	silver/p97/d2664	or	disjunction	entailment				There were too many sights to see in a day	There were too many sights to see in a day or two .
+432	silver/p97/d2794	or	disjunction	neutral				There are two or three pens on the desk .	There are two
+433	silver/p97/d2794	or	disjunction	entailment				There are two	There are two or three pens on the desk .
+434	silver/p98/d2720	or	disjunction	entailment				Tom eats eggs without salt or pepper .	Tom eats eggs without salt
+435	silver/p98/d2720	or	disjunction	neutral				Tom eats eggs without salt	Tom eats eggs without salt or pepper .
+436	silver/p98/d3413	or	disjunction	neutral				He showed little interest in books or music .	He showed little interest in books
+437	silver/p98/d3413	or	disjunction	entailment				He showed little interest in books	He showed little interest in books or music .
