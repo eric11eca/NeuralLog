@@ -58,7 +58,7 @@ def preprocess(sentence):
 def dependency_parse(sentence, parser="stanford"):
     processed, replaced = preprocess(sentence)
     if parser == "stanford":
-        return stanfordParse(processed), replaced
+        return stanford_parse(processed), replaced
     elif parser == "stanza":
         return stanza_parse(processed), replaced
 
@@ -137,10 +137,12 @@ def printTree(tree, tag, word):
             f"word: {word[tree[1]][0]}\thead: {word[tree[2]][0]}\tdeprel: {tree[0]}", sep="\n")
 
 
-def stanfordParse(sentence):
+def stanford_parse(sentence):
     postag = {}
     wordids = {}
     tokens = {}
+    head_log = {}
+    depdent_log = {}
     parse_tree = []
 
     tokenized = list(parser.tokenize(sentence))
@@ -157,8 +159,23 @@ def stanfordParse(sentence):
             relation = rel[3].lower()
             postag[rel[0]] = (dependent, rel[1])
             wordids[dependent] = (rel[0], rel[1])
+
             if relation != "punct":
-                parse_tree.append([relation, dependent, govenor])
+                node = [relation, dependent, govenor]
+
+                if node[2] in head_log:
+                    head_log[node[2]].append(node[0])
+                else:
+                    head_log[node[2]] = [node[0]]
+
+                if node[1] in depdent_log:
+                    depdent_log[node[1]].append(node[0])
+                else:
+                    depdent_log[node[1]] = [node[0]]
+
+                parse_tree.append(node)
+
+    enhance_parse(parse_tree, head_log, depdent_log, wordids)
     return parse_tree, postag, wordids
 
 
@@ -177,8 +194,8 @@ if __name__ == '__main__':
     parsed, replace = dependency_parse("tiempo de bueno", parser="stanza")
     tree, postags, words = parsed
     print(tree)
-    print(postags)
-    '''
-    tree, postags, words = stanza_parse("John can sing and dance")
+    print(postags)'''
+
+    tree, postags, words = stanford_parse("John can sing and dance")
     print(tree)
     print(postags)

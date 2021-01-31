@@ -555,6 +555,10 @@ class PolarizationPipeline:
         if self.verbose == 2:
             self.postprocess(binary_dep, replaced)
 
+    def get_annotation_info(self, annotation):
+        ann = list(annotation.popkeys())
+        return list(zip(*ann))
+
     def single_polarization(self, sentence):
         parsed, replaced = dependency_parse(sentence, self.parser)
 
