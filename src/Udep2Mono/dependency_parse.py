@@ -140,21 +140,18 @@ def printTree(tree, tag, word):
 def stanford_parse(sentence):
     postag = {}
     wordids = {}
-    tokens = {}
     head_log = {}
     depdent_log = {}
     parse_tree = []
 
     tokenized = list(parser.tokenize(sentence))
-    for i in range(len(tokenized)):
-        tokens[tokenized[i]] = i+1
 
     parsed = list(dep_parser.raw_parse(sentence))[0]
     dep_rels = parsed.to_conll(4).split('\n')
     for dep_rel in dep_rels:
         rel = dep_rel.split('\t')
         if len(rel) == 4:
-            dependent = tokens[rel[0]]
+            dependent = tokenized.index(rel[0]) + 1
             govenor = int(rel[2])
             relation = rel[3].lower()
             postag[rel[0]] = (dependent, rel[1])

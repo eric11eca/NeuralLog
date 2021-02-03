@@ -525,7 +525,6 @@ class PolarizationPipeline:
 
     def run_binarization(self, parsed, replaced, sentence):
         self.binarizer.parse_table = parsed[0]
-        self.binarizer.postag = parsed[1]
         self.binarizer.words = parsed[2]
 
         if self.verbose == 2:

@@ -16,6 +16,15 @@ class BinaryDependencyTree:
         self.length = 0
         self.leaves = pqdict({})
 
+    def __hash__(self):
+        return hash((self.val, self.mark, self.id, self.pos))
+
+    def __eq__(self, other):
+        return (self.val, self.mark, self.id, self.pos) == (self.val, self.mark, self.id, self.pos)
+
+    def __ne__(self, other):
+        return not(self == other)
+
     def sorted_leaves(self):
         self.traverse(self)
         return self.leaves
@@ -100,8 +109,7 @@ hierarchy = {
 
 
 class Binarizer:
-    def __init__(self, parse_table=None, postag=None, words=None):
-        self.postag = postag
+    def __init__(self, parse_table=None, words=None):
         self.parse_table = parse_table
         self.words = words
         self.id = 0
