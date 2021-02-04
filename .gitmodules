@@ -1,0 +1,3 @@
+[submodule "src/sapphire"]
+	path = src/sapphire
+	url = https://github.com/m-yoshinaka/sapphire.git
