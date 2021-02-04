@@ -104,9 +104,9 @@ def enhance_parse(tree, heads, deps, words):
             elif "NN" in words[node[1]][1] and "NN" in words[node[2]][1]:
                 node[0] = "conj-np"
             elif "VB" in words[node[1]][1] and "VB" in words[node[2]][1]:
-                node[0] = "conj-vp"
-                if not node[1] in deps and not node[2] in deps:
-                    node[0] = "conj-vb"
+                node[0] = "conj-vb"
+                if len(set(heads[node[1]]) & set(["obj", "xcomp", "obl"])) and len(set(heads[node[2]]) & set(["obj", "xcomp", "obl"])):
+                    node[0] = "conj-vp"
         if node[0] == "advcl":
             if words[1][0] == "if":
                 node[0] = "advcl-sent"
@@ -120,12 +120,12 @@ def enhance_parse(tree, heads, deps, words):
 
 
 def post_process(sent, word, postag, words):
-    wordID = int(word.id)
-    if wordID not in words:
-        postag[word.text] = (wordID, word.xpos)
-        words[wordID] = (word.text, word.xpos)
+    word_id = int(word.id)
+    if word_id not in words:
+        postag[word.text] = (word_id, word.xpos)
+        words[word_id] = (word.text, word.xpos)
     if word.deprel != "punct":
-        tree_node = [word.deprel, wordID,
+        tree_node = [word.deprel, word_id,
                      word.head if word.head > 0 else "root"]
         return tree_node
     return []
