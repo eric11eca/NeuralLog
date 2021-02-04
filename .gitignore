@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+__pycache__/
+.vscode
+glove/
+model/
+syntree.png
+tree.png
+tree.ps
+T-LSTM-master.zip
