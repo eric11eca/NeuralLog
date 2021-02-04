@@ -193,6 +193,7 @@ if __name__ == '__main__':
     print(tree)
     print(postags)'''
 
-    tree, postags, words = stanford_parse("John can sing and dance")
+    tree, postags, words = stanford_parse(
+        "People are riding and paddling a raft")
     print(tree)
     print(postags)
