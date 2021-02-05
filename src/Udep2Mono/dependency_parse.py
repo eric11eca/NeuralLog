@@ -18,10 +18,12 @@ nlp = stanza.Pipeline(
     pos_batch_size=2000
 )'''
 
+pkg = "ewt"  # gum
+
 nlp = stanza.Pipeline(
     "en",
-    processors={"tokenize": "gum", "pos": "gum",
-                "lemma": "gum", "depparse": "gum"},
+    processors={"tokenize": pkg, "pos": pkg,
+                "lemma": pkg, "depparse": pkg},
     use_gpu=True,
     pos_batch_size=2000
 )
@@ -194,6 +196,6 @@ if __name__ == '__main__':
     print(postags)'''
 
     tree, postags, words = stanford_parse(
-        "People are riding and paddling a raft")
+        "A Californian special policeman pulled a car over and spole to the driver")
     print(tree)
-    print(postags)
+    print(words)

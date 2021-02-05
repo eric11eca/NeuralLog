@@ -1,30 +1,11 @@
 
 ====================================
-Init Premise: Some students sing to celebrate their graduation
-Next Premise: some students sing
-Next Premise: some students sing to celebrate graduation
-====================================
-Init Premise: An Irishman won the nobel prize for literature.
-Next Premise: an irishman won the nobel prize
-Next Premise: an irishman won the prize for literature
-====================================
-Init Premise: A big poison spider was spanning a web
-Next Premise: a poison spider was spanning web
-Next Premise: a big spider was spanning web
-====================================
 Init Premise: A Californian special policeman pulled a car over and spole to the driver
-Next Premise: a special policeman pulled car over and spole to the driver
-Next Premise: a californian policeman pulled car over and spole to the driver
-Next Premise: a californian special policeman pulled car over
-Next Premise: a californian special policeman pulled car over and spole
-Next Premise: a californian special policeman pulled car and spole to the driver
-Next Premise: a californian special policeman and spole
-====================================
-Init Premise: A woman is dancing in a cage
-Next Premise: a woman is dancing
-====================================
-Init Premise: A woman is dancing beautifully in a cage
-Next Premise: a woman is dancing in cage
-Next Premise: a woman is dancing beautifully
-====================================
-Init Premise: People are riding and paddling a raft
+Next Premise: a special policeman pulled a car over and spole to the driver
+Next Premise: a californian policeman pulled a car over and spole to the driver
+Next Premise: a californian special policeman spole to the driver
+Next Premise: a californian special policeman pulled a car over spole
+Next Premise: a californian special policeman pulled a car and spole to the driver
+Next Premise: a californian special policeman pulled a car over
+Next Premise: a californian special policeman pulled a car over spole
+Next Premise: a californian special policeman pulled a car and spole to the driver
