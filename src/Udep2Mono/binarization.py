@@ -19,11 +19,13 @@ class BinaryDependencyTree:
     def __hash__(self):
         return hash((self.val, self.mark, self.id, self.pos))
 
-    def __eq__(self, other):
-        return (self.val, self.mark, self.id, self.pos) == (self.val, self.mark, self.id, self.pos)
+    """def __eq__(self, other):
+        if other == None:
+            return False
+        return (self.val, self.mark, self.id, self.pos) == (other.val, other.mark, other.id, other.pos)"""
 
-    def __ne__(self, other):
-        return not(self == other)
+    """def __ne__(self, other):
+        return not(self == other)"""
 
     def sorted_leaves(self):
         self.traverse(self)
