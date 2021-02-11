@@ -105,6 +105,7 @@ hierarchy = {
     "nummod": 75,
     "compound": 80,
     "amod": 75,
+    "conj-n": 90,
     "conj-vb": 90,
     "flat": 100
 }

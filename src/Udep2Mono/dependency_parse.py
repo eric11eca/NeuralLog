@@ -104,11 +104,24 @@ def enhance_parse(tree, heads, deps, words):
             elif words[node[1]][1] == "JJ" and words[node[2]][1] == "JJ":
                 node[0] = "conj-adj"
             elif "NN" in words[node[1]][1] and "NN" in words[node[2]][1]:
-                node[0] = "conj-np"
+                node[0] = "conj-n"
+                vp_rel = set(["amod", "compound", "compound",  "compound:prt", "det",
+                              "nummod", "appos", "advmod", "nmod", "nmod:poss"])
+                vp_left = set(heads[node[1]]) & vp_rel
+                vp_right = set(heads[node[2]]) & vp_rel
+                if len(vp_left) and len(vp_right):
+                    node[0] = "conj-np"
             elif "VB" in words[node[1]][1] and "VB" in words[node[2]][1]:
                 node[0] = "conj-vb"
-                if len(set(heads[node[1]]) & set(["obj", "xcomp", "obl"])) and len(set(heads[node[2]]) & set(["obj", "xcomp", "obl"])):
-                    node[0] = "conj-vp"
+                vp_rel = set(["obj", "xcomp", "obl"])
+                vp_left = set(heads[node[1]]) & vp_rel
+                vp_right = set(heads[node[2]]) & vp_rel
+
+                if len(vp_left):
+                    if len(vp_right):
+                        node[0] = "conj-vp"
+                    # else:
+
         if node[0] == "advcl":
             if words[1][0] == "if":
                 node[0] = "advcl-sent"
@@ -195,7 +208,11 @@ if __name__ == '__main__':
     print(tree)
     print(postags)'''
 
-    tree, postags, words = stanford_parse(
-        "A Californian special policeman pulled a car over and spole to the driver")
+    tree, postags, words = stanza_parse("A girl makes and eats an apple")
     print(tree)
     print(words)
+
+[['det', 1, 2], ['nsubj', 2, 3], ['root', 3, 'root'], [
+    'cc', 4, 5], ['conj-vb', 5, 3], ['det', 6, 7], ['obj', 7, 5]]
+{1: ('A', 'DT'), 2: ('girl', 'NN'), 3: ('makes', 'VBZ'), 4: ('and', 'CC'),
+ 5: ('eats', 'VBZ'), 6: ('an', 'DT'), 7: ('apple', 'NNP')}
