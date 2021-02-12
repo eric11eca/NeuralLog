@@ -18,7 +18,9 @@ nlp = stanza.Pipeline(
     pos_batch_size=2000
 )'''
 
-pkg = "ewt"  # gum
+pkg = "gum"
+pkg = "ParTUT"
+pkg = "ewt"
 
 nlp = stanza.Pipeline(
     "en",
@@ -211,8 +213,3 @@ if __name__ == '__main__':
     tree, postags, words = stanza_parse("A girl makes and eats an apple")
     print(tree)
     print(words)
-
-[['det', 1, 2], ['nsubj', 2, 3], ['root', 3, 'root'], [
-    'cc', 4, 5], ['conj-vb', 5, 3], ['det', 6, 7], ['obj', 7, 5]]
-{1: ('A', 'DT'), 2: ('girl', 'NN'), 3: ('makes', 'VBZ'), 4: ('and', 'CC'),
- 5: ('eats', 'VBZ'), 6: ('an', 'DT'), 7: ('apple', 'NNP')}
