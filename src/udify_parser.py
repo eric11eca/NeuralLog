@@ -1,5 +1,26 @@
 import json
 
+from allennlp.common import Params
+from allennlp.common.util import import_submodules
+from allennlp.models.archival import archive_model
+
+from udify import util
+from pathlib import Path
+
+import_submodules("udify")
+
+archive_dir = archive_dir = Path(
+    "udify_model/udify-model.tar.gz").resolve().parent
+config_file = archive_dir / "config.json"
+
+overrides = {}
+overrides["trainer"] = {"cuda_device": 1}
+overrides["dataset_reader"] = {"lazy": True}
+configs = [Params(overrides), Params.from_file(config_file)]
+params = util.merge_configs(configs)
+
+predictor = "udify_text_predictor"
+
 
 def post_process(word, deprel, word_id, words):
     if word_id not in words:
@@ -12,6 +33,9 @@ def post_process(word, deprel, word_id, words):
 
 
 def udify_parse():
+    util.predict_model_with_archive(
+        predictor, params, archive_dir, "input.txt", 'output.txt', batch_size=32)
+
     parsed = []
     with open('output.txt', 'r') as depparse:
         for p in depparse:
@@ -87,3 +111,8 @@ def enhance_parse(tree, heads, deps, words):
             node[0] = "case-after"
         if words[node[1]][0] in ["at-most", "at-least", "more-than", "less-than"]:
             node[0] = "det"
+
+
+if __name__ == "main":
+    parse_trees = udify_parse()
+    print(parse_trees)

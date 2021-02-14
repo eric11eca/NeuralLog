@@ -1,0 +1,475 @@
+[{
+  "_id": {
+    "$oid": "5fd18724c624d91cdd508df6"
+  },
+  "word": "all",
+  ">": [],
+  "<": [
+    "most",
+    "many",
+    "several",
+    "some",
+    "a",
+    "an",
+    "one"
+  ],
+  "=": [
+    "each",
+    "every",
+    "all-of-the",
+    "each-of-the"
+  ],
+  "!": []
+},{
+  "_id": {
+    "$oid": "5fd18724c624d91cdd508df7"
+  },
+  "word": "every",
+  ">": [],
+  "<": [
+    "most",
+    "many",
+    "several",
+    "some",
+    "a",
+    "an",
+    "one"
+  ],
+  "=": [
+    "each",
+    "all",
+    "all-of-the",
+    "each-of-the"
+  ],
+  "!": []
+},{
+  "_id": {
+    "$oid": "5fd18724c624d91cdd508df8"
+  },
+  "word": "each",
+  ">": [],
+  "<": [
+    "most",
+    "many",
+    "several",
+    "some",
+    "a",
+    "an",
+    "one"
+  ],
+  "=": [
+    "all",
+    "every",
+    "all-of-the",
+    "each-of-the"
+  ],
+  "!": []
+},{
+  "_id": {
+    "$oid": "5fd18724c624d91cdd508df9"
+  },
+  "word": "all-of-the",
+  ">": [],
+  "<": [
+    "most",
+    "many",
+    "several",
+    "some",
+    "a",
+    "an",
+    "one"
+  ],
+  "=": [
+    "each",
+    "every",
+    "all",
+    "each-of-the"
+  ],
+  "!": []
+},{
+  "_id": {
+    "$oid": "5fd18724c624d91cdd508dfa"
+  },
+  "word": "each-of-the",
+  ">": [],
+  "<": [
+    "most",
+    "many",
+    "several",
+    "some",
+    "a",
+    "an",
+    "one"
+  ],
+  "=": [
+    "each",
+    "every",
+    "all",
+    "all-of-the"
+  ],
+  "!": []
+},{
+  "_id": {
+    "$oid": "5fd18789c624d91cdd508dfb"
+  },
+  "word": "some",
+  ">": [
+    "every",
+    "all",
+    "each",
+    "most",
+    "many",
+    "several",
+    "the",
+    "at-least",
+    "num"
+  ],
+  "<": [],
+  "=": [
+    "a",
+    "an",
+    "one"
+  ],
+  "!": []
+},{
+  "_id": {
+    "$oid": "5fd18789c624d91cdd508dfc"
+  },
+  "word": "a",
+  ">": [
+    "every",
+    "all",
+    "each",
+    "most",
+    "many",
+    "several",
+    "the",
+    "at-least",
+    "num"
+  ],
+  "<": [],
+  "=": [
+    "some",
+    "an",
+    "one"
+  ],
+  "!": []
+},{
+  "_id": {
+    "$oid": "5fd18789c624d91cdd508dfd"
+  },
+  "word": "an",
+  ">": [
+    "every",
+    "all",
+    "each",
+    "most",
+    "many",
+    "several",
+    "the",
+    "at-least",
+    "num"
+  ],
+  "<": [],
+  "=": [
+    "a",
+    "some",
+    "one"
+  ],
+  "!": []
+},{
+  "_id": {
+    "$oid": "5fd18789c624d91cdd508dfe"
+  },
+  "word": "several",
+  ">": [
+    "every",
+    "all",
+    "each",
+    "most",
+    "many",
+    "num"
+  ],
+  "<": [
+    "some",
+    "a",
+    "an",
+    "one",
+    "at-least-several"
+  ],
+  "=": [
+    "a few",
+    "several-of-the"
+  ],
+  "!": []
+},{
+  "_id": {
+    "$oid": "5fd18789c624d91cdd508dff"
+  },
+  "word": "a-few",
+  ">": [
+    "every",
+    "all",
+    "each",
+    "most",
+    "many",
+    "num"
+  ],
+  "<": [
+    "some",
+    "a",
+    "an",
+    "one",
+    "at-least-several"
+  ],
+  "=": [
+    "several",
+    "several-of-the"
+  ],
+  "!": []
+},{
+  "_id": {
+    "$oid": "5fd18789c624d91cdd508e00"
+  },
+  "word": "several-of-the",
+  ">": [
+    "every",
+    "all",
+    "each",
+    "most",
+    "many",
+    "num"
+  ],
+  "<": [
+    "some",
+    "a",
+    "an",
+    "one",
+    "at-least-several"
+  ],
+  "=": [
+    "several",
+    "a-few"
+  ],
+  "!": []
+},{
+  "_id": {
+    "$oid": "5fd18789c624d91cdd508e01"
+  },
+  "word": "the",
+  ">": [],
+  "<": [
+    ""
+  ],
+  "=": [
+    "a",
+    "an",
+    "one"
+  ],
+  "!": []
+},{
+  "_id": {
+    "$oid": "5fd1879ec624d91cdd508e02"
+  },
+  "word": "most",
+  ">": [
+    "all",
+    "each",
+    "every",
+    "all-of-the",
+    "each-of-the"
+  ],
+  "<": [
+    "many",
+    "several",
+    "some",
+    "a",
+    "an"
+  ],
+  "=": [],
+  "!": []
+},{
+  "_id": {
+    "$oid": "5fd1879ec624d91cdd508e03"
+  },
+  "word": "many",
+  ">": [
+    "all",
+    "each",
+    "every",
+    "all-of-the",
+    "each-of-the",
+    "most"
+  ],
+  "<": [
+    "several",
+    "some",
+    "a",
+    "an"
+  ],
+  "=": [],
+  "!": []
+},{
+  "_id": {
+    "$oid": "5fd1b748aecc0f297c87123b"
+  },
+  "word": "no",
+  ">": [],
+  "<": [
+    "at-most"
+  ],
+  "=": [
+    "none-of-the"
+  ],
+  "!": []
+},{
+  "_id": {
+    "$oid": "5fd245254cc8ee14bae12150"
+  },
+  "word": "several-of-the",
+  ">": [
+    "every",
+    "all",
+    "each",
+    "most",
+    "many",
+    "num"
+  ],
+  "<": [
+    "some",
+    "a",
+    "an",
+    "one",
+    "at-least-several"
+  ],
+  "=": [
+    "several",
+    "a-few"
+  ],
+  "!": []
+},{
+  "_id": {
+    "$oid": "5fd245254cc8ee14bae12151"
+  },
+  "word": "the",
+  ">": [],
+  "<": [
+    ""
+  ],
+  "=": [
+    "a",
+    "an",
+    "one"
+  ],
+  "!": []
+},{
+  "_id": {
+    "$oid": "5fd5deaf3249c2855cd2a31f"
+  },
+  "word": "all",
+  ">": [],
+  "<": [
+    "most",
+    "many",
+    "several",
+    "some",
+    "a",
+    "an",
+    "one"
+  ],
+  "=": [
+    "each",
+    "every",
+    "all-of-the",
+    "each-of-the"
+  ],
+  "!": []
+},{
+  "_id": {
+    "$oid": "5fd5deaf3249c2855cd2a320"
+  },
+  "word": "every",
+  ">": [],
+  "<": [
+    "most",
+    "many",
+    "several",
+    "some",
+    "a",
+    "an",
+    "one"
+  ],
+  "=": [
+    "each",
+    "all",
+    "all-of-the",
+    "each-of-the"
+  ],
+  "!": []
+},{
+  "_id": {
+    "$oid": "5fd5deaf3249c2855cd2a321"
+  },
+  "word": "each",
+  ">": [],
+  "<": [
+    "most",
+    "many",
+    "several",
+    "some",
+    "a",
+    "an",
+    "one"
+  ],
+  "=": [
+    "all",
+    "every",
+    "all-of-the",
+    "each-of-the"
+  ],
+  "!": []
+},{
+  "_id": {
+    "$oid": "5fd5deaf3249c2855cd2a322"
+  },
+  "word": "all-of-the",
+  ">": [],
+  "<": [
+    "most",
+    "many",
+    "several",
+    "some",
+    "a",
+    "an",
+    "one"
+  ],
+  "=": [
+    "each",
+    "every",
+    "all",
+    "each-of-the"
+  ],
+  "!": []
+},{
+  "_id": {
+    "$oid": "5fd5deaf3249c2855cd2a323"
+  },
+  "word": "each-of-the",
+  ">": [],
+  "<": [
+    "most",
+    "many",
+    "several",
+    "some",
+    "a",
+    "an",
+    "one"
+  ],
+  "=": [
+    "each",
+    "every",
+    "all",
+    "all-of-the"
+  ],
+  "!": []
+}]

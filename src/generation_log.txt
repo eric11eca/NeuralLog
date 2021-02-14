@@ -1,11 +1,3 @@
 
 ====================================
-Init Premise: A Californian special policeman pulled a car over and spole to the driver
-Next Premise: a special policeman pulled a car over and spole to the driver
-Next Premise: a californian policeman pulled a car over and spole to the driver
-Next Premise: a californian special policeman spole to the driver
-Next Premise: a californian special policeman pulled a car over spole
-Next Premise: a californian special policeman pulled a car and spole to the driver
-Next Premise: a californian special policeman pulled a car over
-Next Premise: a californian special policeman pulled a car over spole
-Next Premise: a californian special policeman pulled a car and spole to the driver
+Init Premise: Kroger sells more eggs and milk and butter than fish and meat
