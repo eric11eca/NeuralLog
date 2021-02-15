@@ -587,27 +587,44 @@ class PolarizationPipeline:
                     print(str(e))
                 self.exceptioned.append(sent)
 
-    def polarize_eval(self, sentences, labels):
-        incorrect = []
-        need_process = []
-        num_correct = 0
+    def polarize_eval(self, annotations_val=[]):
+        num_unmatched = 0
+        self.incorrect = []
+        self.annotations = []
+        self.verbose = 1
 
-        for i in tqdm(range(len(sentences))):
-            annotation = pipeline.single_polarization(sentences[i])
+        self.batch_polarization()
+
+        for i in tqdm(range(len(self.annotations))):
+            annotation = self.annotations[i]
             annotated_sent = annotation2string(annotation)
+
             vec = [arrow2int(x) for x in annotated_sent.split(' ')]
-            label = [arrow2int(x) for x in labels[i].split(' ')]
 
-            if len(vec) == len(label):
-                x = np.array(vec)
-                y = np.array(label)
-                if np.array_equal(x, y):
-                    num_correct += 1
-                else:
-                    incorrect.append(annotation['original'])
-            else:
-                need_process.append(annotation['original'])
+            if len(annotations_val) > 0:
+                annotation_val = annotations_val[i]
+                vec_val = convert2vector(annotation_val)
+                if len(vec) == len(vec_val):
+                    if not np.array_equal(vec, vec_val):
+                        num_unmatched += 1
+                        self.incorrect.append(
+                            (output[1], output[0], annotation_val, postags))
+                    if self.parser == "stanford":
+                        continue
 
-        print("Correct annotation: ", num_correct)
-        print(incorrect)
-        print(need_process)
+            validate = ""
+            if len(annotations_val) > 0:
+                validate = annotations_val[i]
+
+            self.annotations.append(
+                {
+                    "annotated": output[0],
+                    "polarized": output[2],
+                    "validation": validate,
+                    "orig": output[1],
+                    "postag": postags
+                }
+            )
+
+        print()
+        print("Number of unmatched sentences: ", num_unmatched)

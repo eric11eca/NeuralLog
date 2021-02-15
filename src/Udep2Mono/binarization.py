@@ -92,6 +92,7 @@ hierarchy = {
     "obj": 60,
     "obl": 50,
     "obl:tmod": 50,
+    "obl:npmod": 50,
     "cop": 50,
     "acl": 60,
     "acl:relcl": 60,
