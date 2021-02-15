@@ -103,6 +103,7 @@ hierarchy = {
     "det:predet": 55,
     "cc": 70,
     "nummod": 75,
+    "fixed": 80,
     "compound": 80,
     "compound:prt": 80,
     "amod": 75,
