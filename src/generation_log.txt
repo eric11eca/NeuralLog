@@ -1,38 +1,15 @@
 
 ====================================
 Init Premise: No spider was spanning a web
-Next Premise: no beautiful spider was spanning a web
-Next Premise: no red spider was spanning a web
-Next Premise: no fragret spider was spanning a web
-Next Premise: no spider which is beautiful was spanning a web
-Next Premise: no spider which opens at night was spanning a web
-Next Premise: no spider was ergently spanning a web
-Next Premise: no spider was spanning ergently a web
-Next Premise: No spider was spanning a web ergently
-Next Premise: no spider was clearly spanning a web
-Next Premise: no spider was spanning clearly a web
-Next Premise: No spider was spanning a web clearly
-Next Premise: no spider was neccesaraly spanning a web
-Next Premise: no spider was spanning neccesaraly a web
-Next Premise: No spider was spanning a web neccesaraly
-Next Premise: no spider was spanning a beautiful web
-Next Premise: no spider was spanning a red web
-Next Premise: no spider was spanning a fragret web
-Next Premise: no spider was spanning a web which is beautiful
-Next Premise: no spider was spanning a web which opens at night
+Next Premise: no spider was spanning a poison web
+Next Premise: no poison spider was spanning a web
 ====================================
 Init Premise: No student finished homework
-Next Premise: no beautiful student finished homework
-Next Premise: no red student finished homework
-Next Premise: no fragret student finished homework
-Next Premise: no student which is beautiful finished homework
-Next Premise: no student which opens at night finished homework
-Next Premise: no student ergently finished homework
-Next Premise: no student finished ergently homework
-Next Premise: No student finished homework ergently
-Next Premise: no student clearly finished homework
-Next Premise: no student finished clearly homework
-Next Premise: No student finished homework clearly
-Next Premise: no student neccesaraly finished homework
-Next Premise: no student finished neccesaraly homework
-Next Premise: No student finished homework neccesaraly
+Next Premise: no student compeletly finished homework
+Next Premise: no student finished homework compeletly
+Next Premise: no student at school finished homework
+Next Premise: no student finished compeletly homework
+====================================
+Init Premise: I've never flown in an airplane
+Next Premise: i 've never flown in an airplane never
+Next Premise: i 've never flown in an airplane because i 'm afraid

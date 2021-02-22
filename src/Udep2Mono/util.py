@@ -2,6 +2,32 @@ from pattern.en import conjugate
 import pandas as pd
 import numpy as np
 
+"""import json
+with open('../data/synthetic1.jsonl', 'r') as syn:
+    val_x = []
+    val_y = []
+    for line in syn.readlines():
+        data = json.loads(line)
+        val_x.append(data['question']['stem'])
+        val_y.append(data['question']['output'])
+
+
+pipeline = PolarizationPipeline(verbose=0)
+i = 0
+for i in range(len(val_x)):
+    if i > 10:
+        break
+    annotation = pipeline.single_polarization(val_x[i])
+    ann = list(annotation['annotated'].popkeys())
+    ann = list(zip(*ann))
+    polarity = ann[2]
+    print(' '.join(ann[0]))
+    print(' '.join(polarity))
+    print(val_y[i].replace('u', '+').replace('e', '=').replace('d', '-'))
+    tree1 = pipeline.postprocess(annotation["polarized_tree"], [])
+    btree = Tree.fromstring(tree1.replace('[', '(').replace(']', ')'))
+    jupyter_draw_nltk_tree(btree)"""
+
 negate_mark = {
     "+": "-",
     "-": "+",

@@ -1,13 +1,13 @@
 import stanza
 
-from nltk.parse import CoreNLPParser
-from nltk.parse.corenlp import CoreNLPDependencyParser
+#from nltk.parse import CoreNLPParser
+#from nltk.parse.corenlp import CoreNLPDependencyParser
 
-parser = CoreNLPParser(url='http://localhost:9000')
-dep_parser = CoreNLPDependencyParser(url='http://localhost:9000')
+#parser = CoreNLPParser(url='http://localhost:9000')
+#dep_parser = CoreNLPDependencyParser(url='http://localhost:9000')
 
-pkg = "gum"
 pkg = "ewt"
+pkg = "gum"
 
 nlp = stanza.Pipeline(
     "en",

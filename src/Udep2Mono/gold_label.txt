@@ -32,7 +32,7 @@ No↑ students↓ liked↓ any↓ class↓ in↓ Chemistry↓
 All↑ students↓ except↓ engineers= must↑ take↑ a↑ class↑ in↑ Organic↑ Chemistry↑
 All↑ but↑ five= dogs= died=
 All↑ the↓ cats= except↓ for↓ two= runs=
-All↑ the↓ cats= except↓ for↓ at↓ most↓ two↑ like= chocolate=
+All↑ the↓ cats= except↓ for↓ at↓ most↓ two↓ eat= chocolate=
 Three= out↓ of↓ five= dentists↑ recommend↑ that↑ their↑ patients↑ brush↑ their↑ teeth↑ at↑ least↑ four↓ times↑ a↑ day↑
 No↑ dentist↓ who↓ recommends↓ that↓ their↓ patients↓ brush↓ their↓ teeth↓ at↓ least↓ four↓ times↓ a↓ day↓ gave↓ five↓ patients↓ a↓ toothbrush↓
 Every↑ doctor↓ who↓ told↓ her↓ patients↓ to↓ take↓ three= pills= a= day= was↑ afraid↑ that↑ taking↑ four↑ or↑ more↑ would↑ kill↑ them↑
