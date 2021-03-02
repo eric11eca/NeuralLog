@@ -90,6 +90,7 @@ hierarchy = {
     "aux": 40,
     "aux:pass": 40,
     "obj": 60,
+    "iobj": 60,
     "obl": 50,
     "obl:tmod": 50,
     "obl:npmod": 50,
@@ -107,10 +108,12 @@ hierarchy = {
     "fixed": 80,
     "compound": 80,
     "compound:prt": 80,
+    "fixed": 80,
     "amod": 75,
     "conj-n": 90,
     "conj-vb": 90,
-    "flat": 100
+    "flat": 100,
+    "goeswith": 100
 }
 
 

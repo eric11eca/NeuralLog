@@ -1,6 +1,0 @@
-[submodule "src/sapphire"]
-	path = src/sapphire
-	url = https://github.com/m-yoshinaka/sapphire.git
-[submodule "src/src/sapphire"]
-	path = src/src/sapphire
-	url = https://github.com/m-yoshinaka/sapphire.git

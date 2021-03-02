@@ -6,6 +6,42 @@ from Udep2Mono.dependency_parse import dependency_parse
 from Udep2Mono.util import *
 
 
+scalar_comparative = {
+    "taller": ["+", "-"],
+    "lower": ["-", "+"],
+    "higher": ["-", "+"],
+    "faster": ["+", "-"],
+    "slower": ["-", "+"],
+    "longer": ["+", "-"],
+    "shorter": ["-", "+"],
+    "heavier": ["+", "-"],
+    "lighter": ["-", "+"],
+    "deeper": ["+", "-"],
+    "shawlloer": ["-", "+"],
+    "brighter": ["+", "-"],
+    "darker": ["-", "+"],
+    "hotter": ["+", "-"],
+    "colder": ["-", "+"],
+    "warmer": ["+", "-"],
+    "cooler": ["-", "+"],
+    "bigger": ["+", "-"],
+    "larger": ["+", "-"],
+    "smaller": ["-", "+"],
+    "more": ["+", "-"],
+    "less": ["-", "+"],
+    "fewer": ["-", "+"],
+    "greater": ["+", "-"],
+    "stronger": ["+", "-"],
+    "weaker": ["-", "+"],
+    "dryer": ["-", "+"],
+    "wetter": ["+", "-"],
+    "tigher": ["+", "-"],
+    "loose": ["-", "+"],
+    "farther": ["+", "-"],
+    "closer": ["-", "+"],
+}
+
+
 class Polarizer:
     def __init__(self, dependtree=None, relation=None):
         self.dependtree = dependtree
@@ -49,7 +85,7 @@ class Polarizer:
             "nsubj:pass": self.polarize_nsubj,
             "nummod": self.polarize_nummod,
             "obj": self.polarize_obj,
-            "obl": self.polarize_obj,
+            "obl": self.polarize_obl,
             "obl:npmod": self.polarize_oblnpmod,
             "obl:tmod": self.polarize_inherite,
             "parataxis": self.polarize_inherite,
@@ -60,6 +96,8 @@ class Polarizer:
 
         self.DETEXIST = "det:exist"
         self.DETNEGATE = "det:negation"
+
+        self.nsubj_right_equal = False
 
     def polarize_deptree(self):
         self.polarize(self.dependtree)
@@ -121,6 +159,9 @@ class Polarizer:
         if left.val.lower() in ["many", "most"]:
             self.equalize(right)
             tree.mark = right.mark
+        elif left.val.lower() == "few":
+            self.top_down_negate(
+                tree, "amod", self.relation.index(tree.key))
         elif left.val.lower() == "fewer":
             self.noun_mark_replace(right, "-")
         elif left.val == "advmod":
@@ -149,8 +190,21 @@ class Polarizer:
             if right.is_tree:
                 self.polarize(right)
         elif left.val == "except":
-            right.mark = "="
-            self.polarize(right)
+            if right.is_tree and right.left.val == "for":
+                self.nsubj_right_equal = True
+        #    right.mark = "="
+        #    self.polarize(right)
+
+        elif left.val == "than":
+            temp, changes = self.find_comparative(tree)
+            if(temp is not None and changes is not None):
+                if(changes[0] != "+"):
+                    temp.parent.mark = changes[0]
+                    self.polarize(temp.parent)
+
+                if(changes[1] != "+"):
+                    right.mark = changes[1]
+                    self.polarize(right)
 
     def polarize_cc(self, tree):
         self.full_inheritance(tree)
@@ -162,6 +216,10 @@ class Polarizer:
 
         if right.is_tree:
             self.polarize(right)
+
+        if left.val == "but":
+            right.mark = "-"
+            tree.mark = "-"
 
         if left.id == 1:
             self.equalize(right)
@@ -252,7 +310,7 @@ class Polarizer:
             detType = det_type(right.val)
             if detType == None:
                 detType = self.DETEXIST
-            left.mark = det_mark[detType][1]
+            left.mark = det_mark[detType]
             if detType == "det:negation":
                 self.top_down_negate(
                     tree, "nmod", self.relation.index(tree.key))
@@ -272,7 +330,8 @@ class Polarizer:
 
         tree.mark = right.mark
         if right.mark == "-":
-            self.negate(left, -1)
+            if(self.down_left(left).val != "than"):
+                self.negate(left, -1)
         elif right.mark == "=":
             self.equalize(left)
 
@@ -326,6 +385,9 @@ class Polarizer:
 
         if is_implicative(right.val.lower(), "-"):
             tree.mark = "-"
+
+        if self.nsubj_right_equal:
+            self.equalize(right)
 
     def polarize_nummod(self, tree):
         right = tree.right
@@ -385,11 +447,25 @@ class Polarizer:
         right = tree.right
         left = tree.left
 
+        scalar_arrow = "+"
         if right.is_tree:
             self.polarize(right)
+            try:
+                scalar_arrow = scalar_comparative[right.left.val][1]
+            except KeyError:
+                pass
+        else:
+            try:
+                scalar_arrow = scalar_comparative[right.val][1]
+            except KeyError:
+                pass
 
         if left.is_tree:
             self.polarize(left)
+            if left.right.val == "nummod":
+                left.right.left.mark = scalar_arrow
+            elif left.right.pos == "CD":
+                left.right.mark = scalar_arrow
 
         if right.mark == "-":
             self.negate(left, -1)
@@ -438,6 +514,30 @@ class Polarizer:
 
             return left_found or right_found
 
+    def down_left(self, tree):
+        if(tree.left == None):
+            return tree
+        return self.down_left(tree.left)
+
+    def find_comparative(self, tree):
+        parent = tree.parent
+        if(parent.val == "nmod"):
+            target = parent.right
+        elif(parent.val == "obl"):
+            target = parent.right
+        comparative = self.down_left(target)
+        modified = self.find_comp_modifying(comparative)
+        if(comparative.val not in scalar_comparative):
+            return modified, None
+        return modified, scalar_comparative[comparative.val]
+
+    def find_comp_modifying(self, tree):
+        if(tree.val == "amod"):
+            return tree.right
+        if(tree.is_root):
+            return None
+        return self.find_comp_modifying(tree.parent)
+
     def noun_mark_replace(self, tree, mark):
         if isinstance(tree, str):
             return False
@@ -458,10 +558,14 @@ class Polarizer:
 
     def full_inheritance(self, tree):
         if tree.mark != "0":
+            # if(tree.right.mark == "0"):
             tree.right.mark = tree.mark
             tree.left.mark = tree.mark
         else:
+
+            # if(tree.right.mark == "0"):
             tree.right.mark = "+"
+            # if(tree.left.mark == "0"):
             tree.left.mark = "+"
             tree.mark = "+"
 
