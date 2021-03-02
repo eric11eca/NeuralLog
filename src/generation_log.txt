@@ -1,15 +1,4893 @@
 
 ====================================
-Init Premise: No spider was spanning a web
-Next Premise: no spider was spanning a poison web
-Next Premise: no poison spider was spanning a web
+Init Premise: An Irishman won the nobel prize for literature.
+
+Hypothesis: An Irishman won a nobel prize.
+
+Next Premise: an irishman won the nobel prize
+Next Premise: an irishman won the nobel for literature
+Next Premise: an irishman won the prize for literature
 ====================================
-Init Premise: No student finished homework
-Next Premise: no student compeletly finished homework
-Next Premise: no student finished homework compeletly
-Next Premise: no student at school finished homework
-Next Premise: no student finished compeletly homework
+Init Premise: Some delegates finished the survey on time.
+
+Hypothesis: Some delegates finished the survey.
+
+Next Premise: some delegates finished the survey
 ====================================
-Init Premise: I've never flown in an airplane
-Next Premise: i 've never flown in an airplane never
-Next Premise: i 've never flown in an airplane because i 'm afraid
+Init Premise: Many delegates obtained interesting results from the survey.
+
+Hypothesis: Many delegates obtained results from the survey.
+
+Next Premise: delegates obtained interesting results from the survey
+Next Premise: many delegates obtained interesting results
+Next Premise: many delegates obtained results from the survey
+====================================
+Init Premise: Several delegates got the results published in major national newspapers.
+
+Hypothesis: Several delegates got the results published.
+
+Next Premise: delegates got the results published in major national newspapers
+Next Premise: several delegates got the results
+Next Premise: several delegates got the results published
+Next Premise: several delegates got the results published in national newspapers
+Next Premise: several delegates got the results published in major newspapers
+====================================
+Init Premise: Both commissioners used to be leading businessmen.
+
+Hypothesis: Both commissioners used to be businessmen.
+
+Next Premise: both commissioners used
+====================================
+Init Premise: At least three commissioners spend a lot of time at home.
+
+Hypothesis: At least three commissioners spend time at home.
+
+Next Premise: at-least three commissioners spend a lot of time
+Next Premise: at-least three commissioners spend a lot at home
+====================================
+Init Premise: Some Irish delegates finished the survey on time.
+
+Hypothesis: Some delegates finished the survey on time.
+
+Next Premise: some delegates finished the survey on time
+Next Premise: some irish delegates finished the survey
+====================================
+Init Premise: Several Portuguese delegates got the results published in major national newspapers.
+
+Hypothesis: Several delegates got the results published in major national newspapers.
+
+Next Premise: portuguese delegates got the results published in major national newspapers
+Next Premise: several delegates got the results published in major national newspapers
+Next Premise: several portuguese delegates got the results
+Next Premise: several portuguese delegates got the results published
+Next Premise: several portuguese delegates got the results published in national newspapers
+Next Premise: several portuguese delegates got the results published in major newspapers
+====================================
+Init Premise: A few female committee members are from Scandinavia.
+
+Hypothesis: At least a few committee members are from Scandinavia.
+
+Next Premise: a female committee members are from scandinavia
+Next Premise: a few committee members are from scandinavia
+Next Premise: a few female committee are from scandinavia
+Next Premise: a few female members are from scandinavia
+====================================
+Init Premise: At least three female commissioners spend time at home.
+
+Hypothesis: At least three commissioners spend time at home.
+
+Next Premise: at-least three commissioners spend time at home
+Next Premise: at-least three female commissioners spend time
+====================================
+Init Premise: Pluto and Uranus are now directly aligned with Neptune.
+
+Hypothesis: Pluto or Uranus is now directly aligned with Neptune.
+
+Next Premise: and uranus are now directly aligned with neptune
+Next Premise: pluto are now directly aligned with neptune
+Next Premise: pluto and uranus are directly aligned with neptune
+Next Premise: pluto and uranus are now aligned with neptune
+Next Premise: pluto and uranus are now directly aligned
+====================================
+Init Premise: Both Alan and Bob took their vacations in California.
+
+Hypothesis: Alan took his vacation in California.
+
+Next Premise: both and bob took their vacations in california
+Next Premise: both alan took their vacations in california
+Next Premise: both alan and bob took their vacations
+Next Premise: both alan and bob took vacations in california
+====================================
+Init Premise: Socrates is rational.
+
+Hypothesis: Someone is rational.
+
+====================================
+Init Premise: Some dogs like to scratch their ears.
+
+Hypothesis: Some animals like to scratch their ears.
+
+Next Premise: some dogs like
+Next Premise: some dogs like to scratch ears
+====================================
+Init Premise: Cruz has frequently derided as amnesty various bills that confer legal status or citizenship on people living in the country illegally.
+
+Hypothesis: Cruz has frequently derided as amnesty various plans that confer legal status or citizenship on people living in the country illegally.
+
+Next Premise: cruz has derided as amnesty various bills that confer legal status or citizenship on people living in the country illegally
+Next Premise: cruz has frequently derided
+Next Premise: cruz has frequently derided as amnesty various bills
+Next Premise: cruz has frequently derided as amnesty various bills that confer legal status or citizenship
+Next Premise: cruz has frequently derided as amnesty various bills that confer legal status or citizenship on people
+Next Premise: cruz has frequently derided as amnesty various bills that confer legal status or citizenship on people living in the country
+Next Premise: cruz has frequently derided as amnesty various bills that confer legal status or citizenship on people living illegally
+Next Premise: cruz has frequently derided as amnesty various bills that confer status or citizenship on people living in the country illegally
+Next Premise: cruz has frequently derided as amnesty various bills that confer legal or citizenship on people living in the country illegally
+Next Premise: cruz has frequently derided as amnesty various bills that confer legal status on people living in the country illegally
+Next Premise: cruz has frequently derided as amnesty bills that confer legal status or citizenship on people living in the country illegally
+Next Premise: cruz has frequently derided as amnesty various that confer legal status or citizenship on people living in the country illegally
+Next Premise: cruz has frequently derided as various bills that confer legal status or citizenship on people living in the country illegally
+====================================
+Init Premise: In many developed areas, human activity has changed the form of river channels, altering magnitudes and frequencies of flooding.
+
+Hypothesis: In many areas, human activity has changed the form of river channels, altering magnitudes and frequencies of flooding.
+
+Next Premise: in many developed areas activity has changed the form of river channels altering magnitudes and frequencies of flooding
+Next Premise: in many developed areas human activity has changed the form of river channels
+Next Premise: in many developed areas human activity has changed the form of river channels altering and frequencies of flooding
+Next Premise: in many developed areas human activity has changed the form of river channels altering magnitudes and frequencies
+Next Premise: in many developed areas human activity has changed the form of river channels altering magnitudes
+Next Premise: in many developed areas human activity has changed the form of river channels altering magnitudes and frequencies
+Next Premise: human activity has changed the form of river channels altering magnitudes and frequencies of flooding
+Next Premise: in developed areas human activity has changed the form of river channels altering magnitudes and frequencies of flooding
+Next Premise: in many areas human activity has changed the form of river channels altering magnitudes and frequencies of flooding
+Next Premise: in many developed areas human activity has changed the form altering magnitudes and frequencies of flooding
+Next Premise: in many developed areas human activity has changed the form of river altering magnitudes and frequencies of flooding
+Next Premise: in many developed areas human activity has changed the form of channels altering magnitudes and frequencies of flooding
+====================================
+Init Premise: We consider some context words as positive examples and sample negatives at random from the dictionary.
+
+Hypothesis: We consider some words as positive examples and sample negatives at random from the dictionary.
+
+Next Premise: we consider some context words from the dictionary
+Next Premise: we consider some context words as and sample negatives at random from the dictionary
+Next Premise: we consider some context words as positive examples and sample negatives from the dictionary
+Next Premise: we consider some context words as positive examples and sample at random from the dictionary
+Next Premise: we consider some context words as positive examples and negatives at random from the dictionary
+Next Premise: we consider some context words as examples and sample negatives at random from the dictionary
+Next Premise: we consider some context words as positive examples from the dictionary
+Next Premise: we consider some context words as positive examples and sample negatives from the dictionary
+Next Premise: we consider some context words as positive examples and sample at random from the dictionary
+Next Premise: we consider some context words as positive examples and negatives at random from the dictionary
+Next Premise: we consider some context words as examples and sample negatives at random from the dictionary
+Next Premise: we consider some context words as positive examples and sample negatives at random
+Next Premise: we consider some context as positive examples and sample negatives at random from the dictionary
+Next Premise: we consider some words as positive examples and sample negatives at random from the dictionary
+====================================
+Init Premise: Missouri lawmakers are considering a government boycott of companies that boycott Israel.
+
+Hypothesis: Missouri lawmakers are considering a boycott of companies that boycott Israel.
+
+Next Premise: missouri are considering a government boycott of companies that boycott israel
+Next Premise: lawmakers are considering a government boycott of companies that boycott israel
+Next Premise: missouri lawmakers are considering a government boycott that boycott israel
+Next Premise: missouri lawmakers are considering a government boycott of companies
+Next Premise: missouri lawmakers are considering a government of companies that boycott israel
+Next Premise: missouri lawmakers are considering a boycott of companies that boycott israel
+====================================
+Init Premise: You know that some life changing actions must be taken when grandma reacts with the sad emoji.
+
+Hypothesis: You know that some actions must be taken when grandma reacts with the sad emoji.
+
+Next Premise: you know
+Next Premise: you know that some life actions must be taken when grandma reacts with the sad emoji
+Next Premise: you know that some life changing must be taken when grandma reacts with the sad emoji
+Next Premise: you know that some changing actions must be taken when grandma reacts with the sad emoji
+Next Premise: you know that some life changing actions must be taken
+Next Premise: you know that some life changing actions must be taken when grandma reacts
+Next Premise: you know that some life changing actions must be taken when grandma reacts with the emoji
+====================================
+Init Premise: Weird that you want to show this video to a stack of papers.
+
+Hypothesis: Weird that you want to show something to a stack of papers.
+
+Next Premise: weird that you want
+Next Premise: weird that you want to show this video
+Next Premise: weird that you want to show this video to a stack
+====================================
+Init Premise: The 15th tank corps was a tank corps of the soviet union's red army.
+
+Hypothesis: The 15th tank corps was a corps of the soviet union's red army.
+
+Next Premise: the tank corps was a tank corps of the soviet union 's red army
+Next Premise: the 15th tank was a tank corps of the soviet union 's red army
+Next Premise: the 15th corps was a tank corps of the soviet union 's red army
+Next Premise: the 15th tank corps was a tank corps
+Next Premise: the 15th tank corps was a tank corps of red army
+Next Premise: the 15th tank corps was a tank corps of the union 's red army
+Next Premise: the 15th tank corps was a tank corps of the soviet union 's army
+Next Premise: the 15th tank corps was a tank of the soviet union 's red army
+Next Premise: the 15th tank corps was a corps of the soviet union 's red army
+====================================
+Init Premise: The 15th tank corps was a corps of the soviet union's red army.
+
+Hypothesis: The 15th tank corps was a tank corps of the soviet union's red army.
+
+Next Premise: the tank corps was a corps of the soviet union 's red army
+Next Premise: the 15th tank was a corps of the soviet union 's red army
+Next Premise: the 15th corps was a corps of the soviet union 's red army
+Next Premise: the 15th tank corps was a corps
+Next Premise: the 15th tank corps was a corps of red army
+Next Premise: the 15th tank corps was a corps of the union 's red army
+Next Premise: the 15th tank corps was a corps of the soviet union 's army
+====================================
+Init Premise: In grounded communication tasks, speakers face pressures in choosing referential expressions that distinguish their targets from others in the context, leading to many kinds of pragmatic meaning enrichment.
+
+Hypothesis: In grounded communication tasks, speakers face pressures in choosing referential expressions that distinguish their targets from others in the context, leading to many kinds of meaning enrichment.
+
+Next Premise: in grounded communication tasks speakers face pressures in choosing referential expressions that distinguish their targets from others in the context
+Next Premise: in grounded communication tasks speakers face pressures in choosing referential expressions that distinguish their targets from others in the context leading
+Next Premise: in grounded communication tasks speakers face pressures in choosing referential expressions that distinguish their targets from others in the context leading to many kinds
+Next Premise: in grounded communication tasks speakers face pressures in choosing referential expressions that distinguish their targets from others in the context leading to many kinds of meaning enrichment
+Next Premise: in grounded communication tasks speakers face pressures in choosing referential expressions that distinguish their targets from others in the context leading to many kinds of pragmatic meaning
+Next Premise: in grounded communication tasks speakers face pressures in choosing referential expressions that distinguish their targets from others in the context leading to many kinds of pragmatic enrichment
+Next Premise: in grounded communication tasks speakers face pressures in choosing referential expressions that distinguish their targets from others in the context leading to kinds of pragmatic meaning enrichment
+Next Premise: speakers face pressures in choosing referential expressions that distinguish their targets from others in the context leading to many kinds of pragmatic meaning enrichment
+Next Premise: in communication tasks speakers face pressures in choosing referential expressions that distinguish their targets from others in the context leading to many kinds of pragmatic meaning enrichment
+Next Premise: in grounded communication speakers face pressures in choosing referential expressions that distinguish their targets from others in the context leading to many kinds of pragmatic meaning enrichment
+Next Premise: in grounded tasks speakers face pressures in choosing referential expressions that distinguish their targets from others in the context leading to many kinds of pragmatic meaning enrichment
+Next Premise: in grounded communication tasks speakers face pressures leading to many kinds of pragmatic meaning enrichment
+Next Premise: in grounded communication tasks speakers face pressures in choosing referential expressions leading to many kinds of pragmatic meaning enrichment
+Next Premise: in grounded communication tasks speakers face pressures in choosing referential expressions that distinguish their targets in the context leading to many kinds of pragmatic meaning enrichment
+Next Premise: in grounded communication tasks speakers face pressures in choosing referential expressions that distinguish their targets from others leading to many kinds of pragmatic meaning enrichment
+Next Premise: in grounded communication tasks speakers face pressures in choosing referential expressions that distinguish targets from others in the context leading to many kinds of pragmatic meaning enrichment
+Next Premise: in grounded communication tasks speakers face pressures in choosing expressions that distinguish their targets from others in the context leading to many kinds of pragmatic meaning enrichment
+====================================
+Init Premise: In grounded communication tasks, speakers face pressures in choosing referential expressions that distinguish their targets from others in the context, leading to many kinds of meaning enrichment.
+
+Hypothesis: In grounded communication tasks, speakers face pressures in choosing referential expressions that distinguish their targets from others in the context, leading to many kinds of pragmatic meaning enrichment.
+
+Next Premise: in grounded communication tasks speakers face pressures in choosing referential expressions that distinguish their targets from others in the context
+Next Premise: in grounded communication tasks speakers face pressures in choosing referential expressions that distinguish their targets from others in the context leading
+Next Premise: in grounded communication tasks speakers face pressures in choosing referential expressions that distinguish their targets from others in the context leading to many kinds
+Next Premise: in grounded communication tasks speakers face pressures in choosing referential expressions that distinguish their targets from others in the context leading to many kinds of meaning
+Next Premise: in grounded communication tasks speakers face pressures in choosing referential expressions that distinguish their targets from others in the context leading to many kinds of enrichment
+Next Premise: in grounded communication tasks speakers face pressures in choosing referential expressions that distinguish their targets from others in the context leading to kinds of meaning enrichment
+Next Premise: speakers face pressures in choosing referential expressions that distinguish their targets from others in the context leading to many kinds of meaning enrichment
+Next Premise: in communication tasks speakers face pressures in choosing referential expressions that distinguish their targets from others in the context leading to many kinds of meaning enrichment
+Next Premise: in grounded communication speakers face pressures in choosing referential expressions that distinguish their targets from others in the context leading to many kinds of meaning enrichment
+Next Premise: in grounded tasks speakers face pressures in choosing referential expressions that distinguish their targets from others in the context leading to many kinds of meaning enrichment
+Next Premise: in grounded communication tasks speakers face pressures leading to many kinds of meaning enrichment
+Next Premise: in grounded communication tasks speakers face pressures in choosing referential expressions leading to many kinds of meaning enrichment
+Next Premise: in grounded communication tasks speakers face pressures in choosing referential expressions that distinguish their targets leading to many kinds of meaning enrichment
+Next Premise: in grounded communication tasks speakers face pressures in choosing referential expressions that distinguish their targets from others leading to many kinds of meaning enrichment
+Next Premise: in grounded communication tasks speakers face pressures in choosing referential expressions that distinguish targets from others in the context leading to many kinds of meaning enrichment
+Next Premise: in grounded communication tasks speakers face pressures in choosing expressions that distinguish their targets from others in the context leading to many kinds of meaning enrichment
+====================================
+Init Premise: Understanding a long document requires tracking how entities are introduced and evolve over time.
+
+Hypothesis: Understanding a long document requires understanding how entities are introduced.
+
+Next Premise: understanding a document requires tracking how entities are introduced and evolve over time
+Next Premise: understanding a long document requires
+Next Premise: understanding a long document requires tracking
+Next Premise: understanding a long document requires tracking how entities are and evolve over time
+Next Premise: understanding a long document requires tracking how entities are introduced and evolve
+Next Premise: understanding a long document requires tracking how entities are introduced
+Next Premise: understanding a long document requires tracking how entities are introduced and evolve
+====================================
+Init Premise: A serene wind rolled across the glade.
+
+Hypothesis: A wind rolled across the glade.
+
+Next Premise: a wind rolled across the glade
+Next Premise: a serene wind rolled
+====================================
+Init Premise: The leading car gradually shifted to the left lane.
+
+Hypothesis: The leading car shifted to the left lane.
+
+Next Premise: the car gradually shifted to the left lane
+Next Premise: the leading car shifted to the left lane
+Next Premise: the leading car gradually shifted
+Next Premise: the leading car gradually shifted to the lane
+====================================
+Init Premise: There are some amazing hikes around Mt Fuji.
+
+Hypothesis: There are some amazing hikes in Japan.
+
+Next Premise: there are some amazing hikes
+Next Premise: there are some amazing hikes around mt
+Next Premise: there are some amazing hikes around fuji
+Next Premise: there are some hikes around mt fuji
+====================================
+Init Premise: Some Germans work for only one euro an hour without holiday pay.
+
+Hypothesis: Some Germans work for only one euro an hour.
+
+Next Premise: some germans work an hour without holiday pay
+Next Premise: some germans work for one euro an hour without holiday pay
+Next Premise: some germans work for only one euro without holiday pay
+Next Premise: some germans work for only one euro an hour
+====================================
+Init Premise: Every sentence in that syllabus book is important.
+
+Hypothesis: Every sentence in that book is important.
+
+Next Premise: every sentence in that syllabus is important
+Next Premise: every sentence in that book is important
+Next Premise: every sentence in that book in that syllabus book is important
+====================================
+Init Premise: All the players were in defending position.
+
+Hypothesis: All the players were in position.
+
+====================================
+Init Premise: Wet firewood and carbon doesn't burn well.
+
+Hypothesis: Wet firewood doesn't burn well.
+
+Next Premise: firewood and carbon does n't burn well
+Next Premise: wet and carbon does n't burn well
+Next Premise: wet firewood does n't burn well
+Next Premise: wet firewood and carbon does n't burn well well
+Next Premise: wet firewood and carbon does n't well burn well
+====================================
+Init Premise: Tom swims in pool every other day.
+
+Hypothesis: Tom swims every other day.
+
+Next Premise: tom swims every other day
+Next Premise: tom swims in pool
+====================================
+Init Premise: A squirrel in summer is taking a bath in the pond.
+
+Hypothesis: A squirrel is taking a bath in the pond.
+
+Next Premise: a squirrel is taking a bath in the pond
+Next Premise: a squirrel in summer is taking a bath
+====================================
+Init Premise: Every one but lazy Jim came.
+
+Hypothesis: Every one but Jim came.
+
+Next Premise: every one but jim came
+====================================
+Init Premise: Every one but Jim who was busy that day came.
+
+Hypothesis: Every one but Jim came.
+
+====================================
+Init Premise: Every one but Jim and his wives came.
+
+Hypothesis: Every one but Jim came.
+
+Next Premise: every one but and his wives came
+Next Premise: every one but jim and wives came
+Next Premise: every one but jim came
+Next Premise: every one but jim and wives came
+====================================
+Init Premise: There is a beautiful glass sculpture in the play ground.
+
+Hypothesis: There is a glass sculpture in the garden.
+
+Next Premise: there is a beautiful glass sculpture
+Next Premise: there is a beautiful glass sculpture in the play
+Next Premise: there is a beautiful glass sculpture in the ground
+Next Premise: there is a glass sculpture in the play ground
+Next Premise: there is a beautiful glass in the play ground
+Next Premise: there is a beautiful sculpture in the play ground
+====================================
+Init Premise: There is a glass bird sculpture in the garden.
+
+Hypothesis: There is a glass sculpture in the garden.
+
+Next Premise: there is a glass bird sculpture
+Next Premise: there is a glass in the garden
+Next Premise: there is a glass bird in the garden
+Next Premise: there is a glass sculpture in the garden
+Next Premise: there is a bird sculpture in the garden
+Next Premise: there is a glass bird in the garden
+Next Premise: there is a glass sculpture in the garden
+====================================
+Init Premise: There is a little glass sculpture in the garden.
+
+Hypothesis: There is a glass sculpture in the garden.
+
+Next Premise: there is a little glass sculpture
+Next Premise: there is a glass sculpture in the garden
+Next Premise: there is a little glass in the garden
+Next Premise: there is a little sculpture in the garden
+====================================
+Init Premise: Brian bought a lipstick for her sister Kate.
+
+Hypothesis: Brian bought a lipstick for Kate.
+
+Next Premise: brian bought a lipstick
+Next Premise: brian bought a lipstick for sister kate
+Next Premise: brian bought a lipstick for her sister
+Next Premise: brian bought a lipstick for her kate
+====================================
+Init Premise: There's a big and old cat on the desk.
+
+Hypothesis: There's a cat on the desk.
+
+Next Premise: there 's a big and old cat
+Next Premise: there 's a cat on the desk
+Next Premise: there 's a and old cat on the desk
+Next Premise: there 's a big cat on the desk
+====================================
+Init Premise: There's a big chubby cat on the desk.
+
+Hypothesis: There's a cat on the desk.
+
+Next Premise: there 's a big chubby cat
+Next Premise: there 's a chubby cat on the desk
+Next Premise: there 's a big cat on the desk
+====================================
+Init Premise: She bought him a big dog.
+
+Hypothesis: She bought him a dog.
+
+Next Premise: she bought him a dog
+====================================
+Init Premise: She gave an adult cat some milk.
+
+Hypothesis: She gave a cat some milk.
+
+Next Premise: she gave an cat some milk
+====================================
+Init Premise: A lot of students around the world are studying English for better incomes and salaries.
+
+Hypothesis: A lot of students around the world are studying English.
+
+Next Premise: a lot are studying english for better incomes and salaries
+Next Premise: a lot of students are studying english for better incomes and salaries
+Next Premise: a lot of students around the world are studying
+Next Premise: a lot of students around the world are studying english
+Next Premise: a lot of students around the world are studying english for incomes and salaries
+Next Premise: a lot of students around the world are studying english for better and salaries
+Next Premise: a lot of students around the world are studying english for better incomes
+====================================
+Init Premise: A fat dog chased a cat.
+
+Hypothesis: A dog chased a cat.
+
+Next Premise: a fat chased a cat
+Next Premise: a dog chased a cat
+====================================
+Init Premise: They're digging a hole in the park.
+
+Hypothesis: They're digging a hole.
+
+Next Premise: they 're digging a hole
+====================================
+Init Premise: They're digging a huge hole.
+
+Hypothesis: They're digging a hole.
+
+Next Premise: they 're digging a hole
+====================================
+Init Premise: Tom is driving an old truck.
+
+Hypothesis: Tom is driving a truck.
+
+Next Premise: tom is driving an truck
+====================================
+Init Premise: A smell of white lilies filled the room.
+
+Hypothesis: A smell of lilies filled the room.
+
+Next Premise: a smell filled the room
+Next Premise: a smell of lilies filled the room
+====================================
+Init Premise: A smell of lilies and roses filled the room.
+
+Hypothesis: A smell of lilies filled the room.
+
+Next Premise: a smell filled the room
+Next Premise: a smell of and roses filled the room
+Next Premise: a smell of lilies filled the room
+====================================
+Init Premise: Tom is planting a fig and palm tree in his backyard.
+
+Hypothesis: Tom is planting a palm tree in his backyard.
+
+Next Premise: tom is planting a fig and palm tree
+Next Premise: tom is planting a fig and palm tree in backyard
+Next Premise: tom is planting a tree in his backyard
+Next Premise: tom is planting a and palm tree in his backyard
+Next Premise: tom is planting a fig tree in his backyard
+====================================
+Init Premise: She said that she takes a cold shower every morning.
+
+Hypothesis: She said that she takes a shower every morning.
+
+Next Premise: she said
+Next Premise: she said that she takes a cold shower
+Next Premise: she said that she takes a shower every morning
+====================================
+Init Premise: A human body consists of a countless number of cells and tissues.
+
+Hypothesis: A human body consists of a countless number of cells.
+
+Next Premise: a body consists of a countless number of cells and tissues
+Next Premise: a human body consists
+Next Premise: a human body consists of a countless number
+Next Premise: a human body consists of a countless number of and tissues
+Next Premise: a human body consists of a countless number of cells
+Next Premise: a human body consists of a number of cells and tissues
+====================================
+Init Premise: A human body consists of a countless number of red blood cells.
+
+Hypothesis: A human body consists of a countless number of cells.
+
+Next Premise: a body consists of a countless number of red blood cells
+Next Premise: a human body consists
+Next Premise: a human body consists of a countless number
+Next Premise: a human body consists of a countless number of blood cells
+Next Premise: a human body consists of a countless number of red blood
+Next Premise: a human body consists of a countless number of red cells
+Next Premise: a human body consists of a number of red blood cells
+====================================
+Init Premise: Juan and his friends can't help me.
+
+Hypothesis: Juan can't help me.
+
+Next Premise: and his friends ca n't help me
+Next Premise: juan and friends ca n't help me
+Next Premise: juan ca n't help me
+Next Premise: juan and friends ca n't help me
+Next Premise: juan and his friends ca n't help me n't
+Next Premise: juan and his friends ca n't n't help me
+Next Premise: juan and his friends ca n't help n't me
+====================================
+Init Premise: Some people think that overwhelming advertising is a form of brainwashing.
+
+Hypothesis: Some people think that advertising is a form of brainwashing.
+
+Next Premise: some people think
+Next Premise: some people think that overwhelming advertising is a form
+====================================
+Init Premise: Some animals, such as lions, eat some animals.
+
+Hypothesis: Some animals, such as lions, eat meat.
+
+Next Premise: some animals eat some animals
+====================================
+Init Premise: All Tom wanted was a nice hot and relaxing bath.
+
+Hypothesis: All Tom wanted was a nice hot bath.
+
+Next Premise: all tom wanted
+Next Premise: all tom wanted was a hot and relaxing bath
+Next Premise: all tom wanted was a nice bath
+Next Premise: all tom wanted was a nice and relaxing bath
+Next Premise: all tom wanted was a nice hot bath
+Next Premise: all hot tom wanted was a nice hot and relaxing bath
+====================================
+Init Premise: Tom threw a huge snowball at Mary.
+
+Hypothesis: Tom threw a snowball at Mary.
+
+Next Premise: tom threw a huge snowball
+Next Premise: tom threw a snowball at mary
+====================================
+Init Premise: A stranger that didn't speak English spoke to me in the bus.
+
+Hypothesis: A stranger spoke to me in the bus.
+
+Next Premise: a stranger spoke to me in the bus
+Next Premise: a stranger that did speak english spoke to me in the bus
+Next Premise: a stranger that did n't speak spoke to me in the bus
+Next Premise: a stranger that did n't speak english spoke in the bus
+Next Premise: a stranger that did n't speak english spoke to me
+====================================
+Init Premise: A smelly stranger spoke to me in the bus.
+
+Hypothesis: A stranger spoke to me in the bus.
+
+Next Premise: a stranger spoke to me in the bus
+Next Premise: a smelly stranger spoke in the bus
+Next Premise: a smelly stranger spoke to me
+====================================
+Init Premise: She plays tennis and cards every day.
+
+Hypothesis: She plays tennis every day.
+
+Next Premise: she plays tennis and cards
+Next Premise: she plays and cards every day
+Next Premise: she plays tennis every day
+====================================
+Init Premise: I bought a VW diesel bus.
+
+Hypothesis: I bought a VW bus.
+
+Next Premise: i bought a vw
+Next Premise: i bought a vw diesel
+Next Premise: i bought a vw bus
+Next Premise: i bought a diesel bus
+Next Premise: i bought a vw diesel
+Next Premise: i bought a vw bus
+====================================
+Init Premise: I bought a VW Japanese bus.
+
+Hypothesis: I bought a VW bus.
+
+Next Premise: i bought a vw bus
+Next Premise: i bought a vw japanese
+Next Premise: i bought a japanese bus
+====================================
+Init Premise: I bought a VW used bus.
+
+Hypothesis: I bought a VW bus.
+
+Next Premise: i bought a vw bus
+====================================
+Init Premise: A big poison spider was spinning a web.
+
+Hypothesis: A big spider was spinning a web.
+
+Next Premise: a poison spider was spinning a web
+Next Premise: a big poison was spinning a web
+Next Premise: a big spider was spinning a web
+====================================
+Init Premise: She's wearing a nice big hat.
+
+Hypothesis: She's wearing a nice hat.
+
+Next Premise: she 's wearing a big hat
+Next Premise: she 's wearing a nice hat
+====================================
+Init Premise: She's wearing a nice summer hat.
+
+Hypothesis: She's wearing a nice hat.
+
+Next Premise: she 's wearing a summer hat
+Next Premise: she 's wearing a nice summer
+Next Premise: she 's wearing a nice hat
+====================================
+Init Premise: All of their children were born in western Malaysia.
+
+Hypothesis: All of their children were born in Malaysia.
+
+Next Premise: children were born in western malaysia
+Next Premise: allir children were born
+Next Premise: allir children were born in malaysia
+====================================
+Init Premise: A snow goose is a water bird.
+
+Hypothesis: A goose is a water bird.
+
+Next Premise: a snow is a water bird
+Next Premise: a goose is a water bird
+Next Premise: a snow goose is a water
+Next Premise: a snow goose is a bird
+====================================
+Init Premise: A black and white goose is a water bird.
+
+Hypothesis: A goose is a water bird.
+
+Next Premise: a goose is a water bird
+Next Premise: a and white goose is a water bird
+Next Premise: a black goose is a water bird
+Next Premise: a black and white goose is a water
+Next Premise: a black and white goose is a bird
+====================================
+Init Premise: A giant rat chewed a hole in the wall.
+
+Hypothesis: A rat chewed a hole in the wall.
+
+Next Premise: a giant chewed a hole in the wall
+Next Premise: a rat chewed a hole in the wall
+Next Premise: a giant rat chewed a hole
+====================================
+Init Premise: She wiped a tear of happiness from her cheek.
+
+Hypothesis: She wiped a tear from her cheek.
+
+Next Premise: she wiped a tear of happiness
+Next Premise: she wiped a tear of happiness from cheek
+Next Premise: she wiped a tear from her cheek
+====================================
+Init Premise: She wiped a clean tear from her cheek.
+
+Hypothesis: She wiped a tear from her cheek.
+
+Next Premise: she wiped a clean tear
+Next Premise: she wiped a clean tear from cheek
+Next Premise: she wiped a tear from her cheek
+====================================
+Init Premise: A cherry tree grows in a garden along with other trees.
+
+Hypothesis: A cherry tree grows in a garden.
+
+Next Premise: a tree grows in a garden along with other trees
+Next Premise: a cherry tree grows in a garden with other trees
+Next Premise: a cherry tree grows along with other trees
+Next Premise: a cherry tree grows in a garden along
+Next Premise: a cherry tree grows in a garden along with trees
+====================================
+Init Premise: He is a fast runner in spain.
+
+Hypothesis: He is a fast runner.
+
+Next Premise: he is a fast runner
+Next Premise: he is a runner in spain
+====================================
+Init Premise: Tom has a few friends in Boston subuerbs.
+
+Hypothesis: Tom has a few friends in Boston.
+
+Next Premise: tom has a few friends
+Next Premise: tom has a few friends in boston
+Next Premise: tom has a few friends in subuerbs
+Next Premise: tom has a friends in boston subuerbs
+====================================
+Init Premise: I bought a red small diary for my mom.
+
+Hypothesis: I bought a red diary.
+
+Next Premise: i bought a red small diary
+Next Premise: i bought a red small diary for mom
+Next Premise: i bought a small diary for my mom
+Next Premise: i bought a red diary for my mom
+====================================
+Init Premise: I bought a red diary in the antique store.
+
+Hypothesis: I bought a red diary.
+
+Next Premise: i bought a red diary
+Next Premise: i bought a red diary in the antique
+Next Premise: i bought a red diary in the store
+Next Premise: i bought a diary in the antique store
+====================================
+Init Premise: We stood on the brink of a red cliff.
+
+Hypothesis: We stood on the brink of a cliff.
+
+Next Premise: we stood
+Next Premise: we stood on the brink
+Next Premise: we stood on the brink of a cliff
+====================================
+Init Premise: A rat chewed a big hole in the wall.
+
+Hypothesis: A rat chewed a hole.
+
+Next Premise: a rat chewed a big hole
+Next Premise: a rat chewed a hole in the wall
+====================================
+Init Premise: He died from lack of oxygen in the room.
+
+Hypothesis: He died from a lack of oxygen.
+
+Next Premise: he died in the room
+Next Premise: he died from lack in the room
+Next Premise: he died from lack of oxygen
+====================================
+Init Premise: He died from lack of oxygen in space.
+
+Hypothesis: He dies from the lack of oxygen.
+
+Next Premise: he died in space
+Next Premise: he died from lack in space
+Next Premise: he died from lack of oxygen
+====================================
+Init Premise: I took a fast taxi from the station to the hotel.
+
+Hypothesis: I took a taxi from the station to the hotel.
+
+Next Premise: i took a fast taxi to the hotel
+Next Premise: i took a fast taxi from the station
+Next Premise: i took a taxi from the station to the hotel
+====================================
+Init Premise: We need to buy some high protain dog food.
+
+Hypothesis: We need to buy some dog food.
+
+Next Premise: we need
+Next Premise: we need to buy some protain dog food
+Next Premise: we need to buy some high protain dog
+Next Premise: we need to buy some high dog food
+Next Premise: we need to buy some high food
+Next Premise: we need to buy some high dog food
+====================================
+Init Premise: Tom sprinkled some powdered sugar on the toast.
+
+Hypothesis: Tom sprinkled some sugar on the toast.
+
+Next Premise: tom sprinkled some powdered sugar
+Next Premise: tom sprinkled some sugar on the toast
+====================================
+Init Premise: Tom sprinkled some brown sugar on the toast.
+
+Hypothesis: Tom sprinkled some sugar on the toast.
+
+Next Premise: tom sprinkled some brown sugar
+Next Premise: tom sprinkled some sugar on the toast
+====================================
+Init Premise: Tom goes jogging and yoga in the park every morning.
+
+Hypothesis: Tom goes jogging in the park every morning.
+
+Next Premise: tom goes every morning
+Next Premise: tom goes jogging and yoga every morning
+Next Premise: tom goes and yoga in the park every morning
+Next Premise: tom goes jogging in the park every morning
+Next Premise: tom goes jogging and yoga in the park
+====================================
+Init Premise: We play football and volleyball every saturday.
+
+Hypothesis: We play football every saturday.
+
+Next Premise: we play football and volleyball
+Next Premise: we play and volleyball every saturday
+Next Premise: we play football every saturday
+====================================
+Init Premise: A doe is a female white deer.
+
+Hypothesis: A doe is a female deer.
+
+Next Premise: a doe is a white deer
+Next Premise: a doe is a female deer
+====================================
+Init Premise: Winter does not look real without snow stones.
+
+Hypothesis: Winter does not look real without snow.
+
+Next Premise: winter does not look real without snow
+Next Premise: winter does not look real without stones
+Next Premise: winter does not look real without snow stones not
+Next Premise: winter does not not look real without snow stones
+Next Premise: winter does not look not real without snow stones
+====================================
+Init Premise: I made some bunny-shaped cookies and cupcakes.
+
+Hypothesis: I made some bunny-shaped cookies.
+
+Next Premise: i made some cookies and cupcakes
+Next Premise: i made some bunny-shaped and cupcakes
+Next Premise: i made some bunny-shaped cookies
+====================================
+Init Premise: Every one except Tom was wearing a blue tie.
+
+Hypothesis: Every one except Tom was wearing a tie.
+
+Next Premise: every one except tom was wearing a blue tie except tom was wearing a tie
+====================================
+Init Premise: Every one except Tom was wearing a green tie.
+
+Hypothesis: Every one except Tom was wearing a tie.
+
+Next Premise: every one except tom was wearing a green tie except tom was wearing a tie
+====================================
+Init Premise: Every one except Tom was wearing a red tie.
+
+Hypothesis: Every one except Tom was wearing a tie.
+
+Next Premise: every one except tom was wearing a red tie except tom was wearing a tie
+====================================
+Init Premise: I drive to central Tokyo every day.
+
+Hypothesis: I drive to Tokyo every day.
+
+Next Premise: i drive every day
+Next Premise: i drive to tokyo every day
+Next Premise: i drive to central tokyo
+====================================
+Init Premise: A young man stole my purse.
+
+Hypothesis: A man stole my purse.
+
+Next Premise: a man stole my purse
+Next Premise: a young man stole purse
+====================================
+Init Premise: A big man stole my purse.
+
+Hypothesis: A man stole my purse.
+
+Next Premise: a man stole my purse
+Next Premise: a big man stole purse
+====================================
+Init Premise: Tom was wearing a blue cowboy hat.
+
+Hypothesis: Tom was wearing a cowboyhat.
+
+Next Premise: tom was wearing a cowboy hat
+Next Premise: tom was wearing a blue cowboy
+Next Premise: tom was wearing a blue hat
+====================================
+Init Premise: Tom was wearing a cowboy hat and a revolver.
+
+Hypothesis: Tom was wearing a cowboy hat.
+
+Next Premise: tom was wearing a and a revolver
+Next Premise: tom was wearing a cowboy and a revolver
+Next Premise: tom was wearing a hat and a revolver
+Next Premise: tom was wearing a cowboy hat
+Next Premise: tom was wearing a cowboy and a revolver
+Next Premise: tom was wearing a hat and a revolver
+====================================
+Init Premise: A goose is an aggressive water bird.
+
+Hypothesis: A goose is an water bird.
+
+Next Premise: a goose is an water bird
+Next Premise: a goose is an aggressive water
+Next Premise: a goose is an aggressive bird
+====================================
+Init Premise: A goose is a grey water bird.
+
+Hypothesis: A goose is a water bird.
+
+Next Premise: a goose is a water bird
+Next Premise: a goose is a grey water
+Next Premise: a goose is a grey bird
+====================================
+Init Premise: There are some oranges and clementines on the table.
+
+Hypothesis: There are some oranges on the table.
+
+Next Premise: there are some oranges and clementines
+Next Premise: there are some and clementines on the table
+Next Premise: there are some oranges on the table
+====================================
+Init Premise: There are some tasty oranges on the table.
+
+Hypothesis: There are some oranges on the table.
+
+Next Premise: there are some tasty oranges
+Next Premise: there are some oranges on the table
+====================================
+Init Premise: There are some freshly picked oranges on the table.
+
+Hypothesis: There are some oranges on the table.
+
+Next Premise: there are some freshly picked oranges
+Next Premise: there are some oranges on the table
+Next Premise: there are some picked oranges on the table
+====================================
+Init Premise: Tom is wearing a Harvard large size sweatshirt.
+
+Hypothesis: Tom is wearing a Harvard sweatshirt.
+
+Next Premise: tom is wearing a harvard size sweatshirt
+Next Premise: tom is wearing a harvard large
+Next Premise: tom is wearing a harvard large size
+Next Premise: tom is wearing a harvard large sweatshirt
+Next Premise: tom is wearing a large size sweatshirt
+Next Premise: tom is wearing a harvard large size
+Next Premise: tom is wearing a harvard large sweatshirt
+====================================
+Init Premise: A dry north wind is blowing.
+
+Hypothesis: A north wind is blowing.
+
+Next Premise: a north wind is blowing
+Next Premise: a dry wind is blowing
+====================================
+Init Premise: I bought a new pair of glasses because I need it.
+
+Hypothesis: I bought a new pair of glasses.
+
+Next Premise: i bought a new pair of glasses
+Next Premise: i bought a new pair because i need it
+Next Premise: i bought a pair of glasses because i need it
+====================================
+Init Premise: I bought a new pair of red glasses.
+
+Hypothesis: I bought a new pair of glasses.
+
+Next Premise: i bought a new pair
+Next Premise: i bought a new pair of glasses
+Next Premise: i bought a pair of red glasses
+====================================
+Init Premise: He wiped his hands on a white handkerchief.
+
+Hypothesis: He wiped his hands on a handkerchief.
+
+Next Premise: he wiped his hands
+Next Premise: he wiped his hands on a handkerchief
+Next Premise: he wiped hands on a white handkerchief
+====================================
+Init Premise: He spent a few months of June and July in Scotland.
+
+Hypothesis: He spent a few months in Scotland.
+
+Next Premise: he spent a few months of june and july
+Next Premise: he spent a few months in scotland
+Next Premise: he spent a few months of and july in scotland
+Next Premise: he spent a few months of june in scotland
+Next Premise: he spent a months of june and july in scotland
+====================================
+Init Premise: He spent a few months this year in Scotland.
+
+Hypothesis: He spent a few months in Scotland.
+
+Next Premise: he spent a few months in scotland
+Next Premise: he spent a few months this year
+Next Premise: he spent a months this year in scotland
+====================================
+Init Premise: He is wearing a wide-brimmed hat.
+
+Hypothesis: He is wearing a hat.
+
+Next Premise: he is wearing a hat
+====================================
+Init Premise: John inherited a large fortune and beauty jewerly.
+
+Hypothesis: John inherited a large fortune.
+
+Next Premise: john inherited a and beauty jewerly
+Next Premise: john inherited a large fortune and beauty
+Next Premise: john inherited a large fortune and jewerly
+Next Premise: john inherited a fortune and beauty jewerly
+Next Premise: john inherited a large fortune
+Next Premise: john inherited a large fortune and beauty
+Next Premise: john inherited a large fortune and jewerly
+Next Premise: john inherited a fortune and beauty jewerly
+====================================
+Init Premise: John inherited a large fortune and a nice car.
+
+Hypothesis: John inherited a large fortune.
+
+Next Premise: john inherited a and a nice car
+Next Premise: john inherited a large fortune and a car
+Next Premise: john inherited a fortune and a nice car
+Next Premise: john inherited a large fortune
+Next Premise: john inherited a large fortune and a car
+Next Premise: john inherited a fortune and a nice car
+====================================
+Init Premise: Tom is facing a few serious problems with the law.
+
+Hypothesis: Tom is facing a few serious problems.
+
+Next Premise: tom is facing a few serious problems
+Next Premise: tom is facing a serious problems with the law
+Next Premise: tom is facing a few problems with the law
+====================================
+Init Premise: Tom is facing a few serious health problems.
+
+Hypothesis: Tom is facing a few serious problems.
+
+Next Premise: tom is facing a serious health problems
+Next Premise: tom is facing a few health problems
+Next Premise: tom is facing a few serious health
+Next Premise: tom is facing a few serious problems
+====================================
+Init Premise: Tom is facing a few serious problems to face exams.
+
+Hypothesis: Tom is facing a few serious problems.
+
+Next Premise: tom is facing a few serious problems
+Next Premise: tom is facing a serious problems to face exams
+Next Premise: tom is facing a few problems to face exams
+====================================
+Init Premise: There are a lot of large eggs in the box.
+
+Hypothesis: There are a lot of eggs in the box.
+
+Next Premise: there are a lot
+Next Premise: there are a lot of large eggs
+Next Premise: there are a lot of eggs in the box
+====================================
+Init Premise: There are a lot of white eggs in the box.
+
+Hypothesis: There are a lot of eggs in the box.
+
+Next Premise: there are a lot
+Next Premise: there are a lot of white eggs
+Next Premise: there are a lot of eggs in the box
+====================================
+Init Premise: A big spider was spinning a awesome web.
+
+Hypothesis: A big spider was spinning an web.
+
+Next Premise: a spider was spinning a awesome web
+Next Premise: a big spider was spinning a web
+====================================
+Init Premise: She gave a cat some milk from your glass.
+
+Hypothesis: She gave a cat some milk.
+
+Next Premise: she gave a cat some milk
+Next Premise: she gave a cat some milk from glass
+====================================
+Init Premise: She gave a cat some milk in your house.
+
+Hypothesis: She gave a cat some milk.
+
+Next Premise: she gave a cat some milk
+Next Premise: she gave a cat some milk in house
+====================================
+Init Premise: There are a lot of electronic factories in Kawasaki.
+
+Hypothesis: There are a lot of factories in Kawasaki.
+
+Next Premise: there are a lot
+Next Premise: there are a lot of electronic factories
+Next Premise: there are a lot of factories in kawasaki
+====================================
+Init Premise: There are a lot of shoe factories in Kawasaki.
+
+Hypothesis: There are a lot of factories in Kawasaki.
+
+Next Premise: there are a lot
+Next Premise: there are a lot of shoe factories
+Next Premise: there are a lot of shoe in kawasaki
+Next Premise: there are a lot of factories in kawasaki
+====================================
+Init Premise: There are a lot of food factories in Kawasaki.
+
+Hypothesis: There are a lot of factories in Kawasaki.
+
+Next Premise: there are a lot
+Next Premise: there are a lot of food factories
+Next Premise: there are a lot of food in kawasaki
+Next Premise: there are a lot of factories in kawasaki
+====================================
+Init Premise: There are some red apples in the basket.
+
+Hypothesis: There are some apples in the basket.
+
+Next Premise: there are some red apples
+Next Premise: there are some apples in the basket
+====================================
+Init Premise: Susan made a long dress for Jill.
+
+Hypothesis: Susan made a dress for Jill.
+
+Next Premise: susan made a long dress
+Next Premise: susan made a dress for jill
+====================================
+Init Premise: Susan made a mini dress for Jill.
+
+Hypothesis: Susan made a dress for Jill.
+
+Next Premise: susan made a mini dress
+Next Premise: susan made a dress for jill
+====================================
+Init Premise: Susan made a long black dress for Jill.
+
+Hypothesis: Susan made a dress for Jill.
+
+Next Premise: susan made a long black dress
+Next Premise: susan made a black dress for jill
+Next Premise: susan made a long dress for jill
+====================================
+Init Premise: Tom is a fantastic modern singer.
+
+Hypothesis: Tom is a fantastic singer.
+
+Next Premise: tom is a modern singer
+Next Premise: tom is a fantastic singer
+====================================
+Init Premise: A Californian special policeman pulled a car over and spoke to the driver.
+
+Hypothesis: A Californian policeman pulled a car over and spoke to the driver.
+
+Next Premise: a special policeman pulled a car over and spoke to the driver
+Next Premise: a californian policeman pulled a car over and spoke to the driver
+Next Premise: a californian special policeman over and spoke to the driver
+Next Premise: a californian special policeman pulled a car over and spoke
+Next Premise: a californian special policeman pulled a car
+Next Premise: a californian special policeman pulled a car over and spoke
+====================================
+Init Premise: A Californian policeman riding a motorcycle pulled a car over and spoke to the driver.
+
+Hypothesis: A Californian policeman pulled a car over and spoke to the driver.
+
+Next Premise: a californian policeman pulled a car over and spoke to the driver
+Next Premise: a policeman riding a motorcycle pulled a car over and spoke to the driver
+Next Premise: a californian policeman riding a motorcycle over and spoke to the driver
+Next Premise: a californian policeman riding a motorcycle pulled a car over and spoke
+Next Premise: a californian policeman riding a motorcycle pulled a car
+Next Premise: a californian policeman riding a motorcycle pulled a car over and spoke
+====================================
+Init Premise: He approached the boy reading a nice book.
+
+Hypothesis: He approached the boy reading a book.
+
+Next Premise: he approached the boy
+Next Premise: he approached the boy reading a book
+====================================
+Init Premise: Tom wore a Hawaiian long shirt.
+
+Hypothesis: Tom wore a Hawaiian shirt.
+
+Next Premise: tom wore a long shirt
+Next Premise: tom wore a hawaiian shirt
+====================================
+Init Premise: I do some painting work for Tom from time to time.
+
+Hypothesis: I do some work for Tom from time to time.
+
+Next Premise: i do some painting work from time to time
+Next Premise: i do some painting work for tom to time
+Next Premise: i do some painting work for tom from time
+Next Premise: i do some painting for tom from time to time
+Next Premise: i do some work for tom from time to time
+====================================
+Init Premise: Tom bought Mary some tasty chocolates and candies.
+
+Hypothesis: Tom bought Mary some chocolates.
+
+Next Premise: tom bought mary some chocolates and candies
+Next Premise: tom bought mary some tasty and candies
+Next Premise: tom bought mary some tasty chocolates
+====================================
+Init Premise: Under the table is a red cat.
+
+Hypothesis: Under the table is a cat.
+
+Next Premise: is a red cat
+Next Premise: under the table is a cat
+====================================
+Init Premise: Under the table is a white cat.
+
+Hypothesis: Under the table is a cat.
+
+Next Premise: is a white cat
+Next Premise: under the table is a cat
+====================================
+Init Premise: Under the table is a hungry cat.
+
+Hypothesis: Under the table is a cat.
+
+Next Premise: is a hungry cat
+Next Premise: under the table is a cat
+====================================
+Init Premise: A big dog bit her leg.
+
+Hypothesis: A dog bit her leg.
+
+Next Premise: her leg
+Next Premise: a dog bit her leg
+Next Premise: a big dog her leg
+Next Premise: a big bit her leg
+Next Premise: a big dog bit leg
+====================================
+Init Premise: A white dog bit her leg.
+
+Hypothesis: A dog bit her leg.
+
+Next Premise: her leg
+Next Premise: a dog bit her leg
+Next Premise: a white dog her leg
+Next Premise: a white bit her leg
+Next Premise: a white dog bit leg
+====================================
+Init Premise: A mad dog bit her leg.
+
+Hypothesis: A dog bit her leg.
+
+Next Premise: her leg
+Next Premise: a dog bit her leg
+Next Premise: a mad dog her leg
+Next Premise: a mad bit her leg
+Next Premise: a mad dog bit leg
+====================================
+Init Premise: A bad dog bit her leg.
+
+Hypothesis: A dog bit her leg.
+
+Next Premise: her leg
+Next Premise: a dog bit her leg
+Next Premise: a bad dog her leg
+Next Premise: a bad bit her leg
+Next Premise: a bad dog bit leg
+====================================
+Init Premise: Jane and Brenda skipped the questions she couldn't answer.
+
+Hypothesis: Jane skipped the questions she couldn't answer.
+
+Next Premise: and brenda skipped the questions she could n't answer
+Next Premise: jane skipped the questions she could n't answer
+Next Premise: jane and brenda skipped the questions
+Next Premise: jane and brenda skipped the questions she could answer
+====================================
+Init Premise: I had no sales today and this week.
+
+Hypothesis: I had no sales today.
+
+Next Premise: i had no sales and this week
+Next Premise: i had no sales today
+====================================
+Init Premise: David and his friends can't be at home.
+
+Hypothesis: David can't be at home.
+
+Next Premise: and his friends ca n't be at home
+Next Premise: david and friends ca n't be at home
+Next Premise: david ca n't be at home
+Next Premise: david and friends ca n't be at home
+Next Premise: david and his friends ca n't be at home n't
+====================================
+Init Premise: I'm a normal beautiful girl.
+
+Hypothesis: I'm a normal girl.
+
+Next Premise: i 'm a beautiful girl
+Next Premise: i 'm a normal girl
+====================================
+Init Premise: A forest doe is a female deer.
+
+Hypothesis: A doe is a female deer.
+
+Next Premise: a forest is a female deer
+Next Premise: a doe is a female deer
+Next Premise: a forest doe is a deer
+====================================
+Init Premise: An honest and religious man never steals money.
+
+Hypothesis: An honest man never steals money.
+
+Next Premise: an and religious man never steals money
+Next Premise: an honest and man never steals money
+Next Premise: an honest never steals money
+Next Premise: an honest and man never steals money
+Next Premise: an honest and religious man never steals never money
+Next Premise: an honest and religious man never never steals money
+Next Premise: an honest and religious man never steals money never
+====================================
+Init Premise: Tom showed some rude photos to Mary.
+
+Hypothesis: Tom showed some photos to Mary.
+
+Next Premise: tom showed some rude photos
+Next Premise: tom showed some photos to mary
+====================================
+Init Premise: Tom picked some black berries and ate them.
+
+Hypothesis: Tom picked some berries and ate them.
+
+Next Premise: tom and ate them
+Next Premise: tom picked some berries and ate them
+Next Premise: tom picked some black berries
+Next Premise: tom picked some berries and ate them
+====================================
+Init Premise: Tom picked some ripe berries and ate them.
+
+Hypothesis: Tom picked some berries and ate them.
+
+Next Premise: tom and ate them
+Next Premise: tom picked some berries and ate them
+Next Premise: tom picked some ripe berries
+Next Premise: tom picked some berries and ate them
+====================================
+Init Premise: I know you and Tom have had some problems and fights.
+
+Hypothesis: I know you and Tom have had some problems.
+
+Next Premise: i know
+Next Premise: i know and tom have had some problems and fights
+Next Premise: i know you have had some problems and fights
+Next Premise: i know you and tom have had some and fights
+Next Premise: i know you and tom have had some problems
+====================================
+Init Premise: You've got some multicolored balls coming here like this.
+
+Hypothesis: You've got some balls coming here like this.
+
+Next Premise: you 've got some multicolored balls
+Next Premise: you 've got some multicolored balls coming like this
+Next Premise: you 've got some multicolored balls coming here
+Next Premise: you 've got some balls coming here like this
+====================================
+Init Premise: Today I had some untasty kipper for breakfast.
+
+Hypothesis: Today I had some kipper for breakfast.
+
+Next Premise: i had some untasty kipper for breakfast
+Next Premise: today i had some untasty kipper
+Next Premise: today i had some kipper for breakfast
+====================================
+Init Premise: I want to eat some cake with strawberry and cream first.
+
+Hypothesis: I want to eat some cake first.
+
+Next Premise: i want
+Next Premise: i want to eat some cake
+Next Premise: i want to eat some cake with and cream first
+Next Premise: i want to eat some cake with strawberry and cream
+Next Premise: i want to eat some cake with strawberry and first
+Next Premise: i want to eat some cake with strawberry
+Next Premise: i want to eat some cake with strawberry and cream
+Next Premise: i want to eat some cake with strawberry and first
+====================================
+Init Premise: I made some bunny-shaped cookies in the morning.
+
+Hypothesis: I made some bunny-shaped cookies.
+
+Next Premise: i made some bunny-shaped cookies
+Next Premise: i made some cookies in the morning
+====================================
+Init Premise: Modern art and science doesn't interest Tom.
+
+Hypothesis: Modern art doesn't interest Tom.
+
+Next Premise: art and science does n't interest tom
+Next Premise: modern and science does n't interest tom
+Next Premise: modern art does n't interest tom
+Next Premise: modern art and science does n't interest n't tom
+Next Premise: modern art and science does n't interest tom n't
+Next Premise: modern art and science does n't n't interest tom
+====================================
+Init Premise: It is not tea, but coffee with milk, that I want.
+
+Hypothesis: It is not tea, but coffee, that I want.
+
+Next Premise: it is not coffee with milk
+Next Premise: it is not tea coffee that i want
+Next Premise: it is not tea coffee that i want
+Next Premise: it is not tea but coffee with milk that i want not
+Next Premise: it is not tea but coffee with milk that i not want
+====================================
+Init Premise: Some things about my wife that Tom told me aren't true.
+
+Hypothesis: Some things that Tom told me aren't true.
+
+Next Premise: some things are n't true
+Next Premise: some things about wife that tom told me are n't true
+Next Premise: some things about my wife are n't true
+====================================
+Init Premise: All of my brothers have jobs that pay well.
+
+Hypothesis: All of my brothers have jobs.
+
+Next Premise: all have jobs that pay well
+Next Premise: all of brothers have jobs that pay well
+Next Premise: all of my brothers have jobs
+Next Premise: all of my brothers have jobs that pay
+====================================
+Init Premise: He bought her some Russian chocolates.
+
+Hypothesis: He bought her some chocolates.
+
+Next Premise: he bought her some chocolates
+====================================
+Init Premise: A swarm of bees and mosquitoes followed him.
+
+Hypothesis: A swarm of mosquitoes followed him.
+
+Next Premise: a swarm followed him
+Next Premise: a swarm of and mosquitoes followed him
+Next Premise: a swarm of bees followed him
+====================================
+Init Premise: A U.S. former soldier was sentenced to 90 years in jail.
+
+Hypothesis: A U.S.  soldier was sentenced to 90 years in jail.
+
+Next Premise: a former soldier was sentenced to 90 years in jail
+Next Premise: a u.s. soldier was sentenced to 90 years in jail
+Next Premise: a u.s. former soldier was sentenced
+Next Premise: a u.s. former soldier was sentenced to 90 years
+====================================
+Init Premise: There's a broken radio in my room.
+
+Hypothesis: There's a radio in my room.
+
+Next Premise: there 's a broken radio
+Next Premise: there 's a broken radio in room
+Next Premise: there 's a radio in my room
+====================================
+Init Premise: A tsunami hit the north-eastern coast of Hokkaido and Sapporo.
+
+Hypothesis: A tsunami hit the north-eastern coast of Hokkaido.
+
+Next Premise: a tsunami hit the north-eastern coast
+Next Premise: a tsunami hit the north-eastern coast of and sapporo
+Next Premise: a tsunami hit the north-eastern coast of hokkaido
+Next Premise: a tsunami hit the coast of hokkaido and sapporo
+====================================
+Init Premise: I received a telegram that was about her boyfriend from her.
+
+Hypothesis: I received a telegram from her.
+
+Next Premise: i received a telegram
+Next Premise: i received a telegram that was about boyfriend from her
+Next Premise: i received a telegram that was about her boyfriend
+====================================
+Init Premise: I received a pitiful telegram from her.
+
+Hypothesis: I received a telegram from her.
+
+Next Premise: i received a pitiful telegram
+Next Premise: i received a telegram from her
+====================================
+Init Premise: I received a telegram and a gift from her.
+
+Hypothesis: I received a telegram from her.
+
+Next Premise: i received a and a gift from her
+Next Premise: i received a telegram and a gift
+Next Premise: i received a telegram
+Next Premise: i received a telegram and a gift
+====================================
+Init Premise: I've seen a big flying saucer.
+
+Hypothesis: I've seen a flying saucer.
+
+Next Premise: i 've seen a flying saucer
+Next Premise: i 've seen a big saucer
+====================================
+Init Premise: Aunt Millie isn't eating an apple.
+
+Hypothesis: Millie isn't eating an apple.
+
+Next Premise: aunt millie is n't eating an apple n't
+Next Premise: aunt millie is n't n't eating an apple
+Next Premise: aunt millie is n't eating n't an apple
+====================================
+Init Premise: Old Millie isn't eating an apple.
+
+Hypothesis: Millie isn't eating an apple.
+
+Next Premise: millie is n't eating an apple
+Next Premise: old millie is n't n't eating an apple
+Next Premise: old millie is n't eating an apple n't
+Next Premise: old millie is n't eating n't an apple
+====================================
+Init Premise: There is a glass multi-colored sculpture in the garden.
+
+Hypothesis: There is a glass sculpture in the garden.
+
+Next Premise: there is a glass multi-colored sculpture
+Next Premise: there is a glass sculpture in the garden
+Next Premise: there is a glass multi-colored in the garden
+Next Premise: there is a multi-colored sculpture in the garden
+====================================
+Init Premise: A whisker-less cat was on the table.
+
+Hypothesis: A cat was on the table.
+
+Next Premise: a cat was on the table
+====================================
+Init Premise: A cute and chubby cat was on the table.
+
+Hypothesis: A cat was on the table.
+
+Next Premise: a cat was on the table
+Next Premise: a and chubby cat was on the table
+Next Premise: a cute cat was on the table
+====================================
+Init Premise: A big cat was on the table.
+
+Hypothesis: A cat was on the table.
+
+Next Premise: a cat was on the table
+====================================
+Init Premise: A big fluffy cat was sleeping on the table.
+
+Hypothesis: A cat was on the table.
+
+Next Premise: a fluffy cat was sleeping on the table
+Next Premise: a big cat was sleeping on the table
+Next Premise: a big fluffy cat was sleeping
+====================================
+Init Premise: The girl wore a light blue ugly kimono.
+
+Hypothesis: The girl wore a light blue kimono.
+
+Next Premise: the girl wore a blue ugly kimono
+Next Premise: the girl wore a light ugly kimono
+Next Premise: the girl wore a light blue kimono
+====================================
+Init Premise: Tom called a fast cab for me.
+
+Hypothesis: Tom called a cab for me.
+
+Next Premise: tom called a fast cab
+Next Premise: tom called a cab for me
+====================================
+Init Premise: Tom called a cab of elevation for me.
+
+Hypothesis: Tom called a cab for me.
+
+Next Premise: tom called a cab
+Next Premise: tom called a cab of elevation
+====================================
+Init Premise: There is a cat sleeping on the chair.
+
+Hypothesis: There is a cat on the chair.
+
+Next Premise: there is a cat
+Next Premise: there is a cat sleeping
+====================================
+Init Premise: Rudolf has built a large pent house with pool.
+
+Hypothesis: Rudolf has built a large pent house.
+
+Next Premise: rudolf has built a large pent house
+Next Premise: rudolf has built a pent house with pool
+Next Premise: rudolf has built a large house with pool
+====================================
+Init Premise: Rudolf has built a large and white house.
+
+Hypothesis: Rudolf has built a large house.
+
+Next Premise: rudolf has built a house
+Next Premise: rudolf has built a and white house
+Next Premise: rudolf has built a large house
+====================================
+Init Premise: Rudolf has built a large and beautiful house.
+
+Hypothesis: Rudolf has built a large house.
+
+Next Premise: rudolf has built a house
+Next Premise: rudolf has built a and beautiful house
+Next Premise: rudolf has built a large house
+====================================
+Init Premise: She planted some blue and purple pansies in the flower bed.
+
+Hypothesis: She planted some pansies in the flower bed.
+
+Next Premise: she planted some blue and purple pansies
+Next Premise: she planted some blue and purple pansies in the flower
+Next Premise: she planted some blue and purple pansies in the bed
+Next Premise: she planted some pansies in the flower bed
+Next Premise: she planted some and purple pansies in the flower bed
+Next Premise: she planted some blue pansies in the flower bed
+====================================
+Init Premise: She planted some dwarf pansies in the flower bed.
+
+Hypothesis: She planted some pansies in the flower bed.
+
+Next Premise: she planted some dwarf pansies
+Next Premise: she planted some dwarf pansies in the flower
+Next Premise: she planted some dwarf pansies in the bed
+Next Premise: she planted some dwarf in the flower bed
+Next Premise: she planted some pansies in the flower bed
+====================================
+Init Premise: I was in New York with my boyfriend for a few days.
+
+Hypothesis: I was in New York city for a few days.
+
+Next Premise: i was in new york
+Next Premise: i was in new york with boyfriend for a few days
+Next Premise: i was in new york with my boyfriend
+Next Premise: i was in new york with my boyfriend for a days
+Next Premise: i was in york with my boyfriend for a few days
+====================================
+Init Premise: I was in New York country club for a few days.
+
+Hypothesis: I was in New York for a few days.
+
+Next Premise: i was in new york country club
+Next Premise: i was in new york country club for a days
+Next Premise: i was in york country club for a few days
+Next Premise: i was in new york for a few days
+Next Premise: i was in new york country for a few days
+Next Premise: i was in new york club for a few days
+Next Premise: i was in new country club for a few days
+Next Premise: i was in new york country for a few days
+Next Premise: i was in new york club for a few days
+====================================
+Init Premise: Mr yamaha gave some walnuts and money to a beggar.
+
+Hypothesis: Mr yamaha gave some walnuts to a beggar.
+
+Next Premise: mr gave some walnuts and money to a beggar
+Next Premise: yamaha gave some walnuts and money to a beggar
+Next Premise: mr yamaha gave some walnuts and money
+Next Premise: mr yamaha gave some and money to a beggar
+Next Premise: mr yamaha gave some walnuts to a beggar
+====================================
+Init Premise: Tom can also speak some French and Spanish.
+
+Hypothesis: Tom can also speak some French.
+
+Next Premise: tom can speak some french and spanish
+Next Premise: tom can also speak some and spanish
+Next Premise: tom can also speak some french
+====================================
+Init Premise: Sekkura is a qualified chef and baker.
+
+Hypothesis: Sekkura is a qualified chef.
+
+Next Premise: sekkura is a chef and baker
+Next Premise: sekkura is a qualified and baker
+Next Premise: sekkura is a qualified chef
+====================================
+Init Premise: There is some goat milk in the fridge.
+
+Hypothesis: There is some milk in the fridge.
+
+Next Premise: there is some goat milk
+Next Premise: there is some goat in the fridge
+Next Premise: there is some milk in the fridge
+====================================
+Init Premise: He sang some old country songs.
+
+Hypothesis: He sang some old songs.
+
+Next Premise: he sang some country songs
+Next Premise: he sang some old country
+Next Premise: he sang some old songs
+====================================
+Init Premise: He sang some old songs that remind me of you.
+
+Hypothesis: He sang some old songs.
+
+Next Premise: he sang some old songs
+Next Premise: he sang some old songs that remind me
+Next Premise: he sang some songs that remind me of you
+====================================
+Init Premise: My brother works in a very big bank.
+
+Hypothesis: My brother works in a bank.
+
+Next Premise: brother works in a very big bank
+Next Premise: my brother works
+Next Premise: my brother works in a bank
+Next Premise: my brother works in a big bank
+====================================
+Init Premise: Tom has a swiss bank account with no money.
+
+Hypothesis: Tom has a swiss bank account.
+
+Next Premise: tom has a swiss bank account
+Next Premise: tom has a bank account with no money
+Next Premise: tom has a swiss bank with no money
+Next Premise: tom has a swiss account with no money
+Next Premise: tom has a swiss bank account with no swiss money
+Next Premise: tom has a swiss bank account with no bank money
+====================================
+Init Premise: There's a small hole in this sock.
+
+Hypothesis: There's a hole in this sock.
+
+Next Premise: there 's a small hole
+Next Premise: there 's a hole in this sock
+====================================
+Init Premise: Tom put a little bunch of letters on Mary's desk.
+
+Hypothesis: Tom put a bunch of letters on Mary's desk.
+
+Next Premise: tom put a little bunch
+Next Premise: tom put a little bunch of letters
+Next Premise: tom put a little bunch of letters on desk
+Next Premise: tom put a bunch of letters on mary 's desk
+====================================
+Init Premise: They eat a lot of fried rice.
+
+Hypothesis: They eat a lot of rice.
+
+Next Premise: they eat a lot
+Next Premise: they eat a lot of rice
+====================================
+Init Premise: They eat a lot of black rice.
+
+Hypothesis: They eat a lot of rice.
+
+Next Premise: they eat a lot
+Next Premise: they eat a lot of rice
+====================================
+Init Premise: Vladivostok is a city in Russia nearby golden horn bay.
+
+Hypothesis: Vladivostok is a city in Russia.
+
+Next Premise: vladivostok is a city
+Next Premise: vladivostok is a city in nearby golden horn bay
+Next Premise: vladivostok is a city in russia golden horn bay
+Next Premise: vladivostok is a city in russia nearby horn bay
+Next Premise: vladivostok is a city in russia nearby golden horn
+Next Premise: vladivostok is a city in russia nearby golden bay
+====================================
+Init Premise: I had a bad tooth pulled.
+
+Hypothesis: I had a tooth pulled.
+
+Next Premise: i had a bad tooth
+Next Premise: i had a tooth pulled
+====================================
+Init Premise: I had a decayed tooth pulled.
+
+Hypothesis: I had a tooth pulled.
+
+Next Premise: i had a decayed tooth
+Next Premise: i had a tooth pulled
+====================================
+Init Premise: Thursday, we will go to a house with a swimming pool.
+
+Hypothesis: Thursday, we will go to a swimming pool.
+
+Next Premise: we will go to a house with a swimming pool
+Next Premise: thursday we will go
+Next Premise: thursday we will go to a house
+Next Premise: thursday we will go to a house with a pool
+====================================
+Init Premise: A lot of annoying insects are chirping in the field.
+
+Hypothesis: A lot of insects are chirping in the field.
+
+Next Premise: a lot are chirping in the field
+Next Premise: a lot of insects are chirping in the field
+Next Premise: a lot of annoying insects are chirping
+====================================
+Init Premise: There are some big bags in the room.
+
+Hypothesis: There are some bags in the room.
+
+Next Premise: there are some big bags
+Next Premise: there are some bags in the room
+====================================
+Init Premise: That guy is a coward and a bully.
+
+Hypothesis: That guy is a bully.
+
+Next Premise: that guy is a and a bully
+Next Premise: that guy is a coward
+====================================
+Init Premise: He did nothing yasterday but cry.
+
+Hypothesis: He did nothing but cry.
+
+Next Premise: he did nothing yasterday
+====================================
+Init Premise: All the passengers are in mortal danger and fear.
+
+Hypothesis: All the passengers are in mortal danger.
+
+Next Premise: all the passengers are in and fear
+Next Premise: all the passengers are in danger and fear
+Next Premise: all the passengers are in mortal danger
+Next Premise: all the passengers are in danger and fear
+====================================
+Init Premise: Some important documents on criminal proceedings are missing from the files.
+
+Hypothesis: Some important papers are missing from the files.
+
+Next Premise: some important documents are missing from the files
+Next Premise: some important documents on proceedings are missing from the files
+Next Premise: some documents on criminal proceedings are missing from the files
+Next Premise: some important documents on criminal proceedings are missing
+====================================
+Init Premise: Some large birds hunt and prey upon small birds and animals.
+
+Hypothesis: Some large birds prey upon small birds and animals.
+
+Next Premise: some birds hunt and prey upon small birds and animals
+Next Premise: some large birds and prey upon small birds and animals
+Next Premise: some large birds hunt and prey
+Next Premise: some large birds hunt and prey upon birds and animals
+Next Premise: some large birds hunt and prey upon small and animals
+Next Premise: some large birds hunt and prey upon small birds
+Next Premise: some large birds hunt
+Next Premise: some large birds hunt and prey
+Next Premise: some large birds hunt and prey upon birds and animals
+Next Premise: some large birds hunt and prey upon small and animals
+Next Premise: some large birds hunt and prey upon small birds
+====================================
+Init Premise: I think that most young people prefer to listen to rock music from 60s.
+
+Hypothesis: I think that most young people prefer to listen to rock music.
+
+Next Premise: i think
+Next Premise: i think young people prefer to listen to rock music from 60s
+Next Premise: i think that-most people prefer to listen to rock music from 60s
+Next Premise: i think that-most young people prefer
+Next Premise: i think that-most young people prefer to listen from 60s
+Next Premise: i think that-most young people prefer to listen to rock from 60s
+Next Premise: i think that-most young people prefer to listen to music from 60s
+Next Premise: i think that-most young people prefer to listen to rock music
+====================================
+Init Premise: Women and men didn't care for him.
+
+Hypothesis: Women didn't care for him.
+
+Next Premise: and men did n't care for him
+Next Premise: women did n't care for him
+Next Premise: women and men did n't care for him n't
+====================================
+Init Premise: Dogs and cats have all the good qualities of people without at the same time possessing their weaknesses.
+
+Hypothesis: Dogs have all the good qualities of people without at the same time possessing their weaknesses.
+
+Next Premise: and cats have all the good qualities of people without at the same time possessing their weaknesses
+Next Premise: dogs have all the good qualities of people without at the same time possessing their weaknesses
+Next Premise: dogs and cats have all the good qualities of people
+Next Premise: dogs and cats have all the good qualities of people without at the same time
+Next Premise: dogs and cats have all the good qualities of people without at the same time possessing weaknesses
+Next Premise: dogs and cats have all the good qualities of people without at the time possessing their weaknesses
+Next Premise: dogs and cats have all the qualities of people without at the same time possessing their weaknesses
+Next Premise: dogs and cats have all the good qualities of good people without at the same time possessing their weaknesses
+Next Premise: dogs and cats have all the good qualities of people of people without at the same time possessing their weaknesses
+====================================
+Init Premise: Dogs and all pets have all the good qualities of people without at the same time possessing their weaknesses.
+
+Hypothesis: Dogs have all the good qualities of people without at the same time possessing their weaknesses.
+
+Next Premise: dogs have all the good qualities of people without at the same time possessing their weaknesses
+Next Premise: dogs and all pets have all the good qualities of people
+Next Premise: dogs and all pets have all the good qualities of people without at the same time
+Next Premise: dogs and all pets have all the good qualities of people without at the same time possessing weaknesses
+Next Premise: dogs and all pets have all the good qualities of people without at the time possessing their weaknesses
+Next Premise: dogs and all pets have all the qualities of people without at the same time possessing their weaknesses
+Next Premise: dogs and all pets have all the good qualities of people of people without at the same time possessing their weaknesses
+Next Premise: dogs and all good pets have all the good qualities of people without at the same time possessing their weaknesses
+Next Premise: dogs and all pets have all the good qualities of good people without at the same time possessing their weaknesses
+Next Premise: dogs and all pets of people have all the good qualities of people without at the same time possessing their weaknesses
+====================================
+Init Premise: Some boys at school library make fun of me.
+
+Hypothesis: Some boys at school make fun of me.
+
+Next Premise: some boys make fun of me
+Next Premise: some boys at school make fun of me
+Next Premise: some boys at library make fun of me
+Next Premise: some boys at school library make fun
+====================================
+Init Premise: Some boys at my French school make fun of me.
+
+Hypothesis: Some boys at school make fun of me.
+
+Next Premise: some boys make fun of me
+Next Premise: some boys at french school make fun of me
+Next Premise: some boys at my school make fun of me
+Next Premise: some boys at my french school make fun
+====================================
+Init Premise: Animals and plants can not exist without air and water.
+
+Hypothesis: Animals can not exist without air and water.
+
+Next Premise: and plants can not exist without air and water
+Next Premise: animals can not exist without air and water
+Next Premise: animals and plants can not exist without and water
+Next Premise: animals and plants can not exist without air
+Next Premise: animals and plants can not exist without air and water not
+====================================
+Init Premise: Cold mayo is nothing but chemicals!
+
+Hypothesis: Mayo is nothing but chemicals!
+
+Next Premise: mayo is nothing but chemicals
+Next Premise: cold mayo is nothing
+====================================
+Init Premise: Every dog is a great lion at home.
+
+Hypothesis: Every dog is a lion at home.
+
+Next Premise: every dog is a great lion
+Next Premise: every dog is a lion at home
+Next Premise: every dog at home is a great lion at home
+====================================
+Init Premise: Every dog is a lion and a guard at home.
+
+Hypothesis: Every dog in the house is a lion at home.
+
+Next Premise: every dog is a and a guard at home
+Next Premise: every dog is a lion and a guard
+Next Premise: every dog is a lion
+Next Premise: every dog is a lion and a guard
+Next Premise: every dog at home is a lion and a guard at home
+====================================
+Init Premise: Passionate love is only an invention.
+
+Hypothesis: Love is only an invention.
+
+Next Premise: love is only an invention
+Next Premise: passionate love is an invention
+====================================
+Init Premise: Some of my best friends are cops and lawyers.
+
+Hypothesis: Some of my best friends are cops.
+
+Next Premise: some are cops and lawyers
+Next Premise: some of best friends are cops and lawyers
+Next Premise: some of my friends are cops and lawyers
+Next Premise: some of my best friends are and lawyers
+Next Premise: some of my best friends are cops
+====================================
+Init Premise: Some of my best friends are cops and doctors.
+
+Hypothesis: Some of my best friends are cops.
+
+Next Premise: some are cops and doctors
+Next Premise: some of best friends are cops and doctors
+Next Premise: some of my friends are cops and doctors
+Next Premise: some of my best friends are and doctors
+Next Premise: some of my best friends are cops
+====================================
+Init Premise: A large furry animal fled from the zoo.
+
+Hypothesis: A large animal fled from the zoo.
+
+Next Premise: a furry animal fled from the zoo
+Next Premise: a large animal fled from the zoo
+Next Premise: a large furry animal fled
+====================================
+Init Premise: He gave me a ring and a watch.
+
+Hypothesis: He gave me a watch.
+
+Next Premise: he gave me a and a watch
+Next Premise: he gave me a ring
+====================================
+Init Premise: I want to buy a dozen doughnuts to give them to my mom.
+
+Hypothesis: I want to buy a dozen doughnuts.
+
+Next Premise: i want
+Next Premise: i want to buy a dozen doughnuts
+Next Premise: i want to buy a dozen doughnuts to give them
+Next Premise: i want to buy a dozen doughnuts to give them to mom
+====================================
+Init Premise: The spider is spinning a web on the wall of peter's room.
+
+Hypothesis: The spider is spinning a net.
+
+Next Premise: the spider is spinning a web
+Next Premise: the spider is spinning a web on the wall
+Next Premise: the spider is spinning a web on the wall of room
+====================================
+Init Premise: The spider is spinning a very large and well-worked network.
+
+Hypothesis: The spider is spinning a web.
+
+Next Premise: the spider is spinning a network
+Next Premise: the spider is spinning a large and well-worked network
+Next Premise: the spider is spinning a very and well-worked network
+Next Premise: the spider is spinning a very large network
+====================================
+Init Premise: The spider is spinning a thick web.
+
+Hypothesis: The spider is spinning a web.
+
+Next Premise: the spider is spinning a web
+====================================
+Init Premise: I am spreading mustard on a slice of whole wheat bread.
+
+Hypothesis: I am spreading mustard on a slice of bread.
+
+Next Premise: i am spreading mustard
+Next Premise: i am spreading mustard on a slice
+Next Premise: i am spreading mustard on a slice of wheat bread
+Next Premise: i am spreading mustard on a slice of whole wheat
+Next Premise: i am spreading mustard on a slice of whole bread
+====================================
+Init Premise: I am spreading mustard on a slice of bread and butter.
+
+Hypothesis: I am spreading mustard on a slice of bread.
+
+Next Premise: i am spreading mustard
+Next Premise: i am spreading mustard on a slice
+Next Premise: i am spreading mustard on a slice of and butter
+Next Premise: i am spreading mustard on a slice of bread
+====================================
+Init Premise: Tom is dialling a local emergency number.
+
+Hypothesis: Tom is dialling a number.
+
+Next Premise: tom is dialling a emergency number
+Next Premise: tom is dialling a local emergency
+Next Premise: tom is dialling a local number
+====================================
+Init Premise: Tom is dialling a police hotline number.
+
+Hypothesis: Tom is dialling a number.
+
+Next Premise: tom is dialling a police
+Next Premise: tom is dialling a police hotline
+Next Premise: tom is dialling a police number
+Next Premise: tom is dialling a hotline number
+Next Premise: tom is dialling a police hotline
+Next Premise: tom is dialling a police number
+====================================
+Init Premise: He has a brave daughter who is pretty.
+
+Hypothesis: He has a daughter who is pretty.
+
+Next Premise: he has a brave daughter
+Next Premise: he has a daughter who is pretty
+====================================
+Init Premise: A north cold wind is blowing.
+
+Hypothesis: A north wind is blowing.
+
+Next Premise: a cold wind is blowing
+Next Premise: a north wind is blowing
+====================================
+Init Premise: Tom is a skillful professional carpenter.
+
+Hypothesis: Tom is a skillful carpenter.
+
+Next Premise: tom is a professional carpenter
+Next Premise: tom is a skillful carpenter
+====================================
+Init Premise: Tom drinks a glass of cold milk every morning.
+
+Hypothesis: Tom drinks milk every morning.
+
+Next Premise: tom
+Next Premise: tom drinks a glass of cold milk
+Next Premise: tom drinks a glass every morning
+Next Premise: tom drinks a glass of milk every morning
+Next Premise: tom drinks a glass of cold milk every tom morning
+====================================
+Init Premise: Tom drinks warmed up milk every morning.
+
+Hypothesis: Tom drinks milk every morning.
+
+Next Premise: tom warmed up milk every morning
+Next Premise: drinks warmed up milk every morning
+Next Premise: tom drinks warmed up milk
+Next Premise: tom drinks warmed up milk every tom morning
+====================================
+Init Premise: We'll order a pizza and a soda.
+
+Hypothesis: We'll order a pizza.
+
+Next Premise: we 'll order a and a soda
+Next Premise: we 'll order a pizza
+====================================
+Init Premise: Tom gave his dog a bone for being a good boy.
+
+Hypothesis: Tom gave his dog a bone.
+
+Next Premise: tom gave dog a bone for being a good boy
+Next Premise: tom gave his dog a bone
+Next Premise: tom gave his dog a bone for being a boy
+====================================
+Init Premise: The young girl Lucy can't use chopsticks.
+
+Hypothesis: Lucy can�s use chopsticks.
+
+Next Premise: the young girl
+Next Premise: the young girl lucy ca use chopsticks
+Next Premise: the girl lucy ca n't use chopsticks
+====================================
+Init Premise: A fierce battle for the best seats took place at Monte Cassino.
+
+Hypothesis: A fierce battle took place at Monte Cassino.
+
+Next Premise: a fierce battle took place at monte cassino
+Next Premise: a fierce battle for the seats took place at monte cassino
+Next Premise: a battle for the best seats took place at monte cassino
+Next Premise: a fierce battle for the best seats took place
+Next Premise: a fierce battle for the best seats took place at cassino
+====================================
+Init Premise: A fierce battle for the gold medal took place at Monte Cassino.
+
+Hypothesis: A fierce battle took place at Monte Cassino.
+
+Next Premise: a fierce battle took place at monte cassino
+Next Premise: a fierce battle for the gold took place at monte cassino
+Next Premise: a fierce battle for the medal took place at monte cassino
+Next Premise: a battle for the gold medal took place at monte cassino
+Next Premise: a fierce battle for the gold medal took place
+Next Premise: a fierce battle for the gold medal took place at cassino
+====================================
+Init Premise: I was in the hospital for a few hard days.
+
+Hypothesis: I was in the hospital for a few days.
+
+Next Premise: i was in the hospital
+Next Premise: i was in the hospital for a hard days
+Next Premise: i was in the hospital for a few days
+====================================
+Init Premise: I was in the hospital for a few days last month.
+
+Hypothesis: I was in the hospital for a few days.
+
+Next Premise: i was in the hospital last month
+Next Premise: i was in the hospital for a days last month
+Next Premise: i was in the hospital for a few days
+Next Premise: i was in the hospital for a few days month
+====================================
+Init Premise: Tom gave Mary a foot warming massage.
+
+Hypothesis: Tom gave Mary a foot massage.
+
+Next Premise: tom gave mary a foot massage
+Next Premise: tom gave mary a foot warming
+Next Premise: tom gave mary a warming massage
+====================================
+Init Premise: Miss Klein gives a physics test every friday.
+
+Hypothesis: Miss Klein gives a test every friday.
+
+Next Premise: miss klein
+Next Premise: miss klein gives a physics test
+Next Premise: miss klein gives a physics every friday
+Next Premise: miss klein gives a test every friday
+====================================
+Init Premise: She is anything but a soprano singer.
+
+Hypothesis: She is anything but a singer.
+
+Next Premise: she is a soprano singer
+Next Premise: she is anything but a singer
+Next Premise: she is anything
+Next Premise: she is anything but a singer
+====================================
+Init Premise: She is anything but a famous singer.
+
+Hypothesis: She is anything but a singer.
+
+Next Premise: she is a famous singer
+Next Premise: she is anything but a singer
+Next Premise: she is anything
+Next Premise: she is anything but a singer
+====================================
+Init Premise: Susan made a dress for Jill for her wedding.
+
+Hypothesis: Susan made a dress for Jill.
+
+Next Premise: susan made a dress
+Next Premise: susan made a dress for jill
+Next Premise: susan made a dress for jill for wedding
+====================================
+Init Premise: Susan made a dress for Jill to premiere on the day of her friend's wedding.
+
+Hypothesis: Susan made a dress for Jill.
+
+Next Premise: susan made a dress for premiere on the day of her friend 's wedding
+Next Premise: susan made a dress jill to
+Next Premise: susan made a dress for jill to premiere
+Next Premise: susan made a dress for jill to premiere on the day
+Next Premise: susan made a dress for jill to premiere on the day of wedding
+Next Premise: susan made a dress for jill to premiere on the day of friend 's wedding
+====================================
+Init Premise: Susan made a dress for Jill for her friend's wedding.
+
+Hypothesis: Susan made a dress for Jill.
+
+Next Premise: susan made a dress
+Next Premise: susan made a dress for jill
+Next Premise: susan made a dress for jill for wedding
+Next Premise: susan made a dress for jill for friend 's wedding
+====================================
+Init Premise: A dolphin and whale is a mammal.
+
+Hypothesis: A dolphin is a mammal.
+
+Next Premise: a and whale is a mammal
+Next Premise: a dolphin is a mammal
+====================================
+Init Premise: There are some boys buying ice cream in the park.
+
+Hypothesis: There are some guys in the park.
+
+Next Premise: there are some boys
+Next Premise: there are some boys buying ice cream
+Next Premise: there are some boys buying ice in the park
+Next Premise: there are some boys buying cream in the park
+====================================
+Init Premise: The hunter shot at a deer but missed.
+
+Hypothesis: The hunter shot a deer.
+
+Next Premise: the hunter shot missed
+Next Premise: the hunter shot at a deer
+====================================
+Init Premise: The hunter shot at a medium size deer.
+
+Hypothesis: The hunter shot at a deer.
+
+Next Premise: the hunter shot
+Next Premise: the hunter shot at a size deer
+Next Premise: the hunter shot at a medium size
+Next Premise: the hunter shot at a medium deer
+====================================
+Init Premise: Tom has a few sick friends in Boston.
+
+Hypothesis: Tom has a few friends in Boston.
+
+Next Premise: tom has a few sick friends
+Next Premise: tom has a sick friends in boston
+Next Premise: tom has a few friends in boston
+====================================
+Init Premise: A fallen dry tree blocked the way.
+
+Hypothesis: A fallen tree blocked the way.
+
+Next Premise: a dry tree blocked the way
+Next Premise: a fallen tree blocked the way
+====================================
+Init Premise: The city is on a irregular plain.
+
+Hypothesis: The city is on a plain.
+
+Next Premise: the city is on a plain
+====================================
+Init Premise: The city is on a rocky plain.
+
+Hypothesis: The city is on a plain.
+
+Next Premise: the city is on a plain
+====================================
+Init Premise: The city is on a pitomoy plain.
+
+Hypothesis: The city is on a plain.
+
+Next Premise: the city is on a plain
+====================================
+Init Premise: I do a mechanical training at ford.
+
+Hypothesis: I do a training at ford.
+
+Next Premise: i do a mechanical training
+Next Premise: i do a training at ford
+====================================
+Init Premise: I do a boring training at ford.
+
+Hypothesis: I do a training at ford.
+
+Next Premise: i do a boring training
+Next Premise: i do a training at ford
+====================================
+Init Premise: There was a handheld tape recorder on the table.
+
+Hypothesis: There was a tape recorder on the table.
+
+Next Premise: there was a handheld tape recorder
+Next Premise: there was a handheld on the table
+Next Premise: there was a handheld tape on the table
+Next Premise: there was a handheld recorder on the table
+Next Premise: there was a tape recorder on the table
+Next Premise: there was a handheld tape on the table
+Next Premise: there was a handheld recorder on the table
+====================================
+Init Premise: The company spends a lot of money on internet advertising.
+
+Hypothesis: The company spends a lot of money on advertising.
+
+Next Premise: the company spends a lot of money
+Next Premise: the company spends a lot of money on internet
+Next Premise: the company spends a lot of money on advertising
+Next Premise: the company spends a lot on internet advertising
+====================================
+Init Premise: An empathetic little girl can empathize with a friend's feelings.
+
+Hypothesis: An empathetic girl can empathize with a friend's feelings.
+
+Next Premise: an little girl can empathize with a friend 's feelings
+Next Premise: an empathetic girl can empathize with a friend 's feelings
+Next Premise: an empathetic little girl can empathize
+Next Premise: an empathetic little girl can empathize with feelings
+====================================
+Init Premise: Tom gave some milk and water to the cat.
+
+Hypothesis: Tom gave some milk to the cat.
+
+Next Premise: tom gave some milk and water
+Next Premise: tom gave some and water to the cat
+Next Premise: tom gave some milk to the cat
+====================================
+Init Premise: All of a sudden, i felt a sharp constant pain in my stomach.
+
+Hypothesis: All of a sudden, i felt a sharp pain in my stomach.
+
+Next Premise: i felt a sharp constant pain in my stomach
+Next Premise: all i felt a sharp constant pain in my stomach
+Next Premise: all of a sudden i felt a sharp constant pain
+Next Premise: all of a sudden i felt a sharp constant pain in stomach
+Next Premise: all of a sudden i felt a constant pain in my stomach
+Next Premise: all of a sudden i felt a sharp pain in my stomach
+====================================
+Init Premise: I ate a roast turkey sandwich.
+
+Hypothesis: I ate a turkey sandwich.
+
+Next Premise: i ate a roast
+Next Premise: i ate a roast turkey
+Next Premise: i ate a roast sandwich
+Next Premise: i ate a turkey sandwich
+Next Premise: i ate a roast turkey
+Next Premise: i ate a roast sandwich
+====================================
+Init Premise: I ate a fried turkey sandwich.
+
+Hypothesis: I ate a turkey sandwich.
+
+Next Premise: i ate a turkey sandwich
+Next Premise: i ate a fried turkey
+Next Premise: i ate a fried sandwich
+====================================
+Init Premise: You spilled some ketchup and mayonnaise on your tie.
+
+Hypothesis: You spilled some ketchup on your tie.
+
+Next Premise: you spilled some ketchup and mayonnaise
+Next Premise: you spilled some ketchup and mayonnaise on tie
+Next Premise: you spilled some and mayonnaise on your tie
+Next Premise: you spilled some ketchup on your tie
+====================================
+Init Premise: The government has imposed a new tax on German wine.
+
+Hypothesis: The government has imposed a new tax on wine.
+
+Next Premise: the government has imposed a new tax
+Next Premise: the government has imposed a new tax on wine
+Next Premise: the government has imposed a tax on german wine
+====================================
+Init Premise: The government has imposed a new tax on famous wine.
+
+Hypothesis: The government has imposed a new tax on wine.
+
+Next Premise: the government has imposed a new tax
+Next Premise: the government has imposed a new tax on wine
+Next Premise: the government has imposed a tax on famous wine
+====================================
+Init Premise: The government has imposed a new tax on wine produced before 2004.
+
+Hypothesis: The government has imposed a new tax on wine.
+
+Next Premise: the government has imposed a new tax
+Next Premise: the government has imposed a new tax on wine
+Next Premise: the government has imposed a new tax on wine produced
+Next Premise: the government has imposed a tax on wine produced before 2004
+====================================
+Init Premise: They called president roosevelt a pirate because of political actions.
+
+Hypothesis: They called president roosevelt a pirate.
+
+Next Premise: they called president
+Next Premise: they called president roosevelt a pirate
+Next Premise: they called president roosevelt a pirate because of actions
+====================================
+Init Premise: I am smoking a cuban expensive cigar.
+
+Hypothesis: I am smoking a cuban cigar.
+
+Next Premise: i am smoking a expensive cigar
+Next Premise: i am smoking a cuban cigar
+====================================
+Init Premise: I am smoking a cuban black cigar.
+
+Hypothesis: I am smoking a cuban cigar.
+
+Next Premise: i am smoking a black cigar
+Next Premise: i am smoking a cuban cigar
+====================================
+Init Premise: I am smoking a cuban fragrant cigar.
+
+Hypothesis: I am smoking a cuban cigar.
+
+Next Premise: i am smoking a fragrant cigar
+Next Premise: i am smoking a cuban cigar
+====================================
+Init Premise: Madonna's concert drew a large audience in the us.
+
+Hypothesis: Madonna's concert drew a large audience.
+
+Next Premise: concert drew a large audience in the us
+Next Premise: madonna 's concert drew a large audience
+Next Premise: madonna 's concert drew a audience in the us
+====================================
+Init Premise: Madonna's concert drew a large and loud audience.
+
+Hypothesis: Madonna's concert drew a large audience.
+
+Next Premise: concert drew a large and loud audience
+Next Premise: madonna 's concert drew a audience
+Next Premise: madonna 's concert drew a and loud audience
+Next Premise: madonna 's concert drew a large audience
+====================================
+Init Premise: She took a nutritious and expensive protein shake.
+
+Hypothesis: She took a protein shake.
+
+Next Premise: she took a protein shake
+Next Premise: she took a and expensive protein shake
+Next Premise: she took a nutritious protein shake
+Next Premise: she took a nutritious and expensive protein
+Next Premise: she took a nutritious and expensive shake
+====================================
+Init Premise: A lot of school boys are running in the park.
+
+Hypothesis: A lot of boys are running in the park.
+
+Next Premise: a lot are running in the park
+Next Premise: a lot of school are running in the park
+Next Premise: a lot of boys are running in the park
+Next Premise: a lot of school boys are running
+====================================
+Init Premise: I bought a gift and some flowers for Tom.
+
+Hypothesis: I bought a gift for Tom.
+
+Next Premise: i bought a and some flowers for tom
+Next Premise: i bought a gift and some flowers
+Next Premise: i bought a gift
+Next Premise: i bought a gift and some flowers
+====================================
+Init Premise: He drank orange juice out of a white bottle.
+
+Hypothesis: He drank orange juice out of a bottle.
+
+Next Premise: he drank orange juice
+Next Premise: he drank orange juice out-of a bottle
+Next Premise: he drank juice out-of a white bottle
+====================================
+Init Premise: He lives in a small village.
+
+Hypothesis: He lives in a village.
+
+Next Premise: he lives
+Next Premise: he lives in a village
+====================================
+Init Premise: I see a man and a tall woman with daughter.
+
+Hypothesis: I see a man and a woman.
+
+Next Premise: i see a and a tall woman with daughter
+Next Premise: i see a man and a tall woman
+Next Premise: i see a man and a woman with daughter
+Next Premise: i see a man
+Next Premise: i see a man and a tall woman
+Next Premise: i see a man and a woman with daughter
+====================================
+Init Premise: I see a man and a running woman.
+
+Hypothesis: I see a man and a woman.
+
+Next Premise: i see a and a running woman
+Next Premise: i see a man and a woman
+Next Premise: i see a man
+Next Premise: i see a man and a woman
+====================================
+Init Premise: I see a man and an elegant woman.
+
+Hypothesis: I see a man and a woman.
+
+Next Premise: i see a and an elegant woman
+Next Premise: i see a man and an woman
+Next Premise: i see a man
+Next Premise: i see a man and an woman
+====================================
+Init Premise: Tom is drinking a beer at carlos's.
+
+Hypothesis: Tom is drinking a beer.
+
+Next Premise: tom is drinking a beer
+====================================
+Init Premise: Tom is drinking a rice beer.
+
+Hypothesis: Tom is drinking a beer.
+
+Next Premise: tom is drinking a rice
+Next Premise: tom is drinking a beer
+====================================
+Init Premise: Tom is drinking a beer made from wheat.
+
+Hypothesis: Tom is drinking a beer.
+
+Next Premise: tom is drinking a beer
+Next Premise: tom is drinking a beer made
+====================================
+Init Premise: Tom is drinking a light beer.
+
+Hypothesis: Tom is drinking a beer.
+
+Next Premise: tom is drinking a beer
+====================================
+Init Premise: I ordered a black book from London.
+
+Hypothesis: I ordered a book from London.
+
+Next Premise: i ordered a black book
+Next Premise: i ordered a book from london
+====================================
+Init Premise: I gave Tom a sedative and tea.
+
+Hypothesis: I gave Tom a sedative.
+
+Next Premise: i gave tom a and tea
+Next Premise: i gave tom a sedative
+====================================
+Init Premise: Tom spread some strawberry hot jam on his toast.
+
+Hypothesis: Tom spread some strawberry jam on his toast.
+
+Next Premise: tom spread some strawberry hot jam
+Next Premise: tom spread some strawberry hot jam on toast
+Next Premise: tom spread some strawberry jam on his toast
+Next Premise: tom spread some strawberry hot on his toast
+Next Premise: tom spread some hot jam on his toast
+====================================
+Init Premise: A typhoon simoron is approaching Japan.
+
+Hypothesis: A typhoon is approaching Japan.
+
+Next Premise: a typhoon is approaching japan
+Next Premise: a simoron is approaching japan
+====================================
+Init Premise: I ordered a veggie burger with cheese.
+
+Hypothesis: I ordered a veggie burger.
+
+Next Premise: i ordered a veggie burger
+Next Premise: i ordered a veggie with cheese
+Next Premise: i ordered a burger with cheese
+====================================
+Init Premise: I ordered a veggie soy burger.
+
+Hypothesis: I ordered a veggie burger.
+
+Next Premise: i ordered a veggie
+Next Premise: i ordered a veggie soy
+Next Premise: i ordered a veggie burger
+Next Premise: i ordered a soy burger
+Next Premise: i ordered a veggie soy
+Next Premise: i ordered a veggie burger
+====================================
+Init Premise: There was a red flower bed in the middle of the garden.
+
+Hypothesis: There was a flower bed in the middle of the garden.
+
+Next Premise: there was a flower bed in the middle of the garden
+Next Premise: there was a red flower in the middle of the garden
+Next Premise: there was a red bed in the middle of the garden
+Next Premise: there was a red flower bed
+Next Premise: there was a red flower bed in the middle
+====================================
+Init Premise: Tom wore my jeans and a cowboy hat.
+
+Hypothesis: Tom wore jeans and a cowboy hat.
+
+Next Premise: tom wore jeans and a cowboy hat
+Next Premise: tom wore my and a cowboy hat
+Next Premise: tom wore my jeans and a cowboy
+Next Premise: tom wore my jeans and a hat
+Next Premise: tom wore my jeans
+Next Premise: tom wore my jeans and a cowboy
+Next Premise: tom wore my jeans and a hat
+====================================
+Init Premise: Each person paid one thousand dollars for that.
+
+Hypothesis: Each person paid one thousand dollars.
+
+Next Premise: each person paid one thousand dollars
+====================================
+Init Premise: If students don't come, the lesson doesn't start.
+
+Hypothesis: If first-year students don't come, the lesson doesn't start.
+
+Next Premise: the lesson does n't start
+Next Premise: if students do come the lesson does n't start
+Next Premise: if students do n't come the lesson does n't start if first-year students do n't come
+Next Premise: if students do n't come the lesson does n't start n't
+Next Premise: if students do n't come the lesson does n't n't start
+====================================
+Init Premise: If students don't come, the lesson doesn't start.
+
+Hypothesis: If most of the students don't come, the lesson doesn't start.
+
+Next Premise: the lesson does n't start
+Next Premise: if students do come the lesson does n't start
+Next Premise: if students do n't come the lesson does n't start if most students do n't come
+Next Premise: if students do n't come the lesson does n't start n't
+Next Premise: if students do n't come the lesson does n't n't start
+====================================
+Init Premise: If students don't come, the lesson doesn't start.
+
+Hypothesis: If us students don't come, the lesson doesn't start.
+
+Next Premise: the lesson does n't start
+Next Premise: if students do come the lesson does n't start
+Next Premise: if students do n't come the lesson does n't start if us students do n't come
+Next Premise: if students do n't come the lesson does n't start n't
+Next Premise: if students do n't come the lesson does n't n't start
+====================================
+Init Premise: No wedding would be complete without a fight with a partner.
+
+Hypothesis: No wedding would be complete without a fight.
+
+Next Premise: no wedding would be complete without a fight
+====================================
+Init Premise: If you have a question, please raise your right hand.
+
+Hypothesis: If you have a question not resolved, please raise your right hand.
+
+Next Premise: please raise your right hand
+Next Premise: if you have a question please
+Next Premise: if you have a question please raise right hand
+Next Premise: if you have a question please raise your hand
+Next Premise: if you not have a question please raise your right hand
+Next Premise: if you have a right question please raise your right hand
+Next Premise: if you have a question if you have a question not resolved please raise your right hand
+Next Premise: if you have not a question please raise your right hand
+Next Premise: if you have a question not please raise your right hand
+====================================
+Init Premise: People who don't have a computer can't make full use of this mp3 player function.
+
+Hypothesis: People who don't have a personal computer can't make full use of this mp3 player function.
+
+Next Premise: people who do have a computer ca n't make full use of this mp3 player function
+Next Premise: people who do n't have a computer ca n't make full use of this mp3 player
+Next Premise: people who do n't have a computer ca n't make full use of this mp3 function
+Next Premise: people who do n't have a computer ca n't make full use of this player function
+Next Premise: people who do n't have a computer ca n't make full use of this function
+Next Premise: people who do n't have a computer ca n't make full use of this mp3 function
+Next Premise: people who do n't have a computer ca n't make full use of this player function
+Next Premise: people who do n't have a computer ca n't n't make full use of this mp3 player function
+Next Premise: people who do n't have a computer ca n't make n't full use of this mp3 player function
+Next Premise: people who do n't have a computer ca n't make full use of this mp3 player function n't
+====================================
+Init Premise: People who don't have a computer can't make full use of this mp3 player function.
+
+Hypothesis: People who don't have a powerful computer can't make full use of this mp3 player function.
+
+Next Premise: people who do have a computer ca n't make full use of this mp3 player function
+Next Premise: people who do n't have a computer ca n't make full use of this mp3 player
+Next Premise: people who do n't have a computer ca n't make full use of this mp3 function
+Next Premise: people who do n't have a computer ca n't make full use of this player function
+Next Premise: people who do n't have a computer ca n't make full use of this function
+Next Premise: people who do n't have a computer ca n't make full use of this mp3 function
+Next Premise: people who do n't have a computer ca n't make full use of this player function
+Next Premise: people who do n't have a computer ca n't n't make full use of this mp3 player function
+Next Premise: people who do n't have a computer ca n't make n't full use of this mp3 player function
+Next Premise: people who do n't have a computer ca n't make full use of this mp3 player function n't
+====================================
+Init Premise: You can't have a rainbow without a little rain.
+
+Hypothesis: You can't have a colour spectrum without a little rain.
+
+Next Premise: you ca n't have a rainbow without a rain
+Next Premise: you ca n't n't have a rainbow without a little rain
+Next Premise: you ca n't have a rainbow without a little rain without a little rain
+Next Premise: you ca n't have a colour rainbow without a little rain
+Next Premise: you ca n't have a rainbow without a little rain n't
+Next Premise: you ca n't have n't a rainbow without a little rain
+====================================
+Init Premise: You can't have a rainbow without a little rain.
+
+Hypothesis: You can't have a rainbow in the sky without a little rain.
+
+Next Premise: you ca n't have a rainbow without a rain
+Next Premise: you ca n't have a little rainbow without a little rain
+Next Premise: you ca n't n't have a rainbow without a little rain
+Next Premise: you ca n't have a rainbow without a little rain n't
+Next Premise: you ca n't have n't a rainbow without a little rain
+Next Premise: you ca n't have a rainbow in the sky without a little rain
+====================================
+Init Premise: I couldn't live in Boston without you.
+
+Hypothesis: I couldn't live in Boston avenue without you.
+
+Next Premise: i could n't live in boston without you n't
+Next Premise: i could n't live in boston boston without you
+====================================
+Init Premise: It's no secret that Tom doesn't agree with you.
+
+Hypothesis: It's no big secret that Tom doesn't agree with you.
+
+Next Premise: it 's no secret that tom does agree with you
+Next Premise: it 's no secret that tom does n't agree
+====================================
+Init Premise: It's no secret that Tom doesn't agree with you.
+
+Hypothesis: It's no secret of any kind that Tom doesn't agree with you.
+
+Next Premise: it 's no secret that tom does agree with you
+Next Premise: it 's no secret that tom does n't agree
+====================================
+Init Premise: It's no secret that Tom doesn't agree with you.
+
+Hypothesis: It's no secret that Tom disagrees with you after cheating.
+
+Next Premise: it 's no secret that tom does agree with you
+Next Premise: it 's no secret that tom does n't agree
+====================================
+Init Premise: At this school, there are no grades and students having no homework.
+
+Hypothesis: At this school, there are no grades and students having no extra homework.
+
+Next Premise: at this school there are no grades and students extra students no homework
+====================================
+Init Premise: At this school, there are no grades and students having no homework.
+
+Hypothesis: At this school, there are no grades and students having no summer homework.
+
+Next Premise: at this school there are no grades and students summer students no homework
+====================================
+Init Premise: At this school, there are no grades and students having no homework.
+
+Hypothesis: At this school, there are no grades and students having no difficult homework.
+
+Next Premise: at this school there are no grades and students difficult students no homework
+====================================
+Init Premise: At this school, there are no grades and students having no homework and tests.
+
+Hypothesis: At this school, there are no grades and students having no homework.
+
+Next Premise: at this school there are no grades and students having no and tests
+Next Premise: at this school there are no grades and students having no homework
+====================================
+Init Premise: At this school, there are no grades and students having no homework.
+
+Hypothesis: At this school, there are no grades and students having no lecture to do at home.
+
+====================================
+Init Premise: At this school, there are no grades and students having no homework.
+
+Hypothesis: At this school, there are no grades and students having no assignments.
+
+====================================
+Init Premise: I was only a seven-year-old girl at that time.
+
+Hypothesis: I was only a seven-year-old child at that time.
+
+Next Premise: i was a seven-year-old girl at that time
+Next Premise: i was only a seven-year-old girl
+Next Premise: i was only a girl at that time
+====================================
+Init Premise: All boys and girls like to play baseball.
+
+Hypothesis: All boys like to play baseball.
+
+Next Premise: all boys and girls like
+====================================
+Init Premise: No creature can live without air and water.
+
+Hypothesis: No creature can live without air.
+
+Next Premise: no creature can live without and water
+Next Premise: no creature can live without air
+====================================
+Init Premise: No creature can live without clean air.
+
+Hypothesis: No creature can live without air.
+
+Next Premise: no creature can live without air
+====================================
+Init Premise: No creature can live without air in the sea.
+
+Hypothesis: No creature can live without air.
+
+Next Premise: no creature can live without air
+====================================
+Init Premise: We play football in the morning every saturday.
+
+Hypothesis: We play football every saturday.
+
+Next Premise: we play football every saturday
+Next Premise: we play football in the morning
+====================================
+Init Premise: We play football at night every saturday.
+
+Hypothesis: We play football every saturday.
+
+Next Premise: we play football every saturday
+Next Premise: we play football at night
+====================================
+Init Premise: They've been looking for the plane for eight days, without success.
+
+Hypothesis: They've been looking for the plane for eight days, without great success.
+
+Next Premise: they 've been looking for eight days without success
+Next Premise: they 've been looking for the plane without success
+Next Premise: they 've been looking for the plane for eight days
+Next Premise: they 've been looking for the plane for eight days without great success
+====================================
+Init Premise: They've been looking for the plane for eight days, without success.
+
+Hypothesis: They've been looking for the plane for eight days, without splendid success.
+
+Next Premise: they 've been looking for eight days without success
+Next Premise: they 've been looking for the plane without success
+Next Premise: they 've been looking for the plane for eight days
+Next Premise: they 've been looking for the plane for eight days without splendid success
+====================================
+Init Premise: They've been looking for the plane for eight days, without success.
+
+Hypothesis: They've been looking for the plane for eight days, without success and benefit.
+
+Next Premise: they 've been looking for eight days without success
+Next Premise: they 've been looking for the plane without success
+Next Premise: they 've been looking for the plane for eight days
+====================================
+Init Premise: He plays golf every sunday with his best friends.
+
+Hypothesis: He plays golf every sunday.
+
+Next Premise: he plays golf with his best friends
+Next Premise: he plays golf every sunday
+Next Premise: he plays golf every sunday with best friends
+Next Premise: he plays golf every sunday with his friends
+====================================
+Init Premise: I can't imagine life without him and his dog.
+
+Hypothesis: I can't imagine life without him.
+
+Next Premise: i ca n't imagine life without and his dog
+Next Premise: i ca n't imagine life without him and dog
+Next Premise: i ca n't imagine life without him
+Next Premise: i ca n't imagine life without him and dog
+Next Premise: i ca n't imagine life n't without him and his dog
+Next Premise: i ca n't imagine n't life without him and his dog
+Next Premise: i ca n't n't imagine life without him and his dog
+Next Premise: i ca n't imagine life without him and his dog n't
+====================================
+Init Premise: I can't imagine life without his family.
+
+Hypothesis: I can't imagine our life without him.
+
+Next Premise: i ca n't imagine life without family
+Next Premise: i ca n't imagine n't life without his family
+Next Premise: i ca n't n't imagine life without his family
+Next Premise: i ca n't imagine life n't without his family
+Next Premise: i ca n't imagine life without his family n't
+====================================
+Init Premise: Every morning I ask myself why.
+
+Hypothesis: Every day I ask myself why.
+
+Next Premise: every morning i ask myself
+Next Premise: i ask myself why
+====================================
+Init Premise: If someone can't remember his past, he's doomed to experience it anew.
+
+Hypothesis: If maria victoria can't remember his past, he's doomed to experience it anew.
+
+Next Premise: he 's doomed to experience it anew
+Next Premise: if someone ca remember his past he 's doomed to experience it anew
+Next Premise: if someone ca n't remember past he 's doomed to experience it anew
+Next Premise: if someone ca n't remember his past he 's doomed
+Next Premise: if someone ca n't remember his past he 's doomed to experience it
+====================================
+Init Premise: If someone can't remember his past, he's doomed to experience it anew.
+
+Hypothesis: If humans can't remember his past, he's doomed to experience it anew.
+
+Next Premise: he 's doomed to experience it anew
+Next Premise: if someone ca remember his past he 's doomed to experience it anew
+Next Premise: if someone ca n't remember past he 's doomed to experience it anew
+Next Premise: if someone ca n't remember his past he 's doomed
+Next Premise: if someone ca n't remember his past he 's doomed to experience it
+====================================
+Init Premise: I can't imagine life without music.
+
+Hypothesis: I can't imagine life and the world without good music.
+
+Next Premise: i ca n't imagine n't life without music
+Next Premise: i ca n't n't imagine life without music
+Next Premise: i ca n't imagine life without music n't
+Next Premise: i ca n't imagine life n't without music
+====================================
+Init Premise: I can't imagine life without music.
+
+Hypothesis: I can't imagine my daily life without nice music.
+
+Next Premise: i ca n't imagine n't life without music
+Next Premise: i ca n't n't imagine life without music
+Next Premise: i ca n't imagine life without music n't
+Next Premise: i ca n't imagine life n't without music
+====================================
+Init Premise: I can't imagine life without music.
+
+Hypothesis: I can't imagine my life without beautiful music.
+
+Next Premise: i ca n't imagine n't life without music
+Next Premise: i ca n't n't imagine life without music
+Next Premise: i ca n't imagine life without music n't
+Next Premise: i ca n't imagine life n't without music
+====================================
+Init Premise: I can't imagine life without music.
+
+Hypothesis: I can't imagine your life without music and hobby.
+
+Next Premise: i ca n't imagine n't life without music
+Next Premise: i ca n't n't imagine life without music
+Next Premise: i ca n't imagine life without music n't
+Next Premise: i ca n't imagine life n't without music
+====================================
+Init Premise: I can't imagine life without music.
+
+Hypothesis: I can't imagine a long life without music and cooking.
+
+Next Premise: i ca n't imagine n't life without music
+Next Premise: i ca n't n't imagine life without music
+Next Premise: i ca n't imagine life without music n't
+Next Premise: i ca n't imagine life n't without music
+====================================
+Init Premise: I can't imagine life without music.
+
+Hypothesis: I can't imagine living without soul music.
+
+Next Premise: i ca n't imagine n't life without music
+Next Premise: i ca n't n't imagine life without music
+Next Premise: i ca n't imagine life without music n't
+Next Premise: i ca n't imagine life n't without music
+====================================
+Init Premise: I can't imagine life without music.
+
+Hypothesis: I can't imagine existing without rock'n'roll music.
+
+Next Premise: i ca n't imagine n't life without music
+Next Premise: i ca n't n't imagine life without music
+Next Premise: i ca n't imagine life without music n't
+Next Premise: i ca n't imagine life n't without music
+====================================
+Init Premise: He is not a teacher but a student who helps his peers.
+
+Hypothesis: He is not a teacher but a student.
+
+Next Premise: he is not a teacher a student
+Next Premise: he is not a teacher but a student who helps peers
+Next Premise: he is not a teacher a student
+Next Premise: he is not a teacher but a student who helps peers
+====================================
+Init Premise: He is not a teacher but an excellent student.
+
+Hypothesis: He is not a teacher but a student.
+
+====================================
+Init Premise: He is not a teacher but a student.
+
+Hypothesis: He is not a teacher but an engineering student.
+
+====================================
+Init Premise: Tom goes jogging in the park every early in the morning.
+
+Hypothesis: Tom goes jogging in the park every morning.
+
+Next Premise: tom goes
+Next Premise: tom goes jogging in the park in the morning
+Next Premise: tom goes jogging every early in the morning
+Next Premise: tom goes jogging in the park every early
+====================================
+Init Premise: Every alien read news magazines.
+
+Hypothesis: Every alien read magazines.
+
+====================================
+Init Premise: Every alien watched baseball matches.
+
+Hypothesis: Every alien watched sports matches.
+
+Next Premise: every alien watched baseball
+Next Premise: every alien watched matches
+====================================
+Init Premise: Every alien bought shirts.
+
+Hypothesis: Every alien bought clothes.
+
+====================================
+Init Premise: Every alien drove suvs.
+
+Hypothesis: Every alien drove cars.
+
+====================================
+Init Premise: Many aliens read news magazines.
+
+Hypothesis: Many aliens read magazines.
+
+Next Premise: aliens read news magazines
+Next Premise: many aliens read news
+Next Premise: many aliens read magazines
+====================================
+Init Premise: Many aliens watched baseball matches.
+
+Hypothesis: Many aliens watched sports matches.
+
+Next Premise: aliens watched baseball matches
+Next Premise: many aliens watched baseball
+Next Premise: many aliens watched matches
+====================================
+Init Premise: Many aliens bought shirts.
+
+Hypothesis: Many aliens bought clothes.
+
+Next Premise: aliens bought shirts
+====================================
+Init Premise: Many aliens drove suvs.
+
+Hypothesis: Many aliens drove cars.
+
+Next Premise: aliens drove suvs
+====================================
+Init Premise: The yellow alien read news magazines.
+
+Hypothesis: The yellow alien read magazines.
+
+Next Premise: the alien read news magazines
+Next Premise: the yellow alien read news
+Next Premise: the yellow alien read magazines
+====================================
+Init Premise: The yellow alien watched baseball matches.
+
+Hypothesis: The yellow alien watched sports matches.
+
+Next Premise: the alien watched baseball matches
+Next Premise: the yellow alien watched baseball
+Next Premise: the yellow alien watched matches
+====================================
+Init Premise: The yellow alien bought shirts.
+
+Hypothesis: The yellow alien bought clothes.
+
+Next Premise: the alien bought shirts
+====================================
+Init Premise: The yellow alien drove suvs.
+
+Hypothesis: The yellow alien drove cars.
+
+Next Premise: the alien drove suvs
+====================================
+Init Premise: Every alien drank some coke.
+
+Hypothesis: Every alien drank soda.
+
+====================================
+Init Premise: Every alien read some sci-fi novels.
+
+Hypothesis: Every alien read books.
+
+Next Premise: every alien read some novels
+Next Premise: every alien alien read some sci-fi novels
+Next Premise: every read alien read some sci-fi novels
+====================================
+Init Premise: Every alien played with some toy cars.
+
+Hypothesis: Every alien played with toys.
+
+Next Premise: every alien played
+Next Premise: every alien played with some toy
+Next Premise: every alien played with some cars
+====================================
+Init Premise: Every alien threw some tennis balls.
+
+Hypothesis: Every alien threw balls.
+
+Next Premise: every alien threw some tennis
+Next Premise: every alien threw some balls
+====================================
+Init Premise: Many aliens drank some coke.
+
+Hypothesis: Many aliens drank soda.
+
+Next Premise: aliens drank some coke
+====================================
+Init Premise: Many aliens read some sci-fi novels.
+
+Hypothesis: Many aliens read books.
+
+Next Premise: aliens read some sci-fi novels
+Next Premise: many aliens read some novels
+====================================
+Init Premise: Many aliens played with some toy cars.
+
+Hypothesis: Many aliens played with toys.
+
+Next Premise: aliens played with some toy cars
+Next Premise: many aliens played
+Next Premise: many aliens played with some toy
+Next Premise: many aliens played with some cars
+====================================
+Init Premise: Many aliens threw some tennis balls.
+
+Hypothesis: Many aliens threw balls.
+
+Next Premise: aliens threw some tennis balls
+Next Premise: many aliens threw some tennis
+Next Premise: many aliens threw some balls
+====================================
+Init Premise: The blue alien drank some coke.
+
+Hypothesis: The blue alien drank soda.
+
+Next Premise: the alien drank some coke
+====================================
+Init Premise: The blue alien read some sci-fi novels.
+
+Hypothesis: The blue alien read books.
+
+Next Premise: the alien read some sci-fi novels
+Next Premise: the blue alien read some novels
+====================================
+Init Premise: The blue alien played with some toy cars.
+
+Hypothesis: The blue alien played with toys.
+
+Next Premise: the alien played with some toy cars
+Next Premise: the blue alien played
+Next Premise: the blue alien played with some toy
+Next Premise: the blue alien played with some cars
+====================================
+Init Premise: The blue alien threw some tennis balls.
+
+Hypothesis: The blue alien threw balls.
+
+Next Premise: the alien threw some tennis balls
+Next Premise: the blue alien threw some tennis
+Next Premise: the blue alien threw some balls
+====================================
+Init Premise: Every alien ate pork.
+
+Hypothesis: Every alien ate meat.
+
+====================================
+Init Premise: Every alien read sci-fi novels.
+
+Hypothesis: Every alien read books.
+
+Next Premise: every alien read novels
+====================================
+Init Premise: Every alien saw doves.
+
+Hypothesis: Every alien saw birds.
+
+====================================
+Init Premise: Every alien threw tennis balls.
+
+Hypothesis: Every alien threw balls.
+
+Next Premise: every alien threw tennis
+Next Premise: every alien threw balls
+====================================
+Init Premise: Many aliens ate pork.
+
+Hypothesis: Many aliens ate meat.
+
+Next Premise: aliens ate pork
+====================================
+Init Premise: Many aliens read sci-fi novels.
+
+Hypothesis: Many aliens read books.
+
+Next Premise: aliens read sci-fi novels
+Next Premise: many aliens read novels
+====================================
+Init Premise: Many aliens saw doves.
+
+Hypothesis: Many aliens saw birds.
+
+Next Premise: aliens saw doves
+====================================
+Init Premise: Many aliens threw tennis balls.
+
+Hypothesis: Many aliens threw balls.
+
+Next Premise: aliens threw tennis balls
+Next Premise: many aliens threw tennis
+Next Premise: many aliens threw balls
+====================================
+Init Premise: The yellow alien ate pork.
+
+Hypothesis: The yellow alien ate meat.
+
+Next Premise: the alien ate pork
+====================================
+Init Premise: The yellow alien read sci-fi novels.
+
+Hypothesis: The yellow alien read books.
+
+Next Premise: the alien read sci-fi novels
+Next Premise: the yellow alien read novels
+====================================
+Init Premise: The yellow alien saw doves.
+
+Hypothesis: The yellow alien saw birds.
+
+Next Premise: the alien saw doves
+====================================
+Init Premise: The yellow alien threw tennis balls.
+
+Hypothesis: The yellow alien threw balls.
+
+Next Premise: the alien threw tennis balls
+Next Premise: the yellow alien threw tennis
+Next Premise: the yellow alien threw balls
+====================================
+Init Premise: Every alien read some news magazines.
+
+Hypothesis: Every alien read magazines.
+
+Next Premise: every alien read some news
+Next Premise: every alien read some magazines
+Next Premise: every read alien read some news magazines
+Next Premise: every alien alien read some news magazines
+====================================
+Init Premise: Every alien ate at some Mexican restaurants.
+
+Hypothesis: Every alien ate at restaurants.
+
+Next Premise: every alien ate
+Next Premise: every alien ate at some restaurants
+====================================
+Init Premise: Every alien bought some shirts.
+
+Hypothesis: Every alien bought clothes.
+
+====================================
+Init Premise: Every alien used some quarters.
+
+Hypothesis: Every alien used coins.
+
+Next Premise: every used alien used some quarters
+====================================
+Init Premise: Many aliens read some news magazines.
+
+Hypothesis: Many aliens read magazines.
+
+Next Premise: aliens read some news magazines
+Next Premise: many aliens read some news
+Next Premise: many aliens read some magazines
+====================================
+Init Premise: Many aliens ate at some Mexican restaurants.
+
+Hypothesis: Many aliens ate at restaurants.
+
+Next Premise: aliens ate at some mexican restaurants
+Next Premise: many aliens ate
+Next Premise: many aliens ate at some restaurants
+====================================
+Init Premise: Many aliens bought some shirts.
+
+Hypothesis: Many aliens bought clothes.
+
+Next Premise: aliens bought some shirts
+====================================
+Init Premise: Many aliens used some quarters.
+
+Hypothesis: Many aliens used coins.
+
+Next Premise: aliens used some quarters
+====================================
+Init Premise: The blue alien read some news magazines.
+
+Hypothesis: The blue alien read magazines.
+
+Next Premise: the alien read some news magazines
+Next Premise: the blue alien read some news
+Next Premise: the blue alien read some magazines
+====================================
+Init Premise: The blue alien ate at some Mexican restaurants.
+
+Hypothesis: The blue alien ate at restaurants.
+
+Next Premise: the alien ate at some mexican restaurants
+Next Premise: the blue alien ate
+Next Premise: the blue alien ate at some restaurants
+====================================
+Init Premise: The blue alien bought some shirts.
+
+Hypothesis: The blue alien bought clothes.
+
+Next Premise: the alien bought some shirts
+====================================
+Init Premise: The blue alien used some quarters.
+
+Hypothesis: The blue alien used coins.
+
+Next Premise: the alien used some quarters
+====================================
+Init Premise: Every alien drank coke.
+
+Hypothesis: Every alien drank soda.
+
+====================================
+Init Premise: Every alien ate at Mexican restaurants.
+
+Hypothesis: Every alien ate at restaurants.
+
+Next Premise: every alien ate
+Next Premise: every alien ate at restaurants
+====================================
+Init Premise: Every alien played with toy cars.
+
+Hypothesis: Every alien played with toys.
+
+Next Premise: every alien played
+Next Premise: every alien played with toy
+Next Premise: every alien played with cars
+====================================
+Init Premise: Every alien used quarters.
+
+Hypothesis: Every alien used coins.
+
+====================================
+Init Premise: Many aliens drank coke.
+
+Hypothesis: Many aliens drank soda.
+
+Next Premise: aliens drank coke
+====================================
+Init Premise: Many aliens ate at Mexican restaurants.
+
+Hypothesis: Many aliens ate at restaurants.
+
+Next Premise: aliens ate at mexican restaurants
+Next Premise: many aliens ate
+Next Premise: many aliens ate at restaurants
+====================================
+Init Premise: Many aliens played with toy cars.
+
+Hypothesis: Many aliens played with toys.
+
+Next Premise: aliens played with toy cars
+Next Premise: many aliens played
+Next Premise: many aliens played with toy
+Next Premise: many aliens played with cars
+====================================
+Init Premise: Many aliens used quarters.
+
+Hypothesis: Many aliens used coins.
+
+Next Premise: aliens used quarters
+====================================
+Init Premise: The yellow alien drank coke.
+
+Hypothesis: The yellow alien drank soda.
+
+Next Premise: the alien drank coke
+====================================
+Init Premise: The yellow alien ate at Mexican restaurants.
+
+Hypothesis: The yellow alien ate at restaurants.
+
+Next Premise: the alien ate at mexican restaurants
+Next Premise: the yellow alien ate
+Next Premise: the yellow alien ate at restaurants
+====================================
+Init Premise: The yellow alien played with toy cars.
+
+Hypothesis: The yellow alien played with toys.
+
+Next Premise: the alien played with toy cars
+Next Premise: the yellow alien played
+Next Premise: the yellow alien played with toy
+Next Premise: the yellow alien played with cars
+====================================
+Init Premise: The yellow alien used quarters.
+
+Hypothesis: The yellow alien used coins.
+
+Next Premise: the alien used quarters
+Next Premise: the yellow used quarters
+Next Premise: the yellow alien quarters
+====================================
+Init Premise: Every alien ate some pork.
+
+Hypothesis: Every alien ate some meat.
+
+====================================
+Init Premise: Every alien watched some baseball matches.
+
+Hypothesis: Every alien watched some sports matches.
+
+Next Premise: every alien watched some baseball
+Next Premise: every alien watched some matches
+Next Premise: every sports alien watched some baseball matches
+====================================
+Init Premise: Every alien saw some doves.
+
+Hypothesis: Every alien saw some birds.
+
+====================================
+Init Premise: Every alien drove some suvs.
+
+Hypothesis: Every alien drove some cars.
+
+====================================
+Init Premise: Many aliens ate some pork.
+
+Hypothesis: Many aliens ate some meat.
+
+Next Premise: aliens ate some pork
+====================================
+Init Premise: Many aliens watched some baseball matches.
+
+Hypothesis: Many aliens watched some sports matches.
+
+Next Premise: aliens watched some baseball matches
+Next Premise: many aliens watched some baseball
+Next Premise: many aliens watched some matches
+====================================
+Init Premise: Many aliens saw some doves.
+
+Hypothesis: Many aliens saw some birds.
+
+Next Premise: aliens saw some doves
+====================================
+Init Premise: Many aliens drove some suvs.
+
+Hypothesis: Many aliens drove some cars.
+
+Next Premise: aliens drove some suvs
+====================================
+Init Premise: The blue alien ate some pork.
+
+Hypothesis: The blue alien ate some meat.
+
+Next Premise: the alien ate some pork
+====================================
+Init Premise: The blue alien watched some baseball matches.
+
+Hypothesis: The blue alien watched some sports matches.
+
+Next Premise: the alien watched some baseball matches
+Next Premise: the blue alien watched some baseball
+Next Premise: the blue alien watched some matches
+====================================
+Init Premise: The blue alien saw some doves.
+
+Hypothesis: The blue alien saw some birds.
+
+Next Premise: the alien saw some doves
+====================================
+Init Premise: The blue alien drove some suvs.
+
+Hypothesis: The blue alien drove some cars.
+
+Next Premise: the alien drove some suvs
+====================================
+Init Premise: Every alien drank some coke.
+
+Hypothesis: Every alien drank some soda.
+
+====================================
+Init Premise: Every alien read some sci-fi novels.
+
+Hypothesis: Every alien read some books.
+
+Next Premise: every alien read some novels
+====================================
+Init Premise: Every alien played with some toy cars.
+
+Hypothesis: Every alien played with some toys.
+
+Next Premise: every alien played
+Next Premise: every alien played with some toy
+Next Premise: every alien played with some cars
+====================================
+Init Premise: Every alien threw some tennis balls.
+
+Hypothesis: Every alien threw some balls.
+
+Next Premise: every alien threw some tennis
+Next Premise: every alien threw some balls
+====================================
+Init Premise: Many aliens drank some coke.
+
+Hypothesis: Many aliens drank some soda.
+
+Next Premise: aliens drank some coke
+====================================
+Init Premise: Many aliens read some sci-fi novels.
+
+Hypothesis: Many aliens read some books.
+
+Next Premise: aliens read some sci-fi novels
+Next Premise: many aliens read some novels
+====================================
+Init Premise: Many aliens played with some toy cars.
+
+Hypothesis: Many aliens played with some toys.
+
+Next Premise: aliens played with some toy cars
+Next Premise: many aliens played
+Next Premise: many aliens played with some toy
+Next Premise: many aliens played with some cars
+====================================
+Init Premise: Many aliens threw some tennis balls.
+
+Hypothesis: Many aliens threw some balls.
+
+Next Premise: aliens threw some tennis balls
+Next Premise: many aliens threw some tennis
+Next Premise: many aliens threw some balls
+====================================
+Init Premise: The blue alien drank some coke.
+
+Hypothesis: The blue alien drank some soda.
+
+Next Premise: the alien drank some coke
+====================================
+Init Premise: The blue alien read some sci-fi novels.
+
+Hypothesis: The blue alien read some books.
+
+Next Premise: the alien read some sci-fi novels
+Next Premise: the blue alien read some novels
+====================================
+Init Premise: The blue alien played with some toy cars.
+
+Hypothesis: The blue alien played with some toys.
+
+Next Premise: the alien played with some toy cars
+Next Premise: the blue alien played
+Next Premise: the blue alien played with some toy
+Next Premise: the blue alien played with some cars
+====================================
+Init Premise: The blue alien threw some tennis balls.
+
+Hypothesis: The blue alien threw some balls.
+
+Next Premise: the alien threw some tennis balls
+Next Premise: the blue alien threw some tennis
+Next Premise: the blue alien threw some balls
+====================================
+Init Premise: Every alien read some news magazines.
+
+Hypothesis: Every alien read some magazines.
+
+Next Premise: every alien read some news
+Next Premise: every alien read some magazines
+====================================
+Init Premise: Every alien ate at some Mexican restaurants.
+
+Hypothesis: Every alien ate at some restaurants.
+
+Next Premise: every alien ate
+Next Premise: every alien ate at some restaurants
+====================================
+Init Premise: Every alien bought some shirts.
+
+Hypothesis: Every alien bought some clothes.
+
+====================================
+Init Premise: Every alien used some quarters.
+
+Hypothesis: Every alien used some coins.
+
+====================================
+Init Premise: Many aliens read some news magazines.
+
+Hypothesis: Many aliens read some magazines.
+
+Next Premise: aliens read some news magazines
+Next Premise: many aliens read some news
+Next Premise: many aliens read some magazines
+====================================
+Init Premise: Many aliens ate at some Mexican restaurants.
+
+Hypothesis: Many aliens ate at some restaurants.
+
+Next Premise: aliens ate at some mexican restaurants
+Next Premise: many aliens ate
+Next Premise: many aliens ate at some restaurants
+====================================
+Init Premise: Many aliens bought some shirts.
+
+Hypothesis: Many aliens bought some clothes.
+
+Next Premise: aliens bought some shirts
+====================================
+Init Premise: Many aliens used some quarters.
+
+Hypothesis: Many aliens used some coins.
+
+Next Premise: aliens used some quarters
+====================================
+Init Premise: The blue alien read some news magazines.
+
+Hypothesis: The blue alien read some magazines.
+
+Next Premise: the alien read some news magazines
+Next Premise: the blue alien read some news
+Next Premise: the blue alien read some magazines
+====================================
+Init Premise: The blue alien ate at some Mexican restaurants.
+
+Hypothesis: The blue alien ate at some restaurants.
+
+Next Premise: the alien ate at some mexican restaurants
+Next Premise: the blue alien ate
+Next Premise: the blue alien ate at some restaurants
+====================================
+Init Premise: The blue alien bought some shirts.
+
+Hypothesis: The blue alien bought some clothes.
+
+Next Premise: the alien bought some shirts
+====================================
+Init Premise: The blue alien used some quarters.
+
+Hypothesis: The blue alien used some coins.
+
+Next Premise: the alien used some quarters
+====================================
+Init Premise: No alien died without drinking some coke.
+
+Hypothesis: No alien died without drinking soda.
+
+Next Premise: no alien died without drinking some drinking coke
+Next Premise: no drinking alien died without drinking some coke
+====================================
+Init Premise: No alien died without reading some sci-fi novels.
+
+Hypothesis: No alien died without reading books.
+
+Next Premise: no alien died without reading some sci-fi novels without reading books
+====================================
+Init Premise: No alien died without playing with some toy cars.
+
+Hypothesis: No alien died without playing with toys.
+
+Next Premise: no alien died without playing with some toy cars without playing with toys
+====================================
+Init Premise: No alien died without throwing some tennis balls.
+
+Hypothesis: No alien died without throwing balls.
+
+Next Premise: no alien died without throwing some tennis balls without throwing balls
+====================================
+Init Premise: Every alien who did not drink some coke is hairy.
+
+Hypothesis: Every alien who did not drink soda is hairy.
+
+Next Premise: every alien who did drink some coke is hairy
+====================================
+Init Premise: Every alien who did not read some sci-fi novels is hairy.
+
+Hypothesis: Every alien who did not read books is hairy.
+
+Next Premise: every alien who did read some sci-fi novels is hairy
+Next Premise: every alien who did not read some novels is hairy
+====================================
+Init Premise: Every alien who did not play with some toy cars is hairy.
+
+Hypothesis: Every alien who did not play with toys is hairy.
+
+Next Premise: every alien who did play with some toy cars is hairy
+Next Premise: every alien who did not play is hairy
+Next Premise: every alien who did not play with some toy is hairy
+Next Premise: every alien who did not play with some cars is hairy
+====================================
+Init Premise: Every alien who did not throw some tennis balls is hairy.
+
+Hypothesis: Every alien who did not throw balls is hairy.
+
+Next Premise: every alien who did throw some tennis balls is hairy
+Next Premise: every alien who did not throw some tennis is hairy
+Next Premise: every alien who did not throw some balls is hairy
+====================================
+Init Premise: No alien died without eating any pork.
+
+Hypothesis: No alien died without eating meat.
+
+Next Premise: no alien died without eating any pork without eating meat
+====================================
+Init Premise: No alien died without eating at any Mexican restaurants.
+
+Hypothesis: No alien died without eating at restaurants.
+
+Next Premise: no alien died without eating at any restaurants
+Next Premise: no alien died without eating at any mexican restaurants without eating at restaurants
+====================================
+Init Premise: No alien died without seeing any doves.
+
+Hypothesis: No alien died without seeing birds.
+
+Next Premise: no alien died without seeing any doves without seeing birds
+====================================
+Init Premise: No alien died without using any quarters.
+
+Hypothesis: No alien died without using coins.
+
+Next Premise: no alien died without using any quarters without using coins
+====================================
+Init Premise: Every alien who did not eat any pork is hairy.
+
+Hypothesis: Every alien who did not eat meat is hairy.
+
+Next Premise: every alien who did eat any pork is hairy
+Next Premise: every alien who did not eat any pork who did not eat meat is hairy
+====================================
+Init Premise: Every alien who did not eat at any Mexican restaurants is hairy.
+
+Hypothesis: Every alien who did not eat at restaurants is hairy.
+
+Next Premise: every alien who did eat at any mexican restaurants is hairy
+Next Premise: every alien who did not eat is hairy
+====================================
+Init Premise: Every alien who did not see any doves is hairy.
+
+Hypothesis: Every alien who did not see birds is hairy.
+
+Next Premise: every alien who did see any doves is hairy
+Next Premise: every alien who did not see any doves who did not see birds is hairy
+====================================
+Init Premise: Every alien who did not use any quarters is hairy.
+
+Hypothesis: Every alien who did not use coins is hairy.
+
+Next Premise: every alien who did use any quarters is hairy
+Next Premise: every alien who did not use any quarters who did not use coins is hairy
+====================================
+Init Premise: No alien died without reading news magazines.
+
+Hypothesis: No alien died without reading magazines.
+
+Next Premise: no alien died without reading news magazines without reading magazines
+====================================
+Init Premise: No alien died without watching baseball matches.
+
+Hypothesis: No alien died without watching sports matches.
+
+Next Premise: no sports alien died without watching baseball matches
+Next Premise: no alien died without watching baseball matches without watching sports matches
+====================================
+Init Premise: No alien died without buying shirts.
+
+Hypothesis: No alien died without buying clothes.
+
+Next Premise: no alien died without buying shirts without buying clothes
+====================================
+Init Premise: No alien died without driving suvs.
+
+Hypothesis: No alien died without driving cars.
+
+Next Premise: no alien died without suvs
+Next Premise: no driving alien died without driving suvs
+====================================
+Init Premise: Every alien who did not read news magazines is hairy.
+
+Hypothesis: Every alien who did not read magazines is hairy.
+
+Next Premise: every alien who did read news magazines is hairy
+Next Premise: every alien who did not read news is hairy
+Next Premise: every alien who did not read magazines is hairy
+====================================
+Init Premise: Every alien who did not watch baseball matches is hairy.
+
+Hypothesis: Every alien who did not watch sports matches is hairy.
+
+Next Premise: every alien who did watch baseball matches is hairy
+Next Premise: every alien who did not watch baseball is hairy
+Next Premise: every alien who did not watch matches is hairy
+====================================
+Init Premise: Every alien who did not buy shirts is hairy.
+
+Hypothesis: Every alien who did not buy clothes is hairy.
+
+Next Premise: every alien who did buy shirts is hairy
+====================================
+Init Premise: Every alien who did not drive suvs is hairy.
+
+Hypothesis: Every alien who did not drive cars is hairy.
+
+Next Premise: every alien who did drive suvs is hairy
+====================================
+Init Premise: No alien died without reading some news magazines.
+
+Hypothesis: No alien died without reading magazines.
+
+Next Premise: no alien died without reading some news magazines without reading magazines
+====================================
+Init Premise: No alien died without eating at some Mexican restaurants.
+
+Hypothesis: No alien died without eating at restaurants.
+
+Next Premise: no alien died without eating at some mexican restaurants without eating at restaurants
+====================================
+Init Premise: No alien died without buying some shirts.
+
+Hypothesis: No alien died without buying clothes.
+
+Next Premise: no alien died without buying some shirts without buying clothes
+====================================
+Init Premise: No alien died without using some quarters.
+
+Hypothesis: No alien died without using coins.
+
+Next Premise: no alien died without using some quarters without using coins
+====================================
+Init Premise: Every alien who did not read some news magazines is hairy.
+
+Hypothesis: Every alien who did not read magazines is hairy.
+
+Next Premise: every alien who did read some news magazines is hairy
+Next Premise: every alien who did not read some news is hairy
+Next Premise: every alien who did not read some magazines is hairy
+====================================
+Init Premise: Every alien who did not eat at some Mexican restaurants is hairy.
+
+Hypothesis: Every alien who did not eat at restaurants is hairy.
+
+Next Premise: every alien who did eat at some mexican restaurants is hairy
+Next Premise: every alien who did not eat is hairy
+Next Premise: every alien who did not eat at some restaurants is hairy
+====================================
+Init Premise: Every alien who did not buy some shirts is hairy.
+
+Hypothesis: Every alien who did not buy clothes is hairy.
+
+Next Premise: every alien who did buy some shirts is hairy
+====================================
+Init Premise: Every alien who did not use some quarters is hairy.
+
+Hypothesis: Every alien who did not use coins is hairy.
+
+Next Premise: every alien who did use some quarters is hairy
+====================================
+Init Premise: No alien died without drinking any coke.
+
+Hypothesis: No alien died without drinking soda.
+
+Next Premise: no drinking alien died without drinking any coke
+====================================
+Init Premise: No alien died without watching any baseball matches.
+
+Hypothesis: No alien died without watching sports matches.
+
+Next Premise: no alien died without watching any baseball
+Next Premise: no alien died without watching any matches
+Next Premise: no sports alien died without watching any baseball matches
+Next Premise: no alien died without watching any baseball matches without watching sports matches
+====================================
+Init Premise: No alien died without playing with any toy cars.
+
+Hypothesis: No alien died without playing with toys.
+
+Next Premise: no alien died without playing with any toy
+Next Premise: no alien died without playing with any cars
+Next Premise: no alien died without playing with any toy cars without playing with toys
+====================================
+Init Premise: No alien died without driving any suvs.
+
+Hypothesis: No alien died without driving cars.
+
+Next Premise: no driving alien died without driving any suvs
+====================================
+Init Premise: Every alien who did not drink any coke is hairy.
+
+Hypothesis: Every alien who did not drink soda is hairy.
+
+Next Premise: every alien who did drink any coke is hairy
+Next Premise: every alien who did not drink any coke who did not drink soda is hairy
+====================================
+Init Premise: Every alien who did not watch any baseball matches is hairy.
+
+Hypothesis: Every alien who did not watch sports matches is hairy.
+
+Next Premise: every alien who did watch any baseball matches is hairy
+====================================
+Init Premise: Every alien who did not play with any toy cars is hairy.
+
+Hypothesis: Every alien who did not play with toys is hairy.
+
+Next Premise: every alien who did play with any toy cars is hairy
+Next Premise: every alien who did not play is hairy
+====================================
+Init Premise: Every alien who did not drive any suvs is hairy.
+
+Hypothesis: Every alien who did not drive cars is hairy.
+
+Next Premise: every alien who did drive any suvs is hairy
+Next Premise: every alien who did not drive any suvs who did not drive cars is hairy
+====================================
+Init Premise: No alien died without eating pork.
+
+Hypothesis: No alien died without eating meat.
+
+Next Premise: no alien died without eating pork without eating meat
+====================================
+Init Premise: No alien died without reading sci-fi novels.
+
+Hypothesis: No alien died without reading books.
+
+Next Premise: no alien died without reading sci-fi novels without reading books
+====================================
+Init Premise: No alien died without seeing doves.
+
+Hypothesis: No alien died without seeing birds.
+
+Next Premise: no alien died without seeing doves without seeing birds
+====================================
+Init Premise: No alien died without throwing tennis balls.
+
+Hypothesis: No alien died without throwing balls.
+
+Next Premise: no alien died without throwing tennis balls without throwing balls
+====================================
+Init Premise: Every alien who did not eat pork is hairy.
+
+Hypothesis: Every alien who did not eat meat is hairy.
+
+Next Premise: every alien who did eat pork is hairy
+====================================
+Init Premise: Every alien who did not read sci-fi novels is hairy.
+
+Hypothesis: Every alien who did not read books is hairy.
+
+Next Premise: every alien who did read sci-fi novels is hairy
+Next Premise: every alien who did not read novels is hairy
+====================================
+Init Premise: Every alien who did not see doves is hairy.
+
+Hypothesis: Every alien who did not see birds is hairy.
+
+Next Premise: every alien who did see doves is hairy
+====================================
+Init Premise: Every alien who did not throw tennis balls is hairy.
+
+Hypothesis: Every alien who did not throw balls is hairy.
+
+Next Premise: every alien who did throw tennis balls is hairy
+Next Premise: every alien who did not throw tennis is hairy
+Next Premise: every alien who did not throw balls is hairy
+====================================
+Init Premise: No alien died without eating some pork.
+
+Hypothesis: No alien died without eating meat.
+
+Next Premise: no alien died without eating some pork without eating meat
+====================================
+Init Premise: No alien died without watching some baseball matches.
+
+Hypothesis: No alien died without watching sports matches.
+
+Next Premise: no alien died without watching some baseball matches without watching sports matches
+Next Premise: no sports alien died without watching some baseball matches
+====================================
+Init Premise: No alien died without seeing some doves.
+
+Hypothesis: No alien died without seeing birds.
+
+Next Premise: no alien died without seeing some doves without seeing birds
+====================================
+Init Premise: Every alien who did not eat at Mexican restaurants is hairy.
+
+Hypothesis: Every alien who did not eat at restaurants is hairy.
+
+Next Premise: every alien who did eat at mexican restaurants is hairy
+Next Premise: every alien who did not eat is hairy
+Next Premise: every alien who did not eat at restaurants is hairy
+====================================
+Init Premise: Every alien who did not play with toy cars is hairy.
+
+Hypothesis: Every alien who did not play with toys is hairy.
+
+Next Premise: every alien who did play with toy cars is hairy
+Next Premise: every alien who did not play is hairy
+Next Premise: every alien who did not play with toy is hairy
+Next Premise: every alien who did not play with cars is hairy
+====================================
+Init Premise: Every alien who did not use quarters is hairy.
+
+Hypothesis: Every alien who did not use coins is hairy.
+
+Next Premise: every alien who did use quarters is hairy
+====================================
+Init Premise: Every alien who did not drink coke is hairy.
+
+Hypothesis: Every alien who did not drink soda is hairy.
+
+Next Premise: every alien who did drink coke is hairy
+====================================
+Init Premise: The red alien ate some pork.
+
+Hypothesis: The red alien ate meat.
+
+Next Premise: the alien ate some pork
+====================================
+Init Premise: Every alien ate some pork.
+
+Hypothesis: Every alien ate meat.
+
+====================================
+Init Premise: The red alien watched some baseball matches.
+
+Hypothesis: The red alien watched sports matches.
+
+Next Premise: the alien watched some baseball matches
+Next Premise: the red alien watched some baseball
+Next Premise: the red alien watched some matches
+====================================
+Init Premise: Every alien watched some baseball matches.
+
+Hypothesis: Every alien watched sports matches.
+
+Next Premise: every alien watched some baseball
+Next Premise: every alien watched some matches
+Next Premise: every watched alien watched some baseball matches
+Next Premise: every sports alien watched some baseball matches
+====================================
+Init Premise: The red alien saw some doves.
+
+Hypothesis: The red alien saw birds.
+
+Next Premise: the alien saw some doves
+====================================
+Init Premise: Every alien saw some doves.
+
+Hypothesis: Every alien saw birds.
+
+====================================
+Init Premise: The red alien ate at some Mexican restaurants.
+
+Hypothesis: The red alien ate at restaurants.
+
+Next Premise: the alien ate at some mexican restaurants
+Next Premise: the red alien ate
+Next Premise: the red alien ate at some restaurants
+====================================
+Init Premise: The red alien played with some toy cars.
+
+Hypothesis: The red alien played with toys.
+
+Next Premise: the alien played with some toy cars
+Next Premise: the red alien played
+Next Premise: the red alien played with some toy
+Next Premise: the red alien played with some cars
+====================================
+Init Premise: The red alien used some quarters.
+
+Hypothesis: The red alien used coins.
+
+Next Premise: the alien used some quarters
+====================================
+Init Premise: The red alien bought some shirts.
+
+Hypothesis: The red alien bought clothes.
+
+Next Premise: the alien bought some shirts
+====================================
+Init Premise: The red alien threw some tennis balls.
+
+Hypothesis: The red alien threw balls.
+
+Next Premise: the alien threw some tennis balls
+Next Premise: the red alien threw some tennis
+Next Premise: the red alien threw some balls
+====================================
+Init Premise: The red alien drank some coke.
+
+Hypothesis: The red alien drank soda.
+
+Next Premise: the alien drank some coke
+====================================
+Init Premise: The red alien read some news magazines.
+
+Hypothesis: The red alien read magazines.
+
+Next Premise: the alien read some news magazines
+Next Premise: the red alien read some news
+Next Premise: the red alien read some magazines
+====================================
+Init Premise: No alien died without eating at Mexican restaurants.
+
+Hypothesis: No alien died without eating at restaurants.
+
+Next Premise: no alien died without eating at mexican restaurants without eating at restaurants
+====================================
+Init Premise: No alien died without playing with toy cars.
+
+Hypothesis: No alien died without playing with toys.
+
+Next Premise: no alien died without playing with toy cars without playing with toys
+====================================
+Init Premise: No alien died without using quarters.
+
+Hypothesis: No alien died without using coins.
+
+Next Premise: no alien died without using quarters without using coins
+====================================
+Init Premise: Every alien who did not buy any shirts is hairy.
+
+Hypothesis: Every alien who did not buy clothes is hairy.
+
+Next Premise: every alien who did buy any shirts is hairy
+Next Premise: every alien who did not buy any shirts who did not buy clothes is hairy
+====================================
+Init Premise: Every alien who did not throw any tennis balls is hairy.
+
+Hypothesis: Every alien who did not throw balls is hairy.
+
+Next Premise: every alien who did throw any tennis balls is hairy
+====================================
+Init Premise: No alien died without drinking coke.
+
+Hypothesis: No alien died without drinking soda.
+
+Next Premise: no alien died without drinking
+Next Premise: no alien died without coke
+Next Premise: no drinking alien died without drinking coke
+====================================
+Init Premise: Every alien who did not read any news magazines is hairy.
+
+Hypothesis: Every alien who did not read magazines is hairy.
+
+Next Premise: every alien who did read any news magazines is hairy
+====================================
+Init Premise: Many aliens ate some pork.
+
+Hypothesis: Many aliens ate meat.
+
+Next Premise: aliens ate some pork
+====================================
+Init Premise: Many aliens watched some baseball matches.
+
+Hypothesis: Many aliens watched sports matches.
+
+Next Premise: aliens watched some baseball matches
+Next Premise: many aliens watched some baseball
+Next Premise: many aliens watched some matches
+====================================
+Init Premise: Many aliens saw some doves.
+
+Hypothesis: Many aliens saw birds.
+
+Next Premise: aliens saw some doves
+====================================
+Init Premise: Every alien who did not eat some pork is hairy.
+
+Hypothesis: Every alien who did not eat meat is hairy.
+
+Next Premise: every alien who did eat some pork is hairy
+====================================
+Init Premise: Every alien who did not watch some baseball matches is hairy.
+
+Hypothesis: Every alien who did not watch sports matches is hairy.
+
+Next Premise: every alien who did watch some baseball matches is hairy
+Next Premise: every alien who did not watch some baseball is hairy
+Next Premise: every alien who did not watch some matches is hairy
+====================================
+Init Premise: Every alien who did not see some doves is hairy.
+
+Hypothesis: Every alien who did not see birds is hairy.
+
+Next Premise: every alien who did see some doves is hairy
+====================================
+Init Premise: Every man ran quickly.
+
+Hypothesis: Every man ran.
+
+Next Premise: every man ran
+====================================
+Init Premise: Some man ran quickly.
+
+Hypothesis: Some man ran.
+
+Next Premise: some man ran
+====================================
+Init Premise: Some tall man ran.
+
+Hypothesis: Some man ran.
+
+Next Premise: some man ran
+====================================
+Init Premise: Every cook who is not a tall man ran.
+
+Hypothesis: Every cook who is not a man ran.
+
+Next Premise: every cook who is not a man ran
+Next Premise: every cook who is not a tall man ran not
+Next Premise: every cook is not a man who is not a tall man ran
+Next Premise: every cook who is not a tall man not ran
+====================================
+Init Premise: At least one man sang and danced.
+
+Hypothesis: At least one man sang.
+
+Next Premise: at-least one man and danced
+Next Premise: at-least one man sang
+====================================
+Init Premise: At least one man sang and danced.
+
+Hypothesis: At least one man danced.
+
+Next Premise: at-least one man and danced
+Next Premise: at-least one man sang
+====================================
+Init Premise: At least one man sang.
+
+Hypothesis: At least one man sang or danced.
+
+====================================
+Init Premise: At least one man danced.
+
+Hypothesis: At least one man sang or danced.
+
+====================================
+Init Premise: Every man sang and danced.
+
+Hypothesis: Every man sang.
+
+Next Premise: every man and danced
+Next Premise: every man sang
+====================================
+Init Premise: Every man sang and danced.
+
+Hypothesis: Every man danced.
+
+Next Premise: every man and danced
+Next Premise: every man sang
+====================================
+Init Premise: Every man sang.
+
+Hypothesis: Every man sang or danced.
+
+====================================
+Init Premise: Every man danced.
+
+Hypothesis: Every man sang or danced.
+
+====================================
+Init Premise: Every tall man ran quickly.
+
+Hypothesis: Every tall man ran.
+
+Next Premise: every tall man ran
+====================================
+Init Premise: She gave him a rose.
+
+Hypothesis: She gave him a flower.
+
+====================================
+Init Premise: She kissed him.
+
+Hypothesis: She touched him.
+
+====================================
+Init Premise: She has a German car.
+
+Hypothesis: She has a European car.
+
+Next Premise: she has a car
+====================================
+Init Premise: Nina has a bulldog.
+
+Hypothesis: Nina has a dog.
+
+====================================
+Init Premise: Aldo kissed Nina.
+
+Hypothesis: Aldo touched Nina.
+
+====================================
+Init Premise: A bulldog attacked Nina.
+
+Hypothesis: A dog attacked Nina.
+
+====================================
+Init Premise: He loves a woman.
+
+Hypothesis: He loves a person.
+
+====================================
+Init Premise: He bought marble.
+
+Hypothesis: He bought stone.
+
+====================================
+Init Premise: He knows a city in spain.
+
+Hypothesis: He knows a city in Europe.
+
+Next Premise: he knows a city
+====================================
+Init Premise: She whispered more than three words.
+
+Hypothesis: She said more than three words.
+
+====================================
+Init Premise: He never lacked paper money.
+
+Hypothesis: He never lacked money.
+
+Next Premise: he never never lacked paper money
+Next Premise: he never lacked never paper money
+Next Premise: he never lacked paper money never
+====================================
+Init Premise: At most three girls did not dance.
+
+Hypothesis: At most three girls did not move.
+
+Next Premise: at-most three girls did dance
+====================================
+Init Premise: Betty lives in Berlin.
+
+Hypothesis: Betty lives in Germany.
+
+Next Premise: betty lives
+====================================
+Init Premise: It's not true that Betty doesn't live in Berlin.
+
+Hypothesis: It's not true that Betty doesn't live in Germany.
+
+Next Premise: it 's not true that betty does live in berlin
+Next Premise: it 's not true that betty does n't live
+====================================
+Init Premise: All dots are scarlet.
+
+Hypothesis: All dots are red.
+
+====================================
+Init Premise: Most dots are scarlet.
+
+Hypothesis: Most dots are red.
+
+Next Premise: dots are scarlet
+====================================
+Init Premise: Some dots are scarlet.
+
+Hypothesis: Some dots are red.
+
+====================================
+Init Premise: At least five dots are scarlet.
+
+Hypothesis: At least five dots are red.
+
+====================================
+Init Premise: More than half of the tenors have the flu.
+
+Hypothesis: More than half of the tenors are sick.
+
+Next Premise: more-than half have the flu
+====================================
+Init Premise: All the tenors have the flu.
+
+Hypothesis: All the tenors are sick.
+
+====================================
+Init Premise: None of the sopranos sang with fewer than three of the tenors.
+
+Hypothesis: None of the sopranos sang with fewer than three of the male singers.
+
+Next Premise: no male sopranos sang with fewer than three of the tenors
+Next Premise: no sopranos of the male singers sang with fewer than three of the tenors
+====================================
+Init Premise: Some of the sopranos sang with more than three of the tenors.
+
+Hypothesis: Some of the sopranos sang with more than three of the male singers.
+
+Next Premise: some sopranos sang
+Next Premise: some sopranos sang with more-than three
+====================================
+Init Premise: Fred�s tie is navy blue.
+
+Hypothesis: Fred�s tie is blue.
+
+Next Premise: fred�s tie
+Next Premise: fred�s tie is blue
+====================================
+Init Premise: All pachyderms are navy blue.
+
+Hypothesis: All pachyderms are blue.
+
+Next Premise: all pachyderms are navy
+====================================
+Init Premise: Some elephants are pink.
+
+Hypothesis: Some pachyderms are pink.
+
+====================================
+Init Premise: Some elephants are not pink.
+
+Hypothesis: Some pachyderms are not pink.
+
+====================================
+Init Premise: At least three elephants are pink.
+
+Hypothesis: At least three pachyderms are pink.
+
+====================================
+Init Premise: All elephants are navy blue.
+
+Hypothesis: All elephants are blue.
+
+Next Premise: all elephants are blue
+====================================
+Init Premise: Some elephants are navy blue.
+
+Hypothesis: Some elephants are blue.
+
+Next Premise: some elephants are blue
+====================================
+Init Premise: At least three elephants are navy blue.
+
+Hypothesis: At least three elephants are blue.
+
+Next Premise: at-least three elephants are blue
+====================================
+Init Premise: At most three elephants are blue.
+
+Hypothesis: At most three elephants are navy blue.
+
+Next Premise: at-most three navy elephants are blue
+====================================
+Init Premise: Many of the books had typical readers.
+
+Hypothesis: Many of the books had typical or marginal readers.
+
+Next Premise: books had typical readers
+Next Premise: many books had readers
+====================================
+Init Premise: Almost every camper has caught a cold.
+
+Hypothesis: Almost every camper has ever had a sunburn or caught a cold.
+
+Next Premise: every camper has caught a cold
+Next Premise: almost every camper has caught
+====================================
+Init Premise: Almost every camper has caught a cold.
+
+Hypothesis: Almost every camper has had a sunburn or caught a cold.
+
+Next Premise: every camper has caught a cold
+Next Premise: almost every camper has caught
+====================================
+Init Premise: Almost every child decided on the cotton candy.
+
+Hypothesis: Almost every child chose any mint chocolates or decided on the cotton candy.
+
+Next Premise: every child decided on the cotton candy
+Next Premise: almost every child decided
+Next Premise: almost every child decided on the cotton
+Next Premise: almost every child decided on the candy
+Next Premise: almost every mint child decided on the cotton candy
+Next Premise: almost every cotton child decided on the cotton candy
+====================================
+Init Premise: Almost every child decided on the cotton candy.
+
+Hypothesis: Almost every child chose mint chocolates or decided on the cotton candy.
+
+Next Premise: every child decided on the cotton candy
+Next Premise: almost every child decided
+Next Premise: almost every child decided on the cotton
+Next Premise: almost every child decided on the candy
+Next Premise: almost every mint child decided on the cotton candy
+Next Premise: almost every cotton child decided on the cotton candy
+====================================
+Init Premise: Almost everybody has caught a cold.
+
+Hypothesis: Almost everybody has ever had a sunburn or caught a cold.
+
+Next Premise: everybody has caught a cold
+Next Premise: almost everybody has caught
+====================================
+Init Premise: Almost everybody has caught a cold.
+
+Hypothesis: Almost everybody has had a sunburn or caught a cold.
+
+Next Premise: everybody has caught a cold
+Next Premise: almost everybody has caught
+====================================
+Init Premise: Almost everybody decided on the cotton candy.
+
+Hypothesis: Almost everybody chose any mint chocolates or decided on the cotton candy.
+
+Next Premise: everybody decided on the cotton candy
+Next Premise: almost everybody decided
+Next Premise: almost everybody decided on the cotton
+Next Premise: almost everybody decided on the candy
+====================================
+Init Premise: Almost everybody decided on the cotton candy.
+
+Hypothesis: Almost everybody chose mint chocolates or decided on the cotton candy.
+
+Next Premise: everybody decided on the cotton candy
+Next Premise: almost everybody decided
+Next Premise: almost everybody decided on the cotton
+Next Premise: almost everybody decided on the candy
+====================================
+Init Premise: At least five campers have caught a cold.
+
+Hypothesis: At least five campers have ever had a sunburn or caught a cold.
+
+Next Premise: at-least five campers have caught
+====================================
+Init Premise: At least five campers have caught a cold.
+
+Hypothesis: At least five campers have had a sunburn or caught a cold.
+
+Next Premise: at-least five campers have caught
+====================================
+Init Premise: At least five children decided on the cotton candy.
+
+Hypothesis: At least five children chose any mint chocolates or decided on the cotton candy.
+
+Next Premise: at-least five children decided
+Next Premise: at-least five children decided on the cotton
+Next Premise: at-least five children decided on the candy
+====================================
+Init Premise: At least five children decided on the cotton candy.
+
+Hypothesis: At least five children chose mint chocolates or decided on the cotton candy.
+
+Next Premise: at-least five children decided
+Next Premise: at-least five children decided on the cotton
+Next Premise: at-least five children decided on the candy
+====================================
+Init Premise: At least half campers have caught a cold.
+
+Hypothesis: At least half campers have ever had a sunburn or caught a cold.
+
+Next Premise: at-least campers have caught a cold
+Next Premise: at-least half campers have caught
+====================================
+Init Premise: At least half campers have caught a cold.
+
+Hypothesis: At least half campers have had a sunburn or caught a cold.
+
+Next Premise: at-least campers have caught a cold
+Next Premise: at-least half campers have caught
+====================================
+Init Premise: At least half children decided on the cotton candy.
+
+Hypothesis: At least half children chose any mint chocolates or decided on the cotton candy.
+
+Next Premise: at-least children decided on the cotton candy
+Next Premise: at-least half children decided
+Next Premise: at-least half children decided on the cotton
+Next Premise: at-least half children decided on the candy
+====================================
+Init Premise: At least half children decided on the cotton candy.
+
+Hypothesis: At least half children chose mint chocolates or decided on the cotton candy.
+
+Next Premise: at-least children decided on the cotton candy
+Next Premise: at-least half children decided
+Next Premise: at-least half children decided on the cotton
+Next Premise: at-least half children decided on the candy
+====================================
+Init Premise: More than five campers have caught a cold.
+
+Hypothesis: More than five campers have ever had a sunburn or caught a cold.
+
+Next Premise: more-than five campers have caught
+====================================
+Init Premise: More than five campers have caught a cold.
+
+Hypothesis: More than five campers have had a sunburn or caught a cold.
+
+Next Premise: more-than five campers have caught
+====================================
+Init Premise: More than five children decided on the cotton candy.
+
+Hypothesis: More than five children chose any mint chocolates or decided on the cotton candy.
+
+Next Premise: more-than five children decided
+Next Premise: more-than five children decided on the cotton
+Next Premise: more-than five children decided on the candy
+====================================
+Init Premise: More than five children decided on the cotton candy.
+
+Hypothesis: More than five children chose mint chocolates or decided on the cotton candy.
+
+Next Premise: more-than five children decided
+Next Premise: more-than five children decided on the cotton
+Next Premise: more-than five children decided on the candy
+====================================
+Init Premise: More than five of campers have caught a cold.
+
+Hypothesis: More than five of campers have ever had a sunburn or caught a cold.
+
+Next Premise: more-than five have caught a cold
+Next Premise: more-than five of campers have caught
+====================================
+Init Premise: More than five of campers have caught a cold.
+
+Hypothesis: More than five of campers have had a sunburn or caught a cold.
+
+Next Premise: more-than five have caught a cold
+Next Premise: more-than five of campers have caught
+====================================
+Init Premise: More than five of the children decided on the cotton candy.
+
+Hypothesis: More than five of the children chose any mint chocolates or decided on the cotton candy.
+
+Next Premise: more-than five decided on the cotton candy
+Next Premise: more-than five of the children decided
+Next Premise: more-than five of the children decided on the cotton
+Next Premise: more-than five of the children decided on the candy
+====================================
+Init Premise: More than five of the children decided on the cotton candy.
+
+Hypothesis: More than five of the children chose mint chocolates or decided on the cotton candy.
+
+Next Premise: more-than five decided on the cotton candy
+Next Premise: more-than five of the children decided
+Next Premise: more-than five of the children decided on the cotton
+Next Premise: more-than five of the children decided on the candy
+====================================
+Init Premise: Many campers have caught a cold.
+
+Hypothesis: Many campers have ever had a sunburn or caught a cold.
+
+Next Premise: campers have caught a cold
+Next Premise: many campers have caught
+====================================
+Init Premise: Many campers have caught a cold.
+
+Hypothesis: Many campers have had a sunburn or caught a cold.
+
+Next Premise: campers have caught a cold
+Next Premise: many campers have caught
+====================================
+Init Premise: Many children decided on the cotton candy.
+
+Hypothesis: Many children chose any mint chocolates or decided on the cotton candy.
+
+Next Premise: children decided on the cotton candy
+Next Premise: many children decided
+Next Premise: many children decided on the cotton
+Next Premise: many children decided on the candy
+====================================
+Init Premise: Many children decided on the cotton candy.
+
+Hypothesis: Many children chose mint chocolates or decided on the cotton candy.
+
+Next Premise: children decided on the cotton candy
+Next Premise: many children decided
+Next Premise: many children decided on the cotton
+Next Premise: many children decided on the candy
+====================================
+Init Premise: Many of the campers have caught a cold.
+
+Hypothesis: Many of the campers have ever had a sunburn or caught a cold.
+
+Next Premise: campers have caught a cold
+Next Premise: many campers have caught
+====================================
+Init Premise: Many of the campers have caught a cold.
+
+Hypothesis: Many of the campers have had a sunburn or caught a cold.
+
+Next Premise: campers have caught a cold
+Next Premise: many campers have caught
+====================================
+Init Premise: Many of the children decided on the cotton candy.
+
+Hypothesis: Many of the children chose any mint chocolates or decided on the cotton candy.
+
+Next Premise: children decided on the cotton candy
+Next Premise: many children decided
+Next Premise: many children decided on the cotton
+Next Premise: many children decided on the candy
+====================================
+Init Premise: Many of the children decided on the cotton candy.
+
+Hypothesis: Many of the children chose mint chocolates or decided on the cotton candy.
+
+Next Premise: children decided on the cotton candy
+Next Premise: many children decided
+Next Premise: many children decided on the cotton
+Next Premise: many children decided on the candy
+====================================
+Init Premise: No less than fifty campers have caught a cold.
+
+Hypothesis: No less than fifty campers have ever had a sunburn or caught a cold.
+
+Next Premise: no less-than fifty campers have caught a cold ever
+====================================
+Init Premise: No less than fifty campers have caught a cold.
+
+Hypothesis: No less than fifty campers have had a sunburn or caught a cold.
+
+====================================
+Init Premise: No less than fifty children decided on the cotton candy.
+
+Hypothesis: No less than fifty children chose any mint chocolates or decided on the cotton candy.
+
+Next Premise: no less-than fifty children decided on the cotton
+Next Premise: no less-than fifty children decided on the candy
+Next Premise: no less-than fifty mint children decided on the cotton candy
+Next Premise: no less-than fifty cotton children decided on the cotton candy
+====================================
+Init Premise: No less than fifty children decided on the cotton candy.
+
+Hypothesis: No less than fifty children chose mint chocolates or decided on the cotton candy.
+
+Next Premise: no less-than fifty children decided on the cotton
+Next Premise: no less-than fifty children decided on the candy
+Next Premise: no less-than fifty mint children decided on the cotton candy
+Next Premise: no less-than fifty cotton children decided on the cotton candy
+====================================
+Init Premise: No less than five campers have caught a cold.
+
+Hypothesis: No less than five campers have ever had a sunburn or caught a cold.
+
+Next Premise: no less-than five campers have caught a cold ever
+====================================
+Init Premise: No less than five campers have caught a cold.
+
+Hypothesis: No less than five campers have had a sunburn or caught a cold.
+
+====================================
+Init Premise: No less than five children decided on the cotton candy.
+
+Hypothesis: No less than five children chose any mint chocolates or decided on the cotton candy.
+
+Next Premise: no less-than five children decided on the cotton
+Next Premise: no less-than five children decided on the candy
+Next Premise: no less-than five mint children decided on the cotton candy
+Next Premise: no less-than five cotton children decided on the cotton candy
+====================================
+Init Premise: No less than five children decided on the cotton candy.
+
+Hypothesis: No less than five children chose mint chocolates or decided on the cotton candy.
+
+Next Premise: no less-than five children decided on the cotton
+Next Premise: no less-than five children decided on the candy
+Next Premise: no less-than five mint children decided on the cotton candy
+Next Premise: no less-than five cotton children decided on the cotton candy
+====================================
+Init Premise: John is a tall student.
+
+Hypothesis: John is a student.
+
+Next Premise: john is a student
+====================================
+Init Premise: John is very tall.
+
+Hypothesis: John is tall.
+
+Next Premise: john is tall
+====================================
+Init Premise: John is a very tall student.
+
+Hypothesis: John is a student.
+
+Next Premise: john is a student
+Next Premise: john is a tall student
+====================================
+Init Premise: Every student who kissed every tall teacher smiled.
+
+Hypothesis: Every student who kissed every teacher smiled.
+
+Next Premise: every student who kissed every teacher smiled
+====================================
+Init Premise: Some boy, the brother of whom Mary loves, walked.
+
+Hypothesis: Some boy walked.
+
+Next Premise: some boy walked
+Next Premise: some boy the brother walked
+Next Premise: some boy the brother of whom walked
+====================================
+Init Premise: John does and Mary doesn't walk.
+
+Hypothesis: John moves.
+
+Next Premise: and mary does n't walk
+Next Premise: john does
+====================================
+Init Premise: Mary adores and passionately loves john.
+
+Hypothesis: Mary loves john.
+
+Next Premise: mary and passionately loves john
+Next Premise: mary adores and loves john
+Next Premise: mary adores
+Next Premise: mary adores and loves john
+====================================
+Init Premise: Some creative intelligent boy smiled.
+
+Hypothesis: Some smart boy smiled.
+
+Next Premise: some intelligent boy smiled
+Next Premise: some creative boy smiled
+====================================
+Init Premise: Some republican entered the race early.
+
+Hypothesis: Some republican entered the race.
+
+Next Premise: some republican entered the race
+====================================
+Init Premise: Every linguist entered the race early.
+
+Hypothesis: Every linguist entered the race.
+
+Next Premise: every linguist entered the race
+====================================
+Init Premise: John entered the race early.
+
+Hypothesis: John entered the race.
+
+Next Premise: john entered the race
+====================================
+Init Premise: Most peanut farmers entered the race early.
+
+Hypothesis: Most peanut farmers entered the race.
+
+Next Premise: peanut farmers entered the race early
+Next Premise: most peanut entered the race early
+Next Premise: most farmers entered the race early
+Next Premise: most peanut farmers entered the race
+====================================
+Init Premise: Many men farmers entered the race early.
+
+Hypothesis: Many men entered the race.
+
+Next Premise: men farmers entered the race early
+Next Premise: many men entered the race early
+Next Premise: many farmers entered the race early
+Next Premise: many men farmers entered the race

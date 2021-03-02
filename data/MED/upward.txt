@@ -1,0 +1,2504 @@
+paper:FraCaS_GQ:upward_monotone
+An Irishman won the nobel prize for literature.
+An Irishman won a nobel prize.
+
+paper:FraCaS_GQ:upward_monotone
+Some delegates finished the survey on time.
+Some delegates finished the survey.
+
+paper:FraCaS_GQ:upward_monotone
+Many delegates obtained interesting results from the survey.
+Many delegates obtained results from the survey.
+
+paper:FraCaS_GQ:upward_monotone
+Several delegates got the results published in major national newspapers.
+Several delegates got the results published.
+
+paper:FraCaS_GQ:upward_monotone
+Both commissioners used to be leading businessmen.
+Both commissioners used to be businessmen.
+
+paper:FraCaS_GQ:upward_monotone
+At least three commissioners spend a lot of time at home.
+At least three commissioners spend time at home.
+
+paper:FraCaS_GQ:upward_monotone
+Some Irish delegates finished the survey on time.
+Some delegates finished the survey on time.
+
+paper:FraCaS_GQ:upward_monotone
+Several Portuguese delegates got the results published in major national newspapers.
+Several delegates got the results published in major national newspapers.
+
+paper:FraCaS_GQ:upward_monotone
+A few female committee members are from Scandinavia.
+At least a few committee members are from Scandinavia.
+
+paper:FraCaS_GQ:upward_monotone
+At least three female commissioners spend time at home.
+At least three commissioners spend time at home.
+
+paper:upward_monotone
+Pluto and Uranus are now directly aligned with Neptune.
+Pluto or Uranus is now directly aligned with Neptune.
+
+paper:upward_monotone
+Both Alan and Bob took their vacations in California.
+Alan took his vacation in California.
+
+paper:upward_monotone
+Socrates is rational.
+Someone is rational.
+
+paper:GLUE:lexical_knowledge:upward_monotone
+Some dogs like to scratch their ears.
+Some animals like to scratch their ears.
+
+paper:GLUE:upward_monotone:World knowledge:lexical_knowledge
+Cruz has frequently derided as amnesty various bills that confer legal status or citizenship on people living in the country illegally.
+Cruz has frequently derided as amnesty various plans that confer legal status or citizenship on people living in the country illegally.
+
+paper:GLUE:Intersectivity:upward_monotone
+In many developed areas, human activity has changed the form of river channels, altering magnitudes and frequencies of flooding.
+In many areas, human activity has changed the form of river channels, altering magnitudes and frequencies of flooding.
+
+paper:GLUE:Intersectivity:upward_monotone
+We consider some context words as positive examples and sample negatives at random from the dictionary.
+We consider some words as positive examples and sample negatives at random from the dictionary.
+
+paper:GLUE:Intersectivity:upward_monotone
+Missouri lawmakers are considering a government boycott of companies that boycott Israel.
+Missouri lawmakers are considering a boycott of companies that boycott Israel.
+
+paper:GLUE:Intersectivity:upward_monotone:conditionals
+You know that some life changing actions must be taken when grandma reacts with the sad emoji.
+You know that some actions must be taken when grandma reacts with the sad emoji.
+
+paper:GLUE:Existential:upward_monotone
+Weird that you want to show this video to a stack of papers.
+Weird that you want to show something to a stack of papers.
+
+paper:GLUE:Redundancy:upward_monotone
+The 15th tank corps was a tank corps of the soviet union's red army.
+The 15th tank corps was a corps of the soviet union's red army.
+
+paper:GLUE:Redundancy:upward_monotone
+The 15th tank corps was a corps of the soviet union's red army.
+The 15th tank corps was a tank corps of the soviet union's red army.
+
+paper:GLUE:Redundancy:Intersectivity:upward_monotone:World knowledge:lexical_knowledge
+In grounded communication tasks, speakers face pressures in choosing referential expressions that distinguish their targets from others in the context, leading to many kinds of pragmatic meaning enrichment.
+In grounded communication tasks, speakers face pressures in choosing referential expressions that distinguish their targets from others in the context, leading to many kinds of meaning enrichment.
+
+paper:GLUE:Redundancy:Intersectivity:upward_monotone:World knowledge:lexical_knowledge
+In grounded communication tasks, speakers face pressures in choosing referential expressions that distinguish their targets from others in the context, leading to many kinds of meaning enrichment.
+In grounded communication tasks, speakers face pressures in choosing referential expressions that distinguish their targets from others in the context, leading to many kinds of pragmatic meaning enrichment.
+
+paper:GLUE:Conjunction:upward_monotone
+Understanding a long document requires tracking how entities are introduced and evolve over time.
+Understanding a long document requires understanding how entities are introduced.
+
+paper:GLUE:Intersectivity:upward_monotone
+A serene wind rolled across the glade.
+A wind rolled across the glade.
+
+paper:GLUE:Intersectivity:upward_monotone
+The leading car gradually shifted to the left lane.
+The leading car shifted to the left lane.
+
+paper:GLUE:upward_monotone:World knowledge:lexical_knowledge
+There are some amazing hikes around Mt Fuji.
+There are some amazing hikes in Japan.
+
+crowd:upward_monotone
+Some Germans work for only one euro an hour without holiday pay.
+Some Germans work for only one euro an hour.
+
+crowd:upward_monotone
+Every sentence in that syllabus book is important.
+Every sentence in that book is important.
+
+crowd:upward_monotone
+All the players were in defending position.
+All the players were in position.
+
+crowd:upward_monotone:conjunction
+Wet firewood and carbon doesn't burn well.
+Wet firewood doesn't burn well.
+
+crowd:upward_monotone
+Tom swims in pool every other day.
+Tom swims every other day.
+
+crowd:upward_monotone
+A squirrel in summer is taking a bath in the pond.
+A squirrel is taking a bath in the pond.
+
+crowd:upward_monotone:reverse
+Every one but lazy Jim came.
+Every one but Jim came.
+
+crowd:upward_monotone:reverse
+Every one but Jim who was busy that day came.
+Every one but Jim came.
+
+crowd:upward_monotone:reverse:conjunction
+Every one but Jim and his wives came.
+Every one but Jim came.
+
+crowd:upward_monotone
+There is a beautiful glass sculpture in the play ground.
+There is a glass sculpture in the garden.
+
+crowd:upward_monotone
+There is a glass bird sculpture in the garden.
+There is a glass sculpture in the garden.
+
+crowd:upward_monotone
+There is a little glass sculpture in the garden.
+There is a glass sculpture in the garden.
+
+crowd:upward_monotone
+Brian bought a lipstick for her sister Kate.
+Brian bought a lipstick for Kate.
+
+crowd:upward_monotone:conjunction
+There's a big and old cat on the desk.
+There's a cat on the desk.
+
+crowd:upward_monotone
+There's a big chubby cat on the desk.
+There's a cat on the desk.
+
+crowd:upward_monotone
+She bought him a big dog.
+She bought him a dog.
+
+crowd:upward_monotone
+She gave an adult cat some milk.
+She gave a cat some milk.
+
+crowd:upward_monotone:conjunction
+A lot of students around the world are studying English for better incomes and salaries.
+A lot of students around the world are studying English.
+
+crowd:upward_monotone
+A fat dog chased a cat.
+A dog chased a cat.
+
+crowd:upward_monotone
+They're digging a hole in the park.
+They're digging a hole.
+
+crowd:upward_monotone
+They're digging a huge hole.
+They're digging a hole.
+
+crowd:upward_monotone
+Tom is driving an old truck.
+Tom is driving a truck.
+
+crowd:upward_monotone
+A smell of white lilies filled the room.
+A smell of lilies filled the room.
+
+crowd:upward_monotone:conjunction
+A smell of lilies and roses filled the room.
+A smell of lilies filled the room.
+
+crowd:upward_monotone:conjunction
+Tom is planting a fig and palm tree in his backyard.
+Tom is planting a palm tree in his backyard.
+
+crowd:upward_monotone
+She said that she takes a cold shower every morning.
+She said that she takes a shower every morning.
+
+crowd:upward_monotone:conjunction
+A human body consists of a countless number of cells and tissues.
+A human body consists of a countless number of cells.
+
+crowd:upward_monotone
+A human body consists of a countless number of red blood cells.
+A human body consists of a countless number of cells.
+
+crowd:upward_monotone:conjunction
+Juan and his friends can't help me.
+Juan can't help me.
+
+crowd:upward_monotone
+Some people think that overwhelming advertising is a form of brainwashing.
+Some people think that advertising is a form of brainwashing.
+
+crowd:upward_monotone:lexical_knowledge
+Some animals, such as lions, eat some animals.
+Some animals, such as lions, eat meat.
+
+crowd:upward_monotone:conjunction
+All Tom wanted was a nice hot and relaxing bath.
+All Tom wanted was a nice hot bath.
+
+crowd:upward_monotone
+Tom threw a huge snowball at Mary.
+Tom threw a snowball at Mary.
+
+crowd:upward_monotone
+A stranger that didn't speak English spoke to me in the bus.
+A stranger spoke to me in the bus.
+
+crowd:upward_monotone
+A smelly stranger spoke to me in the bus.
+A stranger spoke to me in the bus.
+
+crowd:upward_monotone:conjunction
+She plays tennis and cards every day.
+She plays tennis every day.
+
+crowd:upward_monotone
+I bought a VW diesel bus.
+I bought a VW bus.
+
+crowd:upward_monotone
+I bought a VW Japanese bus.
+I bought a VW bus.
+
+crowd:upward_monotone
+I bought a VW used bus.
+I bought a VW bus.
+
+crowd:upward_monotone
+A big poison spider was spinning a web.
+A big spider was spinning a web.
+
+crowd:upward_monotone
+She's wearing a nice big hat.
+She's wearing a nice hat.
+
+crowd:upward_monotone
+She's wearing a nice summer hat.
+She's wearing a nice hat.
+
+crowd:upward_monotone
+All of their children were born in western Malaysia.
+All of their children were born in Malaysia.
+
+crowd:upward_monotone
+A snow goose is a water bird.
+A goose is a water bird.
+
+crowd:upward_monotone:conjunction
+A black and white goose is a water bird.
+A goose is a water bird.
+
+crowd:upward_monotone
+A giant rat chewed a hole in the wall.
+A rat chewed a hole in the wall.
+
+crowd:upward_monotone
+She wiped a tear of happiness from her cheek.
+She wiped a tear from her cheek.
+
+crowd:upward_monotone
+She wiped a clean tear from her cheek.
+She wiped a tear from her cheek.
+
+crowd:upward_monotone
+A cherry tree grows in a garden along with other trees.
+A cherry tree grows in a garden.
+
+crowd:upward_monotone
+He is a fast runner in spain.
+He is a fast runner.
+
+crowd:upward_monotone
+Tom has a few friends in Boston subuerbs.
+Tom has a few friends in Boston.
+
+crowd:upward_monotone
+I bought a red small diary for my mom.
+I bought a red diary.
+
+crowd:upward_monotone
+I bought a red diary in the antique store.
+I bought a red diary.
+
+crowd:upward_monotone
+We stood on the brink of a red cliff.
+We stood on the brink of a cliff.
+
+crowd:upward_monotone
+A rat chewed a big hole in the wall.
+A rat chewed a hole.
+
+crowd:upward_monotone
+He died from lack of oxygen in the room.
+He died from a lack of oxygen.
+
+crowd:upward_monotone
+He died from lack of oxygen in space.
+He dies from the lack of oxygen.
+
+crowd:upward_monotone
+I took a fast taxi from the station to the hotel.
+I took a taxi from the station to the hotel.
+
+crowd:upward_monotone
+We need to buy some high protain dog food.
+We need to buy some dog food.
+
+crowd:upward_monotone
+Tom sprinkled some powdered sugar on the toast.
+Tom sprinkled some sugar on the toast.
+
+crowd:upward_monotone
+Tom sprinkled some brown sugar on the toast.
+Tom sprinkled some sugar on the toast.
+
+crowd:upward_monotone:conjunction
+Tom goes jogging and yoga in the park every morning.
+Tom goes jogging in the park every morning.
+
+crowd:upward_monotone:conjunction
+We play football and volleyball every saturday.
+We play football every saturday.
+
+crowd:upward_monotone
+A doe is a female white deer.
+A doe is a female deer.
+
+crowd:upward_monotone:reverse
+Winter does not look real without snow stones.
+Winter does not look real without snow.
+
+crowd:upward_monotone:conjunction
+I made some bunny-shaped cookies and cupcakes.
+I made some bunny-shaped cookies.
+
+crowd:upward_monotone
+Every one except Tom was wearing a blue tie.
+Every one except Tom was wearing a tie.
+
+crowd:upward_monotone
+Every one except Tom was wearing a green tie.
+Every one except Tom was wearing a tie.
+
+crowd:upward_monotone
+Every one except Tom was wearing a red tie.
+Every one except Tom was wearing a tie.
+
+crowd:upward_monotone
+I drive to central Tokyo every day.
+I drive to Tokyo every day.
+
+crowd:upward_monotone
+A young man stole my purse.
+A man stole my purse.
+
+crowd:upward_monotone
+A big man stole my purse.
+A man stole my purse.
+
+crowd:upward_monotone
+Tom was wearing a blue cowboy hat.
+Tom was wearing a cowboyhat.
+
+crowd:upward_monotone:conjunction
+Tom was wearing a cowboy hat and a revolver.
+Tom was wearing a cowboy hat.
+
+crowd:upward_monotone
+A goose is an aggressive water bird.
+A goose is an water bird.
+
+crowd:upward_monotone
+A goose is a grey water bird.
+A goose is a water bird.
+
+crowd:upward_monotone:conjunction
+There are some oranges and clementines on the table.
+There are some oranges on the table.
+
+crowd:upward_monotone
+There are some tasty oranges on the table.
+There are some oranges on the table.
+
+crowd:upward_monotone
+There are some freshly picked oranges on the table.
+There are some oranges on the table.
+
+crowd:upward_monotone
+Tom is wearing a Harvard large size sweatshirt.
+Tom is wearing a Harvard sweatshirt.
+
+crowd:upward_monotone
+A dry north wind is blowing.
+A north wind is blowing.
+
+crowd:upward_monotone
+I bought a new pair of glasses because I need it.
+I bought a new pair of glasses.
+
+crowd:upward_monotone
+I bought a new pair of red glasses.
+I bought a new pair of glasses.
+
+crowd:upward_monotone
+He wiped his hands on a white handkerchief.
+He wiped his hands on a handkerchief.
+
+crowd:upward_monotone:conjunction
+He spent a few months of June and July in Scotland.
+He spent a few months in Scotland.
+
+crowd:upward_monotone
+He spent a few months this year in Scotland.
+He spent a few months in Scotland.
+
+crowd:upward_monotone
+He is wearing a wide-brimmed hat.
+He is wearing a hat.
+
+crowd:upward_monotone:conjunction
+John inherited a large fortune and beauty jewerly.
+John inherited a large fortune.
+
+crowd:upward_monotone:conjunction
+John inherited a large fortune and a nice car.
+John inherited a large fortune.
+
+crowd:upward_monotone
+Tom is facing a few serious problems with the law.
+Tom is facing a few serious problems.
+
+crowd:upward_monotone
+Tom is facing a few serious health problems.
+Tom is facing a few serious problems.
+
+crowd:upward_monotone
+Tom is facing a few serious problems to face exams.
+Tom is facing a few serious problems.
+
+crowd:upward_monotone
+There are a lot of large eggs in the box.
+There are a lot of eggs in the box.
+
+crowd:upward_monotone
+There are a lot of white eggs in the box.
+There are a lot of eggs in the box.
+
+crowd:upward_monotone
+A big spider was spinning a awesome web.
+A big spider was spinning an web.
+
+crowd:upward_monotone
+She gave a cat some milk from your glass.
+She gave a cat some milk.
+
+crowd:upward_monotone
+She gave a cat some milk in your house.
+She gave a cat some milk.
+
+crowd:upward_monotone
+There are a lot of electronic factories in Kawasaki.
+There are a lot of factories in Kawasaki.
+
+crowd:upward_monotone
+There are a lot of shoe factories in Kawasaki.
+There are a lot of factories in Kawasaki.
+
+crowd:upward_monotone
+There are a lot of food factories in Kawasaki.
+There are a lot of factories in Kawasaki.
+
+crowd:upward_monotone
+There are some red apples in the basket.
+There are some apples in the basket.
+
+crowd:upward_monotone
+Susan made a long dress for Jill.
+Susan made a dress for Jill.
+
+crowd:upward_monotone
+Susan made a mini dress for Jill.
+Susan made a dress for Jill.
+
+crowd:upward_monotone
+Susan made a long black dress for Jill.
+Susan made a dress for Jill.
+
+crowd:upward_monotone
+Tom is a fantastic modern singer.
+Tom is a fantastic singer.
+
+crowd:upward_monotone
+A Californian special policeman pulled a car over and spoke to the driver.
+A Californian policeman pulled a car over and spoke to the driver.
+
+crowd:upward_monotone
+A Californian policeman riding a motorcycle pulled a car over and spoke to the driver.
+A Californian policeman pulled a car over and spoke to the driver.
+
+crowd:upward_monotone
+He approached the boy reading a nice book.
+He approached the boy reading a book.
+
+crowd:upward_monotone
+Tom wore a Hawaiian long shirt.
+Tom wore a Hawaiian shirt.
+
+crowd:upward_monotone
+I do some painting work for Tom from time to time.
+I do some work for Tom from time to time.
+
+crowd:upward_monotone:conjunction
+Tom bought Mary some tasty chocolates and candies.
+Tom bought Mary some chocolates.
+
+crowd:upward_monotone
+Under the table is a red cat.
+Under the table is a cat.
+
+crowd:upward_monotone
+Under the table is a white cat.
+Under the table is a cat.
+
+crowd:upward_monotone
+Under the table is a hungry cat.
+Under the table is a cat.
+
+crowd:upward_monotone
+A big dog bit her leg.
+A dog bit her leg.
+
+crowd:upward_monotone
+A white dog bit her leg.
+A dog bit her leg.
+
+crowd:upward_monotone
+A mad dog bit her leg.
+A dog bit her leg.
+
+crowd:upward_monotone
+A bad dog bit her leg.
+A dog bit her leg.
+
+crowd:upward_monotone:conjunction
+Jane and Brenda skipped the questions she couldn't answer.
+Jane skipped the questions she couldn't answer.
+
+crowd:upward_monotone:conjunction
+I had no sales today and this week.
+I had no sales today.
+
+crowd:upward_monotone:conjunction
+David and his friends can't be at home.
+David can't be at home.
+
+crowd:upward_monotone
+I'm a normal beautiful girl.
+I'm a normal girl.
+
+crowd:upward_monotone
+A forest doe is a female deer.
+A doe is a female deer.
+
+crowd:upward_monotone:conjunction
+An honest and religious man never steals money.
+An honest man never steals money.
+
+crowd:upward_monotone
+Tom showed some rude photos to Mary.
+Tom showed some photos to Mary.
+
+crowd:upward_monotone
+Tom picked some black berries and ate them.
+Tom picked some berries and ate them.
+
+crowd:upward_monotone
+Tom picked some ripe berries and ate them.
+Tom picked some berries and ate them.
+
+crowd:upward_monotone:conjunction
+I know you and Tom have had some problems and fights.
+I know you and Tom have had some problems.
+
+crowd:upward_monotone
+You've got some multicolored balls coming here like this.
+You've got some balls coming here like this.
+
+crowd:upward_monotone:lexical_knowledge
+Today I had some untasty kipper for breakfast.
+Today I had some kipper for breakfast.
+
+crowd:upward_monotone:conjunction
+I want to eat some cake with strawberry and cream first.
+I want to eat some cake first.
+
+crowd:upward_monotone
+I made some bunny-shaped cookies in the morning.
+I made some bunny-shaped cookies.
+
+crowd:upward_monotone:conjunction
+Modern art and science doesn't interest Tom.
+Modern art doesn't interest Tom.
+
+crowd:upward_monotone
+It is not tea, but coffee with milk, that I want.
+It is not tea, but coffee, that I want.
+
+crowd:upward_monotone
+Some things about my wife that Tom told me aren't true.
+Some things that Tom told me aren't true.
+
+crowd:upward_monotone
+All of my brothers have jobs that pay well.
+All of my brothers have jobs.
+
+crowd:upward_monotone
+He bought her some Russian chocolates.
+He bought her some chocolates.
+
+crowd:upward_monotone:conjunction
+A swarm of bees and mosquitoes followed him.
+A swarm of mosquitoes followed him.
+
+crowd:upward_monotone
+A U.S. former soldier was sentenced to 90 years in jail.
+A U.S.  soldier was sentenced to 90 years in jail.
+
+crowd:upward_monotone
+There's a broken radio in my room.
+There's a radio in my room.
+
+crowd:upward_monotone:conjunction
+A tsunami hit the north-eastern coast of Hokkaido and Sapporo.
+A tsunami hit the north-eastern coast of Hokkaido.
+
+crowd:upward_monotone
+I received a telegram that was about her boyfriend from her.
+I received a telegram from her.
+
+crowd:upward_monotone
+I received a pitiful telegram from her.
+I received a telegram from her.
+
+crowd:upward_monotone:conjunction
+I received a telegram and a gift from her.
+I received a telegram from her.
+
+crowd:upward_monotone
+I've seen a big flying saucer.
+I've seen a flying saucer.
+
+crowd:upward_monotone
+Aunt Millie isn't eating an apple.
+Millie isn't eating an apple.
+
+crowd:upward_monotone
+Old Millie isn't eating an apple.
+Millie isn't eating an apple.
+
+crowd:upward_monotone
+There is a glass multi-colored sculpture in the garden.
+There is a glass sculpture in the garden.
+
+crowd:upward_monotone
+A whisker-less cat was on the table.
+A cat was on the table.
+
+crowd:upward_monotone:conjunction
+A cute and chubby cat was on the table.
+A cat was on the table.
+
+crowd:upward_monotone
+A big cat was on the table.
+A cat was on the table.
+
+crowd:upward_monotone
+A big fluffy cat was sleeping on the table.
+A cat was on the table.
+
+crowd:upward_monotone
+The girl wore a light blue ugly kimono.
+The girl wore a light blue kimono.
+
+crowd:upward_monotone
+Tom called a fast cab for me.
+Tom called a cab for me.
+
+crowd:upward_monotone
+Tom called a cab of elevation for me.
+Tom called a cab for me.
+
+crowd:upward_monotone
+There is a cat sleeping on the chair.
+There is a cat on the chair.
+
+crowd:upward_monotone
+Rudolf has built a large pent house with pool.
+Rudolf has built a large pent house.
+
+crowd:upward_monotone:conjunction
+Rudolf has built a large and white house.
+Rudolf has built a large house.
+
+crowd:upward_monotone:conjunction
+Rudolf has built a large and beautiful house.
+Rudolf has built a large house.
+
+crowd:upward_monotone:conjunction
+She planted some blue and purple pansies in the flower bed.
+She planted some pansies in the flower bed.
+
+crowd:upward_monotone
+She planted some dwarf pansies in the flower bed.
+She planted some pansies in the flower bed.
+
+crowd:upward_monotone
+I was in New York with my boyfriend for a few days.
+I was in New York city for a few days.
+
+crowd:upward_monotone
+I was in New York country club for a few days.
+I was in New York for a few days.
+
+crowd:upward_monotone:conjunction
+Mr yamaha gave some walnuts and money to a beggar.
+Mr yamaha gave some walnuts to a beggar.
+
+crowd:upward_monotone:conjunction
+Tom can also speak some French and Spanish.
+Tom can also speak some French.
+
+crowd:upward_monotone:conjunction
+Sekkura is a qualified chef and baker.
+Sekkura is a qualified chef.
+
+crowd:upward_monotone
+There is some goat milk in the fridge.
+There is some milk in the fridge.
+
+crowd:upward_monotone
+He sang some old country songs.
+He sang some old songs.
+
+crowd:upward_monotone
+He sang some old songs that remind me of you.
+He sang some old songs.
+
+crowd:upward_monotone
+My brother works in a very big bank.
+My brother works in a bank.
+
+crowd:upward_monotone
+Tom has a swiss bank account with no money.
+Tom has a swiss bank account.
+
+crowd:upward_monotone
+There's a small hole in this sock.
+There's a hole in this sock.
+
+crowd:upward_monotone
+Tom put a little bunch of letters on Mary's desk.
+Tom put a bunch of letters on Mary's desk.
+
+crowd:upward_monotone
+They eat a lot of fried rice.
+They eat a lot of rice.
+
+crowd:upward_monotone
+They eat a lot of black rice.
+They eat a lot of rice.
+
+crowd:upward_monotone
+Vladivostok is a city in Russia nearby golden horn bay.
+Vladivostok is a city in Russia.
+
+crowd:upward_monotone
+I had a bad tooth pulled.
+I had a tooth pulled.
+
+crowd:upward_monotone
+I had a decayed tooth pulled.
+I had a tooth pulled.
+
+crowd:upward_monotone
+Thursday, we will go to a house with a swimming pool.
+Thursday, we will go to a swimming pool.
+
+crowd:upward_monotone
+A lot of annoying insects are chirping in the field.
+A lot of insects are chirping in the field.
+
+crowd:upward_monotone
+There are some big bags in the room.
+There are some bags in the room.
+
+crowd:upward_monotone:conjunction
+That guy is a coward and a bully.
+That guy is a bully.
+
+crowd:upward_monotone:reverse
+He did nothing yasterday but cry.
+He did nothing but cry.
+
+crowd:upward_monotone:conjunction
+All the passengers are in mortal danger and fear.
+All the passengers are in mortal danger.
+
+crowd:upward_monotone
+Some important documents on criminal proceedings are missing from the files.
+Some important papers are missing from the files.
+
+crowd:upward_monotone:conjunction
+Some large birds hunt and prey upon small birds and animals.
+Some large birds prey upon small birds and animals.
+
+crowd:upward_monotone
+I think that most young people prefer to listen to rock music from 60s.
+I think that most young people prefer to listen to rock music.
+
+crowd:upward_monotone:conjunction
+Women and men didn't care for him.
+Women didn't care for him.
+
+crowd:upward_monotone:reverse:conjunction
+Dogs and cats have all the good qualities of people without at the same time possessing their weaknesses.
+Dogs have all the good qualities of people without at the same time possessing their weaknesses.
+
+crowd:upward_monotone:reverse:conjunction
+Dogs and all pets have all the good qualities of people without at the same time possessing their weaknesses.
+Dogs have all the good qualities of people without at the same time possessing their weaknesses.
+
+crowd:upward_monotone
+Some boys at school library make fun of me.
+Some boys at school make fun of me.
+
+crowd:upward_monotone
+Some boys at my French school make fun of me.
+Some boys at school make fun of me.
+
+crowd:upward_monotone:conjunction
+Animals and plants can not exist without air and water.
+Animals can not exist without air and water.
+
+crowd:upward_monotone
+Cold mayo is nothing but chemicals!
+Mayo is nothing but chemicals!
+
+crowd:upward_monotone
+Every dog is a great lion at home.
+Every dog is a lion at home.
+
+crowd:upward_monotone:conjunction
+Every dog is a lion and a guard at home.
+Every dog in the house is a lion at home.
+
+crowd:upward_monotone
+Passionate love is only an invention.
+Love is only an invention.
+
+crowd:upward_monotone:conjunction
+Some of my best friends are cops and lawyers.
+Some of my best friends are cops.
+
+crowd:upward_monotone:conjunction
+Some of my best friends are cops and doctors.
+Some of my best friends are cops.
+
+crowd:upward_monotone
+A large furry animal fled from the zoo.
+A large animal fled from the zoo.
+
+crowd:upward_monotone:conjunction
+He gave me a ring and a watch.
+He gave me a watch.
+
+crowd:upward_monotone
+I want to buy a dozen doughnuts to give them to my mom.
+I want to buy a dozen doughnuts.
+
+crowd:upward_monotone
+The spider is spinning a web on the wall of peter's room.
+The spider is spinning a net.
+
+crowd:upward_monotone:conjunction
+The spider is spinning a very large and well-worked network.
+The spider is spinning a web.
+
+crowd:upward_monotone
+The spider is spinning a thick web.
+The spider is spinning a web.
+
+crowd:upward_monotone
+I am spreading mustard on a slice of whole wheat bread.
+I am spreading mustard on a slice of bread.
+
+crowd:upward_monotone:conjunction
+I am spreading mustard on a slice of bread and butter.
+I am spreading mustard on a slice of bread.
+
+crowd:upward_monotone
+Tom is dialling a local emergency number.
+Tom is dialling a number.
+
+crowd:upward_monotone
+Tom is dialling a police hotline number.
+Tom is dialling a number.
+
+crowd:upward_monotone
+He has a brave daughter who is pretty.
+He has a daughter who is pretty.
+
+crowd:upward_monotone
+A north cold wind is blowing.
+A north wind is blowing.
+
+crowd:upward_monotone
+Tom is a skillful professional carpenter.
+Tom is a skillful carpenter.
+
+crowd:upward_monotone
+Tom drinks a glass of cold milk every morning.
+Tom drinks milk every morning.
+
+crowd:upward_monotone
+Tom drinks warmed up milk every morning.
+Tom drinks milk every morning.
+
+crowd:upward_monotone:conjunction
+We'll order a pizza and a soda.
+We'll order a pizza.
+
+crowd:upward_monotone
+Tom gave his dog a bone for being a good boy.
+Tom gave his dog a bone.
+
+crowd:upward_monotone
+The young girl Lucy can't use chopsticks.
+Lucy can�s use chopsticks.
+
+crowd:upward_monotone
+A fierce battle for the best seats took place at Monte Cassino.
+A fierce battle took place at Monte Cassino.
+
+crowd:upward_monotone
+A fierce battle for the gold medal took place at Monte Cassino.
+A fierce battle took place at Monte Cassino.
+
+crowd:upward_monotone
+I was in the hospital for a few hard days.
+I was in the hospital for a few days.
+
+crowd:upward_monotone
+I was in the hospital for a few days last month.
+I was in the hospital for a few days.
+
+crowd:upward_monotone
+Tom gave Mary a foot warming massage.
+Tom gave Mary a foot massage.
+
+crowd:upward_monotone
+Miss Klein gives a physics test every friday.
+Miss Klein gives a test every friday.
+
+crowd:upward_monotone:npi:reverse
+She is anything but a soprano singer.
+She is anything but a singer.
+
+crowd:upward_monotone:npi:reverse
+She is anything but a famous singer.
+She is anything but a singer.
+
+crowd:upward_monotone
+Susan made a dress for Jill for her wedding.
+Susan made a dress for Jill.
+
+crowd:upward_monotone
+Susan made a dress for Jill to premiere on the day of her friend's wedding.
+Susan made a dress for Jill.
+
+crowd:upward_monotone
+Susan made a dress for Jill for her friend's wedding.
+Susan made a dress for Jill.
+
+crowd:upward_monotone:conjunction
+A dolphin and whale is a mammal.
+A dolphin is a mammal.
+
+crowd:upward_monotone
+There are some boys buying ice cream in the park.
+There are some guys in the park.
+
+crowd:upward_monotone
+The hunter shot at a deer but missed.
+The hunter shot a deer.
+
+crowd:upward_monotone
+The hunter shot at a medium size deer.
+The hunter shot at a deer.
+
+crowd:upward_monotone
+Tom has a few sick friends in Boston.
+Tom has a few friends in Boston.
+
+crowd:upward_monotone
+A fallen dry tree blocked the way.
+A fallen tree blocked the way.
+
+crowd:upward_monotone
+The city is on a irregular plain.
+The city is on a plain.
+
+crowd:upward_monotone
+The city is on a rocky plain.
+The city is on a plain.
+
+crowd:upward_monotone
+The city is on a pitomoy plain.
+The city is on a plain.
+
+crowd:upward_monotone
+I do a mechanical training at ford.
+I do a training at ford.
+
+crowd:upward_monotone
+I do a boring training at ford.
+I do a training at ford.
+
+crowd:upward_monotone
+There was a handheld tape recorder on the table.
+There was a tape recorder on the table.
+
+crowd:upward_monotone
+The company spends a lot of money on internet advertising.
+The company spends a lot of money on advertising.
+
+crowd:upward_monotone
+An empathetic little girl can empathize with a friend's feelings.
+An empathetic girl can empathize with a friend's feelings.
+
+crowd:upward_monotone:conjunction
+Tom gave some milk and water to the cat.
+Tom gave some milk to the cat.
+
+crowd:upward_monotone
+All of a sudden, i felt a sharp constant pain in my stomach.
+All of a sudden, i felt a sharp pain in my stomach.
+
+crowd:upward_monotone
+I ate a roast turkey sandwich.
+I ate a turkey sandwich.
+
+crowd:upward_monotone
+I ate a fried turkey sandwich.
+I ate a turkey sandwich.
+
+crowd:upward_monotone:conjunction
+You spilled some ketchup and mayonnaise on your tie.
+You spilled some ketchup on your tie.
+
+crowd:upward_monotone
+The government has imposed a new tax on German wine.
+The government has imposed a new tax on wine.
+
+crowd:upward_monotone
+The government has imposed a new tax on famous wine.
+The government has imposed a new tax on wine.
+
+crowd:upward_monotone
+The government has imposed a new tax on wine produced before 2004.
+The government has imposed a new tax on wine.
+
+crowd:upward_monotone
+They called president roosevelt a pirate because of political actions.
+They called president roosevelt a pirate.
+
+crowd:upward_monotone
+I am smoking a cuban expensive cigar.
+I am smoking a cuban cigar.
+
+crowd:upward_monotone
+I am smoking a cuban black cigar.
+I am smoking a cuban cigar.
+
+crowd:upward_monotone
+I am smoking a cuban fragrant cigar.
+I am smoking a cuban cigar.
+
+crowd:upward_monotone
+Madonna's concert drew a large audience in the us.
+Madonna's concert drew a large audience.
+
+crowd:upward_monotone:conjunction
+Madonna's concert drew a large and loud audience.
+Madonna's concert drew a large audience.
+
+crowd:upward_monotone:conjunction
+She took a nutritious and expensive protein shake.
+She took a protein shake.
+
+crowd:upward_monotone
+A lot of school boys are running in the park.
+A lot of boys are running in the park.
+
+crowd:upward_monotone:conjunction
+I bought a gift and some flowers for Tom.
+I bought a gift for Tom.
+
+crowd:upward_monotone
+He drank orange juice out of a white bottle.
+He drank orange juice out of a bottle.
+
+crowd:upward_monotone
+He lives in a small village.
+He lives in a village.
+
+crowd:upward_monotone
+I see a man and a tall woman with daughter.
+I see a man and a woman.
+
+crowd:upward_monotone
+I see a man and a running woman.
+I see a man and a woman.
+
+crowd:upward_monotone
+I see a man and an elegant woman.
+I see a man and a woman.
+
+crowd:upward_monotone
+Tom is drinking a beer at carlos's.
+Tom is drinking a beer.
+
+crowd:upward_monotone
+Tom is drinking a rice beer.
+Tom is drinking a beer.
+
+crowd:upward_monotone
+Tom is drinking a beer made from wheat.
+Tom is drinking a beer.
+
+crowd:upward_monotone
+Tom is drinking a light beer.
+Tom is drinking a beer.
+
+crowd:upward_monotone
+I ordered a black book from London.
+I ordered a book from London.
+
+crowd:upward_monotone:conjunction
+I gave Tom a sedative and tea.
+I gave Tom a sedative.
+
+crowd:upward_monotone
+Tom spread some strawberry hot jam on his toast.
+Tom spread some strawberry jam on his toast.
+
+crowd:upward_monotone
+A typhoon simoron is approaching Japan.
+A typhoon is approaching Japan.
+
+crowd:upward_monotone
+I ordered a veggie burger with cheese.
+I ordered a veggie burger.
+
+crowd:upward_monotone
+I ordered a veggie soy burger.
+I ordered a veggie burger.
+
+crowd:upward_monotone
+There was a red flower bed in the middle of the garden.
+There was a flower bed in the middle of the garden.
+
+crowd:upward_monotone
+Tom wore my jeans and a cowboy hat.
+Tom wore jeans and a cowboy hat.
+
+crowd:upward_monotone
+Each person paid one thousand dollars for that.
+Each person paid one thousand dollars.
+
+crowd:upward_monotone:reverse:conditionals
+If students don't come, the lesson doesn't start.
+If first-year students don't come, the lesson doesn't start.
+
+crowd:upward_monotone:reverse:conditionals
+If students don't come, the lesson doesn't start.
+If most of the students don't come, the lesson doesn't start.
+
+crowd:upward_monotone:reverse:conditionals
+If students don't come, the lesson doesn't start.
+If us students don't come, the lesson doesn't start.
+
+crowd:upward_monotone:reverse
+No wedding would be complete without a fight with a partner.
+No wedding would be complete without a fight.
+
+crowd:upward_monotone:reverse:conditionals
+If you have a question, please raise your right hand.
+If you have a question not resolved, please raise your right hand.
+
+crowd:upward_monotone:reverse
+People who don't have a computer can't make full use of this mp3 player function.
+People who don't have a personal computer can't make full use of this mp3 player function.
+
+crowd:upward_monotone:reverse
+People who don't have a computer can't make full use of this mp3 player function.
+People who don't have a powerful computer can't make full use of this mp3 player function.
+
+crowd:upward_monotone:reverse
+You can't have a rainbow without a little rain.
+You can't have a colour spectrum without a little rain.
+
+crowd:upward_monotone:reverse
+You can't have a rainbow without a little rain.
+You can't have a rainbow in the sky without a little rain.
+
+crowd:upward_monotone:reverse
+I couldn't live in Boston without you.
+I couldn't live in Boston avenue without you.
+
+crowd:upward_monotone:reverse
+It's no secret that Tom doesn't agree with you.
+It's no big secret that Tom doesn't agree with you.
+
+crowd:upward_monotone:reverse:npi
+It's no secret that Tom doesn't agree with you.
+It's no secret of any kind that Tom doesn't agree with you.
+
+crowd:upward_monotone:reverse
+It's no secret that Tom doesn't agree with you.
+It's no secret that Tom disagrees with you after cheating.
+
+crowd:upward_monotone:reverse
+At this school, there are no grades and students having no homework.
+At this school, there are no grades and students having no extra homework.
+
+crowd:upward_monotone:reverse
+At this school, there are no grades and students having no homework.
+At this school, there are no grades and students having no summer homework.
+
+crowd:upward_monotone:reverse
+At this school, there are no grades and students having no homework.
+At this school, there are no grades and students having no difficult homework.
+
+crowd:upward_monotone:reverse:conjunction
+At this school, there are no grades and students having no homework and tests.
+At this school, there are no grades and students having no homework.
+
+crowd:upward_monotone:reverse
+At this school, there are no grades and students having no homework.
+At this school, there are no grades and students having no lecture to do at home.
+
+crowd:upward_monotone:reverse:lexical_knowledge
+At this school, there are no grades and students having no homework.
+At this school, there are no grades and students having no assignments.
+
+crowd:upward_monotone:lexical_knowledge
+I was only a seven-year-old girl at that time.
+I was only a seven-year-old child at that time.
+
+crowd:upward_monotone:conjunction
+All boys and girls like to play baseball.
+All boys like to play baseball.
+
+crowd:upward_monotone:reverse:conjunction
+No creature can live without air and water.
+No creature can live without air.
+
+crowd:upward_monotone:reverse
+No creature can live without clean air.
+No creature can live without air.
+
+crowd:upward_monotone:reverse
+No creature can live without air in the sea.
+No creature can live without air.
+
+crowd:upward_monotone
+We play football in the morning every saturday.
+We play football every saturday.
+
+crowd:upward_monotone
+We play football at night every saturday.
+We play football every saturday.
+
+crowd:upward_monotone:reverse
+They've been looking for the plane for eight days, without success.
+They've been looking for the plane for eight days, without great success.
+
+crowd:upward_monotone:reverse
+They've been looking for the plane for eight days, without success.
+They've been looking for the plane for eight days, without splendid success.
+
+crowd:upward_monotone:reverse:conjunction
+They've been looking for the plane for eight days, without success.
+They've been looking for the plane for eight days, without success and benefit.
+
+crowd:upward_monotone
+He plays golf every sunday with his best friends.
+He plays golf every sunday.
+
+crowd:upward_monotone:reverse:conjunction
+I can't imagine life without him and his dog.
+I can't imagine life without him.
+
+crowd:upward_monotone:reverse
+I can't imagine life without his family.
+I can't imagine our life without him.
+
+crowd:upward_monotone:lexical_knowledge
+Every morning I ask myself why.
+Every day I ask myself why.
+
+crowd:upward_monotone:reverse:conditionals
+If someone can't remember his past, he's doomed to experience it anew.
+If maria victoria can't remember his past, he's doomed to experience it anew.
+
+crowd:upward_monotone:reverse:conditionals
+If someone can't remember his past, he's doomed to experience it anew.
+If humans can't remember his past, he's doomed to experience it anew.
+
+crowd:upward_monotone:reverse:conjunction
+I can't imagine life without music.
+I can't imagine life and the world without good music.
+
+crowd:upward_monotone:reverse
+I can't imagine life without music.
+I can't imagine my daily life without nice music.
+
+crowd:upward_monotone:reverse
+I can't imagine life without music.
+I can't imagine my life without beautiful music.
+
+crowd:upward_monotone:conjunction:reverse
+I can't imagine life without music.
+I can't imagine your life without music and hobby.
+
+crowd:upward_monotone:conjunction:reverse
+I can't imagine life without music.
+I can't imagine a long life without music and cooking.
+
+crowd:upward_monotone:reverse
+I can't imagine life without music.
+I can't imagine living without soul music.
+
+crowd:upward_monotone:reverse
+I can't imagine life without music.
+I can't imagine existing without rock'n'roll music.
+
+crowd:upward_monotone
+He is not a teacher but a student who helps his peers.
+He is not a teacher but a student.
+
+crowd:upward_monotone
+He is not a teacher but an excellent student.
+He is not a teacher but a student.
+
+crowd:upward_monotone
+He is not a teacher but a student.
+He is not a teacher but an engineering student.
+
+crowd:upward_monotone
+Tom goes jogging in the park every early in the morning.
+Tom goes jogging in the park every morning.
+
+paper:upward_monotone
+Every alien read news magazines.
+Every alien read magazines.
+
+paper:upward_monotone:lexical_knowledge
+Every alien watched baseball matches.
+Every alien watched sports matches.
+
+paper:upward_monotone:lexical_knowledge
+Every alien bought shirts.
+Every alien bought clothes.
+
+paper:upward_monotone:lexical_knowledge
+Every alien drove suvs.
+Every alien drove cars.
+
+paper:upward_monotone
+Many aliens read news magazines.
+Many aliens read magazines.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens watched baseball matches.
+Many aliens watched sports matches.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens bought shirts.
+Many aliens bought clothes.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens drove suvs.
+Many aliens drove cars.
+
+paper:upward_monotone
+The yellow alien read news magazines.
+The yellow alien read magazines.
+
+paper:upward_monotone:lexical_knowledge
+The yellow alien watched baseball matches.
+The yellow alien watched sports matches.
+
+paper:upward_monotone:lexical_knowledge
+The yellow alien bought shirts.
+The yellow alien bought clothes.
+
+paper:upward_monotone:lexical_knowledge
+The yellow alien drove suvs.
+The yellow alien drove cars.
+
+paper:upward_monotone:lexical_knowledge
+Every alien drank some coke.
+Every alien drank soda.
+
+paper:upward_monotone:lexical_knowledge
+Every alien read some sci-fi novels.
+Every alien read books.
+
+paper:upward_monotone:lexical_knowledge
+Every alien played with some toy cars.
+Every alien played with toys.
+
+paper:upward_monotone
+Every alien threw some tennis balls.
+Every alien threw balls.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens drank some coke.
+Many aliens drank soda.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens read some sci-fi novels.
+Many aliens read books.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens played with some toy cars.
+Many aliens played with toys.
+
+paper:upward_monotone
+Many aliens threw some tennis balls.
+Many aliens threw balls.
+
+paper:upward_monotone:lexical_knowledge
+The blue alien drank some coke.
+The blue alien drank soda.
+
+paper:upward_monotone:lexical_knowledge
+The blue alien read some sci-fi novels.
+The blue alien read books.
+
+paper:upward_monotone:lexical_knowledge
+The blue alien played with some toy cars.
+The blue alien played with toys.
+
+paper:upward_monotone
+The blue alien threw some tennis balls.
+The blue alien threw balls.
+
+paper:upward_monotone:lexical_knowledge
+Every alien ate pork.
+Every alien ate meat.
+
+paper:upward_monotone:lexical_knowledge
+Every alien read sci-fi novels.
+Every alien read books.
+
+paper:upward_monotone:lexical_knowledge
+Every alien saw doves.
+Every alien saw birds.
+
+paper:upward_monotone
+Every alien threw tennis balls.
+Every alien threw balls.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens ate pork.
+Many aliens ate meat.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens read sci-fi novels.
+Many aliens read books.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens saw doves.
+Many aliens saw birds.
+
+paper:upward_monotone
+Many aliens threw tennis balls.
+Many aliens threw balls.
+
+paper:upward_monotone:lexical_knowledge
+The yellow alien ate pork.
+The yellow alien ate meat.
+
+paper:upward_monotone:lexical_knowledge
+The yellow alien read sci-fi novels.
+The yellow alien read books.
+
+paper:upward_monotone:lexical_knowledge
+The yellow alien saw doves.
+The yellow alien saw birds.
+
+paper:upward_monotone
+The yellow alien threw tennis balls.
+The yellow alien threw balls.
+
+paper:upward_monotone
+Every alien read some news magazines.
+Every alien read magazines.
+
+paper:upward_monotone
+Every alien ate at some Mexican restaurants.
+Every alien ate at restaurants.
+
+paper:upward_monotone:lexical_knowledge
+Every alien bought some shirts.
+Every alien bought clothes.
+
+paper:upward_monotone:lexical_knowledge
+Every alien used some quarters.
+Every alien used coins.
+
+paper:upward_monotone
+Many aliens read some news magazines.
+Many aliens read magazines.
+
+paper:upward_monotone
+Many aliens ate at some Mexican restaurants.
+Many aliens ate at restaurants.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens bought some shirts.
+Many aliens bought clothes.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens used some quarters.
+Many aliens used coins.
+
+paper:upward_monotone
+The blue alien read some news magazines.
+The blue alien read magazines.
+
+paper:upward_monotone
+The blue alien ate at some Mexican restaurants.
+The blue alien ate at restaurants.
+
+paper:upward_monotone:lexical_knowledge
+The blue alien bought some shirts.
+The blue alien bought clothes.
+
+paper:upward_monotone:lexical_knowledge
+The blue alien used some quarters.
+The blue alien used coins.
+
+paper:upward_monotone:lexical_knowledge
+Every alien drank coke.
+Every alien drank soda.
+
+paper:upward_monotone
+Every alien ate at Mexican restaurants.
+Every alien ate at restaurants.
+
+paper:upward_monotone:lexical_knowledge
+Every alien played with toy cars.
+Every alien played with toys.
+
+paper:upward_monotone:lexical_knowledge
+Every alien used quarters.
+Every alien used coins.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens drank coke.
+Many aliens drank soda.
+
+paper:upward_monotone
+Many aliens ate at Mexican restaurants.
+Many aliens ate at restaurants.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens played with toy cars.
+Many aliens played with toys.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens used quarters.
+Many aliens used coins.
+
+paper:upward_monotone:lexical_knowledge
+The yellow alien drank coke.
+The yellow alien drank soda.
+
+paper:upward_monotone
+The yellow alien ate at Mexican restaurants.
+The yellow alien ate at restaurants.
+
+paper:upward_monotone:lexical_knowledge
+The yellow alien played with toy cars.
+The yellow alien played with toys.
+
+paper:upward_monotone:lexical_knowledge
+The yellow alien used quarters.
+The yellow alien used coins.
+
+paper:upward_monotone:lexical_knowledge
+Every alien ate some pork.
+Every alien ate some meat.
+
+paper:upward_monotone:lexical_knowledge
+Every alien watched some baseball matches.
+Every alien watched some sports matches.
+
+paper:upward_monotone:lexical_knowledge
+Every alien saw some doves.
+Every alien saw some birds.
+
+paper:upward_monotone:lexical_knowledge
+Every alien drove some suvs.
+Every alien drove some cars.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens ate some pork.
+Many aliens ate some meat.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens watched some baseball matches.
+Many aliens watched some sports matches.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens saw some doves.
+Many aliens saw some birds.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens drove some suvs.
+Many aliens drove some cars.
+
+paper:upward_monotone:lexical_knowledge
+The blue alien ate some pork.
+The blue alien ate some meat.
+
+paper:upward_monotone:lexical_knowledge
+The blue alien watched some baseball matches.
+The blue alien watched some sports matches.
+
+paper:upward_monotone:lexical_knowledge
+The blue alien saw some doves.
+The blue alien saw some birds.
+
+paper:upward_monotone:lexical_knowledge
+The blue alien drove some suvs.
+The blue alien drove some cars.
+
+paper:upward_monotone:lexical_knowledge
+Every alien drank some coke.
+Every alien drank some soda.
+
+paper:upward_monotone:lexical_knowledge
+Every alien read some sci-fi novels.
+Every alien read some books.
+
+paper:upward_monotone:lexical_knowledge
+Every alien played with some toy cars.
+Every alien played with some toys.
+
+paper:upward_monotone
+Every alien threw some tennis balls.
+Every alien threw some balls.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens drank some coke.
+Many aliens drank some soda.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens read some sci-fi novels.
+Many aliens read some books.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens played with some toy cars.
+Many aliens played with some toys.
+
+paper:upward_monotone
+Many aliens threw some tennis balls.
+Many aliens threw some balls.
+
+paper:upward_monotone:lexical_knowledge
+The blue alien drank some coke.
+The blue alien drank some soda.
+
+paper:upward_monotone:lexical_knowledge
+The blue alien read some sci-fi novels.
+The blue alien read some books.
+
+paper:upward_monotone:lexical_knowledge
+The blue alien played with some toy cars.
+The blue alien played with some toys.
+
+paper:upward_monotone
+The blue alien threw some tennis balls.
+The blue alien threw some balls.
+
+paper:upward_monotone
+Every alien read some news magazines.
+Every alien read some magazines.
+
+paper:upward_monotone
+Every alien ate at some Mexican restaurants.
+Every alien ate at some restaurants.
+
+paper:upward_monotone:lexical_knowledge
+Every alien bought some shirts.
+Every alien bought some clothes.
+
+paper:upward_monotone:lexical_knowledge
+Every alien used some quarters.
+Every alien used some coins.
+
+paper:upward_monotone
+Many aliens read some news magazines.
+Many aliens read some magazines.
+
+paper:upward_monotone
+Many aliens ate at some Mexican restaurants.
+Many aliens ate at some restaurants.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens bought some shirts.
+Many aliens bought some clothes.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens used some quarters.
+Many aliens used some coins.
+
+paper:upward_monotone
+The blue alien read some news magazines.
+The blue alien read some magazines.
+
+paper:upward_monotone
+The blue alien ate at some Mexican restaurants.
+The blue alien ate at some restaurants.
+
+paper:upward_monotone:lexical_knowledge
+The blue alien bought some shirts.
+The blue alien bought some clothes.
+
+paper:upward_monotone:lexical_knowledge
+The blue alien used some quarters.
+The blue alien used some coins.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without drinking some coke.
+No alien died without drinking soda.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without reading some sci-fi novels.
+No alien died without reading books.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without playing with some toy cars.
+No alien died without playing with toys.
+
+paper:upward_monotone:reverse
+No alien died without throwing some tennis balls.
+No alien died without throwing balls.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not drink some coke is hairy.
+Every alien who did not drink soda is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not read some sci-fi novels is hairy.
+Every alien who did not read books is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not play with some toy cars is hairy.
+Every alien who did not play with toys is hairy.
+
+paper:upward_monotone:reverse
+Every alien who did not throw some tennis balls is hairy.
+Every alien who did not throw balls is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without eating any pork.
+No alien died without eating meat.
+
+paper:upward_monotone:reverse
+No alien died without eating at any Mexican restaurants.
+No alien died without eating at restaurants.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without seeing any doves.
+No alien died without seeing birds.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without using any quarters.
+No alien died without using coins.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not eat any pork is hairy.
+Every alien who did not eat meat is hairy.
+
+paper:upward_monotone:reverse
+Every alien who did not eat at any Mexican restaurants is hairy.
+Every alien who did not eat at restaurants is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not see any doves is hairy.
+Every alien who did not see birds is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not use any quarters is hairy.
+Every alien who did not use coins is hairy.
+
+paper:upward_monotone:reverse
+No alien died without reading news magazines.
+No alien died without reading magazines.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without watching baseball matches.
+No alien died without watching sports matches.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without buying shirts.
+No alien died without buying clothes.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without driving suvs.
+No alien died without driving cars.
+
+paper:upward_monotone:reverse
+Every alien who did not read news magazines is hairy.
+Every alien who did not read magazines is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not watch baseball matches is hairy.
+Every alien who did not watch sports matches is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not buy shirts is hairy.
+Every alien who did not buy clothes is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not drive suvs is hairy.
+Every alien who did not drive cars is hairy.
+
+paper:upward_monotone:reverse
+No alien died without reading some news magazines.
+No alien died without reading magazines.
+
+paper:upward_monotone:reverse
+No alien died without eating at some Mexican restaurants.
+No alien died without eating at restaurants.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without buying some shirts.
+No alien died without buying clothes.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without using some quarters.
+No alien died without using coins.
+
+paper:upward_monotone:reverse
+Every alien who did not read some news magazines is hairy.
+Every alien who did not read magazines is hairy.
+
+paper:upward_monotone:reverse
+Every alien who did not eat at some Mexican restaurants is hairy.
+Every alien who did not eat at restaurants is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not buy some shirts is hairy.
+Every alien who did not buy clothes is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not use some quarters is hairy.
+Every alien who did not use coins is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without drinking any coke.
+No alien died without drinking soda.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without watching any baseball matches.
+No alien died without watching sports matches.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without playing with any toy cars.
+No alien died without playing with toys.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without driving any suvs.
+No alien died without driving cars.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not drink any coke is hairy.
+Every alien who did not drink soda is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not watch any baseball matches is hairy.
+Every alien who did not watch sports matches is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not play with any toy cars is hairy.
+Every alien who did not play with toys is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not drive any suvs is hairy.
+Every alien who did not drive cars is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without eating pork.
+No alien died without eating meat.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without reading sci-fi novels.
+No alien died without reading books.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without seeing doves.
+No alien died without seeing birds.
+
+paper:upward_monotone:reverse
+No alien died without throwing tennis balls.
+No alien died without throwing balls.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not eat pork is hairy.
+Every alien who did not eat meat is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not read sci-fi novels is hairy.
+Every alien who did not read books is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not see doves is hairy.
+Every alien who did not see birds is hairy.
+
+paper:upward_monotone:reverse
+Every alien who did not throw tennis balls is hairy.
+Every alien who did not throw balls is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without eating some pork.
+No alien died without eating meat.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without watching some baseball matches.
+No alien died without watching sports matches.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without seeing some doves.
+No alien died without seeing birds.
+
+paper:upward_monotone:reverse
+Every alien who did not eat at Mexican restaurants is hairy.
+Every alien who did not eat at restaurants is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not play with toy cars is hairy.
+Every alien who did not play with toys is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not use quarters is hairy.
+Every alien who did not use coins is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not drink coke is hairy.
+Every alien who did not drink soda is hairy.
+
+paper:upward_monotone:lexical_knowledge
+The red alien ate some pork.
+The red alien ate meat.
+
+paper:upward_monotone:lexical_knowledge
+Every alien ate some pork.
+Every alien ate meat.
+
+paper:upward_monotone:lexical_knowledge
+The red alien watched some baseball matches.
+The red alien watched sports matches.
+
+paper:upward_monotone:lexical_knowledge
+Every alien watched some baseball matches.
+Every alien watched sports matches.
+
+paper:upward_monotone:lexical_knowledge
+The red alien saw some doves.
+The red alien saw birds.
+
+paper:upward_monotone:lexical_knowledge
+Every alien saw some doves.
+Every alien saw birds.
+
+paper:upward_monotone
+The red alien ate at some Mexican restaurants.
+The red alien ate at restaurants.
+
+paper:upward_monotone:lexical_knowledge
+The red alien played with some toy cars.
+The red alien played with toys.
+
+paper:upward_monotone:lexical_knowledge
+The red alien used some quarters.
+The red alien used coins.
+
+paper:upward_monotone:lexical_knowledge
+The red alien bought some shirts.
+The red alien bought clothes.
+
+paper:upward_monotone
+The red alien threw some tennis balls.
+The red alien threw balls.
+
+paper:upward_monotone:lexical_knowledge
+The red alien drank some coke.
+The red alien drank soda.
+
+paper:upward_monotone
+The red alien read some news magazines.
+The red alien read magazines.
+
+paper:upward_monotone:reverse
+No alien died without eating at Mexican restaurants.
+No alien died without eating at restaurants.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without playing with toy cars.
+No alien died without playing with toys.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without using quarters.
+No alien died without using coins.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not buy any shirts is hairy.
+Every alien who did not buy clothes is hairy.
+
+paper:upward_monotone:reverse
+Every alien who did not throw any tennis balls is hairy.
+Every alien who did not throw balls is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+No alien died without drinking coke.
+No alien died without drinking soda.
+
+paper:upward_monotone:reverse
+Every alien who did not read any news magazines is hairy.
+Every alien who did not read magazines is hairy.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens ate some pork.
+Many aliens ate meat.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens watched some baseball matches.
+Many aliens watched sports matches.
+
+paper:upward_monotone:lexical_knowledge
+Many aliens saw some doves.
+Many aliens saw birds.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not eat some pork is hairy.
+Every alien who did not eat meat is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not watch some baseball matches is hairy.
+Every alien who did not watch sports matches is hairy.
+
+paper:upward_monotone:reverse:lexical_knowledge
+Every alien who did not see some doves is hairy.
+Every alien who did not see birds is hairy.
+
+paper:upward_monotone
+Every man ran quickly.
+Every man ran.
+
+paper:upward_monotone
+Some man ran quickly.
+Some man ran.
+
+paper:upward_monotone
+Some tall man ran.
+Some man ran.
+
+paper:upward_monotone:reverse
+Every cook who is not a tall man ran.
+Every cook who is not a man ran.
+
+paper:upward_monotone:conjunction
+At least one man sang and danced.
+At least one man sang.
+
+paper:upward_monotone:conjunction
+At least one man sang and danced.
+At least one man danced.
+
+paper:upward_monotone:disjunction
+At least one man sang.
+At least one man sang or danced.
+
+paper:upward_monotone:disjunction
+At least one man danced.
+At least one man sang or danced.
+
+paper:upward_monotone:conjunction
+Every man sang and danced.
+Every man sang.
+
+paper:upward_monotone:conjunction
+Every man sang and danced.
+Every man danced.
+
+paper:upward_monotone:disjunction
+Every man sang.
+Every man sang or danced.
+
+paper:upward_monotone:disjunction
+Every man danced.
+Every man sang or danced.
+
+paper:upward_monotone
+Every tall man ran quickly.
+Every tall man ran.
+
+paper:upward_monotone:lexical_knowledge
+She gave him a rose.
+She gave him a flower.
+
+paper:upward_monotone:lexical_knowledge
+She kissed him.
+She touched him.
+
+paper:upward_monotone:lexical_knowledge
+She has a German car.
+She has a European car.
+
+paper:upward_monotone:lexical_knowledge
+Nina has a bulldog.
+Nina has a dog.
+
+paper:upward_monotone:lexical_knowledge
+Aldo kissed Nina.
+Aldo touched Nina.
+
+paper:upward_monotone:lexical_knowledge
+A bulldog attacked Nina.
+A dog attacked Nina.
+
+paper:upward_monotone:lexical_knowledge
+He loves a woman.
+He loves a person.
+
+paper:upward_monotone:lexical_knowledge
+He bought marble.
+He bought stone.
+
+paper:upward_monotone:lexical_knowledge
+He knows a city in spain.
+He knows a city in Europe.
+
+paper:upward_monotone:lexical_knowledge
+She whispered more than three words.
+She said more than three words.
+
+paper:upward_monotone:reverse
+He never lacked paper money.
+He never lacked money.
+
+paper:upward_monotone:lexical_knowledge:reverse
+At most three girls did not dance.
+At most three girls did not move.
+
+paper:upward_monotone:lexical_knowledge
+Betty lives in Berlin.
+Betty lives in Germany.
+
+paper:upward_monotone:lexical_knowledge:reverse
+It's not true that Betty doesn't live in Berlin.
+It's not true that Betty doesn't live in Germany.
+
+paper:upward_monotone:lexical_knowledge
+All dots are scarlet.
+All dots are red.
+
+paper:upward_monotone:lexical_knowledge
+Most dots are scarlet.
+Most dots are red.
+
+paper:upward_monotone:lexical_knowledge
+Some dots are scarlet.
+Some dots are red.
+
+paper:upward_monotone:lexical_knowledge
+At least five dots are scarlet.
+At least five dots are red.
+
+paper:upward_monotone:lexical_knowledge
+More than half of the tenors have the flu.
+More than half of the tenors are sick.
+
+paper:upward_monotone:lexical_knowledge
+All the tenors have the flu.
+All the tenors are sick.
+
+paper:upward_monotone:lexical_knowledge:reverse
+None of the sopranos sang with fewer than three of the tenors.
+None of the sopranos sang with fewer than three of the male singers.
+
+paper:upward_monotone:lexical_knowledge:reverse
+Some of the sopranos sang with more than three of the tenors.
+Some of the sopranos sang with more than three of the male singers.
+
+paper:upward_monotone
+Fred�s tie is navy blue.
+Fred�s tie is blue.
+
+paper:upward_monotone
+All pachyderms are navy blue.
+All pachyderms are blue.
+
+paper:upward_monotone:lexical_knowledge
+Some elephants are pink.
+Some pachyderms are pink.
+
+paper:upward_monotone:lexical_knowledge
+Some elephants are not pink.
+Some pachyderms are not pink.
+
+paper:upward_monotone:lexical_knowledge
+At least three elephants are pink.
+At least three pachyderms are pink.
+
+paper:upward_monotone
+All elephants are navy blue.
+All elephants are blue.
+
+paper:upward_monotone
+Some elephants are navy blue.
+Some elephants are blue.
+
+paper:upward_monotone
+At least three elephants are navy blue.
+At least three elephants are blue.
+
+paper:upward_monotone
+At most three elephants are blue.
+At most three elephants are navy blue.
+
+paper:upward_monotone:disjunction
+Many of the books had typical readers.
+Many of the books had typical or marginal readers.
+
+paper:upward_monotone:disjunction:npi
+Almost every camper has caught a cold.
+Almost every camper has ever had a sunburn or caught a cold.
+
+paper:upward_monotone:disjunction
+Almost every camper has caught a cold.
+Almost every camper has had a sunburn or caught a cold.
+
+paper:upward_monotone:disjunction:npi
+Almost every child decided on the cotton candy.
+Almost every child chose any mint chocolates or decided on the cotton candy.
+
+paper:upward_monotone:disjunction
+Almost every child decided on the cotton candy.
+Almost every child chose mint chocolates or decided on the cotton candy.
+
+paper:upward_monotone:disjunction:npi
+Almost everybody has caught a cold.
+Almost everybody has ever had a sunburn or caught a cold.
+
+paper:upward_monotone:disjunction
+Almost everybody has caught a cold.
+Almost everybody has had a sunburn or caught a cold.
+
+paper:upward_monotone:disjunction:npi
+Almost everybody decided on the cotton candy.
+Almost everybody chose any mint chocolates or decided on the cotton candy.
+
+paper:upward_monotone:disjunction
+Almost everybody decided on the cotton candy.
+Almost everybody chose mint chocolates or decided on the cotton candy.
+
+paper:upward_monotone:disjunction:npi
+At least five campers have caught a cold.
+At least five campers have ever had a sunburn or caught a cold.
+
+paper:upward_monotone:disjunction
+At least five campers have caught a cold.
+At least five campers have had a sunburn or caught a cold.
+
+paper:upward_monotone:disjunction:npi
+At least five children decided on the cotton candy.
+At least five children chose any mint chocolates or decided on the cotton candy.
+
+paper:upward_monotone:disjunction
+At least five children decided on the cotton candy.
+At least five children chose mint chocolates or decided on the cotton candy.
+
+paper:upward_monotone:disjunction:npi
+At least half campers have caught a cold.
+At least half campers have ever had a sunburn or caught a cold.
+
+paper:upward_monotone:disjunction
+At least half campers have caught a cold.
+At least half campers have had a sunburn or caught a cold.
+
+paper:upward_monotone:disjunction:npi
+At least half children decided on the cotton candy.
+At least half children chose any mint chocolates or decided on the cotton candy.
+
+paper:upward_monotone:disjunction
+At least half children decided on the cotton candy.
+At least half children chose mint chocolates or decided on the cotton candy.
+
+paper:upward_monotone:disjunction:npi
+More than five campers have caught a cold.
+More than five campers have ever had a sunburn or caught a cold.
+
+paper:upward_monotone:disjunction
+More than five campers have caught a cold.
+More than five campers have had a sunburn or caught a cold.
+
+paper:upward_monotone:disjunction:npi
+More than five children decided on the cotton candy.
+More than five children chose any mint chocolates or decided on the cotton candy.
+
+paper:upward_monotone:disjunction
+More than five children decided on the cotton candy.
+More than five children chose mint chocolates or decided on the cotton candy.
+
+paper:upward_monotone:disjunction:npi
+More than five of campers have caught a cold.
+More than five of campers have ever had a sunburn or caught a cold.
+
+paper:upward_monotone:disjunction
+More than five of campers have caught a cold.
+More than five of campers have had a sunburn or caught a cold.
+
+paper:upward_monotone:disjunction:npi
+More than five of the children decided on the cotton candy.
+More than five of the children chose any mint chocolates or decided on the cotton candy.
+
+paper:upward_monotone:disjunction
+More than five of the children decided on the cotton candy.
+More than five of the children chose mint chocolates or decided on the cotton candy.
+
+paper:upward_monotone:disjunction:npi
+Many campers have caught a cold.
+Many campers have ever had a sunburn or caught a cold.
+
+paper:upward_monotone:disjunction
+Many campers have caught a cold.
+Many campers have had a sunburn or caught a cold.
+
+paper:upward_monotone:disjunction:npi
+Many children decided on the cotton candy.
+Many children chose any mint chocolates or decided on the cotton candy.
+
+paper:upward_monotone:disjunction
+Many children decided on the cotton candy.
+Many children chose mint chocolates or decided on the cotton candy.
+
+paper:upward_monotone:disjunction:npi
+Many of the campers have caught a cold.
+Many of the campers have ever had a sunburn or caught a cold.
+
+paper:upward_monotone:disjunction
+Many of the campers have caught a cold.
+Many of the campers have had a sunburn or caught a cold.
+
+paper:upward_monotone:disjunction:npi
+Many of the children decided on the cotton candy.
+Many of the children chose any mint chocolates or decided on the cotton candy.
+
+paper:upward_monotone:disjunction
+Many of the children decided on the cotton candy.
+Many of the children chose mint chocolates or decided on the cotton candy.
+
+paper:upward_monotone:disjunction:npi
+No less than fifty campers have caught a cold.
+No less than fifty campers have ever had a sunburn or caught a cold.
+
+paper:upward_monotone:disjunction
+No less than fifty campers have caught a cold.
+No less than fifty campers have had a sunburn or caught a cold.
+
+paper:upward_monotone:disjunction:npi
+No less than fifty children decided on the cotton candy.
+No less than fifty children chose any mint chocolates or decided on the cotton candy.
+
+paper:upward_monotone:disjunction
+No less than fifty children decided on the cotton candy.
+No less than fifty children chose mint chocolates or decided on the cotton candy.
+
+paper:upward_monotone:disjunction:npi
+No less than five campers have caught a cold.
+No less than five campers have ever had a sunburn or caught a cold.
+
+paper:upward_monotone:disjunction
+No less than five campers have caught a cold.
+No less than five campers have had a sunburn or caught a cold.
+
+paper:upward_monotone:disjunction:npi
+No less than five children decided on the cotton candy.
+No less than five children chose any mint chocolates or decided on the cotton candy.
+
+paper:upward_monotone:disjunction
+No less than five children decided on the cotton candy.
+No less than five children chose mint chocolates or decided on the cotton candy.
+
+paper:upward_monotone
+John is a tall student.
+John is a student.
+
+paper:upward_monotone
+John is very tall.
+John is tall.
+
+paper:upward_monotone
+John is a very tall student.
+John is a student.
+
+paper:upward_monotone:reverse
+Every student who kissed every tall teacher smiled.
+Every student who kissed every teacher smiled.
+
+paper:upward_monotone
+Some boy, the brother of whom Mary loves, walked.
+Some boy walked.
+
+paper:upward_monotone:lexical_knowledge:conjunction
+John does and Mary doesn't walk.
+John moves.
+
+paper:upward_monotone:lexical_knowledge:conjunction
+Mary adores and passionately loves john.
+Mary loves john.
+
+paper:upward_monotone:lexical_knowledge
+Some creative intelligent boy smiled.
+Some smart boy smiled.
+
+paper:upward_monotone
+Some republican entered the race early.
+Some republican entered the race.
+
+paper:upward_monotone
+Every linguist entered the race early.
+Every linguist entered the race.
+
+paper:upward_monotone
+John entered the race early.
+John entered the race.
+
+paper:upward_monotone
+Most peanut farmers entered the race early.
+Most peanut farmers entered the race.
+
+paper:upward_monotone
+Many men farmers entered the race early.
+Many men entered the race.
+
