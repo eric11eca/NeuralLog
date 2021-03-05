@@ -1,3 +1,4 @@
+import svgling
 import numpy as np
 from tqdm import tqdm
 from copy import deepcopy
@@ -141,7 +142,7 @@ class Polarizer:
             right.mark = "="
             if isinstance(tree.parent, BinaryDependencyTree) and tree.parent.val == "amod":
                 self.equalize(tree.parent.right)
-        elif left.val.lower() in ["not", "no", "n't", "never"]:
+        elif left.val.lower() in ["not", "no", "n't", "never", "rarely", "barely", "seldom"]:
             self.negate(right, -1)
         elif left.val.lower() in ["exactly"]:
             self.equalize(tree.parent.parent)
@@ -310,7 +311,7 @@ class Polarizer:
             detType = det_type(right.val)
             if detType == None:
                 detType = self.DETEXIST
-            left.mark = det_mark[detType]
+            left.mark = det_mark[detType][1]
             if detType == "det:negation":
                 self.top_down_negate(
                     tree, "nmod", self.relation.index(tree.key))
@@ -333,7 +334,10 @@ class Polarizer:
             if(self.down_left(left).val != "than"):
                 self.negate(left, -1)
         elif right.mark == "=":
-            self.equalize(left)
+            if right.left.val != "the":
+                self.equalize(left)
+            elif right.left.mark == "-":
+                self.negate(left, -1)
 
     def polarize_nmod_poss(self, tree):
         right = tree.right
@@ -365,8 +369,8 @@ class Polarizer:
 
         self.polarize(right)
 
-        if left.val.lower() == "that":
-            self.equalize(right)
+        # if left.val.lower() == "that":
+        #    self.equalize(right)
         if not tree.is_root:
             if tree.parent.left.val.lower() == "that":
                 self.equalize(left)
@@ -629,6 +633,7 @@ class PolarizationPipeline:
 
     def run_binarization(self, parsed, replaced, sentence):
         self.binarizer.parse_table = parsed[0]
+        self.binarizer.postag = parsed[1]
         self.binarizer.words = parsed[2]
 
         if self.verbose == 2:
@@ -639,15 +644,15 @@ class PolarizationPipeline:
 
         binary_dep, relation = self.binarizer.binarization()
         if self.verbose == 2:
-            self.postprocess(binary_dep, replaced)
+            self.postprocess(binary_dep)
         return binary_dep, relation
 
-    def postprocess(self, tree, replaced):
-        sexpression = btree2list(tree, replaced, 0)
-        sexpression = '[%s]' % ', '.join(
-            map(str, sexpression)).replace(",", " ").replace("'", "")
-        if self.verbose == 2:
-            print(sexpression)
+    def postprocess(self, tree, svg=False):
+        sexpression = btree2list(tree, 0)
+        if not svg:
+            sexpression = '[%s]' % ', '.join(
+                map(str, sexpression)).replace(",", " ").replace("'", "")
+        # print(sexpression)
         return sexpression
 
     def run_polarization(self, binary_dep, relation, replaced, sentence):
@@ -656,18 +661,28 @@ class PolarizationPipeline:
 
         self.polarizer.polarize_deptree()
         if self.verbose == 2:
-            self.postprocess(binary_dep, replaced)
+            self.postprocess(binary_dep)
+        elif self.verbose == 1:
+            polarized = self.postprocess(binary_dep)
+            svgling.draw_tree(polarized)
+            # jupyter_draw_rsyntax_tree(polarized)
+            #btreeViz = Tree.fromstring(polarized.replace('[', '(').replace(']', ')'))
+            # jupyter_draw_nltk_tree(btreeViz)
 
-    def get_annotation_info(self, annotation):
-        ann = list(annotation.popkeys())
-        return list(zip(*ann))
+    def modify_replacement(self, tree, replace):
+        if str((tree.val, tree.id)) in replace:
+            tree.val = replace[str((tree.val, tree.id))]
+
+        if tree.is_tree:
+            self.modify_replacement(tree.left, replace)
+            self.modify_replacement(tree.right, replace)
 
     def single_polarization(self, sentence):
         parsed, replaced = dependency_parse(sentence, self.parser)
-
         binary_dep, relation = self.run_binarization(
             parsed, replaced, sentence)
         self.run_polarization(binary_dep, relation, replaced, sentence)
+        self.modify_replacement(self.polarizer.dependtree, replaced)
         annotated = self.polarizer.dependtree.sorted_leaves()
 
         if self.verbose == 2:
@@ -690,45 +705,3 @@ class PolarizationPipeline:
                 if self.verbose == 2:
                     print(str(e))
                 self.exceptioned.append(sent)
-
-    def polarize_eval(self, annotations_val=[]):
-        num_unmatched = 0
-        self.incorrect = []
-        self.annotations = []
-        self.verbose = 1
-
-        self.batch_polarization()
-
-        for i in tqdm(range(len(self.annotations))):
-            annotation = self.annotations[i]
-            annotated_sent = annotation2string(annotation)
-
-            vec = [arrow2int(x) for x in annotated_sent.split(' ')]
-
-            if len(annotations_val) > 0:
-                annotation_val = annotations_val[i]
-                vec_val = convert2vector(annotation_val)
-                if len(vec) == len(vec_val):
-                    if not np.array_equal(vec, vec_val):
-                        num_unmatched += 1
-                        self.incorrect.append(
-                            (output[1], output[0], annotation_val, postags))
-                    if self.parser == "stanford":
-                        continue
-
-            validate = ""
-            if len(annotations_val) > 0:
-                validate = annotations_val[i]
-
-            self.annotations.append(
-                {
-                    "annotated": output[0],
-                    "polarized": output[2],
-                    "validation": validate,
-                    "orig": output[1],
-                    "postag": postags
-                }
-            )
-
-        print()
-        print("Number of unmatched sentences: ", num_unmatched)

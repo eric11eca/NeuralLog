@@ -1,0 +1,58 @@
+\paragraph{Adverbial Modifier} For the adverbial modifier relation (\textbf{advmod}), a series of special cases are included. For words like \textit{exactly} and \textit{precisely}, the system applies a forward equalization and changes each node's polarity on the right side to have no monotonicity information, since exactly behaves like an Exact Type quantifier. For words like \textit{not} and \textit{n't} that promotes an antitone polarity, the system applies a forward negation that negates each node's polarity on the right side. The rule for adverbial also checks for two special quantifiers: \textit{more than} \textbf{n} and \textit{less than} \textbf{n}, where \textbf{n} is a number. The quantifier \textit{more than} \textbf{n} is like \textit{some}, which assigns monotone to its first and second argument, and it assigns an antitone to the number \textbf{n}. The quantifier \textit{less than} \textbf{n} is like \textit{no}, which assigns antitone to its first and second argument, and it assigns a monotone to the number \textbf{n}. Similar cases are included in the rule for adjectival modifier (\textbf{amod}), where \textit{at least} \textbf{n} is similar to \textit{more than} \textbf{n}, and \textit{at most} \textbf{n} is similar to \textit{less than} \textbf{n}. When none of the special case conditions are satisfied, the algorithm applies a top-down initialization and polarizes the left and right sides. An overview of the algorithm is shown in Algorithm 4 and 5.
+
+\begin{algorithm}[t!]
+\footnotesize
+   \caption{polarize-advmod}
+   \begin{algorithmic}[1]
+        \Function{polarize-advmod}{tree}
+            
+            \If{tree.mark != None}
+                \State tree.right.mark = tree.mark
+                \State tree.left.mark = tree.mark
+            \Else
+                \State tree.right.mark = $\uparrow$
+                \State tree.left.mark = $\uparrow$
+             \EndIf
+            
+            \If{\textit{checkMoreThan}(tree)}
+                \State \textit{equalization}(tree.right)
+            \ElsIf{\textit{checkLessThan}(tree)}
+                \State \textit{markNumber}($\downarrow$)
+            \ElsIf{\textit{checkExact}(tree)}
+                \State \textit{negation}(tree.parent)
+                \State \textit{markNumber}($\uparrow$)
+            \Else
+                \State \textit{polarize}(tree.left)
+                \State \textit{polarize}(tree.right)
+            \EndIf
+        \EndFunction
+   \end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}[t!]
+\footnotesize
+    \caption{polarize-advmod-auxiliaries}
+    \begin{algorithmic}
+         \Function{checkMoreThan}{tree}
+            \State more = tree.left.right.val == "more" 
+            \State than = tree.left.left.val== "than"
+            \State\Return more $\And$ than
+        \EndFunction\\
+
+        \Function{checkLessThan}{tree}
+            \State less = tree.left.right.val == "less" 
+            \State than = tree.left.left.val== "than"
+            \State\Return less $\And$ than
+        \EndFunction\\
+        
+        \Function{checkExact}{tree}
+            \State\Return tree.left.val == "exactly"
+        \EndFunction\\
+
+        \Function{markNumber}{tree, mark}
+            \If{tree.right.val == "nummod"}
+                \State tree.right.left.mark = mark
+            \EndIf
+        \EndFunction
+    \end{algorithmic}
+\end{algorithm}

@@ -114,7 +114,7 @@ arrow2int = {
 }
 
 
-def btree2list(binaryDepdency, replaced, verbose=2):
+def btree2list(binaryDepdency, verbose=0):
     def to_list(tree):
         treelist = []
         if tree.is_tree:

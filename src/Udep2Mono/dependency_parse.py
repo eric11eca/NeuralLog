@@ -9,30 +9,70 @@ import stanza
 pkg = "ewt"
 pkg = "gum"
 
-nlp = stanza.Pipeline(
-    "en",
-    processors={"tokenize": pkg, "pos": pkg,
-                "lemma": pkg, "depparse": pkg},
-    use_gpu=True,
-    pos_batch_size=2000
-)
+depparse_config = {
+    'lang': "en",
+    'processors': "tokenize,pos,lemma,depparse",
+    'tokenize_model_path': '../model/en/tokenize/gum.pt',
+    'pos_model_path': '../model/en/pos/ewt.pt',
+    'depparse_model_path': '../model/en/depparse/gum.pt',
+    'lemma_model_path': '../model/en/lemma/gum.pt',
+    'use_gpu': True,
+    'pos_batch_size': 3000
+}
+
+token_config = {
+    'lang': "en",
+    'processors': "tokenize",
+    'tokenize_model_path': '../model/en/tokenize/gum.pt',
+    'use_gpu': True,
+    'pos_batch_size': 3000
+}
+
+nlp = stanza.Pipeline(**depparse_config)
+tokenizer = stanza.Pipeline(**token_config)
 
 # cd ./Desktop/Udep2Mono/NaturalLanguagePipeline/lib/stanford-corenlp-4.1.0
 # java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
 
 replacement = {
     "out of": "out-of",
-    "none of the": "no",
-    "all of the": "all",
-    "some of the": "some",
-    "most of the": "most",
-    "many of the": "many",
-    "several of the": "several",
-    "some but not all": "some",
+    "a few": "a-few",
+    "a few of the": "a-few-of-the",
+    "none of the": "none-of-the",
+    "all of the": "all-of-the",
+    "some of the": "some-of-the",
+    "most of the": "most-of-the",
+    "many of the": "many-of-the",
+    "several of the": "several-of-the",
+    "some but not all": "some-but-not-all",
     "at most": "at-most",
     "at least": "at-least",
     "more than": "more-than",
     "less than": "less-than",
+    "no longer": "no-longer",
+    "a lot of": "a-lot-of",
+    "lots of": "lots-of",
+    "each of the": "each-of-the",
+}
+
+quantifier_replacement = {
+    "a-few": "some",
+    "a-few of the": "some",
+    "none-of-the": "no",
+    "all-of-the": "all",
+    "some-of-the": "some",
+    "most-of-the": "most",
+    "many-of-the": "many",
+    "several-of-the": "several",
+    "some-but-not-all": "some",
+    "at-most": "no",
+    "at-least": "some",
+    "more-than": "some",
+    "less-than": "no",
+    "no-longer": "not",
+    "a-lot-of": "some",
+    "lots-of": "some",
+    "each of the": "each"
 }
 
 
@@ -42,7 +82,14 @@ def preprocess(sentence):
     for orig in replacement:
         if orig in processed:
             processed = processed.replace(orig, replacement[orig])
-            replaced[replacement[orig]] = orig
+
+    tokens = tokenizer(processed).sentences[0].words
+    for tok in tokens:
+        if tok.text in quantifier_replacement:
+            processed = processed.replace(
+                tok.text, quantifier_replacement[tok.text])
+            replaced[str((quantifier_replacement[tok.text], tok.id))] = tok.text
+
     return processed, replaced
 
 

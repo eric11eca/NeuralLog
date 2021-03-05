@@ -113,7 +113,8 @@ hierarchy = {
     "conj-n": 90,
     "conj-vb": 90,
     "flat": 100,
-    "goeswith": 100
+    "goeswith": 100,
+    "parataxis": 100
 }
 
 
