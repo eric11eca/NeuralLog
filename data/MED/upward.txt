@@ -50,14 +50,6 @@ paper:upward_monotone
 Socrates is rational.
 Someone is rational.
 
-paper:GLUE:lexical_knowledge:upward_monotone
-Some dogs like to scratch their ears.
-Some animals like to scratch their ears.
-
-paper:GLUE:upward_monotone:World knowledge:lexical_knowledge
-Cruz has frequently derided as amnesty various bills that confer legal status or citizenship on people living in the country illegally.
-Cruz has frequently derided as amnesty various plans that confer legal status or citizenship on people living in the country illegally.
-
 paper:GLUE:Intersectivity:upward_monotone
 In many developed areas, human activity has changed the form of river channels, altering magnitudes and frequencies of flooding.
 In many areas, human activity has changed the form of river channels, altering magnitudes and frequencies of flooding.
@@ -86,14 +78,6 @@ paper:GLUE:Redundancy:upward_monotone
 The 15th tank corps was a corps of the soviet union's red army.
 The 15th tank corps was a tank corps of the soviet union's red army.
 
-paper:GLUE:Redundancy:Intersectivity:upward_monotone:World knowledge:lexical_knowledge
-In grounded communication tasks, speakers face pressures in choosing referential expressions that distinguish their targets from others in the context, leading to many kinds of pragmatic meaning enrichment.
-In grounded communication tasks, speakers face pressures in choosing referential expressions that distinguish their targets from others in the context, leading to many kinds of meaning enrichment.
-
-paper:GLUE:Redundancy:Intersectivity:upward_monotone:World knowledge:lexical_knowledge
-In grounded communication tasks, speakers face pressures in choosing referential expressions that distinguish their targets from others in the context, leading to many kinds of meaning enrichment.
-In grounded communication tasks, speakers face pressures in choosing referential expressions that distinguish their targets from others in the context, leading to many kinds of pragmatic meaning enrichment.
-
 paper:GLUE:Conjunction:upward_monotone
 Understanding a long document requires tracking how entities are introduced and evolve over time.
 Understanding a long document requires understanding how entities are introduced.
@@ -105,10 +89,6 @@ A wind rolled across the glade.
 paper:GLUE:Intersectivity:upward_monotone
 The leading car gradually shifted to the left lane.
 The leading car shifted to the left lane.
-
-paper:GLUE:upward_monotone:World knowledge:lexical_knowledge
-There are some amazing hikes around Mt Fuji.
-There are some amazing hikes in Japan.
 
 crowd:upward_monotone
 Some Germans work for only one euro an hour without holiday pay.
@@ -229,10 +209,6 @@ Juan can't help me.
 crowd:upward_monotone
 Some people think that overwhelming advertising is a form of brainwashing.
 Some people think that advertising is a form of brainwashing.
-
-crowd:upward_monotone:lexical_knowledge
-Some animals, such as lions, eat some animals.
-Some animals, such as lions, eat meat.
 
 crowd:upward_monotone:conjunction
 All Tom wanted was a nice hot and relaxing bath.
@@ -626,10 +602,6 @@ crowd:upward_monotone
 You've got some multicolored balls coming here like this.
 You've got some balls coming here like this.
 
-crowd:upward_monotone:lexical_knowledge
-Today I had some untasty kipper for breakfast.
-Today I had some kipper for breakfast.
-
 crowd:upward_monotone:conjunction
 I want to eat some cake with strawberry and cream first.
 I want to eat some cake first.
@@ -643,8 +615,8 @@ Modern art and science doesn't interest Tom.
 Modern art doesn't interest Tom.
 
 crowd:upward_monotone
-It is not tea, but coffee with milk, that I want.
-It is not tea, but coffee, that I want.
+It is not tea but coffee with milk that I want.
+It is not tea but coffee that I want.
 
 crowd:upward_monotone
 Some things about my wife that Tom told me aren't true.
@@ -976,7 +948,7 @@ Tom gave his dog a bone.
 
 crowd:upward_monotone
 The young girl Lucy can't use chopsticks.
-Lucy canï¿½s use chopsticks.
+Lucy can’s use chopsticks.
 
 crowd:upward_monotone
 A fierce battle for the best seats took place at Monte Cassino.
@@ -1290,14 +1262,6 @@ crowd:upward_monotone:reverse
 At this school, there are no grades and students having no homework.
 At this school, there are no grades and students having no lecture to do at home.
 
-crowd:upward_monotone:reverse:lexical_knowledge
-At this school, there are no grades and students having no homework.
-At this school, there are no grades and students having no assignments.
-
-crowd:upward_monotone:lexical_knowledge
-I was only a seven-year-old girl at that time.
-I was only a seven-year-old child at that time.
-
 crowd:upward_monotone:conjunction
 All boys and girls like to play baseball.
 All boys like to play baseball.
@@ -1345,10 +1309,6 @@ I can't imagine life without him.
 crowd:upward_monotone:reverse
 I can't imagine life without his family.
 I can't imagine our life without him.
-
-crowd:upward_monotone:lexical_knowledge
-Every morning I ask myself why.
-Every day I ask myself why.
 
 crowd:upward_monotone:reverse:conditionals
 If someone can't remember his past, he's doomed to experience it anew.
@@ -1406,141 +1366,33 @@ paper:upward_monotone
 Every alien read news magazines.
 Every alien read magazines.
 
-paper:upward_monotone:lexical_knowledge
-Every alien watched baseball matches.
-Every alien watched sports matches.
-
-paper:upward_monotone:lexical_knowledge
-Every alien bought shirts.
-Every alien bought clothes.
-
-paper:upward_monotone:lexical_knowledge
-Every alien drove suvs.
-Every alien drove cars.
-
 paper:upward_monotone
 Many aliens read news magazines.
 Many aliens read magazines.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens watched baseball matches.
-Many aliens watched sports matches.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens bought shirts.
-Many aliens bought clothes.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens drove suvs.
-Many aliens drove cars.
 
 paper:upward_monotone
 The yellow alien read news magazines.
 The yellow alien read magazines.
 
-paper:upward_monotone:lexical_knowledge
-The yellow alien watched baseball matches.
-The yellow alien watched sports matches.
-
-paper:upward_monotone:lexical_knowledge
-The yellow alien bought shirts.
-The yellow alien bought clothes.
-
-paper:upward_monotone:lexical_knowledge
-The yellow alien drove suvs.
-The yellow alien drove cars.
-
-paper:upward_monotone:lexical_knowledge
-Every alien drank some coke.
-Every alien drank soda.
-
-paper:upward_monotone:lexical_knowledge
-Every alien read some sci-fi novels.
-Every alien read books.
-
-paper:upward_monotone:lexical_knowledge
-Every alien played with some toy cars.
-Every alien played with toys.
-
 paper:upward_monotone
 Every alien threw some tennis balls.
 Every alien threw balls.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens drank some coke.
-Many aliens drank soda.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens read some sci-fi novels.
-Many aliens read books.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens played with some toy cars.
-Many aliens played with toys.
 
 paper:upward_monotone
 Many aliens threw some tennis balls.
 Many aliens threw balls.
 
-paper:upward_monotone:lexical_knowledge
-The blue alien drank some coke.
-The blue alien drank soda.
-
-paper:upward_monotone:lexical_knowledge
-The blue alien read some sci-fi novels.
-The blue alien read books.
-
-paper:upward_monotone:lexical_knowledge
-The blue alien played with some toy cars.
-The blue alien played with toys.
-
 paper:upward_monotone
 The blue alien threw some tennis balls.
 The blue alien threw balls.
-
-paper:upward_monotone:lexical_knowledge
-Every alien ate pork.
-Every alien ate meat.
-
-paper:upward_monotone:lexical_knowledge
-Every alien read sci-fi novels.
-Every alien read books.
-
-paper:upward_monotone:lexical_knowledge
-Every alien saw doves.
-Every alien saw birds.
 
 paper:upward_monotone
 Every alien threw tennis balls.
 Every alien threw balls.
 
-paper:upward_monotone:lexical_knowledge
-Many aliens ate pork.
-Many aliens ate meat.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens read sci-fi novels.
-Many aliens read books.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens saw doves.
-Many aliens saw birds.
-
 paper:upward_monotone
 Many aliens threw tennis balls.
 Many aliens threw balls.
-
-paper:upward_monotone:lexical_knowledge
-The yellow alien ate pork.
-The yellow alien ate meat.
-
-paper:upward_monotone:lexical_knowledge
-The yellow alien read sci-fi novels.
-The yellow alien read books.
-
-paper:upward_monotone:lexical_knowledge
-The yellow alien saw doves.
-The yellow alien saw birds.
 
 paper:upward_monotone
 The yellow alien threw tennis balls.
@@ -1554,14 +1406,6 @@ paper:upward_monotone
 Every alien ate at some Mexican restaurants.
 Every alien ate at restaurants.
 
-paper:upward_monotone:lexical_knowledge
-Every alien bought some shirts.
-Every alien bought clothes.
-
-paper:upward_monotone:lexical_knowledge
-Every alien used some quarters.
-Every alien used coins.
-
 paper:upward_monotone
 Many aliens read some news magazines.
 Many aliens read magazines.
@@ -1569,14 +1413,6 @@ Many aliens read magazines.
 paper:upward_monotone
 Many aliens ate at some Mexican restaurants.
 Many aliens ate at restaurants.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens bought some shirts.
-Many aliens bought clothes.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens used some quarters.
-Many aliens used coins.
 
 paper:upward_monotone
 The blue alien read some news magazines.
@@ -1586,153 +1422,25 @@ paper:upward_monotone
 The blue alien ate at some Mexican restaurants.
 The blue alien ate at restaurants.
 
-paper:upward_monotone:lexical_knowledge
-The blue alien bought some shirts.
-The blue alien bought clothes.
-
-paper:upward_monotone:lexical_knowledge
-The blue alien used some quarters.
-The blue alien used coins.
-
-paper:upward_monotone:lexical_knowledge
-Every alien drank coke.
-Every alien drank soda.
-
 paper:upward_monotone
 Every alien ate at Mexican restaurants.
 Every alien ate at restaurants.
-
-paper:upward_monotone:lexical_knowledge
-Every alien played with toy cars.
-Every alien played with toys.
-
-paper:upward_monotone:lexical_knowledge
-Every alien used quarters.
-Every alien used coins.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens drank coke.
-Many aliens drank soda.
 
 paper:upward_monotone
 Many aliens ate at Mexican restaurants.
 Many aliens ate at restaurants.
 
-paper:upward_monotone:lexical_knowledge
-Many aliens played with toy cars.
-Many aliens played with toys.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens used quarters.
-Many aliens used coins.
-
-paper:upward_monotone:lexical_knowledge
-The yellow alien drank coke.
-The yellow alien drank soda.
-
 paper:upward_monotone
 The yellow alien ate at Mexican restaurants.
 The yellow alien ate at restaurants.
-
-paper:upward_monotone:lexical_knowledge
-The yellow alien played with toy cars.
-The yellow alien played with toys.
-
-paper:upward_monotone:lexical_knowledge
-The yellow alien used quarters.
-The yellow alien used coins.
-
-paper:upward_monotone:lexical_knowledge
-Every alien ate some pork.
-Every alien ate some meat.
-
-paper:upward_monotone:lexical_knowledge
-Every alien watched some baseball matches.
-Every alien watched some sports matches.
-
-paper:upward_monotone:lexical_knowledge
-Every alien saw some doves.
-Every alien saw some birds.
-
-paper:upward_monotone:lexical_knowledge
-Every alien drove some suvs.
-Every alien drove some cars.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens ate some pork.
-Many aliens ate some meat.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens watched some baseball matches.
-Many aliens watched some sports matches.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens saw some doves.
-Many aliens saw some birds.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens drove some suvs.
-Many aliens drove some cars.
-
-paper:upward_monotone:lexical_knowledge
-The blue alien ate some pork.
-The blue alien ate some meat.
-
-paper:upward_monotone:lexical_knowledge
-The blue alien watched some baseball matches.
-The blue alien watched some sports matches.
-
-paper:upward_monotone:lexical_knowledge
-The blue alien saw some doves.
-The blue alien saw some birds.
-
-paper:upward_monotone:lexical_knowledge
-The blue alien drove some suvs.
-The blue alien drove some cars.
-
-paper:upward_monotone:lexical_knowledge
-Every alien drank some coke.
-Every alien drank some soda.
-
-paper:upward_monotone:lexical_knowledge
-Every alien read some sci-fi novels.
-Every alien read some books.
-
-paper:upward_monotone:lexical_knowledge
-Every alien played with some toy cars.
-Every alien played with some toys.
 
 paper:upward_monotone
 Every alien threw some tennis balls.
 Every alien threw some balls.
 
-paper:upward_monotone:lexical_knowledge
-Many aliens drank some coke.
-Many aliens drank some soda.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens read some sci-fi novels.
-Many aliens read some books.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens played with some toy cars.
-Many aliens played with some toys.
-
 paper:upward_monotone
 Many aliens threw some tennis balls.
 Many aliens threw some balls.
-
-paper:upward_monotone:lexical_knowledge
-The blue alien drank some coke.
-The blue alien drank some soda.
-
-paper:upward_monotone:lexical_knowledge
-The blue alien read some sci-fi novels.
-The blue alien read some books.
-
-paper:upward_monotone:lexical_knowledge
-The blue alien played with some toy cars.
-The blue alien played with some toys.
 
 paper:upward_monotone
 The blue alien threw some tennis balls.
@@ -1746,14 +1454,6 @@ paper:upward_monotone
 Every alien ate at some Mexican restaurants.
 Every alien ate at some restaurants.
 
-paper:upward_monotone:lexical_knowledge
-Every alien bought some shirts.
-Every alien bought some clothes.
-
-paper:upward_monotone:lexical_knowledge
-Every alien used some quarters.
-Every alien used some coins.
-
 paper:upward_monotone
 Many aliens read some news magazines.
 Many aliens read some magazines.
@@ -1761,14 +1461,6 @@ Many aliens read some magazines.
 paper:upward_monotone
 Many aliens ate at some Mexican restaurants.
 Many aliens ate at some restaurants.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens bought some shirts.
-Many aliens bought some clothes.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens used some quarters.
-Many aliens used some coins.
 
 paper:upward_monotone
 The blue alien read some news magazines.
@@ -1778,109 +1470,29 @@ paper:upward_monotone
 The blue alien ate at some Mexican restaurants.
 The blue alien ate at some restaurants.
 
-paper:upward_monotone:lexical_knowledge
-The blue alien bought some shirts.
-The blue alien bought some clothes.
-
-paper:upward_monotone:lexical_knowledge
-The blue alien used some quarters.
-The blue alien used some coins.
-
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without drinking some coke.
-No alien died without drinking soda.
-
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without reading some sci-fi novels.
-No alien died without reading books.
-
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without playing with some toy cars.
-No alien died without playing with toys.
-
 paper:upward_monotone:reverse
 No alien died without throwing some tennis balls.
 No alien died without throwing balls.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not drink some coke is hairy.
-Every alien who did not drink soda is hairy.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not read some sci-fi novels is hairy.
-Every alien who did not read books is hairy.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not play with some toy cars is hairy.
-Every alien who did not play with toys is hairy.
 
 paper:upward_monotone:reverse
 Every alien who did not throw some tennis balls is hairy.
 Every alien who did not throw balls is hairy.
 
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without eating any pork.
-No alien died without eating meat.
-
 paper:upward_monotone:reverse
 No alien died without eating at any Mexican restaurants.
 No alien died without eating at restaurants.
-
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without seeing any doves.
-No alien died without seeing birds.
-
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without using any quarters.
-No alien died without using coins.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not eat any pork is hairy.
-Every alien who did not eat meat is hairy.
 
 paper:upward_monotone:reverse
 Every alien who did not eat at any Mexican restaurants is hairy.
 Every alien who did not eat at restaurants is hairy.
 
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not see any doves is hairy.
-Every alien who did not see birds is hairy.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not use any quarters is hairy.
-Every alien who did not use coins is hairy.
-
 paper:upward_monotone:reverse
 No alien died without reading news magazines.
 No alien died without reading magazines.
 
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without watching baseball matches.
-No alien died without watching sports matches.
-
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without buying shirts.
-No alien died without buying clothes.
-
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without driving suvs.
-No alien died without driving cars.
-
 paper:upward_monotone:reverse
 Every alien who did not read news magazines is hairy.
 Every alien who did not read magazines is hairy.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not watch baseball matches is hairy.
-Every alien who did not watch sports matches is hairy.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not buy shirts is hairy.
-Every alien who did not buy clothes is hairy.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not drive suvs is hairy.
-Every alien who did not drive cars is hairy.
 
 paper:upward_monotone:reverse
 No alien died without reading some news magazines.
@@ -1890,14 +1502,6 @@ paper:upward_monotone:reverse
 No alien died without eating at some Mexican restaurants.
 No alien died without eating at restaurants.
 
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without buying some shirts.
-No alien died without buying clothes.
-
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without using some quarters.
-No alien died without using coins.
-
 paper:upward_monotone:reverse
 Every alien who did not read some news magazines is hairy.
 Every alien who did not read magazines is hairy.
@@ -1906,153 +1510,25 @@ paper:upward_monotone:reverse
 Every alien who did not eat at some Mexican restaurants is hairy.
 Every alien who did not eat at restaurants is hairy.
 
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not buy some shirts is hairy.
-Every alien who did not buy clothes is hairy.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not use some quarters is hairy.
-Every alien who did not use coins is hairy.
-
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without drinking any coke.
-No alien died without drinking soda.
-
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without watching any baseball matches.
-No alien died without watching sports matches.
-
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without playing with any toy cars.
-No alien died without playing with toys.
-
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without driving any suvs.
-No alien died without driving cars.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not drink any coke is hairy.
-Every alien who did not drink soda is hairy.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not watch any baseball matches is hairy.
-Every alien who did not watch sports matches is hairy.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not play with any toy cars is hairy.
-Every alien who did not play with toys is hairy.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not drive any suvs is hairy.
-Every alien who did not drive cars is hairy.
-
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without eating pork.
-No alien died without eating meat.
-
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without reading sci-fi novels.
-No alien died without reading books.
-
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without seeing doves.
-No alien died without seeing birds.
-
 paper:upward_monotone:reverse
 No alien died without throwing tennis balls.
 No alien died without throwing balls.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not eat pork is hairy.
-Every alien who did not eat meat is hairy.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not read sci-fi novels is hairy.
-Every alien who did not read books is hairy.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not see doves is hairy.
-Every alien who did not see birds is hairy.
 
 paper:upward_monotone:reverse
 Every alien who did not throw tennis balls is hairy.
 Every alien who did not throw balls is hairy.
 
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without eating some pork.
-No alien died without eating meat.
-
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without watching some baseball matches.
-No alien died without watching sports matches.
-
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without seeing some doves.
-No alien died without seeing birds.
-
 paper:upward_monotone:reverse
 Every alien who did not eat at Mexican restaurants is hairy.
 Every alien who did not eat at restaurants is hairy.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not play with toy cars is hairy.
-Every alien who did not play with toys is hairy.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not use quarters is hairy.
-Every alien who did not use coins is hairy.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not drink coke is hairy.
-Every alien who did not drink soda is hairy.
-
-paper:upward_monotone:lexical_knowledge
-The red alien ate some pork.
-The red alien ate meat.
-
-paper:upward_monotone:lexical_knowledge
-Every alien ate some pork.
-Every alien ate meat.
-
-paper:upward_monotone:lexical_knowledge
-The red alien watched some baseball matches.
-The red alien watched sports matches.
-
-paper:upward_monotone:lexical_knowledge
-Every alien watched some baseball matches.
-Every alien watched sports matches.
-
-paper:upward_monotone:lexical_knowledge
-The red alien saw some doves.
-The red alien saw birds.
-
-paper:upward_monotone:lexical_knowledge
-Every alien saw some doves.
-Every alien saw birds.
 
 paper:upward_monotone
 The red alien ate at some Mexican restaurants.
 The red alien ate at restaurants.
 
-paper:upward_monotone:lexical_knowledge
-The red alien played with some toy cars.
-The red alien played with toys.
-
-paper:upward_monotone:lexical_knowledge
-The red alien used some quarters.
-The red alien used coins.
-
-paper:upward_monotone:lexical_knowledge
-The red alien bought some shirts.
-The red alien bought clothes.
-
 paper:upward_monotone
 The red alien threw some tennis balls.
 The red alien threw balls.
-
-paper:upward_monotone:lexical_knowledge
-The red alien drank some coke.
-The red alien drank soda.
 
 paper:upward_monotone
 The red alien read some news magazines.
@@ -2062,53 +1538,13 @@ paper:upward_monotone:reverse
 No alien died without eating at Mexican restaurants.
 No alien died without eating at restaurants.
 
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without playing with toy cars.
-No alien died without playing with toys.
-
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without using quarters.
-No alien died without using coins.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not buy any shirts is hairy.
-Every alien who did not buy clothes is hairy.
-
 paper:upward_monotone:reverse
 Every alien who did not throw any tennis balls is hairy.
 Every alien who did not throw balls is hairy.
 
-paper:upward_monotone:reverse:lexical_knowledge
-No alien died without drinking coke.
-No alien died without drinking soda.
-
 paper:upward_monotone:reverse
 Every alien who did not read any news magazines is hairy.
 Every alien who did not read magazines is hairy.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens ate some pork.
-Many aliens ate meat.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens watched some baseball matches.
-Many aliens watched sports matches.
-
-paper:upward_monotone:lexical_knowledge
-Many aliens saw some doves.
-Many aliens saw birds.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not eat some pork is hairy.
-Every alien who did not eat meat is hairy.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not watch some baseball matches is hairy.
-Every alien who did not watch sports matches is hairy.
-
-paper:upward_monotone:reverse:lexical_knowledge
-Every alien who did not see some doves is hairy.
-Every alien who did not see birds is hairy.
 
 paper:upward_monotone
 Every man ran quickly.
@@ -2162,113 +1598,17 @@ paper:upward_monotone
 Every tall man ran quickly.
 Every tall man ran.
 
-paper:upward_monotone:lexical_knowledge
-She gave him a rose.
-She gave him a flower.
-
-paper:upward_monotone:lexical_knowledge
-She kissed him.
-She touched him.
-
-paper:upward_monotone:lexical_knowledge
-She has a German car.
-She has a European car.
-
-paper:upward_monotone:lexical_knowledge
-Nina has a bulldog.
-Nina has a dog.
-
-paper:upward_monotone:lexical_knowledge
-Aldo kissed Nina.
-Aldo touched Nina.
-
-paper:upward_monotone:lexical_knowledge
-A bulldog attacked Nina.
-A dog attacked Nina.
-
-paper:upward_monotone:lexical_knowledge
-He loves a woman.
-He loves a person.
-
-paper:upward_monotone:lexical_knowledge
-He bought marble.
-He bought stone.
-
-paper:upward_monotone:lexical_knowledge
-He knows a city in spain.
-He knows a city in Europe.
-
-paper:upward_monotone:lexical_knowledge
-She whispered more than three words.
-She said more than three words.
-
 paper:upward_monotone:reverse
 He never lacked paper money.
 He never lacked money.
 
-paper:upward_monotone:lexical_knowledge:reverse
-At most three girls did not dance.
-At most three girls did not move.
-
-paper:upward_monotone:lexical_knowledge
-Betty lives in Berlin.
-Betty lives in Germany.
-
-paper:upward_monotone:lexical_knowledge:reverse
-It's not true that Betty doesn't live in Berlin.
-It's not true that Betty doesn't live in Germany.
-
-paper:upward_monotone:lexical_knowledge
-All dots are scarlet.
-All dots are red.
-
-paper:upward_monotone:lexical_knowledge
-Most dots are scarlet.
-Most dots are red.
-
-paper:upward_monotone:lexical_knowledge
-Some dots are scarlet.
-Some dots are red.
-
-paper:upward_monotone:lexical_knowledge
-At least five dots are scarlet.
-At least five dots are red.
-
-paper:upward_monotone:lexical_knowledge
-More than half of the tenors have the flu.
-More than half of the tenors are sick.
-
-paper:upward_monotone:lexical_knowledge
-All the tenors have the flu.
-All the tenors are sick.
-
-paper:upward_monotone:lexical_knowledge:reverse
-None of the sopranos sang with fewer than three of the tenors.
-None of the sopranos sang with fewer than three of the male singers.
-
-paper:upward_monotone:lexical_knowledge:reverse
-Some of the sopranos sang with more than three of the tenors.
-Some of the sopranos sang with more than three of the male singers.
-
 paper:upward_monotone
-Fredï¿½s tie is navy blue.
-Fredï¿½s tie is blue.
+Fred’s tie is navy blue.
+Fred’s tie is blue.
 
 paper:upward_monotone
 All pachyderms are navy blue.
 All pachyderms are blue.
-
-paper:upward_monotone:lexical_knowledge
-Some elephants are pink.
-Some pachyderms are pink.
-
-paper:upward_monotone:lexical_knowledge
-Some elephants are not pink.
-Some pachyderms are not pink.
-
-paper:upward_monotone:lexical_knowledge
-At least three elephants are pink.
-At least three pachyderms are pink.
 
 paper:upward_monotone
 All elephants are navy blue.
@@ -2469,18 +1809,6 @@ Every student who kissed every teacher smiled.
 paper:upward_monotone
 Some boy, the brother of whom Mary loves, walked.
 Some boy walked.
-
-paper:upward_monotone:lexical_knowledge:conjunction
-John does and Mary doesn't walk.
-John moves.
-
-paper:upward_monotone:lexical_knowledge:conjunction
-Mary adores and passionately loves john.
-Mary loves john.
-
-paper:upward_monotone:lexical_knowledge
-Some creative intelligent boy smiled.
-Some smart boy smiled.
 
 paper:upward_monotone
 Some republican entered the race early.

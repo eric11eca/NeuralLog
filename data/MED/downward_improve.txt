@@ -1,154 +1,21 @@
 paper:FraCaS_GQ:downward_monotone
-At most ten commissioners spend time at home.
-At most ten commissioners spend a lot of time at home.
-
-paper:FraCaS_GQ:downward_monotone
 Few committee members are from southern Europe.
 Few female committee members are from southern Europe.
-
-paper:FraCaS_GQ:downward_monotone
-At most ten commissioners spend time at home.
-At most ten female commissioners spend time at home.
-
-paper:GLUE:Intersectivity:downward_monotone
-We consider all words as positive examples and sample negatives at random from the dictionary.
-We consider all context words as positive examples and sample negatives at random from the dictionary.
-
-paper:GLUE:downward_monotone
-All animals like to scratch their ears.
-All dogs like to scratch their ears.
-
-paper:GLUE:Intersectivity:downward_monotone
-In all areas, human activity has changed the form of river channels, altering magnitudes and frequencies of flooding.
-In all developed areas, human activity has changed the form of river channels, altering magnitudes and frequencies of flooding.
-
-paper:GLUE:Quantifiers:downward_monotone
-No bills made it to abbott�s desk by the end of the legislative session in may.
-No bathroom bill made it to abbott�s desk by the end of the legislative session in may.
 
 paper:GLUE:Intersectivity:downward_monotone:conditionals
 You know that some life-changing actions must be taken when grandma reacts with emoji.
 You know that some life changing actions must be taken when grandma reacts with the sad emoji.
 
-paper:GLUE:downward_monotone
-I have never seen a hummingbird.
-I have never seen a hummingbird not flying.
-
-paper:GLUE:Intersectivity:downward_monotone
-So there is no dedicated memory block for every entity and no distinction between entity mentions and non-mention words.
-So there is no dedicated high-dimensional memory block for every entity and no distinction between entity mentions and non-mention words.
-
-paper:GLUE:Restrictivity:Relative clauses:downward_monotone
-I don't want to have to keep entertaining people.
-I don't want to have to keep entertaining people who don't value my time.
-
 paper:GLUE:Intersectivity:downward_monotone
 A sommelier knows the difference between the 2009 and 2013 vintage of a German riesling.
 An experienced sommelier knows the difference between the 2009 and 2013 vintage of a German riesling.
 
-crowd:downward_monotone
-You can't separate language from culture.
-You can't separate language from mainstream culture.
 
-crowd:downward_monotone
-I rarely catch a cold.
-I rarely catch a cold that lasting more than one week.
 
-crowd:downward_monotone
-I don't want to argue about this in front of everybody.
-I don't want to argue about this in front of all these people.
-
-crowd:downward_monotone
-Alessia can't speak English.
-Alessia can't speak fluent English.
-
-crowd:downward_monotone
-Alessia can't speak English.
-Alessia can't speak English confidently.
-
-crowd:downward_monotone
-You'll never finish translating sentences on Tatoeba.
-You'll never finish translating French sentences on Tatoeba.
-
-crowd:downward_monotone
-You'll never finish translating sentences on Tatoeba.
-You'll never finish translating bigger sentences on Tatoeba.
-
-crowd:downward_monotone
-Tom has never eaten raw horse meat.
-Tom has never eaten raw American horse meat.
-
-crowd:downward_monotone
-Tom has never eaten raw horse meat.
-Tom has never eaten raw adult horse meat.
-
-crowd:downward_monotone
-Tom has never eaten horse meat.
-Tom has never eaten raw horse meat.
-
-crowd:downward_monotone
-I don't answer stupid questions.
-I don't answer stupid questions that tend to offend me.
-
-crowd:downward_monotone
-I can't buy a bike.
-I can't buy a bike too expensive.
-
-crowd:downward_monotone
-I can't buy a bike.
-I can't buy a blue big bike.
-
-crowd:downward_monotone
-I can't buy a bike.
-I can't buy a new bike of my dream.
-
-crowd:downward_monotone:reverse
-Tom can't ride a bicycle.
-Tom can't ride a bicycle that can not be mounted by jim.
-
-crowd:downward_monotone:reverse
-Tom can't ride a bicycle.
-Tom can't ride a bicycle without brakes.
-
-crowd:downward_monotone
-Tom can't ride a bicycle.
-Tom can't ride a very old bicycle.
-
-crowd:downward_monotone
-I didn't like beer at that time.
-I didn't like cold beer at that time.
-
-crowd:downward_monotone
-Tom doesn't have a sister.
-Tom doesn't have a sister who lives in New York.
-
-crowd:downward_monotone
-Tom doesn't have a sister.
-Tom doesn't have a beautiful sister.
-
-crowd:downward_monotone
-Tom doesn't have a sister.
-Tom doesn't have a beautiful sister with red hair.
 
 crowd:downward_monotone:conjunction
 I don't have a choice.
 I don't have a choice and rights.
-
-crowd:downward_monotone
-You don't have to be a genius.
-You don't have to be a big genius man.
-
-crowd:downward_monotone
-Chris didn't have a car.
-Chris didn't have a blue colored car.
-
-crowd:downward_monotone
-Chris didn't have a car.
-Chris didn't have a beautiful car.
-
-crowd:downward_monotone
-Chris didn't have a car.
-Chris didn't have a fast car.
 
 crowd:downward_monotone
 Chris didn't have a car.
@@ -156,231 +23,22 @@ Chris didn't have a proper car for that kind of driving.
 
 crowd:downward_monotone:npi
 Tom doesn't make mistakes.
-Tom doesn't make any mistakes.
-
-crowd:downward_monotone:npi
-Tom doesn't make mistakes.
 Tom doesn't make any types of mistakes.
-
-crowd:downward_monotone
-Tom doesn't make mistakes.
-Tom doesn't make crucial mistakes.
-
-crowd:downward_monotone
-Tom doesn't make mistakes.
-Tom doesn't make big mistakes.
-
-crowd:downward_monotone
-She has no fashion sense.
-She has no general fashion sense.
-
-crowd:downward_monotone
-Tom doesn't want an apple product.
-Tom doesn't want an IPad.
-
-crowd:downward_monotone
-Tom doesn't want an IPad, but he wants a portable device that supports flash.
-Tom doesn't want an iproduct, but he wants a portable device that supports flash.
-
-crowd:downward_monotone
-I have no more ideas.
-I have no more brilliant ideas.
-
-crowd:downward_monotone:npi
-I have no more ideas.
-I have no better ideas anymore.
-
-crowd:downward_monotone
-I have no more ideas.
-I have no more new ideas.
-
-crowd:downward_monotone
-I have no more ideas.
-I have no more important ideas.
-
-crowd:downward_monotone
-I can't understand psychology of adolescents.
-I can't understand psychology of current adolescents.
-
-crowd:downward_monotone
-I can't understand psychology of adolescents.
-I can't understand psychology of most adolescents.
-
-crowd:downward_monotone
-I can't understand psychology of adolescents.
-I can't understand psychology of some adolescents.
-
-crowd:downward_monotone
-He has no interest in politics.
-He has no good interest in politics.
-
-crowd:downward_monotone
-He has no interest in politics.
-He has no great interest in politics.
 
 crowd:downward_monotone:npi
 He has no interest in politics.
 He does not have any interest in politics.
 
-crowd:downward_monotone:conditionals
-If you have a question, please raise your right hand.
-If you have a proper question, please raise your right hand.
 
-crowd:downward_monotone:conditionals
-If you have a question, please raise your right hand.
-If you have a good question, please raise your right hand.
-
-crowd:downward_monotone
-Tom doesn't actually live within Boston city limits.
-Tom doesn't actually live within Boston city official limits.
-
-crowd:downward_monotone
-Tom doesn't actually live within Boston city limits.
-Tom doesn't actually live within Boston city metropolitan limits.
 
 crowd:downward_monotone
 Tom will probably never go to Boston again.
 Tom will probably never go to Boston stadium for the game again.
 
-crowd:downward_monotone
-I don't have enough friends.
-I don't have enough good friends.
-
-crowd:downward_monotone
-I don't have enough friends.
-I don't have enough loyal friends.
-
-crowd:downward_monotone
-He doesn't have a computer.
-He doesn't have a desktop computer.
-
-crowd:downward_monotone
-Tom seldom wears a hat.
-Tom seldom wears a big hat.
-
-crowd:downward_monotone
-Tom seldom wears a hat.
-Tom seldom wears a black cowboy hat.
-
-crowd:downward_monotone
-He believed that blacks could win their fight for equal rights without violence.
-He believed that blacks could win their fight for equal rights without generalized violence.
-
-crowd:downward_monotone:npi
-He believed that blacks could win their fight for equal rights without violence.
-He believed that blacks could win their fight for equal rights without any serious violence.
-
-crowd:downward_monotone
-He believed that blacks could win their fight for equal rights without violence.
-He believed that blacks could win their fight for equal rights without using violence.
-
-crowd:downward_monotone:conjunction
-He believed that blacks could win their fight for equal rights without violence.
-He believed that blacks could win their fight for equal rights without violence and rioting.
-
-crowd:downward_monotone
-He believed that blacks could win their fight for equal rights without violence.
-He believed that blacks could win their fight for equal rights without widespread violence.
-
-crowd:downward_monotone
-Tom doesn't like to eat fish.
-Tom doesn't like to eat fish with many bones.
-
-crowd:downward_monotone
-Tom doesn't like to eat fish.
-Tom doesn't like to eat smoked fish.
-
-crowd:downward_monotone
-Tom doesn't like to eat fish.
-Tom doesn't like to eat cooked fish.
-
-crowd:downward_monotone
-Tom doesn't like to eat fish.
-Tom doesn't like to eat fish cooked in restaurants.
-
 crowd:downward_monotone:conjunction
 You can't separate language from culture.
 You can't separate idiom and language speech from culture.
 
-crowd:downward_monotone
-You can't separate language from culture.
-You can't separate native language from culture.
-
-crowd:downward_monotone
-She is no longer a baby.
-She is no longer a small baby.
-
-crowd:downward_monotone
-She is no longer a baby.
-She is no longer a young baby.
-
-crowd:downward_monotone
-She is no longer a baby.
-She is no longer a baby wearing diapers.
-
-crowd:downward_monotone
-She is no longer a baby.
-She is no longer a baby with a pacifier.
-
-crowd:downward_monotone
-She is no longer a baby.
-She is no longer a screaming baby.
-
-crowd:downward_monotone
-I don't want to get a full denture.
-I don't want to get a full teeth change.
-
-crowd:downward_monotone
-I don't want to get a full denture.
-I don't want to get a full strong denture.
-
-crowd:downward_monotone
-I don't want to get a full denture.
-I don't want to get a full perfect denture.
-
-crowd:downward_monotone
-Most people don't drink enough water.
-Most people don't drink enough liquids.
-
-crowd:downward_monotone
-I don't like English.
-I don't like British English.
-
-crowd:downward_monotone
-I don't like English.
-I don't like American English.
-
-crowd:downward_monotone
-Tom says that he doesn't like children.
-Tom says that he doesn't like noisy children.
-
-crowd:downward_monotone
-Tom says that he doesn't like children.
-Tom says that he doesn't like ungrateful children.
-
-crowd:downward_monotone
-She has never fallen in love.
-She has never fallen in great love.
-
-crowd:downward_monotone
-She has never fallen in love.
-She has never fallen in awesome love.
-
-crowd:downward_monotone
-Tom doesn't have enough experience to operate a train.
-Tom doesn't have enough long term experience to operate a train.
-
-crowd:downward_monotone
-Doctors refused to perform a second operation.
-Doctors refused to perform a second health operation.
-
-crowd:downward_monotone
-Doctors refused to perform a second operation.
-Doctors refused to perform a second stomach operation.
-
-crowd:downward_monotone
-It is no wonder that a man of his ability is successful.
-It is no wonder that a human of his ability is successful.
 
 crowd:downward_monotone
 It is no wonder that a man of his ability is successful.
@@ -388,107 +46,15 @@ It is no wonder that a man having the possibility to choose his success is succe
 
 crowd:downward_monotone
 It is no wonder that a man of his ability is successful.
-It is no wonder that a nice man of his ability is successful.
-
-crowd:downward_monotone
-It is no wonder that a man of his ability is successful.
 It is no wonder that a good looking man of his ability is successful.
-
-crowd:downward_monotone
-It is no wonder that a man of his ability is successful.
-It is no wonder that a capable man of his ability is successful.
-
-crowd:downward_monotone
-Tom hasn't sung in years.
-Tom hasn't sung in years since he lost his voice.
-
-crowd:downward_monotone
-Tom hasn't sung in years.
-Tom hasn't sung in years at his mom's party.
-
-crowd:downward_monotone
-The trouble with us is that we have no funds.
-The trouble with us is that we have no tracker funds.
-
-crowd:downward_monotone
-The trouble with us is that we have no funds.
-The trouble with us is that we have no active funds.
-
-crowd:downward_monotone
-The trouble with us is that we have no funds.
-The trouble with us is that we have no available funds.
-
-crowd:downward_monotone
-I don't have a drinking problem.
-I don't have a serious drinking problem.
-
-crowd:downward_monotone
-Petrol is no longer a cheap fuel.
-Petrol is no longer a cheap car fuel.
-
-crowd:downward_monotone
-Petrol is no longer a cheap fuel.
-Petrol is no longer a cheap liquid fuel.
-
-crowd:downward_monotone
-Petrol is no longer a cheap fuel.
-Petrol is no longer a cheap available fuel.
-
-crowd:downward_monotone
-Petrol is no longer a cheap fuel.
-Petrol is no longer a cheap powerful fuel.
-
-crowd:downward_monotone
-Tom doesn't want to spend the rest of his life in jail.
-Tom doesn't want to spend the rest of his life in the horrible jail.
-
-crowd:downward_monotone
-Tom doesn't want to spend the rest of his life in jail.
-Tom doesn't want to spend the rest of his life in the big jail.
-
-crowd:downward_monotone
-Tom doesn't want to spend the rest of his life in jail.
-Tom doesn't want to spend the rest of his life in jail for robbery.
-
-crowd:downward_monotone
-Tom doesn't want to spend the rest of his life in jail.
-Tom doesn't want to spend the rest of his life in jail for that.
-
-crowd:downward_monotone
-I haven't seen bill for a long time.
-I haven't seen uncle bill for a long time.
-
-crowd:downward_monotone:npi
-He doesn't show any interest in science.
-He doesn't show any interest in new science.
 
 crowd:downward_monotone:conjunction
 Tom didn't want to go to war.
 Tom didn't want to go to war and suffer.
 
 crowd:downward_monotone
-Tom didn't want to go to war.
-Tom didn't want to go to world war.
-
-crowd:downward_monotone
-Tom didn't want to go to war.
-Tom didn't want to go to continental war.
-
-crowd:downward_monotone
-Tom didn't want to go to war.
-Tom didn't want to go to war in canada.
-
-crowd:downward_monotone
-Please don't make noise.
-Please don't make loud noise.
-
-crowd:downward_monotone
 Please don't make noise.
 Please don't make buzzing noise.
-
-crowd:downward_monotone
-Please don't make noise.
-Please don't make noise in the room.
 
 crowd:downward_monotone
 Most people don't like hospitals.
@@ -506,41 +72,6 @@ crowd:downward_monotone
 She is only a child.
 She is only a strange child.
 
-crowd:downward_monotone
-This medicine has no harmful side-effects.
-This medicine has no harmful side-effects against the person.
-
-crowd:downward_monotone
-All future meetings will be held in this room.
-All future important meetings will be held in this room.
-
-crowd:downward_monotone
-All future meetings will be held in this room.
-All future annual meetings will be held in this room.
-
-crowd:downward_monotone
-My sister doesn't have a car.
-My sister doesn't have a sports car.
-
-crowd:downward_monotone
-My sister doesn't have a car.
-My sister doesn't have a red car.
-
-crowd:downward_monotone
-My sister doesn't have a car.
-My sister doesn't have an expencive car.
-
-crowd:downward_monotone
-I don't have a care in the world.
-I don't have a personal care in the world.
-
-crowd:downward_monotone:conditionals
-If you want peace, prepare for war.
-If you want more peace, prepare for war.
-
-crowd:downward_monotone:conditionals
-If you want peace, prepare for war.
-If you want strong peace, prepare for war.
 
 crowd:downward_monotone
 Here is a list of things you should avoid eating.
@@ -557,30 +88,6 @@ Here is a big list of things you should avoid eating.
 crowd:downward_monotone
 Here is a list of things you should avoid eating.
 Here is a small list of things you should avoid eating.
-
-crowd:downward_monotone
-You're in no condition to drive.
-You're in no very slight condition to drive.
-
-crowd:downward_monotone
-You're in no condition to drive.
-You're in no good condition to drive.
-
-crowd:downward_monotone
-Tom couldn't say a word.
-Tom couldn't say a new word.
-
-crowd:downward_monotone
-I see no other course of action.
-I see no other particular course of action.
-
-crowd:downward_monotone
-I see no other course of action.
-I see no other wiser course of action.
-
-crowd:downward_monotone
-I see no other course of action.
-I see no other better planned course of action.
 
 crowd:downward_monotone:npi
 Sida does not take any new decisions on support to projects in the baltic states.
@@ -606,69 +113,9 @@ crowd:downward_monotone:npi
 Sida does not take any new decisions on support to projects in the baltic states.
 Sida does not take any new decisions on military support to projects in the baltic states.
 
-crowd:downward_monotone
-They don't have a car.
-They don't have a decent car.
 
-crowd:downward_monotone
-Young people don't have virtues.
-Young people don't have good virtues.
 
-crowd:downward_monotone
-Young people don't have virtues.
-Young people don't have moral virtues.
 
-crowd:downward_monotone
-Young people don't have virtues.
-Young people don't have useful virtues.
-
-crowd:downward_monotone
-We didn't expect guests.
-We didn't expect univited guests.
-
-crowd:downward_monotone
-We didn't expect guests.
-We didn't expect arrival of guests.
-
-crowd:downward_monotone
-It's no use trying to convince Tom.
-It's no easy use trying to convince Tom.
-
-crowd:downward_monotone
-I don't like spring.
-I do not like spring coming.
-
-crowd:downward_monotone
-I don't like spring.
-I do not like the spring season.
-
-crowd:downward_monotone
-I don't like spring.
-I don't like when comes spring.
-
-crowd:downward_monotone
-He didn't listen to music.
-He didn't listen to country music.
-
-crowd:downward_monotone
-Some food is pretty bland without salt.
-Some food is pretty bland without salt found in the sea.
-
-crowd:downward_monotone
-You're in no danger.
-You're in no dangerous situation.
-
-crowd:downward_monotone
-You're in no danger.
-You're in no dangerous place.
-
-crowd:downward_monotone
-You're in no danger.
-You're in no danger with me.
-
-crowd:downward_monotone:npi
-I can't stand arugula or any bitter greens.
-I can't stand unripe arugula or any bitter greens.
 
 crowd:downward_monotone:npi
 Tom wasn't allowed to visit his father in prison.
@@ -684,55 +131,20 @@ It wasn't a coincidence at all.
 
 crowd:downward_monotone
 It wasn't a coincidence.
-It wasn't a good coincidence.
-
-crowd:downward_monotone
-It wasn't a coincidence.
-It wasn't a coincidence there.
-
-crowd:downward_monotone
-It wasn't a coincidence.
-It wasn't an unimportant coincidence.
-
-crowd:downward_monotone
-I'd never wear a shell suit.
-I'd never wear a shell suit in the beach.
-
-crowd:downward_monotone:conditionals
-If you change a sentence that already has some translations, please warn the authors of the translations about it.
-If you change this kind of sentence that already has some translations, please warn the authors of the translations about it.
-
-crowd:downward_monotone:conditionals
-If you change a sentence that already has some translations, please warn the authors of the translations about it.
-If you change a sentence in this text, that already has some translations, please warn the authors of the translations about it.
-
-crowd:downward_monotone:conditionals
-If you change a sentence that already has some translations, please warn the authors of the translations about it.
-If you change a sentence order that already has some translations, please warn the authors of the translations about it.
-
-crowd:downward_monotone
-I like all vegetables except cabbage.
-I like all vegetables except green cabbage.
+It wasn't a coincidence at there.
 
 crowd:downward_monotone
 I like all vegetables except cabbage.
 I like all vegetables except cabbage on my salad.
 
-crowd:downward_monotone
-I like all vegetables except cabbage.
-I like all vegetables except cabbagehead.
+
 
 crowd:downward_monotone
 I like all vegetables except cabbage.
 I like all vegetables except mini cabbage.
 
-crowd:downward_monotone
-Tom didn't want to work overtime on Christmas Eve.
-Tom didn't want to work too much overtime on Christmas Eve.
 
-crowd:downward_monotone
-Tom didn't want to work overtime on Christmas Eve.
-Tom didn't want to work overtime on Christmas Eve.
+
 
 crowd:downward_monotone
 Tom didn't want to work overtime on Christmas Eve.
@@ -746,277 +158,33 @@ crowd:downward_monotone
 Tom didn't want to work overtime on Christmas Eve.
 Tom didn't want to work overtime for many hours on Christmas Eve.
 
-crowd:downward_monotone
-I don't eat the core of an apple.
-I don't eat the core of a red apple.
-
-crowd:downward_monotone
-I don't eat the core of an apple.
-I don't eat the core of a sore apple.
-
-crowd:downward_monotone
-Tom didn't like living in Boston.
-Tom didn't like living in the city of Boston.
-
-crowd:downward_monotone
-Tom didn't like living in Boston.
-Tom didn't like living in the bustling Boston.
-
-crowd:downward_monotone
-Tom didn't like living in Boston.
-Tom didn't like living in the cold city of Boston.
-
-crowd:downward_monotone
-Tom didn't like living in Boston.
-Tom didn't like living in Boston for such a long time.
-
-crowd:downward_monotone
-Tom didn't like living in Boston.
-Tom didn't like living in Boston alone.
-
-crowd:downward_monotone
-The catholic church doesn't condone the use of condoms.
-The catholic church doesn't condone the use of condoms in the country.
-
-crowd:downward_monotone:npi
-The catholic church doesn't condone the use of condoms.
-The catholic church doesn't condone the use of any type of condoms.
-
-crowd:downward_monotone
-The catholic church doesn't condone the use of condoms.
-The catholic church doesn't condone the use of male condoms.
-
-crowd:downward_monotone
-The catholic church doesn't condone the use of condoms.
-The catholic church doesn't condone the use of free condoms.
-
-crowd:downward_monotone
-Tom had no options left.
-Tom had no more options left.
-
-crowd:downward_monotone
-Tom had no options left.
-Tom had no feasible options left.
-
-crowd:downward_monotone
-Tom had no options left.
-Tom had no easy options left.
-
-crowd:downward_monotone
-Tom had no options left.
-Tom had no career options left.
-
 crowd:downward_monotone:disjunction
 Tom had no options left.
 Tom had no options or solutions left.
-
-crowd:downward_monotone
-I don't want to be a disappointment to my parents.
-I don't want to be a big disappointment to my parents.
-
-crowd:downward_monotone
-I don't want to be a disappointment to my parents.
-I don't want to be a huge disappointment to my parents.
-
-crowd:downward_monotone
-Nancy doesn't play tennis.
-Nancy doesn't play tennis with ball.
-
-crowd:downward_monotone
-Nancy doesn't play tennis.
-Nancy doesn't play lawn tennis.
-
-crowd:downward_monotone
-Nancy doesn't play tennis.
-Nancy doesn't play tennis professionally.
-
-crowd:downward_monotone
-A good tree can't bear bad fruits.
-A good tree can't bear bad tropical fruits.
-
-crowd:downward_monotone
-A good tree can't bear bad fruits.
-A good tree can't bear bad fruits if you care about it.
-
-crowd:downward_monotone
-I haven't slept for days.
-I haven't slept for several days.
-
-crowd:downward_monotone
-I haven't slept for days.
-I haven't slept for long days.
-
-crowd:downward_monotone
-He had no place to live.
-He had no place in this city to live.
-
-crowd:downward_monotone
-He had no place to live.
-He had no place in this town to live.
-
-crowd:downward_monotone:npi
-Tom is, without question, the best man for the job.
-Tom is, without any question, the best man for the job.
-
-crowd:downward_monotone:npi
-Tom is, without question, the best man for the job.
-Tom is, without question at all, the best man for the job.
-
-crowd:downward_monotone:disjunction
-Tom is, without question, the best man for the job.
-Tom is, without question or doubt, the best man for the job.
-
-crowd:downward_monotone:npi
-Tom is, without question, the best man for the job.
-Tom is, without any question at all, the best man for the job.
-
-crowd:downward_monotone:conjunction
-Tom is, without question, the best man for the job.
-Tom is, without question and certainly, the best man for the job.
-
-crowd:downward_monotone
-I don't like other kinds of drinks.
-I don't like other kinds of sweet drinks.
-
-crowd:downward_monotone
-I can't talk to girls.
-I can't talk to some girls.
-
-crowd:downward_monotone
-I don't have an alibi.
-I don't have an appropriate alibi.
 
 crowd:downward_monotone:conjunction
 Mary said that she doesn't pick guys for their looks.
 Mary said that she doesn't pick guys and friends for their looks.
 
-crowd:downward_monotone
-I had never before seen this species of fish.
-I had never before seen this species of fish with that green color.
-
-crowd:downward_monotone
-I had never before seen this species of fish.
-I had never before seen this species of fish in museum.
-
-crowd:downward_monotone:conditionals
-If it is fine tomorrow, we'll go on a picnic.
-If it is fine tomorrow morning, we'll go on a picnic.
-
-crowd:downward_monotone:conditionals
-If it is fine tomorrow, we'll go on a picnic.
-If it is fine tomorrow before lunch, we'll go on a picnic.
-
 crowd:downward_monotone:conditionals
 If it is fine tomorrow, we'll go on a picnic.
 If it is fine tomorrow in the field, we'll go on a picnic.
-
-crowd:downward_monotone
-This isn't a hospital.
-This isn't a military hospital.
-
-crowd:downward_monotone
-This isn't a hospital.
-This isn't a municipal hospital.
-
-crowd:downward_monotone
-You shouldn't break promises.
-You shouldn't break the promises you must not break.
-
-crowd:downward_monotone
-I don't work on Sundays.
-I don't work on Sundays because i rest all day.
-
-crowd:downward_monotone
-Tom seldom listens to music at home.
-Tom seldom listens to music at his new home.
-
-crowd:downward_monotone
-Tom seldom listens to music at home.
-Tom seldom listens to music at his home.
 
 crowd:downward_monotone:disjunction
 Tom seldom listens to music at home.
 Tom seldom listens to music at home or in his car.
 
 crowd:downward_monotone
-She doesn't have enough experience.
-She doesn't have enough experience to start yet.
-
-crowd:downward_monotone:npi
-I don't like pork.
-I don't like pork at all.
-
-crowd:downward_monotone
-He can't make a decision.
-He can't make a lasting decision.
-
-crowd:downward_monotone
-He can't make a decision.
-He can't make a definite decision.
-
-crowd:downward_monotone
-He can't make a decision.
-He can't make a final decision.
-
-crowd:downward_monotone
-He can't make a decision.
-He can't make a decision that matters.
-
-crowd:downward_monotone
 He can't make a decision.
 He can't make a decision beneficial for the company.
-
-crowd:downward_monotone
-He can't make a decision.
-He can't make a wise decision.
-
-crowd:downward_monotone
-He can't make a decision.
-He can't make a proper decision.
-
-crowd:downward_monotone
-Cats don't wear collars.
-Cats don't wear unnecessary collars.
-
-crowd:downward_monotone
-Cats don't wear collars.
-Cats don't wear tight collars.
-
-crowd:downward_monotone
-Our eyes can't see infrared light.
-Our eyes can't see infrared coloured light.
-
-crowd:downward_monotone
-Tom didn't really enjoy studying French.
-Tom didn't really enjoy studying French language.
 
 crowd:downward_monotone
 Tom didn't really enjoy studying French.
 Tom didn't really enjoy studying French that is studied by advanced learners.
 
 crowd:downward_monotone
-I didn't even get an invitation.
-I didn't even get a family invitation.
-
-crowd:downward_monotone
-I didn't even get an invitation.
-I didn't even get a summer invitation.
-
-crowd:downward_monotone
-I didn't even get an invitation.
-I didn't even get an invitation for party.
-
-crowd:downward_monotone
 I don't play cards.
 I don't play the game of cards.
-
-crowd:downward_monotone
-I don't play cards.
-I don't play tarot cards.
-
-crowd:downward_monotone
-Tom doesn't like modern art.
-Tom doesn't like modern great art.
 
 crowd:downward_monotone:conjunction
 Winners don't use drugs.
@@ -1030,37 +198,11 @@ crowd:downward_monotone:npi
 Winners don't use drugs.
 Winners don't use any solid drugs.
 
-crowd:downward_monotone
-Winners don't use drugs.
-Winners don't use dry drugs.
 
-crowd:downward_monotone
-Tom says he has never tried eating whale meat.
-Tom says he has never tried eating whale meat in his life.
-
-crowd:downward_monotone
-Tom isn't a good student.
-Tom isn't a good student of the school.
-
-crowd:downward_monotone
-Tom isn't a good student.
-Tom isn't a good science student.
-
-crowd:downward_monotone
-We don't have much of a choice.
-We don't have much of a sensible choice.
 
 crowd:downward_monotone
 This room doesn't get much sun.
 This room doesn't get much morning sun.
-
-crowd:downward_monotone
-This room doesn't get much sun.
-This room doesn't get much sun during the day.
-
-crowd:downward_monotone:npi
-I don't have wide hips.
-I don't have wide hips at all.
 
 crowd:downward_monotone
 I don't have wide hips.
@@ -1069,18 +211,6 @@ I don't have wide hips after all.
 crowd:downward_monotone:disjunction
 You don't understand British humour.
 You don't understand British humour or idioms.
-
-crowd:downward_monotone
-No need to translate this text, i already have its Spanish version.
-No further need to translate this text, i already have its Spanish version.
-
-crowd:downward_monotone
-A horse doesn't eat cucumber salad.
-A horse doesn't eat cucumber green salad.
-
-crowd:downward_monotone
-I don't want trouble.
-I want to avoid problems.
 
 crowd:downward_monotone:conjunction
 We can talk here, no problem.
@@ -1091,140 +221,19 @@ We can talk here, no problem.
 We can talk here, no problem and i'm all ears.
 
 crowd:downward_monotone
-I seldom go to a library.
-I seldom go to a public library.
-
-crowd:downward_monotone
-She didn't like city life.
-She didn't like city busy life.
-
-crowd:downward_monotone:conjunction
-She didn't like city life.
-She didn't like city life and air.
-
-crowd:downward_monotone
-Mr. Thomas had no objection to mr. white being elected chairman.
-Mr. Thomas had no true objection to mr. white being elected chairman.
-
-crowd:downward_monotone:npi
-Mr. Thomas had no objection to mr. white being elected chairman.
-Mr. Thomas had no objection at all to mr. white being elected chairman.
-
-crowd:downward_monotone
-I can't wait for school to start.
-I can't wait for high school to start.
-
-crowd:downward_monotone:npi
-He had to go without food for days.
-He had to go without any food for days.
-
-crowd:downward_monotone
-This isn't a game.
-This isn't a funny game.
-
-crowd:downward_monotone
-This isn't a game.
-This isn't a game of chance.
-
-crowd:downward_monotone
-It is no use talking with him.
-It is no good use talking with him.
-
-crowd:downward_monotone
-I have no knowledge of that question.
-I have no enough knowledge of that question.
-
-crowd:downward_monotone
-I have no knowledge of that question.
-I have no more knowledge of that question.
-
-crowd:downward_monotone
-I have no knowledge of that question.
-I have no complete knowledge of that question.
-
-crowd:downward_monotone
 You can't have a conversation without an interlocutor.
 You can't have a conversation only without an interlocutor.
 
 crowd:downward_monotone
-Tom seldom eats Italian food.
-Tom seldom eats Italian spicy food.
-
-crowd:downward_monotone
-I haven't used anki in a week and now i have 500 flashcards due.
-I haven't used anki device in a week and now i have 500 flashcards due.
-
-crowd:downward_monotone
-He doesn't have a family.
-He doesn't have a normal family.
-
-crowd:downward_monotone
-He doesn't have a family.
-He doesn't have a supportive family.
-
-crowd:downward_monotone
-England expects that every man will do his duty.
-England expects that every good man will do his duty.
-
-crowd:downward_monotone
-This story doesn't have a happy ending.
-This story doesn't have a happy ending for the characters.
-
-crowd:downward_monotone
-This story doesn't have a happy ending.
-This story doesn't have a happy ending for the reader.
-
-crowd:downward_monotone
-This story doesn't have a happy ending.
-This story doesn't have a happy concluded ending.
-
-crowd:downward_monotone
-This story doesn't have a happy ending.
-This story doesn't have a happy brilliant ending.
-
-crowd:downward_monotone
-This story doesn't have a happy ending.
-This story doesn't have a happy adorable ending.
-
-crowd:downward_monotone
-Every body is busy except me.
-Every body here is busy except me.
-
-crowd:downward_monotone:npi
-He makes no disguise of his feelings.
-He makes no disguise at all of his feelings.
-
-crowd:downward_monotone
-He makes no disguise of his feelings.
-He makes no big disguise of his feelings.
-
-crowd:downward_monotone
-He makes no disguise of his feelings.
-He makes no small disguise of his feelings.
-
-crowd:downward_monotone
-I don't own a guitar.
-I don't own a twelve-string guitar.
-
-crowd:downward_monotone
-I don't own a guitar.
-I don't own a decent guitar.
-
-crowd:downward_monotone
-You can't park in front of my house on weekends.
-You can't park in front of my house on winter weekends.
-
-crowd:downward_monotone
-You can't park in front of my house on weekends.
-You can't park in front of my house on holiday weekends.
-
-crowd:downward_monotone
-I don't need beds.
-I don't need soft beds.
-
-crowd:downward_monotone
 I don't need beds.
 I don't need your beds.
+
+
+
+
+
+
+
 
 crowd:downward_monotone
 Not a few pupils could solve the problem.
