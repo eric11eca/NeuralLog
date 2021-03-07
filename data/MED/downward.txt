@@ -716,7 +716,7 @@ I like all vegetables except green cabbage.
 
 crowd:downward_monotone
 I like all vegetables except cabbage.
-I like all vegetables except cabbage on my salad.
+I like all vegetables except cabbage that is on my salad.
 
 crowd:downward_monotone
 I like all vegetables except cabbage.
@@ -1355,20 +1355,20 @@ The world court has no power to enforce its orders but its decisions have tradit
 The world court has no city power to enforce its orders but its decisions have traditionally carried some diplomatic weight.
 
 crowd:downward_monotone
-The park is busy every season.
-The park is busy every season in the afternoon.
+The park is busy every month.
+The park is busy every month in the afternoon.
 
 crowd:downward_monotone
-The park is busy every season.
-The park is busy every season of the year.
+The park is busy every month.
+The park is busy every month of the year.
 
 crowd:downward_monotone
-The park is busy every season.
-The park is busy every tourist season.
+The park is busy every month.
+The park is busy every tourist month.
 
 crowd:downward_monotone
-The park is busy every season.
-The park is busy every cold season.
+The park is busy every month.
+The park is busy every cold month.
 
 crowd:downward_monotone:conditionals
 If I start eating potato chips, I can't stop.
@@ -1447,20 +1447,20 @@ This soup has no substance.
 This soup has no nutritious substance.
 
 crowd:downward_monotone
-I can not speak German.
-I can not speak fluent German.
+I can not speak German language.
+I can not speak fluent German language.
 
 crowd:downward_monotone
-I can not speak German.
-I can not speak scientific German.
+I can not speak German language.
+I can not speak scientific German language.
 
 crowd:downward_monotone
-I can not speak German.
-I can not speak German very well.
+I can not speak German language.
+I can not speak German language very well.
 
 crowd:downward_monotone
-I can not speak German.
-I can not speak German out of the college.
+I can not speak German language.
+I can not speak German language out of the college.
 
 crowd:downward_monotone
 I don't speak Catalan.
@@ -1540,7 +1540,7 @@ Scientists haven't found a vaccine and successful treatment for cancer yet.
 
 crowd:downward_monotone
 I never had a girlfriend before.
-I never had a blonde girlfriend begore.
+I never had a blonde girlfriend before.
 
 crowd:downward_monotone
 I never had a girlfriend before.
@@ -1848,7 +1848,7 @@ She has no good sense of humor.
 
 crowd:downward_monotone:disjunction
 I don't have much interest in cooking.
-I don't have much interest or encourage in cooking.
+I don't have much interest or courage in cooking.
 
 crowd:downward_monotone
 All others albums are different.
