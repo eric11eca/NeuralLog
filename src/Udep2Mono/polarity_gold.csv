@@ -1,0 +1,57 @@
+,Sentence,Polarity
+0,Every dog sees some cat,+ - + + +
+1,Every rat sees every fish,+ - + + -
+2,Some rat sees every squirrel,+ + + + -
+3,Most dogs chase some cat,+ = + + +
+4,Most dogs chase most cat,+ = + + =
+5,No dog likes every hedgehog,+ - - - +
+6,Three dogs love four cats,= = + = =
+7,Not many people love lions as pets,+ - = - - - -
+8,Many people love dogs as pets,+ = + + + +
+9,A few boys chased a girl,+ + + + + +
+10,Not every student likes semantics,+ - + - -
+11,"Most dogs who bark loudly, do not like cats",+ = = = = - + - -
+12,"The dog that bark loudly, does not like any cat",+ = = = = - + - - -
+13,The raccoon in my car likes to eat every fish it sees,+ = = = = + + + + - - -
+14,Every dog in Slovenia likes to chase pigs,+ - - - + + + +
+15,Some cat in London has been to Paris,+ + + + + + + +
+16,Every cat who likes every dog also likes every squirrel,+ - - - - + + + + -
+17,"Some cats, who love every dog who likes some squirrels, died",+ + + + + - - - - - +
+18,Cats who like squirrels hate dogs,- - - - + +
+19,Some person in the White House doesn't know if any dog in Ohio ate bananas yesterday,+ + + + = = - + - - - - - - - - -
+20,"There is a dog in the house, who wants to eat three biscuits",+ + + + + + = + + + + = =
+21,Few math students love any subject in linguistics,+ - - - - - - -
+22,Five dogs see at least six cats,+ = = = = = =
+23,"Every cat who no dog chases, rests",+ - + - + + +
+24,Every dog who likes most cats was chased by at least two of them,+ - - - - = + + + + + - + +
+25,More dogs than cats sit,+ + + - =
+26,Fewer dogs than cats sit,+ - + + =
+27,Every student's favorite class was French,+ - - - - + +
+28,No students liked any class in Chemistry,+ - - - - - -
+29,All but five dogs died,+ + = = =
+30,Three out of five dentists recommend that their patients brush their teeth at least four times a day,= - - = + + + + + + + + + + - + + +
+31,No dentist who recommends that their patients brush their teeth at least four times a day gave five patients a toothbrush,+ - - - - - - - - - - - - - - - - - - - -
+32,Every doctor who told her patients to take three pills a day was afraid that taking four or more would kill them,+ - - - - - - - = = = = + + + + + + + + + +
+33,My parents said I could have three candies,+ + + + + + = +
+34,"If you are addicted to cigarettes, you can smoke two a day",+ - - - - - + + + - + +
+35,"Even if you are addicted to cigarettes, you can smoke two a day",+ + - - - - - + + + - + +
+36,Every person who smokes two cigarettes in one hour runs a risk of cancer,+ - - - + - + - - + + + + +
+37,"If every cat runs, some dog runs also",+ - + - + + + +
+38,"If some dog runs, no cat sits",+ - - - + - -
+39,A dog who ate two rotten biscuits was sick for three days,+ + + + = + + + + + - -
+40,John is dancing without clothes,+ + + + -
+41,Ursula refused to sing or dance,+ + + - + -
+42,A dog ate 2 rotten biscuits,+ + + = + +
+43,Any dog in Michigan would prefer to live in Indiana,+ - - - + + + + + +
+44,"All the cats, except for at most two, eat chocolate",+ - = - - - - - = =
+45,"All the cats except for two, love to run",+ - = - - = = = =
+46,All students except engineers must take a class in Organic Chemistry,+ - - = + + + + + + +
+47,At least seven fish died yesterday in Morocco,+ + - + + + + +
+48,At most 6 dogs are hungry,+ + + - - -
+49,At least 5 people ran,+ + - + +
+50,Less than 5 people ran,+ + + - -
+51,More than 6 dogs are hungry,+ + - + + +
+52,Exactly 8 cats are sleeping,+ = = = =
+53,Some but not all students cheated in this class,+ + + + + + + + =
+54,More than three students cheated in this class,+ + - + + + + =
+55,Less than five students got A in the class,+ + + - - - - - =

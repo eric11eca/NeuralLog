@@ -1,51 +1,31 @@
-Three dogs love four cats
-('=', '+', '+', '=', '+')
-['=', '=', '+', '=', '=']
-
-The dog that bark loudly, does not like any cat
-('+', '=', '=', '=', '=', '-', '+', '-', '-', '+')
-['+', '=', '=', '=', '=', '-', '+', '-', '-', '-']
-
-Some person in the White House doesn't know if any dog in Ohio ate bananas yesterday
-('+', '+', '+', '+', '=', '=', '-', '+', '-', '-', '+', '-', '-', '-', '+', '+', '+')
-['+', '+', '+', '+', '=', '=', '-', '+', '-', '-', '-', '-', '-', '-', '-', '-', '-']
-
-There is a dog in the house, who wants to eat three biscuits
-('+', '+', '+', '+', '+', '+', '=', '+', '+', '+', '+', '=', '+')
-['+', '+', '+', '+', '+', '+', '=', '+', '+', '+', '+', '=', '=']
-
-Few math students love any subject in linguistics
-('+', '+', '+', '-', '-', '+', '+', '+')
-['+', '-', '-', '-', '-', '-', '-', '-']
-
 Five dogs see at least six cats
-('=', '+', '+', '+', '-', '+')
+['=', '=', '+', '+', '+', '-', '+']
 ['+', '=', '=', '=', '=', '=', '=']
 
-More dogs than cats sit
-('+', '+', '+', '-', '+')
-['+', '+', '+', '-', '=']
+All but five dogs died
+['+', '+', '=', '-', '-']
+['+', '+', '=', '=', '=']
 
-Fewer dogs than cats sit
-('-', '-', '+', '+', '+')
-['+', '-', '+', '+', '=']
+My parents said I could have three candies
+['+', '+', '+', '+', '+', '+', '=', '=']
+['+', '+', '+', '+', '+', '+', '=', '+']
 
-No students liked any class in Chemistry
-('+', '-', '-', '-', '+', '+', '+')
-['+', '-', '-', '-', '-', '-', '-']
+If you are addicted to cigarettes, you can smoke two a day
+['+', '-', '-', '-', '-', '-', '+', '+', '+', '+', '+', '+']
+['+', '-', '-', '-', '-', '-', '+', '+', '+', '-', '+', '+']
 
-Three out of five dentists recommend that their patients brush their teeth at least four times a day
-('=', '+', '=', '+', '=', '=', '=', '=', '=', '=', '=', '=', '=', '=', '=', '=')
-['=', '-', '-', '=', '+', '+', '+', '+', '+', '+', '+', '+', '+', '+', '-', '+', '+', '+']
-
-Every doctor who told her patients to take three pills a day was afraid that taking four or more would kill them
-('+', '-', '-', '=', '=', '=', '=', '=', '=', '=', '=', '=', '=', '=', '=', '=', '=', '+', '=', '=', '=', '=')
-['+', '-', '-', '-', '-', '-', '-', '-', '=', '=', '=', '=', '+', '+', '+', '+', '+', '+', '+', '+', '+', '+']
+Even if you are addicted to cigarettes, you can smoke two a day
+['+', '+', '-', '-', '-', '-', '-', '+', '+', '+', '+', '+', '+']
+['+', '+', '-', '-', '-', '-', '-', '+', '+', '+', '-', '+', '+']
 
 Every person who smokes two cigarettes in one hour runs a risk of cancer
-('+', '-', '-', '-', '=', '-', '-', '-', '-', '+', '+', '+', '+', '+')
-['+', '-', '-', '-', '+', '-', '-', '-', '-', '+', '+', '+', '+', '+']
+['+', '-', '-', '-', '-', '-', '-', '-', '-', '+', '+', '+', '+', '+']
+['+', '-', '-', '-', '+', '-', '+', '-', '-', '+', '+', '+', '+', '+']
 
-A dog who ate two rotten biscuits was sick for three days 
-('+', '+', '+', '+', '=', '+', '+', '+', '+', '+', '+', '+')
-('+', '+', '+', '+', '=', '+', '+', '+', '+', '+', '-', '-')
+A dog who ate two rotten biscuits was sick for three days
+['+', '+', '+', '+', '=', '=', '=', '+', '+', '+', '-', '-']
+['+', '+', '+', '+', '=', '+', '+', '+', '+', '+', '-', '-']
+
+A dog ate 2 rotten biscuits
+['+', '+', '+', '=', '=', '=']
+['+', '+', '+', '=', '+', '+']
