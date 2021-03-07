@@ -88,7 +88,7 @@ class Polarizer:
             "obj": self.polarize_obj,
             "obl": self.polarize_obl,
             "obl:npmod": self.polarize_oblnpmod,
-            "obl:tmod": self.polarize_inherite,
+            "obl:tmod": self.polarize_obltmod,
             "parataxis": self.polarize_inherite,
             "xcomp": self.polarize_obj,
         }
@@ -311,7 +311,7 @@ class Polarizer:
             detType = det_type(right.val)
             if detType == None:
                 detType = self.DETEXIST
-            left.mark = det_mark[detType][1]
+            left.mark = det_mark[detType]
             if detType == "det:negation":
                 self.top_down_negate(
                     tree, "nmod", self.relation.index(tree.key))
@@ -371,9 +371,9 @@ class Polarizer:
 
         # if left.val.lower() == "that":
         #    self.equalize(right)
-        if not tree.is_root:
-            if tree.parent.left.val.lower() == "that":
-                self.equalize(left)
+        # if not tree.is_root:
+        #    if tree.parent.left.val.lower() == "that":
+        #        self.equalize(left)
 
         if left.is_tree:
             self.polarize(left)
@@ -439,6 +439,8 @@ class Polarizer:
         if left.is_tree:
             self.polarize(left)
 
+        tree.mark = left.mark
+
         if is_implicative(right.val.lower(), "-"):
             tree.mark = "-"
             self.negate(left, -1)
@@ -470,9 +472,20 @@ class Polarizer:
                 left.right.left.mark = scalar_arrow
             elif left.right.pos == "CD":
                 left.right.mark = scalar_arrow
+            tree.mark = left.mark
 
         if right.mark == "-":
             self.negate(left, -1)
+
+    def polarize_obltmod(self, tree):
+        right = tree.right
+        left = tree.left
+
+        if left.is_tree:
+            self.polarize(left)
+        tree.mark = left.mark
+        if right.is_tree:
+            self.polarize(right)
 
     def polarize_oblnpmod(self, tree):
         right = tree.right

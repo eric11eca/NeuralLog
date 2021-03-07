@@ -17,7 +17,7 @@ depparse_config = {
     'depparse_model_path': '../model/en/depparse/gum.pt',
     'lemma_model_path': '../model/en/lemma/gum.pt',
     'use_gpu': True,
-    'pos_batch_size': 3000
+    'pos_batch_size': 4000
 }
 
 token_config = {
@@ -25,7 +25,7 @@ token_config = {
     'processors': "tokenize",
     'tokenize_model_path': '../model/en/tokenize/gum.pt',
     'use_gpu': True,
-    'pos_batch_size': 3000
+    'pos_batch_size': 2000
 }
 
 nlp = stanza.Pipeline(**depparse_config)
@@ -53,6 +53,26 @@ replacement = {
     "a lot of": "a-lot-of",
     "lots of": "lots-of",
     "each of the": "each-of-the",
+    "after all": "after-all",
+    "hardly ever": "hardly-ever",
+
+    "A few": "A-few",
+    "A few of the": "A-few-of-the",
+    "None of the": "None-of-the",
+    "All of the": "All-of-the",
+    "Some of the": "Some-of-the",
+    "Most of the": "Most-of-the",
+    "Many of the": "Many-of-the",
+    "Several of the": "Several-of-the",
+    "Some but not all": "Some-but-not-all",
+    "At most": "At-most",
+    "At least": "At-least",
+    "More than": "More-than",
+    "Less than": "Less-than",
+    "No longer": "No-longer",
+    "A lot of": "A-lot-of",
+    "Lots of": "Lots-of",
+    "Each of the": "Each-of-the",
 }
 
 quantifier_replacement = {
@@ -72,13 +92,31 @@ quantifier_replacement = {
     "no-longer": "not",
     "a-lot-of": "some",
     "lots-of": "some",
-    "each of the": "each"
+    "each of the": "each",
+    "A-few": "Some",
+    "A-few of the": "Some",
+    "None-of-the": "No",
+    "All-of-the": "All",
+    "Some-of-the": "Some",
+    "Most-of-the": "Most",
+    "Many-of-the": "Many",
+    "Several-of-the": "Several",
+    "Some-but-not-all": "Some",
+    "At-most": "No",
+    "At-least": "Some",
+    "More-than": "Some",
+    "Less-than": "No",
+    "No-longer": "Not",
+    "A-lot-of": "Some",
+    "Lots-of": "Some",
+    "Each of the": "Each",
+    "hardly-ever": "never"
 }
 
 
 def preprocess(sentence):
     replaced = {}
-    processed = sentence.lower()
+    processed = sentence
     for orig in replacement:
         if orig in processed:
             processed = processed.replace(orig, replacement[orig])
