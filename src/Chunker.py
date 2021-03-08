@@ -408,13 +408,14 @@ class Chunker:
                 else:
                     cont_out[cont] = []
                     cont_out[cont].append(comp)
-        for vbChunk in cont_out["verb"]:
-            for objChunk in cont_out["obj"]:
-                if(vbChunk.node.pair == objChunk.node.pair):
-                    vb = vbChunk.nodeList
-                    obj = objChunk.nodeList
-                    if(vb[-1].end + 1 == obj[0].start):
-                        results.append(Chunk(vbChunk.node, vb+obj))
+        if("verb" in cont_out and "obj" in cont_out):
+            for vbChunk in cont_out["verb"]:
+                for objChunk in cont_out["obj"]:
+                    if(vbChunk.node.pair == objChunk.node.pair):
+                        vb = vbChunk.nodeList
+                        obj = objChunk.nodeList
+                        if(vb[-1].end + 1 == obj[0].start):
+                            results.append(Chunk(vbChunk.node, vb+obj))
         outList = []
         for nodeChunk in results:
             tempStr = ""
