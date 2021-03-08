@@ -199,3 +199,134 @@ Hypothesis: He did not exactly cover himself in glory and applauses
 
 Premise: He did not exactly cover himself in glory
 Hypothesis: He did not exactly cover himself in some of glory
+
+
+
+ID: 710
+Premise: He did not study at all
+Hypothesis: He did not study English at all
+
+ID: 711
+Premise: Tom never graduated from high school
+Hypothesis: Tom never graduated from high school as he was expected to
+
+ID: 735
+Premise: I hope you will not expect results immediately
+Hypothesis: I hope you will not expect the results we do not find immediately
+
+ID: 736
+Premise: At this school, there are no grades and students have no homework
+Hypothesis: At this school, there are no bad grades and students have no homework
+
+ID: 747
+Premise: Tom paid no attention to Mary and Jim all afternoon
+Hypothesis: Tom paid no attention to Mary all afternoon
+
+ID: 776
+Premise: I do not like change
+Hypothesis: I do not like change when it is unfamiliar to me
+
+ID: 778
+Premise: I assume this is not the best time to ask for a promotion
+Hypothesis: I assume this is not the best time to ask for a long-awaited promotion
+
+ID: 779
+Premise: He had a fatal lack of ability to think logically
+Hypothesis: He had a fatal lack of ability and speed to think logically
+
+ID: 784
+Premise: Tom did not want to play poker or uno
+Hypothesis: Tom did not want to play poker
+
+ID: 786
+Premise: I can not remember the melody of that song
+Hypothesis: I can not remember the melody of that paragraph of song
+
+ID: 789
+Premise: I was only a seven-year-old girl at that time
+Hypothesis: I was only a seven-year-old smart girl at that time
+
+ID: 799
+Premise: This sentence has no authors
+Hypothesis: This sentence has no writers or authors
+
+ID: 802
+Premise: She hasn't got a lot of food to give
+Hypothesis: She hasn't got a lot of chocolates to give
+
+ID: 803
+Premise: I want to avoid unnecessary risks
+Hypothesis: I want to avoid unnecessary risks and misfortunes
+
+ID: 805
+Premise: He does not speak Japanese at home
+Hypothesis: He does not speak Japanese after work at home
+
+ID: 813
+Premise: Bad weather is no obstacle
+Hypothesis: Bad weather is no impassable obstacle yet
+
+ID: 829
+Premise: Tom does not like jazz
+Hypothesis: Tom does not like old jazz songs
+
+ID: 833
+Premise: You do not speak English and Japanese
+Hypothesis: You do not speak English
+
+ID: 844
+Premise: Tom does not live in Boston anymore
+Hypothesis: Tom does not live in the suburbs of Boston anymore
+
+ID: 850
+Premise: George weighs not less than 70 kilograms
+Hypothesis: George weighs not under 70 kilograms
+
+ID: 851
+Premise: George weighs not less than 70 kilograms
+Hypothesis: George weighs not smaller than 70 kilograms
+
+ID: 853
+Premise: I do not drink coffee at all
+Hypothesis: I do not drink coffee with a lot of foam at all in the morning
+
+ID: 856
+Premise: I'm not nervous at all
+Hypothesis: I'm not nervous for the party at all
+
+ID: 858
+Premise: I'm not tired at all
+Hypothesis: I'm not tired at any rate
+
+ID: 859
+Premise: I'm not tired at all
+Hypothesis: I'm not tired anyhow
+
+ID: 862
+Premise: I did not understand that last sentence
+Hypothesis: I did not understand that last half of the sentence
+
+ID: 878
+Premise: We've never been to the place
+Hypothesis: We've never been to the interesting place
+
+ID: 879
+Premise: We've never been to the place
+Hypothesis: We've never been to the wonderful place
+
+ID: 880
+Premise: We've never been to the place
+Hypothesis: We've never been to the blooming place
+
+ID: 882
+Premise: If Tom goes to boston, so will I
+Hypothesis: If Tom goes to Boston for the graduation, so will I
+
+ID: 883
+Premise: If Tom goes to boston, so will I
+Hypothesis: If Tom goes to Boston this summer, so will I
+
+ID: 884
+Premise: If Tom goes to boston, so will I
+Hypothesis: If Tom goes to Boston in february, so will I
+
