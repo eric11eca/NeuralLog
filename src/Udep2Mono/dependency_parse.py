@@ -6,10 +6,7 @@ import stanza
 #parser = CoreNLPParser(url='http://localhost:9000')
 #dep_parser = CoreNLPDependencyParser(url='http://localhost:9000')
 
-pkg = "ewt"
-pkg = "gum"
-
-depparse_config = {
+depparse_gum_config = {
     'lang': "en",
     'processors': "tokenize,pos,lemma,depparse",
     'tokenize_model_path': '../model/en/tokenize/gum.pt',
@@ -17,29 +14,45 @@ depparse_config = {
     'depparse_model_path': '../model/en/depparse/gum.pt',
     'lemma_model_path': '../model/en/lemma/gum.pt',
     'use_gpu': True,
-    'pos_batch_size': 4000
+    'pos_batch_size': 3000
 }
+
+"""depparse_ewt_config = {
+    'lang': "en",
+    'processors': "tokenize,pos,lemma,depparse",
+    'tokenize_model_path': '../model/en/tokenize/gum.pt',
+    'pos_model_path': '../model/en/pos/ewt.pt',
+    'depparse_model_path': '../model/en/depparse/ewt.pt',
+    'lemma_model_path': '../model/en/lemma/ewt.pt',
+    'use_gpu': True,
+    'pos_batch_size': 3000
+}"""
 
 token_config = {
     'lang': "en",
     'processors': "tokenize",
     'tokenize_model_path': '../model/en/tokenize/gum.pt',
     'use_gpu': True,
-    'pos_batch_size': 2000
+    'pos_batch_size': 3000
 }
 
-nlp = stanza.Pipeline(**depparse_config)
+gum_depparse = stanza.Pipeline(**depparse_gum_config)
+#ewt_depparse = stanza.Pipeline(**depparse_ewt_config)
 tokenizer = stanza.Pipeline(**token_config)
 
 # cd ./Desktop/Udep2Mono/NaturalLanguagePipeline/lib/stanford-corenlp-4.1.0
 # java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
 
 replacement = {
-    "out of": "out-of",
+
     "a few": "a-few",
+    "a lot of": "a-lot-of",
+    "lots of": "lots-of",
+
     "a few of the": "a-few-of-the",
     "none of the": "none-of-the",
     "all of the": "all-of-the",
+    "each of the": "each-of-the",
     "some of the": "some-of-the",
     "most of the": "most-of-the",
     "many of the": "many-of-the",
@@ -49,12 +62,12 @@ replacement = {
     "at least": "at-least",
     "more than": "more-than",
     "less than": "less-than",
-    "no longer": "no-longer",
-    "a lot of": "a-lot-of",
-    "lots of": "lots-of",
-    "each of the": "each-of-the",
+
     "after all": "after-all",
+    "out of": "out-of",
     "hardly ever": "hardly-ever",
+    "even if": "even-if",
+    "no longer": "no-longer",
 
     "A few": "A-few",
     "A few of the": "A-few-of-the",
@@ -73,6 +86,16 @@ replacement = {
     "A lot of": "A-lot-of",
     "Lots of": "Lots-of",
     "Each of the": "Each-of-the",
+    "Even if": "Even-if",
+
+    "not every": "not-every",
+    "not some": "not-some",
+    "not all": "not-all",
+    "not each": "not-each",
+    "Not every": "Not-every",
+    "Not some": "Not-some",
+    "Not all": "Not-all",
+    "Not each": "Not-each",
 }
 
 quantifier_replacement = {
@@ -110,7 +133,22 @@ quantifier_replacement = {
     "A-lot-of": "Some",
     "Lots-of": "Some",
     "Each of the": "Each",
-    "hardly-ever": "never"
+    "hardly-ever": "never",
+    "Even-if": "If",
+    "even-if": "if",
+    "not-every": "every",
+    "not-some": "some",
+    "not-all": "all",
+    "not-each": "each",
+    "Not-every": "every",
+    "Not-some": "some",
+    "Not-all": "all",
+    "Not-each": "each",
+
+    "after-all": "after-all",
+    "out-of": "out-of",
+    "hardly-ever": "never",
+    "no-longer": "no-longer",
 }
 
 
@@ -131,21 +169,21 @@ def preprocess(sentence):
     return processed, replaced
 
 
-def dependency_parse(sentence, parser="stanford"):
+def dependency_parse(sentence, parser="gum"):
     processed, replaced = preprocess(sentence)
-    if parser == "stanford":
-        return stanford_parse(processed), replaced
-    elif parser == "stanza":
-        return stanza_parse(processed), replaced
+    return stanza_parse(processed, parser=parser), replaced
 
 
-def stanza_parse(sentence):
+def stanza_parse(sentence, parser="gum"):
     postags = {}
     words = {}
     parse_tree = []
     head_log = {}
     depdent_log = {}
-    parsed = nlp(sentence)
+
+    parsed = gum_depparse(sentence)
+    """if parser == "ewt":
+        parsed = ewt_depparse(sentence)"""
 
     for sent in parsed.sentences:
         for word in sent.words:
@@ -226,7 +264,7 @@ def printTree(tree, tag, word):
             f"word: {word[tree[1]][0]}\thead: {word[tree[2]][0]}\tdeprel: {tree[0]}", sep="\n")
 
 
-def stanford_parse(sentence):
+"""def stanford_parse(sentence):
     postag = {}
     wordids = {}
     head_log = {}
@@ -263,7 +301,7 @@ def stanford_parse(sentence):
 
     enhance_parse(parse_tree, head_log, depdent_log, wordids)
     return parse_tree, postag, wordids
-
+"""
 
 if __name__ == '__main__':
     # test spanish model

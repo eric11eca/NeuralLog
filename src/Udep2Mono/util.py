@@ -68,6 +68,9 @@ at_least_implicative = ["for", "buy", "drink", "take", "hold", "receive",
 
 exactly_implicative = ["like", "love", "admires", "marry"]
 
+willing_verbs = ["want", "ask", "told", "tell", "assign", "force"]
+if_verbs = ["see", "understand", "know", "hear", "care"]
+
 
 def build_implicative_dict():
     verbs = list(df['Verb'])

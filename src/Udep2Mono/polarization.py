@@ -113,8 +113,16 @@ class Polarizer:
         right = tree.right
         left = tree.left
 
+        verb = self.down_right(tree)
+        original_verbState = tree.counter.willing_verb
+        if(verb.val.lower() in willing_verbs and left.val == "mark" and left.left.val.lower() == "to"):
+            tree.counter.willing_verb = True
+
         if left.is_tree:
             self.polarize(left)
+
+        tree.counter.willing_verb = original_verbState
+
         if right.is_tree:
             self.polarize(right)
 
@@ -163,8 +171,16 @@ class Polarizer:
         elif left.val.lower() == "few":
             self.top_down_negate(
                 tree, "amod", self.relation.index(tree.key))
-        elif left.val.lower() == "fewer":
+            right.mark = "-"
+            self.polarize(right)
+        elif self.down_left(tree).val.lower() in ["fewer", "less"]:
             self.noun_mark_replace(right, "-")
+            left.mark = "+"
+            if(tree.parent.val == "acl:relcl"):
+                self.equalize(tree.parent.left)
+        elif self.down_left(tree).val.lower() in ["more"]:
+            if(tree.parent.val == "acl:relcl"):
+                self.equalize(tree.parent.left)
         elif left.val == "advmod":
             if left.right.val == "many":
                 self.equalize(right)
@@ -172,6 +188,11 @@ class Polarizer:
             if left.left.val.lower() == "not":
                 self.top_down_negate(
                     tree, "amod", self.relation.index(tree.key))
+        elif left.val == "out-of":
+            if(tree.parent is not None and tree.parent.val == "nummod" and right.val == "nummod"):
+                left.mark = "-"
+                right.mark = "--"
+            self.polarize(right)
 
     def polarize_case(self, tree):
         self.polarize_inherite(tree)
@@ -191,11 +212,14 @@ class Polarizer:
             if right.is_tree:
                 self.polarize(right)
         elif left.val == "except":
+            right.mark = "="
             if right.is_tree and right.left.val == "for":
                 self.nsubj_right_equal = True
-        #    right.mark = "="
-        #    self.polarize(right)
 
+        # duration case "for"
+        elif left.val.lower() == "for" and right.val == "nummod":
+            right.mark = "-"
+            self.polarize(right)
         elif left.val == "than":
             temp, changes = self.find_comparative(tree)
             if(temp is not None and changes is not None):
@@ -255,38 +279,61 @@ class Polarizer:
         right = tree.right
         left = tree.left
 
+        if(tree.counter.willing_verb):
+            tree.mark = "="
+            left.mark = "="
+            self.polarize(left)
+            right.mark = "="
+            self.polarize(right)
+            return
+
         dettype = det_type(left.val)
         if dettype is None:
             dettype = self.DETEXIST
 
         if left.val.lower() == "any":
-            if isinstance(tree.parent, BinaryDependencyTree) and isinstance(tree.parent.parent, BinaryDependencyTree):
+            has_roots = isinstance(tree.parent, BinaryDependencyTree)
+            has_roots = has_roots and isinstance(
+                tree.parent.parent, BinaryDependencyTree)
+            if has_roots:
                 negate_signal = tree.parent.parent.left
                 if negate_signal.val == "not":
                     dettype = self.DETEXIST
                 if negate_signal.val == "det" and negate_signal.left.val.lower() == "no":
+                    dettype = self.DETEXIST
+                if tree.counter.addi_negates % 2 == 1:
                     dettype = self.DETEXIST
 
         detmark = det_mark[dettype]
         right.mark = detmark
         tree.mark = detmark
 
+        det = str((left.val, left.id))
+        at_least = self.replaced.get(det, "det").lower() in [
+            "at-least", "more-than"]
+        at_most = self.replaced.get(det, "det").lower() in [
+            "at-most", "less-than"]
+
         if right.is_tree:
+            if right.val == "nummod":
+                right.mark = [detmark]
             self.polarize(right)
+            if right.val == "nummod":
+                if at_least:
+                    right.left.mark = "-"
+                elif at_most:
+                    right.left.mark = "+"
+        elif right.pos == 'CD':
+            if at_least:
+                right.mark = "-"
+            elif at_most:
+                right.mark = "+"
 
         if dettype == self.DETNEGATE:
             self.top_down_negate(tree, "det", self.relation.index(tree.key))
 
-        if right.val == "nummod":
-            if dettype == self.DETEXIST:
-                right.left.mark = "-"
-            elif dettype == self.DETNEGATE:
-                right.left.mark = "+"
-        if right.pos == 'CD':
-            if left.val == "more-than" or left.val == "at-least":
-                right.mark = "-"
-            if left.val == "less-than" or left.val == "at-most":
-                right.mark = "+"
+        if "not-" in self.replaced.get(det, "det").lower() and len(self.replaced.get(det, "det").lower().split('-')) == 2:
+            self.negate(tree.parent, -1)
 
     def polarize_expl(self, tree):
         self.full_inheritance(tree)
@@ -367,7 +414,15 @@ class Polarizer:
             self.polarize(right)
             return
 
+        # increment counter
+        if(((left.val == "det" or left.val == "amod") and left.left.val.lower() in det_type_words["det:negation"])
+                or (right.val == "advmod" and right.left.val in ["not", "n't"])):
+            tree.counter.add_negates()
+        if((left.val == "det" and left.val.lower() in det_type_words["det:univ"])):
+            tree.counter.add_unifies()
+
         self.polarize(right)
+        tree.counter.nsubjLeft = True
 
         # if left.val.lower() == "that":
         #    self.equalize(right)
@@ -399,10 +454,18 @@ class Polarizer:
 
         left.mark = "="
         if tree.mark != "0":
-            right.mark = tree.mark
+            right.mark = "="
+            if tree.mark == "-":
+                left.mark = "-"
+                right.mark = "-"
+            elif type(tree.mark) is list:
+                right.mark = tree.mark[0]
+                tree.mark = right.mark
+            elif tree.mark == "--":
+                left.mark = "-"
+                tree.mark = "+"
         else:
-            right.mark = "+"
-
+            right.mark = "="
         if left.val == "det":
             left.mark = "+"
 
@@ -424,6 +487,11 @@ class Polarizer:
                 left.mark = "-"
             elif is_implicative(tree.parent.right.val, "="):
                 left.mark = "="
+
+        if(tree.counter.willing_verb):
+            left.mark = "="
+            right.mark = "="
+            tree.mark = "="
 
         if right.is_tree:
             self.polarize(right)
@@ -511,7 +579,8 @@ class Polarizer:
         if left.is_tree:
             self.polarize(left)
         elif left.val.lower() == "if":
-            self.negate(right, -1)
+            if(not(tree.parent != None and self.down_right(tree.parent).val in if_verbs)):
+                self.negate(right, -1)
 
     def search_dependency(self, deprel, tree):
         if tree.val == deprel:
@@ -536,17 +605,27 @@ class Polarizer:
             return tree
         return self.down_left(tree.left)
 
+    def down_right(self, tree):
+        if(tree.right == None):
+            return tree
+        return self.down_right(tree.right)
+
     def find_comparative(self, tree):
         parent = tree.parent
-        if(parent.val == "nmod"):
-            target = parent.right
-        elif(parent.val == "obl"):
-            target = parent.right
-        comparative = self.down_left(target)
-        modified = self.find_comp_modifying(comparative)
-        if(comparative.val not in scalar_comparative):
-            return modified, None
-        return modified, scalar_comparative[comparative.val]
+        modified, comp = self.find_right(parent, "amod")
+        if(modified is None):
+            return None, None
+        return modified, scalar_comparative[comp.val.lower()]
+
+    def find_right(self, tree, val):
+        if(tree.right is None):
+            return None, None
+        if(tree.val == val):
+            comp = self.down_left(tree)
+            if comp.val.lower() in scalar_comparative:
+                return tree, comp
+            return self.find_right(tree.right, val)
+        return self.find_right(tree.right, val)
 
     def find_comp_modifying(self, tree):
         if(tree.val == "amod"):
@@ -575,14 +654,10 @@ class Polarizer:
 
     def full_inheritance(self, tree):
         if tree.mark != "0":
-            # if(tree.right.mark == "0"):
             tree.right.mark = tree.mark
             tree.left.mark = tree.mark
         else:
-
-            # if(tree.right.mark == "0"):
             tree.right.mark = "+"
-            # if(tree.left.mark == "0"):
             tree.left.mark = "+"
             tree.mark = "+"
 
@@ -632,7 +707,7 @@ class Polarizer:
 
 
 class PolarizationPipeline:
-    def __init__(self, sentences=None, verbose=0, parser="stanza"):
+    def __init__(self, sentences=None, verbose=0, parser="gum"):
         self.binarizer = Binarizer()
         self.polarizer = Polarizer()
         self.annotations = []
@@ -654,7 +729,10 @@ class PolarizationPipeline:
             print(parsed[0])
             print()
             print(parsed[1])
+            print()
+            print(replaced)
 
+        self.binarizer.replaced = replaced
         binary_dep, relation = self.binarizer.binarization()
         if self.verbose == 2:
             self.postprocess(binary_dep)
@@ -671,6 +749,7 @@ class PolarizationPipeline:
     def run_polarization(self, binary_dep, relation, replaced, sentence):
         self.polarizer.dependtree = binary_dep
         self.polarizer.relation = relation
+        self.polarizer.replaced = replaced
 
         self.polarizer.polarize_deptree()
         if self.verbose == 2:
@@ -692,15 +771,18 @@ class PolarizationPipeline:
 
     def single_polarization(self, sentence):
         parsed, replaced = dependency_parse(sentence, self.parser)
+        # print(parsed)
         binary_dep, relation = self.run_binarization(
             parsed, replaced, sentence)
+        # print(parsed)
         self.run_polarization(binary_dep, relation, replaced, sentence)
-        self.modify_replacement(self.polarizer.dependtree, replaced)
         annotated = self.polarizer.dependtree.sorted_leaves()
 
         if self.verbose == 2:
             annotated_sent = ' '.join([word[0] for word in annotated.keys()])
             self.annotated_sentences.append(annotated_sent)
+
+        self.modify_replacement(self.polarizer.dependtree, replaced)
 
         return {
             'original': sentence,
