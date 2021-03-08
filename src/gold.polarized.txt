@@ -1,0 +1,56 @@
+Every↑ dog↓ sees↑ some↑ cat↑ 
+Every↑ rat↓ sees↑ every↑ fish↓ 
+Some↑ rat↑ sees↑ every↑ squirrel↓ 
+most↑ dogs= chase↑ some↑ cat↑ 
+most↑ dogs= chase↑ most↑ cat= 
+No↑ dog↓ likes↓ every↓ hedgehog↑ 
+3↑ dogs= love= 4= cats= 
+Not↓ many↓ people↓ love↓ lions↓ as↓ pets↓ 
+Many↑ people= love↑ dogs↑ as↑ pets↑ 
+several↑ several↑ boys↑ chased↑ a↑ girl↑ 
+Not↑ every↓ student↑ likes↓ semantics↓ 
+most↑ dogs= who= bark= loudly= do↑ not↑ like↓ cats↓ 
+The↑ dog= that= bark= loudly= does↑ not↑ like↓ any↓ cat↓ 
+The↑ raccoon= in= my= car= likes↑ to↑ eat↑ every↑ fish↓ it↓ sees↓ 
+Every↑ dog↓ in↓ Slovenia↓ likes↑ to↑ chase↑ pigs↑ 
+Some↑ cat↑ in↑ London↑ has↑ been↑ to↑ Paris↑ 
+Every↑ cat↓ who↓ likes↓ every↓ dog↑ also↑ likes↑ every↑ squirrel↓ 
+Some↑ cats↑ who↑ love↑ every↑ dog↓ who↓ likes↓ some↓ squirrels↓ died↑ 
+Cats↑ who↑ like↑ squirrels↑ hate↑ dogs↑ 
+Some↑ person↑ in↑ the↑ White= House= does↑ not↑ know↓ if↓ any↑ dog↑ in↑ Ohio↑ ate↑ bananas↑ yesterday↑ 
+There↑ is↑ a↑ dog↑ in↑ the↑ house= who↑ wants↑ to↑ eat↑ 3↑ biscuits= 
+few↑ math↓ students↓ love↓ any↓ subject↓ in↓ linguistics↓ 
+5↑ dogs= see= at= least= 6= cats= 
+Every↑ cat↓ who↓ no↓ dog↑ chases↓ rests↑ 
+Every↓ dog↓ who↓ likes↓ most↓ cats↓ was↓ chased↓ by↓ at↓ least↓ 2↓ of↓ them↓ 
+More↑ dogs= than↑ cats= sit↑ 
+few↑ dogs= than↓ cats= sit↓ 
+Every↑ student↓ 's↑ favorite↑ class↑ was= French= 
+No↑ students↓ liked↓ any↓ class↓ in↓ Chemistry↓ 
+All↑ but↓ 5↓ dogs= died↑ 
+3↓ out↓ of↓ 5↓ dentists↓ recommend↓ that↓ their↓ patients↓ brush↓ their↓ teeth↓ at↓ least↓ 4↓ times↓ a↓ day↓ 
+No↓ dentist↓ who↓ recommends↓ that↓ their↓ patients↓ brush↓ their↓ teeth↓ at↓ least↓ 4↓ times↓ a↓ day↓ gave↓ 5↓ patients↓ a↓ toothbrush↓ 
+Every↑ doctor↓ who↓ told= her↓ patients↓ to↓ take↓ 3↓ pills= a= day= was↑ afraid↑ that↑ taking= 4= or↑ more= would= kill= them= 
+My↑ parents↑ said= I= could= have= 3= candies= 
+If↑ you↓ are↓ addicted↓ to↓ cigarettes↓ you↑ can↑ smoke↑ 2↑ a↑ day↑ 
+Even↑ if↑ you↓ are↓ addicted↓ to↓ cigarettes↓ you↑ can↑ smoke↑ 2↑ a↑ day↑ 
+Every↑ person↓ who↓ smokes↓ 2↓ cigarettes= in↓ one↓ hour↓ runs↑ a↑ risk↑ of↑ cancer↑ 
+If↑ every↓ cat↑ runs↓ some↓ dog↓ runs↓ also↓ 
+If↑ some↓ dog↓ runs↓ no↓ cat↓ sits= 
+A↑ dog↑ who↑ ate↑ 2↑ rotten= biscuits= was↑ sick↑ for= 3↑ days= 
+John↑ is↑ dancing↑ without↑ clothes↓ 
+Ursula↑ refused↑ to↓ sing↓ or↑ dance↓ 
+A↑ dog↑ ate↑ 2↑ rotten= biscuits= 
+Any↑ dog↑ in↑ Michigan↑ would↑ prefer↑ to↑ live↑ in↑ Indiana↑ 
+All↑ the↓ cats= except= for= at= most= 2= eat= chocolate= 
+All↑ the↓ cats= except= for= 2= love↑ to↑ run↑ 
+All↑ students↓ except↓ engineers= must↑ take↑ a↑ class↑ in↑ Organic↑ Chemistry↑ 
+at↑ least↑ 7↓ fish↑ died↑ yesterday↑ in↑ Morocco↑ 
+at↑ most↑ 6↑ dogs↓ are↓ hungry↓ 
+at↑ least↑ 5↓ people↑ ran↑ 
+less↑ than↑ 5↑ people↓ ran↓ 
+more↑ than↑ 6↓ dogs↑ are↑ hungry↑ 
+exactly↑ 8= cats= are= sleeping= 
+Some↑ but↑ not↑ all↑ students↑ cheated↑ in↑ this↑ class= 
+more↑ than↑ 3↓ students↑ cheated↑ in↑ this↑ class= 
+less↑ than↑ 5↑ students↓ got↓ A↓ in↓ the↓ class= 

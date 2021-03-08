@@ -29,3 +29,7 @@ A dog who ate two rotten biscuits was sick for three days
 A dog ate 2 rotten biscuits
 ['+', '+', '+', '=', '=', '=']
 ['+', '+', '+', '=', '+', '+']
+
+Three out of five dentists recommend that their patients brush their teeth at least four times a day
+['=', '-', '-', '-', '=', '+', '+', '+', '+', '+', '+', '+', '+', '+', '-', '+', '+', '+']
+['=', '-', '-', '=', '+', '+', '+', '+', '+', '+', '+', '+', '+', '+', '-', '+', '+', '+']
