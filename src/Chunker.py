@@ -1,40 +1,34 @@
-
-from Udep2Mono.polarization import PolarizationPipeline
 import binarytree as bt
 from wordnet import find_relation, get_word_sets
-from PIL import Image, ImageDraw
-from nltk.tree import Tree
-from nltk.draw import TreeWidget
-from nltk.draw.util import CanvasFrame
-from IPython.display import Image, display
-import json
-import _pickle as pickle
-import os
-import gensim.downloader as api
 
-
-
-nounModifiers = {"det", "nummod", "amod","obl:tmod", "acl:relcl", "nmod", "case","nmod:pass",  "acl", "Prime"}
-verbModifiers = {"advmod", "obl","xcomp","advcl","mark"}
+nounModifiers = {"det", "nummod", "amod", "obl:tmod",
+                 "acl:relcl", "nmod", "case", "nmod:pass",  "acl", "Prime"}
+verbModifiers = {"advmod", "obl", "xcomp", "advcl", "mark"}
 nounCategories = {"compound"}
 verbs = {"VBZ", "VBP", "VBD", "VBG"}
 modified = {"NN", "PRP", "JJ", "VB"}.union(verbs)
 modifiers = nounModifiers.union(verbModifiers)
 offFocus = {"expl"}
-contents = {"nsubj","obj","cop","compound","conj", "cc", "aux","nsubj:pass"}
-cont_npos = {"nsubj":'nn', "obj": 'nn', "cop": 'vbz', "verb": 'vbz'}
-mark_toProp = {"+": {"hyponym","synonym"}, "-": {"hypernym","synonym"}, "=": {"synonym"}}
+contents = {"nsubj", "obj", "cop", "compound",
+            "conj", "cc", "aux", "nsubj:pass"}
+cont_npos = {"nsubj": 'nn', "obj": 'nn', "cop": 'vbz', "verb": 'vbz'}
+mark_toProp = {"+": {"hyponym", "synonym"},
+               "-": {"hypernym", "synonym"}, "=": {"synonym"}}
 clause_prop = {"which", "that", "who"}
 be_verbs = {"is", "am", "are", "be"}
-directions = {0: "lexical", 1: "phrasal", 2: "syntatic_variation", 3: "implicative"}
+directions = {0: "lexical", 1: "phrasal",
+              2: "syntatic_variation", 3: "implicative"}
 arrows = {
     "+": "\u2191",
     "-": "\u2193",
     "=": "=",
     "0": ""
 }
+
+
 def annotation2string(annotation):
     annotated = list(annotation['annotated'].popkeys())
+
     def compose_token(word):
         if '-' in word[0]:
             orig = word[0].split('-')
@@ -43,8 +37,10 @@ def annotation2string(annotation):
             return word[0] + arrows[word[2]]
     annotated_sent = ' '.join([compose_token(x) for x in annotated])
     return annotated_sent
+
+
 class Unode:
-    def __init__(self,prop,word,npos, mark):
+    def __init__(self, prop, word, npos, mark):
         self.nexts = dict()
         self.prop = prop
         self.isRoot = False
@@ -58,18 +54,21 @@ class Unode:
         self.start = -1
         self.end = -1
         self.nodes = set()
+
     def add_Unode(self, node):
-        #print(node.prop)
+        # print(node.prop)
         if(self.isRoot):
             self.nexts[node.prop].add(node)
         else:
             self.nexts["all"].add(node)
+
     def addNode(self, node):
         self.nodes.add(node)
+
     def getText(self):
         if(self.isRoot):
             output = ""
-            for cont in ["nsubj", "verb","obj"]:
+            for cont in ["nsubj", "verb", "obj"]:
                 for ele in self.nexts[cont]:
                     output += ele.getText()
                     output += " "
@@ -81,12 +80,13 @@ class Unode:
             for element in self.nexts["all"]:
                 if(element.prop == "amod"):
                     output = " " + output
-                    output =  element.getText() + output
+                    output = element.getText() + output
                 else:
                     output += " "
-                    output +=  element.getText()
-                
+                    output += element.getText()
+
             return output
+
     def get_inText(self, index):
         connected_info = ""
         if(self.isRoot):
@@ -94,14 +94,16 @@ class Unode:
                 if(key != "all"):
                     print(key)
                     for keyItem in self.nexts[key]:
-                        connected_info += (key + ": " + keyItem.get_inText(index + 1) + " ")
+                        connected_info += (key + ": " +
+                                           keyItem.get_inText(index + 1) + " ")
             return "{ " + connected_info + "}"
         else:
             for node in self.nexts["all"]:
                 if(node != None):
-                    #print("111")
+                    # print("111")
                     connected_info += node.get_inText(index + 1)
             return "{ The " + str(index) + " layer" + ": " + self.word + connected_info + "}"
+
     def get_magicText(self):
         connected_info = ""
         if(self.isRoot):
@@ -117,37 +119,46 @@ class Unode:
         else:
             for node in self.nexts["all"]:
                 if(node != None):
-                    #print("111")
-                    connected_info +=  "(" + node.get_magicText() + ")"
+                    # print("111")
+                    connected_info += "(" + node.get_magicText() + ")"
             if(self.nexts["all"] == set()):
                 if(self.pair != -1):
                     return self.word + str(self.pair)
                 return self.word
             if(self.pair != -1):
-                    return self.word + str(self.pair) + connected_info
-            return  self.word + connected_info
-    def addNum(self,num):
+                return self.word + str(self.pair) + connected_info
+            return self.word + connected_info
+
+    def addNum(self, num):
         self.pair = num
+
     def addPart(self, newNode, type1):
         if(type1 not in self.pairParts):
             self.pairParts[type1] = set()
         self.pairParts[type1].add(newNode)
+
     def getParts(self):
-        ### return verb-obj subParts now
+        # return verb-obj subParts now
         return self.pairParts["obj"]
+
+
 class PairCounter:
-    def __init__(self, initial = 0):
-        self.nsubj = initial 
+    def __init__(self, initial=0):
+        self.nsubj = initial
         self.obj = initial
+
     def incrementN(self):
         self.nsubj += 1
+
     def incrementO(self):
         self.obj += 1
+
+
 class Ugraph:
     def __init__(self, rootNode):
         self.root = rootNode
         self.root.isRoot = True
-        self.root.nexts.pop("all",None)
+        self.root.nexts.pop("all", None)
         for main in {"nsubj", "obj", "verb"}:
             self.root.nexts[main] = set()
         self.nodes = set()
@@ -156,18 +167,23 @@ class Ugraph:
         self.Pairs = dict()
         self.Pairs["nsubj"] = dict()
         self.Pairs["obj"] = dict()
-    def add_node(self,node):
+
+    def add_node(self, node):
         self.nodes.add(node)
         self.root.addNode(node)
+
     def add_edge(self, node1, node2):
         if(node1.isRoot):
             self.contentSet.add(node2.word)
         node1.add_Unode(node2)
+
     def contains(self, word_assigned):
         return word_assigned in self.contentSet
+
     def get_magicText(self):
         return self.root.get_magicText()
-    def addPair(self, newNode, num,type1):
+
+    def addPair(self, newNode, num, type1):
         newNode.addNum(num)
         if(num not in self.Pairs[type1]):
             self.Pairs[type1][num] = [None]
@@ -177,9 +193,11 @@ class Ugraph:
             self.Pairs[type1][num].append(newNode)
         if(len(self.Pairs[type1][num]) > 1 and self.Pairs[type1][num][0] is not None):
             if(newNode.prop == "verb"):
-                self.Pairs[type1][num][0].addPart(self.Pairs[type1][num][-1],"obj")
+                self.Pairs[type1][num][0].addPart(
+                    self.Pairs[type1][num][-1], "obj")
             else:
                 self.Pairs[type1][num][0].addPart(newNode, "obj")
+
     def jupyter_draw_nltk_tree(self, tree):
         cf = CanvasFrame()
         tc = TreeWidget(cf.canvas(), tree)
@@ -191,19 +209,20 @@ class Ugraph:
         cf.add_widget(tc, 20, 20)
         cf.print_to_file('../data/tree_img/tree.ps')
         cf.destroy()
-        os.system('magick convert ../data/tree_img/tree.ps ../data/tree_img/tree.png')
+        os.system(
+            'magick convert ../data/tree_img/tree.ps ../data/tree_img/tree.png')
         display(Image(filename='../data/tree_img/tree.png'))
+
     def visualize_tree(self, tree):
         btree = Tree.fromstring(tree.replace('[', '(').replace(']', ')'))
         self.jupyter_draw_nltk_tree(btree)
-    
-    
+
     def printUgraph_inText(self, Ugraph):
-        print(Ugraph.root.get_inText(1))    
-    
-    def mono2Graph_recur(self, sent_tree, G, mods, pos = None, counter = -1):
-        if(sent_tree is None):       
-            return  
+        print(Ugraph.root.get_inText(1))
+
+    def mono2Graph_recur(self, sent_tree, G, mods, pos=None, counter=-1):
+        if(sent_tree is None):
+            return
         else:
             if(any(list(map(lambda x: sent_tree.val is not None and x in sent_tree.val, list(modifiers))))):
                 if("acl" in sent_tree.val):
@@ -211,49 +230,51 @@ class Ugraph:
                     G_prime = pipeTemp.mono2Graph(sent_tree.left)
                     mods.add(G_prime.root)
                 else:
-                    left_result = self.mono2Graph_recur(sent_tree.left, G, set(), sent_tree.val,counter)
+                    left_result = self.mono2Graph_recur(
+                        sent_tree.left, G, set(), sent_tree.val, counter)
                     if(left_result is not None):
                         mods.add(left_result)
 
-                return self.mono2Graph_recur(sent_tree.right, G, mods, pos,counter)            
+                return self.mono2Graph_recur(sent_tree.right, G, mods, pos, counter)
             else:
-                if ((sent_tree.left is None and sent_tree.right is None) or sent_tree.val == "compound" ):
-                        if(sent_tree.val == 'and'):
-                            return
-                        if(sent_tree.val == "compound"):
-                            newNode = Unode(pos, sent_tree.left.val + "-" + sent_tree.right.val,
-                                            sent_tree.pos, sent_tree.mark)
-                            newNode.start = sent_tree.left.id
-                            newNode.end = sent_tree.right.id
-                            if(pos in contents or pos == "verb"):
-                                    G.add_edge(G.root,newNode)
-                                    if(pos != "nsubj"):
-                                        G.addPair(newNode, counter.obj,"obj")
-                            for node in mods:
-                                    G.add_edge(newNode, node)
-                            return newNode
-                        newNode = Unode(pos, sent_tree.val, sent_tree.pos, sent_tree.mark)
-                        newNode.start = sent_tree.id
-                        newNode.end = sent_tree.id
-                        G.add_node(newNode)
-                        if (any(list(map(lambda x : sent_tree.pos is not None and x in sent_tree.pos, list(modified)))) 
-                                                            or any(list(map(lambda x: pos is not None and x in pos, list(contents))))
-                                                                or pos == "verb"):
-                            if(pos in contents or pos == "verb"):
+                if ((sent_tree.left is None and sent_tree.right is None) or sent_tree.val == "compound"):
+                    if(sent_tree.val == 'and'):
+                        return
+                    if(sent_tree.val == "compound"):
+                        newNode = Unode(pos, sent_tree.left.val + "-" + sent_tree.right.val,
+                                        sent_tree.pos, sent_tree.mark)
+                        newNode.start = sent_tree.left.id
+                        newNode.end = sent_tree.right.id
+                        if(pos in contents or pos == "verb"):
+                            G.add_edge(G.root, newNode)
+                            if(pos != "nsubj"):
+                                G.addPair(newNode, counter.obj, "obj")
+                        for node in mods:
+                            G.add_edge(newNode, node)
+                        return newNode
+                    newNode = Unode(pos, sent_tree.val,
+                                    sent_tree.pos, sent_tree.mark)
+                    newNode.start = sent_tree.id
+                    newNode.end = sent_tree.id
+                    G.add_node(newNode)
+                    if (any(list(map(lambda x: sent_tree.pos is not None and x in sent_tree.pos, list(modified))))
+                        or any(list(map(lambda x: pos is not None and x in pos, list(contents))))
+                            or pos == "verb"):
+                        if(pos in contents or pos == "verb"):
 
-                                    G.add_edge(G.root,newNode)
-                                    if(pos != "nsubj"):
-                                        G.addPair(newNode, counter.obj,"obj")
-                                        if(pos == "verb"):
-                                            counter.incrementO()
-                            for node in mods:
+                            G.add_edge(G.root, newNode)
+                            if(pos != "nsubj"):
+                                G.addPair(newNode, counter.obj, "obj")
+                                if(pos == "verb"):
+                                    counter.incrementO()
+                        for node in mods:
 
-                                    G.add_edge(newNode, node)
-                            return newNode
-                        else:
-                            mods.add(newNode)
-                            return newNode
-                else: 
+                            G.add_edge(newNode, node)
+                        return newNode
+                    else:
+                        mods.add(newNode)
+                        return newNode
+                else:
                     if(any(list(map(lambda x: sent_tree.val is not None and x in sent_tree.val, list(contents))))):
                         pos_left = sent_tree.val
                         pos_right = pos
@@ -264,53 +285,66 @@ class Ugraph:
                             pos_left = "verb"
                             pos_right = "obj"
                         if('conj' in sent_tree.val):
-                            self.mono2Graph_recur(sent_tree.left, G, set(), pos,counter)
+                            self.mono2Graph_recur(
+                                sent_tree.left, G, set(), pos, counter)
 
-                            self.mono2Graph_recur(sent_tree.right, G, mods, pos,counter)
+                            self.mono2Graph_recur(
+                                sent_tree.right, G, mods, pos, counter)
                         elif("aux" in sent_tree.val):
-                            self.mono2Graph_recur(sent_tree.right, G, mods, "verb",counter)
+                            self.mono2Graph_recur(
+                                sent_tree.right, G, mods, "verb", counter)
                         elif("obj" in sent_tree.val and pos != "verb"):
-                            right_result = self.mono2Graph_recur(sent_tree.right, G, set(), "Prime",counter)
+                            right_result = self.mono2Graph_recur(
+                                sent_tree.right, G, set(), "Prime", counter)
                             if(right_result is not None):
                                 mods.add(right_result)
-                            self.mono2Graph_recur(sent_tree.left, G, mods, pos_left, counter)
+                            self.mono2Graph_recur(
+                                sent_tree.left, G, mods, pos_left, counter)
                         else:
-                            self.mono2Graph_recur(sent_tree.left, G,set(),pos_left,counter)
-                            self.mono2Graph_recur(sent_tree.right, G, mods, pos_right,counter)
+                            self.mono2Graph_recur(
+                                sent_tree.left, G, set(), pos_left, counter)
+                            self.mono2Graph_recur(
+                                sent_tree.right, G, mods, pos_right, counter)
                     elif(any(list(map(lambda x: sent_tree.val is not None and x in sent_tree.val, list(offFocus))))):
-                        self.mono2Graph_recur(sent_tree.right, G, mods, pos,counter)
+                        self.mono2Graph_recur(
+                            sent_tree.right, G, mods, pos, counter)
+
 
 class GraphPipeline:
     def __init__(self):
         self.graph_logs = []
-    
+
     def mono2Graph(self, sent_info):
-        G = Ugraph(Unode("root", "Root","r00t","="))
+        G = Ugraph(Unode("root", "Root", "r00t", "="))
         self.graph_logs.append(G)
         counter = PairCounter()
-        G.mono2Graph_recur(sent_info, G, set(),"verb",counter) 
+        G.mono2Graph_recur(sent_info, G, set(), "verb", counter)
         return G
+
 
 class Chunk:
     def __init__(self, node, nodeList):
         self.node = node
         self.nodeList = nodeList
+
+
 class Chunker:
     def __init__(self):
         self.ifGraph = False
-    
+
     def insert_byOrder(self, nodeList, totalList):
         index = 0
         for i in range(len(totalList)):
             if(nodeList[-1].end < totalList[i][0].start):
                 break
             index += 1
-        totalList.insert(index,nodeList)
+        totalList.insert(index, nodeList)
         return index
+
     def check_nodesForChunk(self, nodeList, center, total):
         size = len(nodeList)
-        splitpos = [0,size]
-        for j in range(size -1):
+        splitpos = [0, size]
+        for j in range(size - 1):
             if(nodeList[j][-1].end + 1 != nodeList[j+1][0].start):
                 if(j < center):
                     if(j >= splitpos[0]):
@@ -326,6 +360,7 @@ class Chunker:
         newChunk = Chunk(nodeList[center][0], newList)
         total.append(newChunk)
         return newChunk
+
     def construct_sentence(self, root):
         listNodes = list(root.nodes)
         output = []
@@ -335,29 +370,30 @@ class Chunker:
                 if(listNodes[k].end < output[i].start):
                     break
                 index += 1
-            output.insert(index,listNodes[k])
+            output.insert(index, listNodes[k])
         newChunk = Chunk(None, output)
         return newChunk
+
     def chunk_from_nodes(self, node, results):
         if(node.isRoot):
             self.make_chunks(node, results)
-            #considering chunks from clause unrelated to main clause now
+            # considering chunks from clause unrelated to main clause now
             output = self.construct_sentence(node)
             results.append(output)
             return output
         if(node.nexts["all"] == set()):
             return Chunk(node, [node])
-        ##sorting goes:
+        # sorting goes:
         tempList = []
         for nodeItem in node.nexts["all"]:
             result = self.chunk_from_nodes(nodeItem, results)
             if(result is not None):
                 self.insert_byOrder(result.nodeList, tempList)
-        center = self.insert_byOrder([node],tempList)
+        center = self.insert_byOrder([node], tempList)
         output = self.check_nodesForChunk(tempList, center, results)
 
         return output
-    
+
     def make_chunks(self, graph_or_root, results):
         if(type(graph_or_root) is Ugraph):
             root = graph_or_root.root
@@ -377,8 +413,8 @@ class Chunker:
                 if(vbChunk.node.pair == objChunk.node.pair):
                     vb = vbChunk.nodeList
                     obj = objChunk.nodeList
-                    if(vb[-1].end +1 == obj[0].start):
-                            results.append(Chunk(vbChunk.node, vb+obj))
+                    if(vb[-1].end + 1 == obj[0].start):
+                        results.append(Chunk(vbChunk.node, vb+obj))
         outList = []
         for nodeChunk in results:
             tempStr = ""
@@ -392,15 +428,4 @@ class Chunker:
     def get_chunks_byDepTree(self, tree):
         pipe1 = GraphPipeline()
         g1 = pipe1.mono2Graph(tree)
-        return self.make_chunks(g1,[])
-        
-pipeline = PolarizationPipeline(verbose = 1)
-sent = "The person studys at noon to take an exam"
-tree = pipeline.single_polarization(sent)["polarized_tree"]
-tree = pipeline.single_polarization(sent)["polarized_tree"]
-result_tree = tree
-result = pipeline.postprocess(tree,"")
-
-
-chunker = Chunker()
-print(chunker.get_chunks_byDepTree(result_tree))
+        return self.make_chunks(g1, [])

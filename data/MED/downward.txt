@@ -2844,7 +2844,7 @@ He didn't study English at all.
 
 crowd:downward_monotone
 Tom never graduated from high school.
-Tom never graduated from high school as he was expected to.
+Tom never graduated from high school as he was expected to do.
 
 crowd:downward_monotone
 Ken has never been to New York.
@@ -3527,15 +3527,15 @@ We've never been to that place.
 We've never been to that location and area.
 
 crowd:downward_monotone:conditionals
-If Tom goes to boston, so will I.
+If Tom goes to Boston, so will I.
 If Tom goes to Boston for the graduation, so will I.
 
 crowd:downward_monotone:conditionals
-If Tom goes to boston, so will I.
+If Tom goes to Boston, so will I.
 If Tom goes to Boston this summer, so will I.
 
 crowd:downward_monotone:conditionals
-If Tom goes to boston, so will I.
+If Tom goes to Boston, so will I.
 If Tom goes to Boston in february, so will I.
 
 crowd:downward_monotone:npi
