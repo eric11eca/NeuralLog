@@ -1,35 +1,55 @@
-Five dogs see at least six cats
-['=', '=', '+', '+', '+', '-', '+']
-['+', '=', '=', '=', '=', '=', '=']
+1. There is a dog in the house, who wants to eat three biscuits
 
-All but five dogs died
-['+', '+', '=', '-', '-']
-['+', '+', '=', '=', '=']
+Udep2Mono Output: 
+['There: +', 'is: +', 'a: +', 'dog: +', 'in: +', 'the: +', 'house,: =', 'who: =', 'wants: =', 'to: =', 'eat: =', 'three: =', 'biscuits: =']
 
-My parents said I could have three candies
-['+', '+', '+', '+', '+', '+', '=', '=']
-['+', '+', '+', '+', '+', '+', '=', '+']
+Label: 
+['There: +', 'is: +', 'a: +', 'dog: +', 'in: +', 'the: +', 'house,: =', 'who: +', 'wants: +', 'to: +', 'eat: +', 'three: =', 'biscuits: =']
 
-If you are addicted to cigarettes, you can smoke two a day
-['+', '-', '-', '-', '-', '-', '+', '+', '+', '+', '+', '+']
-['+', '-', '-', '-', '-', '-', '+', '+', '+', '-', '+', '+']
+2. Five dogs see at least six cats
 
-Even if you are addicted to cigarettes, you can smoke two a day
-['+', '+', '-', '-', '-', '-', '-', '+', '+', '+', '+', '+', '+']
-['+', '+', '-', '-', '-', '-', '-', '+', '+', '+', '-', '+', '+']
+Udep2Mono Output: 
+['Five: =', 'dogs: =', 'see: +', 'at: +', 'least: +', 'six: -', 'cats: +']
 
-Every person who smokes two cigarettes in one hour runs a risk of cancer
-['+', '-', '-', '-', '-', '-', '-', '-', '-', '+', '+', '+', '+', '+']
-['+', '-', '-', '-', '+', '-', '+', '-', '-', '+', '+', '+', '+', '+']
+Label: 
+['Five: +', 'dogs: =', 'see: =', 'at: =', 'least: =', 'six: =', 'cats: =']
 
-A dog who ate two rotten biscuits was sick for three days
-['+', '+', '+', '+', '=', '=', '=', '+', '+', '+', '-', '-']
-['+', '+', '+', '+', '=', '+', '+', '+', '+', '+', '-', '-']
+3. No dentist who recommends that their patients brush their teeth at least four times a day gave five patients a toothbrush
 
-A dog ate 2 rotten biscuits
-['+', '+', '+', '=', '=', '=']
-['+', '+', '+', '=', '+', '+']
+Udep2Mono Output: 
+['No: +', 'dentist: -', 'who: -', 'recommends: -', 'that: -', 'their: -', 'patients: -', 'brush: -', 'their: -', 'teeth: -', 'at: -', 'least: -', 'four: +', 'times: -', 'a: -', 'day: -', 'gave: -', 'five: +', 'patients: -', 'a: -', 'toothbrush: -']
 
-Three out of five dentists recommend that their patients brush their teeth at least four times a day
-['=', '-', '-', '-', '=', '+', '+', '+', '+', '+', '+', '+', '+', '+', '-', '+', '+', '+']
-['=', '-', '-', '=', '+', '+', '+', '+', '+', '+', '+', '+', '+', '+', '-', '+', '+', '+']
+Label: 
+['No: +', 'dentist: -', 'who: -', 'recommends: -', 'that: -', 'their: -', 'patients: -', 'brush: -', 'their: -', 'teeth: -', 'at: -', 'least: -', 'four: -', 'times: -', 'a: -', 'day: -', 'gave: -', 'five: -', 'patients: -', 'a: -', 'toothbrush: -']
+
+4. My parents said I could have three candies
+
+Udep2Mono Output: 
+['My: +', 'parents: +', 'said: +', 'I: +', 'could: +', 'have: +', 'three: -', 'candies: -']
+
+Label: 
+['My: +', 'parents: +', 'said: +', 'I: +', 'could: +', 'have: +', 'three: =', 'candies: +']
+
+5. Every person who smokes two cigarettes in one hour runs a risk of cancer
+
+Udep2Mono Output: 
+['Every: +', 'person: -', 'who: -', 'smokes: -', 'two: +', 'cigarettes: -', 'in: -', 'one: -', 'hour: -', 'runs: +', 'a: +', 'risk: +', 'of: +', 'cancer: +']
+
+Label: 
+['Every: +', 'person: -', 'who: -', 'smokes: -', 'two: +', 'cigarettes: -', 'in: +', 'one: -', 'hour: -', 'runs: +', 'a: +', 'risk: +', 'of: +', 'cancer: +']
+
+6. A dog who ate two rotten biscuits was sick for three days
+
+Udep2Mono Output: 
+['A: +', 'dog: +', 'who: +', 'ate: +', 'two: -', 'rotten: +', 'biscuits: +', 'was: +', 'sick: +', 'for: +', 'three: -', 'days: -']
+
+Label: 
+['A: +', 'dog: +', 'who: +', 'ate: +', 'two: =', 'rotten: +', 'biscuits: +', 'was: +', 'sick: +', 'for: +', 'three: -', 'days: -']
+
+7. A dog ate 2 rotten biscuits
+
+Udep2Mono Output: 
+['A: +', 'dog: +', 'ate: +', '2: -', 'rotten: +', 'biscuits: +']
+
+Label: 
+['A: +', 'dog: +', 'ate: +', '2: =', 'rotten: +', 'biscuits: +']

@@ -4,8 +4,6 @@ Hypothesis: You know that some life changing actions must be taken when grandma 
 Premise: A sommelier knows the difference between the 2009 and 2013 vintage of a German riesling
 Hypothesis: An experienced sommelier knows the difference between the 2009 and 2013 vintage of a German riesling
 
-
-
 Premise: Tom does not make mistakes
 Hypothesis: Tom does not make any types of mistakes
 
@@ -18,7 +16,6 @@ Hypothesis: Tom does not want an iproduct, but he wants a portable device that s
 Premise: I have no more ideas
 Hypothesis: I have no better ideas anymore
 
-
 Premise: I do not want to get a full denture
 Hypothesis: I do not want to get a full teeth change
 
@@ -30,7 +27,6 @@ Hypothesis: It is no wonder that a human of his ability is successful
 
 Premise: It is no wonder that a man of his ability is successful
 Hypothesis: It is no wonder that a good looking man of his ability is successful
-
 
 Premise: He does not show any interest in science
 Hypothesis: He does not show any interest in new science
@@ -83,8 +79,6 @@ Hypothesis: I like all vegetables except cabbagehead
 Premise: Tom did not want to work overtime on Christmas Eve
 Hypothesis: Tom did not want to work outside of your schedule on Christmas Eve
 
-
-
 Premise: Mary said that she does not pick guys for their looks
 Hypothesis: Mary said that she does not pick guys and friends for their looks
 
@@ -106,12 +100,8 @@ Hypothesis: We can talk here, no problem and i'm all ears
 Premise: He makes no disguise of his feelings
 Hypothesis: He makes no disguise at all of his feelings
 
-
 Premise: Not a few pupils could solve the problem
 Hypothesis: Not a few good pupils could solve the problem
-
-
-
 
 Premise: I wish you all a Merry Christmas and a Happy New Year
 Hypothesis: I sincerely wish you all a Merry Christmas and a Happy New Year
@@ -124,7 +114,6 @@ Hypothesis: Some people quarrel for no reason sometimes
 
 Premise: Some people quarrel for no reason at all
 Hypothesis: Some people quarrel for no reason anytime
-
 
 Premise: Some people quarrel for no reason at all
 Hypothesis: Some people quarrel for no reason for ever
@@ -150,7 +139,6 @@ Hypothesis: Such a difficult plan can hardly succeed
 Premise: Every early in the morning that woman used to go to the beach and run three miles
 Hypothesis: Every early morning that woman used to go to the beach and run three miles
 
-
 Premise: I can not make head or tail of this picture
 Hypothesis: I can not make head or tail of this big picture
 
@@ -175,7 +163,6 @@ Hypothesis: I can not remember all of them
 Premise: We were not given homework
 Hypothesis: We were not given work to do at home
 
-
 Premise: Little Sophie was not obedient
 Hypothesis: Sophie was not obedient in her dance class
 
@@ -194,38 +181,21 @@ Hypothesis: He did not exactly cover himself in glory and applauses
 Premise: He did not exactly cover himself in glory
 Hypothesis: He did not exactly cover himself in some of glory
 
-
-
-Premise: He did not study at all
-Hypothesis: He did not study English at all
-
 Premise: I hope you will not expect results immediately
 Hypothesis: I hope you will not expect the results we do not find immediately
-
-Premise: At this school, there are no grades and students have no homework
-Hypothesis: At this school, there are no bad grades and students have no homework
 
 Premise: Tom paid no attention to Mary and Jim all afternoon
 Hypothesis: Tom paid no attention to Mary all afternoon
 
-Premise: I do not like change
-Hypothesis: I do not like change when it is unfamiliar to me
-
-Premise: I assume this is not the best time to ask for a promotion
-Hypothesis: I assume this is not the best time to ask for a long-awaited promotion
-
 Premise: He had a fatal lack of ability to think logically
 Hypothesis: He had a fatal lack of ability and speed to think logically
-
-Premise: Tom did not want to play poker or uno
-Hypothesis: Tom did not want to play poker
 
 Premise: I can not remember the melody of that song
 Hypothesis: I can not remember the melody of that paragraph of song
 
 Premise: I was only a seven-year-old girl at that time
 Hypothesis: I was only a seven-year-old smart girl at that time
-
+75
 Premise: This sentence has no authors
 Hypothesis: This sentence has no writers or authors
 
@@ -271,12 +241,19 @@ Hypothesis: I'm not tired anyhow
 Premise: I did not understand that last sentence
 Hypothesis: I did not understand that last half of the sentence
 
-Premise: We've never been to the place
-Hypothesis: We've never been to the interesting place
+Premise: He is no ordinary student
+Hypothesis: He is no ordinary master's student
 
-Premise: We've never been to the place
-Hypothesis: We've never been to the wonderful place
+Premise: It's no use crying over spilt milk
+Hypothesis: It's no use being sad and crying over spilt milk
 
-Premise: We've never been to the place
-Hypothesis: We've never been to the blooming place
+Premise: She can hardly speak Japanese
+Hypothesis: She can hardly speak Japanese she wants to talk
+
+Premise: Tom shouldn't make fun of Mary's limp
+Hypothesis: Tom shouldn't make unfriendly remarks of Mary's limp
+
+Premise: There are no other options
+Hypothesis: There are no other kind of options
+
 

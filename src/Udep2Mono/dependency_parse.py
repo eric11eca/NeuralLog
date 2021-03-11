@@ -14,7 +14,7 @@ depparse_gum_config = {
     'depparse_model_path': '../model/en/depparse/gum.pt',
     'lemma_model_path': '../model/en/lemma/gum.pt',
     'use_gpu': True,
-    'pos_batch_size': 3000
+    'pos_batch_size': 2000
 }
 
 """depparse_ewt_config = {
@@ -32,7 +32,7 @@ token_config = {
     'lang': "en",
     'processors': "tokenize",
     'tokenize_model_path': '../model/en/tokenize/gum.pt',
-    'use_gpu': True,
+    'use_gpu': False,
     'pos_batch_size': 3000
 }
 

@@ -3111,8 +3111,8 @@ I don't like change.
 I don't like constant change.
 
 crowd:downward_monotone
-I assume this isn't the best time to ask for a promotion.
-I assume this isn't the best time to ask for a long-awaited promotion.
+I assume this isn't a best time to ask for a promotion.
+I assume this isn't a best time to ask for a long-awaited promotion.
 
 crowd:downward_monotone:conjunction
 He had a fatal lack of ability to think logically.
@@ -3511,20 +3511,20 @@ Every boy and every girl was delighted.
 Every boy and every girl wearing a skirt was delighted.
 
 crowd:downward_monotone
-We've never been to the place.
-We've never been to the interesting place.
+We've never been to a place.
+We've never been to an interesting place.
 
 crowd:downward_monotone
-We've never been to the place.
-We've never been to the wonderful place.
+We've never been to a place.
+We've never been to a wonderful place.
 
 crowd:downward_monotone
-We've never been to the place.
-We've never been to the blooming place.
+We've never been to a place.
+We've never been to a blooming place.
 
 crowd:downward_monotone:conjunction
-We've never been to that place.
-We've never been to that location and area.
+We've never been to a place.
+We've never been to a location and area.
 
 crowd:downward_monotone:conditionals
 If Tom goes to Boston, so will I.
@@ -3708,7 +3708,7 @@ They don't have enough free ground space to camp.
 
 crowd:downward_monotone:conjunction
 Arabic isn't a difficult language.
-Arabic isn't a difficult and rare language.
+Arabic isn't a difficult and ordinary language.
 
 crowd:downward_monotone
 Arabic isn't a difficult language.
@@ -3731,24 +3731,24 @@ It is no wonder that a man of his ability is so successful.
 It is no wonder that a great man of his ability is so successful.
 
 crowd:downward_monotone:conditionals
-If you touch the wire, you'll get a shock.
-If you touch the bare wire, you'll get a shock.
+If you touch a wire, you'll get a shock.
+If you touch a bare wire, you'll get a shock.
 
 crowd:downward_monotone:conditionals
-If you touch the wire, you'll get a shock.
-If you touch the electric wire, you'll get a shock.
+If you touch a wire, you'll get a shock.
+If you touch a electric wire, you'll get a shock.
 
 crowd:downward_monotone:conditionals
-If you touch the wire, you'll get a shock.
-If you touch the copper wire, you'll get a shock.
+If you touch a wire, you'll get a shock.
+If you touch a copper wire, you'll get a shock.
 
 crowd:downward_monotone:conditionals
-If you touch the wire, you'll get a shock.
-If you touch the long wire, you'll get a shock.
+If you touch a wire, you'll get a shock.
+If you touch a long wire, you'll get a shock.
 
 crowd:downward_monotone:conditionals
-If you touch the wire, you'll get a shock.
-If you touch the damaged wire, you'll get a shock.
+If you touch a wire, you'll get a shock.
+If you touch a damaged wire, you'll get a shock.
 
 crowd:downward_monotone
 You can't learn here, this is a school!
@@ -4271,8 +4271,8 @@ People who regularly work in the open air do not suffer from sleeplessness.
 People who regularly work in the open air do not suffer from diseases called insomnia.
 
 crowd:downward_monotone
-Tom and Mary talked all afternoon.
-Tom and Mary talked all afternoon until night.
+Tom and Mary,, talked all afternoon.
+Tom and Mary,, talked all afternoon until night.
 
 crowd:downward_monotone
 Tom doesn't have an alibi.
@@ -4387,16 +4387,16 @@ I don't have room for dessert.
 I don't have room for dessert food.
 
 crowd:downward_monotone
-Tom and Mary have actually never been on a date yet.
-Tom and Mary have actually never been on a real date yet.
+Tom and Mary, have actually never been on a date yet.
+Tom and Mary, have actually never been on a real date yet.
 
 crowd:downward_monotone
-Tom and Mary have actually never been on a date yet.
-Tom and Mary have actually never been on a first date yet.
+Tom and Mary, have actually never been on a date yet.
+Tom and Mary, have actually never been on a first date yet.
 
 crowd:downward_monotone
-Tom and Mary have actually never been on a date yet.
-Tom and Mary have actually never been on a date outside yet.
+Tom and Mary, have actually never been on a date yet.
+Tom and Mary, have actually never been on a date outside yet.
 
 crowd:downward_monotone:conditionals
 If Esperanto were an easy language, I wouldn't need a proofreader.
@@ -4427,16 +4427,16 @@ I can't remember the tune of the song.
 I can't remember the tune of the classic song.
 
 crowd:downward_monotone:npi
-Tom and Mary don't eat meat anymore.
-Tom and Mary don't eat chicken meat anymore.
+Tom and Mary, don't eat meat anymore.
+Tom and Mary, don't eat chicken meat anymore.
 
 crowd:downward_monotone:npi
-Tom and Mary don't eat meat anymore.
-Tom and Mary don't eat lamb meat anymore.
+Tom and Mary, don't eat meat anymore.
+Tom and Mary, don't eat lamb meat anymore.
 
 crowd:downward_monotone:npi
-Tom and Mary don't eat meat anymore.
-Tom and Mary don't eat fresh meat anymore.
+Tom and Mary, don't eat meat anymore.
+Tom and Mary, don't eat fresh meat anymore.
 
 crowd:downward_monotone:conditionals
 If you're so demanding of others, you should also be demanding of yourself.
@@ -4499,16 +4499,16 @@ I don't watch that program anymore.
 I don't watch that ridiculous program anymore.
 
 crowd:downward_monotone
-Tom and Mary can't afford to buy a house.
-Tom and Mary can't afford to buy a big house.
+Tom and Mary, can't afford to buy a house.
+Tom and Mary, can't afford to buy a big house.
 
 crowd:downward_monotone
-Tom and Mary can't afford to buy a house.
-Tom and Mary can't afford to buy a house with a large window.
+Tom and Mary, can't afford to buy a house.
+Tom and Mary, can't afford to buy a house with a large window.
 
 crowd:downward_monotone
-Tom and Mary can't afford to buy a house.
-Tom and Mary can't afford to buy a house like this house.
+Tom and Mary, can't afford to buy a house.
+Tom and Mary, can't afford to buy a house like this house.
 
 crowd:downward_monotone
 Tom goes to bed at the same time every night.
