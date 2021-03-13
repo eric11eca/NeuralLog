@@ -1,25 +1,147 @@
+ID: 1211
+Premise: Tom does not spend much time in Boston
+Hypothesis: Tom does not spend much time in business in Boston at all
 
-Premise: We don't have enough information yet to make a decision
+ID: 1213
+Premise: We do not accept tips
+Hypothesis: We do not accept tips in this town at all
 
-Hypothesis: We don't have enough fact and information yet to make a decision
+ID: 1214
+Premise: She does not speak Japanese at home and at school
+Hypothesis: She does not speak Japanese at home
 
+ID: 1219
+Premise: I can not speak Japanese and English
+Hypothesis: I can not speak Japanese
 
-Premise: Chen is not a businessperson
+ID: 1223
+Premise: Bush Jr never lied to Americans
+Hypothesis: Bush Jr never lied to residents of the United States
 
-Hypothesis: Chen is not a businessperson at all
+ID: 1224
+Premise: Bush Jr never lied to Americans
+Hypothesis: Bush Jr never lied to citizens of the United States
 
+ID: 1225
+Premise: Bush Jr never lied to Americans
+Hypothesis: Bush Jr never lied to old Americans
 
-Premise: Chen is not a businessperson
+ID: 1239
+Premise: You're not romantic at all
+Hypothesis: You're not romantic or affectionate at all
 
-Hypothesis: Chen is not a businessperson or self-employed
+ID: 1241
+Premise: Tom is not a bad coach
+Hypothesis: Tom is not a bad high school coach
 
+ID: 1253
+Premise: It is no use your waiting for him
+Hypothesis: It is no use your waiting for him for hours
 
-Premise: He runs to the station every morning
+ID: 1271
+Premise: He is not an American but a Frenchman
+Hypothesis: He is not an American by his face but a Frenchman
 
-Hypothesis: He runs to the station every morning with his friends
+ID: 1278
+Premise: Tom did not want to work overtime on Christmas Eve
+Hypothesis: Tom did not want to work overtime on the morning of Christmas Eve
 
+ID: 1280
+Premise: I thought Tom was not allowed to eat candy
+Hypothesis: I thought Tom was not allowed to eat peanut candy
 
-Premise: Tom isn't a child anymore
+ID: 1298
+Premise: If it is sunny tomorrow, we will go on a picnic
+Hypothesis: If it is sunny tomorrow in the park, we will go on a picnic
 
-Hypothesis: Tom isn't a little boy anymore
+ID: 1299
+Premise: If it is sunny tomorrow, we will go on a picnic
+Hypothesis: If it is sunny tomorrow in the mountain, we will go on a picnic
 
+ID: 1300
+Premise: If it is sunny tomorrow, we will go on a picnic
+Hypothesis: If it is sunny tomorrow around the park, we will go on a picnic
+
+ID: 1303
+Premise: You're no longer children
+Hypothesis: You're no longer small children
+
+ID: 1304
+Premise: You're no longer children
+Hypothesis: You're no longer little kids
+
+ID: 1306
+Premise: If you and marco are well, paulo and i are well
+Hypothesis: If you, marco and Tom are well, paulo and i are well
+
+ID: 1307
+Premise: If you and marco are well, paulo and i are well
+Hypothesis: If you and your boyfriend marco are well, paulo and i are well
+
+ID: 1308
+Premise: If you and marco are well, paulo and i are well
+Hypothesis: If you and your brother marco are well, paulo and i are well
+
+ID: 1310
+Premise: I did not actually want to go to college and canteen
+Hypothesis: I did not actually want to go to college
+
+ID: 1311
+Premise: I did not actually want to go to college
+Hypothesis: I did not actually want to go to collge this year
+
+ID: 1341
+Premise: We do not have a garden
+Hypothesis: We do not have a good ground
+
+ID: 1347
+Premise: I do not like heavy makeup on a young girl
+Hypothesis: I do not like heavy makeup in a female child under 18
+
+ID: 1350
+Premise: No need to translate this sentence, I understand it
+Hypothesis: No need to search in a dictionary to translate this sentence, I understand it
+
+ID: 1363
+Premise: He prefers to drink his coffee without sugar or milk
+Hypothesis: He prefers to drink his coffee without sugar
+
+ID: 1367
+Premise: You are no longer a child
+Hypothesis: You are no longer a hateful and pretentious child
+
+ID: 1375
+Premise: I do not have much time for TV
+Hypothesis: I do not have time to watch television in the afternoon
+
+ID: 1376
+Premise: No practical joker should be without a whoopee cushion
+Hypothesis: No practical good joker should be without a whoopee cushion
+
+ID: 1377
+Premise: No practical joker should be without a whoopee cushion
+Hypothesis: No practical hilarious joker should be without a whoopee cushion
+
+ID: 1384
+Premise: You'd better avoid discussion of religion and politics
+Hypothesis: You'd better avoid discussion of controversial subjects like religion and politics
+
+ID: 1385
+Premise: You'd better avoid discussion of religion and politics
+Hypothesis: You'd better avoid discussion of catholic religion and politics
+
+ID: 1386
+Premise: You'd better avoid discussion of religion and politics
+Hypothesis: You'd better avoid discussion of any various religion and politics
+
+ID: 1390
+Premise: The villagers have done without electricity for a long time
+Hypothesis: The villagers have done without electricity in their home for a long time
+
+ID: 1391
+Premise: He lied, without hesitation
+Hypothesis: He lied, without hesitation and uneasiness
+
+ID: 1398
+Premise: Not a day passes without traffic accidents
+Hypothesis: Not a day passes without scary traffic accidents

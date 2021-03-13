@@ -484,7 +484,7 @@ Please don't make loud noise.
 
 crowd:downward_monotone
 Please don't make noise.
-Please don't make buzzing noise.
+Please don't make crazy noise.
 
 crowd:downward_monotone
 Please don't make noise.
@@ -5224,7 +5224,7 @@ Don't sit on that fragile box, you'll break it!
 
 crowd:downward_monotone:conditionals:conjunction
 If you and marco are well, paulo and i are well.
-If you, marko and Tom are well, paulo and i are well.
+If you, marco and Tom are well, paulo and i are well.
 
 crowd:downward_monotone:conditionals
 If you and marco are well, paulo and i are well.

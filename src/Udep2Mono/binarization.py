@@ -119,6 +119,7 @@ hierarchy = {
     "amod": 75,
     "conj-n": 90,
     "conj-vb": 90,
+    "dep": 100,
     "flat": 100,
     "goeswith": 100,
     "parataxis": 100

@@ -4,9 +4,6 @@ Hypothesis: You know that some life changing actions must be taken when grandma 
 Premise: A sommelier knows the difference between the 2009 and 2013 vintage of a German riesling
 Hypothesis: An experienced sommelier knows the difference between the 2009 and 2013 vintage of a German riesling
 
-Premise: Tom does not make mistakes
-Hypothesis: Tom does not make any types of mistakes
-
 Premise: Tom does not want an apple product
 Hypothesis: Tom does not want an IPad
 
@@ -28,21 +25,6 @@ Hypothesis: It is no wonder that a human of his ability is successful
 Premise: It is no wonder that a man of his ability is successful
 Hypothesis: It is no wonder that a good looking man of his ability is successful
 
-Premise: He does not show any interest in science
-Hypothesis: He does not show any interest in new science
-
-Premise: Please do not make noise
-Hypothesis: Please do not make buzzing noise
-
-Premise: She is only a child
-Hypothesis: She is only a child with special need
-
-Premise: She is only a child
-Hypothesis: She is only a little girl
-
-Premise: She is only a child
-Hypothesis: She is only a strange child
-
 Premise: Here is a list of things you should avoid eating
 Hypothesis: Here is a great list of things you should avoid eating
 
@@ -57,12 +39,6 @@ Hypothesis: Here is a small list of things you should avoid eating
 
 Premise: I see no other course of action
 Hypothesis: I see no other better planned course of action
-
-Premise: Sida does not take any new decisions on support to projects in the baltic states
-Hypothesis: Sida does not take any new decisions on economic support to projects in the baltic states
-
-Premise: Sida does not take any new decisions on support to projects in the baltic states
-Hypothesis: Sida does not take any new decisions on military support to projects in the baltic states
 
 Premise: We did not expect guests
 Hypothesis: We did not expect arrival of guests
@@ -195,7 +171,7 @@ Hypothesis: I can not remember the melody of that paragraph of song
 
 Premise: I was only a seven-year-old girl at that time
 Hypothesis: I was only a seven-year-old smart girl at that time
-75
+
 Premise: This sentence has no authors
 Hypothesis: This sentence has no writers or authors
 
@@ -256,4 +232,56 @@ Hypothesis: Tom shouldn't make unfriendly remarks of Mary's limp
 Premise: There are no other options
 Hypothesis: There are no other kind of options
 
+Premise: There is no other way to do this
+Hypothesis: There is no other way or means to do this
 
+Premise: Dan did not use a phone
+Hypothesis: Dan did not use a harmful radiating mobile phone
+
+Premise: Dan did not use a phone
+Hypothesis: Dan did not use a black mobile phone
+
+Premise: The weather forecast is not reliable at all
+Hypothesis: The weather forecast is not reliable at all in summer
+
+Premise: People who regularly work in the open air do not suffer from sleeplessness
+Hypothesis: People who regularly work in the open air do not suffer from lack of deep sleep
+
+Premise: People who regularly work in the open air do not suffer from sleeplessness
+Hypothesis: People who regularly work in the open air do not suffer from diseases called insomnia
+
+Premise: The word came to be used for all small heavenly bodies revolving about larger ones
+Hypothesis: The word came to be used for all the little celestials in heaven with god
+
+Premise: Tom never forgets a name or a face
+Hypothesis: Tom never forgets a name or a distinguished looking face
+
+Premise: The government are being criticised from all sides
+Hypothesis: The government are being criticised from all sides, left and right
+
+Premise: I'm not a little girl anymore
+Hypothesis: I'm not a little female child anymore
+
+Premise: I can not remember the tune of the song
+Hypothesis: I can not remember the tune of the song he used to hear
+
+Premise: I can not remember the tune of the song
+Hypothesis: I can not remember the tune of the hip hop song
+
+Premise: I can not remember the tune of the song
+Hypothesis: I can not remember the tune of the classic song
+
+Premise: If you're so demanding of others, you should also be demanding of yourself
+Hypothesis: If you're so demanding of another one, you should also be demanding of yourself
+
+Premise: I will not ever talk in class again
+Hypothesis: I will not ever talk in mathematics class in first hour again
+
+Premise: Germany has no minimum wage
+Hypothesis: Germany does not impose minimum wage
+
+Premise: I can not feel at home in a hotel and a pension
+Hypothesis: I can not feel at home in a hotel
+
+Premise: Tom does not take criticism well
+Hypothesis: Tom does not take any diferrent opinion well

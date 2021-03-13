@@ -150,7 +150,7 @@ class Polarizer:
             right.mark = "="
             if isinstance(tree.parent, BinaryDependencyTree) and tree.parent.val == "amod":
                 self.equalize(tree.parent.right)
-        elif left.val.lower() in ["not", "no", "n't", "never", "rarely", "barely", "seldom"]:
+        elif left.val.lower() in ["not", "no", "n't", "never", "rarely", "barely", "seldom", "only", "hardly", "infrequently", "unfrequently"]:
             self.negate(right, -1)
         elif left.val.lower() in ["exactly"]:
             self.equalize(tree.parent.parent)
@@ -168,7 +168,7 @@ class Polarizer:
         if left.val.lower() in ["many", "most"]:
             self.equalize(right)
             tree.mark = right.mark
-        elif left.val.lower() == "few":
+        elif left.val.lower() in ["few", "no-longer"]:
             self.top_down_negate(
                 tree, "amod", self.relation.index(tree.key))
             right.mark = "-"
