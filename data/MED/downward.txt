@@ -887,8 +887,8 @@ I don't have an alibi.
 I don't have an appropriate alibi.
 
 crowd:downward_monotone:conjunction
-Mary said that she doesn't pick guys for their looks.
-Mary said that she doesn't pick guys and friends for their looks.
+John said that she doesn't pick guys for their looks.
+John said that she doesn't pick guys and friends for their looks.
 
 crowd:downward_monotone
 I had never before seen this species of fish.
@@ -2167,8 +2167,8 @@ Having no destination, I am never lost.
 Having no destination for my road trip, I am never lost.
 
 crowd:downward_monotone
-Mary and alice aren't sisters.
-Mary and alice aren't blood sisters.
+John and alice aren't sisters.
+John and alice aren't blood sisters.
 
 crowd:downward_monotone
 Tom isn't a fluent speaker of French.
@@ -2967,32 +2967,32 @@ I have not yet collected sufficient materials to write a book.
 I have not yet collected sufficient materials to write a history book.
 
 crowd:downward_monotone
-Tom had no choice but to follow Mary.
-Tom had no second choice but to follow Mary.
+Tom had no choice but to follow John.
+Tom had no second choice but to follow John.
 
 crowd:downward_monotone
-Tom had no choice but to follow Mary.
-Tom had no alternative choice but to follow Mary.
+Tom had no choice but to follow John.
+Tom had no alternative choice but to follow John.
 
 crowd:downward_monotone
-Tom had no choice but to follow Mary.
-Tom had no better choice but to follow Mary.
+Tom had no choice but to follow John.
+Tom had no better choice but to follow John.
 
 crowd:downward_monotone
-Tom had no choice but to follow Mary.
-Tom had no other option but to follow Mary.
+Tom had no choice but to follow John.
+Tom had no other option but to follow John.
 
 crowd:downward_monotone
-Tom paid no attention to Mary all day.
-Tom paid no attention to Mary all afternoon.
+Tom paid no attention to John all day.
+Tom paid no attention to John all afternoon.
 
 crowd:downward_monotone:conjunction
-Tom paid no attention to Mary and Jim all afternoon.
-Tom paid no attention to Mary all afternoon.
+Tom paid no attention to John and Jim all afternoon.
+Tom paid no attention to John all afternoon.
 
 crowd:downward_monotone
-Tom paid no attention to Mary all afternoon.
-Tom paid no hasty attention to Mary all afternoon.
+Tom paid no attention to John all afternoon.
+Tom paid no hasty attention to John all afternoon.
 
 crowd:downward_monotone
 Chris didn't have a car to drive.
@@ -3959,16 +3959,16 @@ I still have not learned to drive a car.
 I still have not learned to drive a new car.
 
 crowd:downward_monotone
-Tom shouldn't make fun of Mary's limp.
-Tom shouldn't make unfriendly remarks of Mary's limp.
+Tom shouldn't make fun of John's limp.
+Tom shouldn't make unfriendly remarks of John's limp.
 
 crowd:downward_monotone
-Tom shouldn't make fun of Mary's limp.
-Tom shouldn't make silly fun of Mary's limp.
+Tom shouldn't make fun of John's limp.
+Tom shouldn't make silly fun of John's limp.
 
 crowd:downward_monotone
-Tom shouldn't make fun of Mary's limp.
-Tom shouldn't make loud fun of Mary's limp.
+Tom shouldn't make fun of John's limp.
+Tom shouldn't make loud fun of John's limp.
 
 crowd:downward_monotone:disjunction
 He had no friends or relatives to help him.
@@ -4271,8 +4271,8 @@ People who regularly work in the open air do not suffer from sleeplessness.
 People who regularly work in the open air do not suffer from diseases called insomnia.
 
 crowd:downward_monotone
-Tom and Mary,, talked all afternoon.
-Tom and Mary,, talked all afternoon until night.
+Tom and John,, talked all afternoon.
+Tom and John,, talked all afternoon until night.
 
 crowd:downward_monotone
 Tom doesn't have an alibi.
@@ -4387,16 +4387,16 @@ I don't have room for dessert.
 I don't have room for dessert food.
 
 crowd:downward_monotone
-Tom and Mary, have actually never been on a date yet.
-Tom and Mary, have actually never been on a real date yet.
+Tom and John, have actually never been on a date yet.
+Tom and John, have actually never been on a real date yet.
 
 crowd:downward_monotone
-Tom and Mary, have actually never been on a date yet.
-Tom and Mary, have actually never been on a first date yet.
+Tom and John, have actually never been on a date yet.
+Tom and John, have actually never been on a first date yet.
 
 crowd:downward_monotone
-Tom and Mary, have actually never been on a date yet.
-Tom and Mary, have actually never been on a date outside yet.
+Tom and John, have actually never been on a date yet.
+Tom and John, have actually never been on a date outside yet.
 
 crowd:downward_monotone:conditionals
 If Esperanto were an easy language, I wouldn't need a proofreader.
@@ -4427,16 +4427,16 @@ I can't remember the tune of the song.
 I can't remember the tune of the classic song.
 
 crowd:downward_monotone:npi
-Tom and Mary, don't eat meat anymore.
-Tom and Mary, don't eat chicken meat anymore.
+Tom and John, don't eat meat anymore.
+Tom and John, don't eat chicken meat anymore.
 
 crowd:downward_monotone:npi
-Tom and Mary, don't eat meat anymore.
-Tom and Mary, don't eat lamb meat anymore.
+Tom and John, don't eat meat anymore.
+Tom and John, don't eat lamb meat anymore.
 
 crowd:downward_monotone:npi
-Tom and Mary, don't eat meat anymore.
-Tom and Mary, don't eat fresh meat anymore.
+Tom and John, don't eat meat anymore.
+Tom and John, don't eat fresh meat anymore.
 
 crowd:downward_monotone:conditionals
 If you're so demanding of others, you should also be demanding of yourself.
@@ -4499,16 +4499,16 @@ I don't watch that program anymore.
 I don't watch that ridiculous program anymore.
 
 crowd:downward_monotone
-Tom and Mary, can't afford to buy a house.
-Tom and Mary, can't afford to buy a big house.
+Tom and John, can't afford to buy a house.
+Tom and John, can't afford to buy a big house.
 
 crowd:downward_monotone
-Tom and Mary, can't afford to buy a house.
-Tom and Mary, can't afford to buy a house with a large window.
+Tom and John, can't afford to buy a house.
+Tom and John, can't afford to buy a house with a large window.
 
 crowd:downward_monotone
-Tom and Mary, can't afford to buy a house.
-Tom and Mary, can't afford to buy a house like this house.
+Tom and John, can't afford to buy a house.
+Tom and John, can't afford to buy a house like this house.
 
 crowd:downward_monotone
 Tom goes to bed at the same time every night.
@@ -4540,7 +4540,7 @@ You can't park in front of the entrance of my house on weekends.
 
 crowd:downward_monotone:conjunction
 A blind man shouldn't play cards.
-A blind man should n�t play cards and board games at all.
+A blind man should not play cards and board games at all.
 
 crowd:downward_monotone
 A blind man shouldn't play cards.
@@ -6199,20 +6199,20 @@ He doesn't take vacations.
 He doesn't take vacations for this year.
 
 crowd:downward_monotone
-Tom thought Mary wouldn't want to live in Boston.
-Tom thought Mary wouldn't want to live in the center of Boston.
+Tom thought John wouldn't want to live in Boston.
+Tom thought John wouldn't want to live in the center of Boston.
 
 crowd:downward_monotone
-Tom thought Mary wouldn't want to live in Boston.
-Tom thought Mary wouldn't want to live in a big city like Boston.
+Tom thought John wouldn't want to live in Boston.
+Tom thought John wouldn't want to live in a big city like Boston.
 
 crowd:downward_monotone
-Tom thought Mary wouldn't want to live in Boston.
-Tom thought Mary wouldn't want to live in is such a congested area like Boston.
+Tom thought John wouldn't want to live in Boston.
+Tom thought John wouldn't want to live in is such a congested area like Boston.
 
 crowd:downward_monotone
-Tom thought Mary wouldn't want to live in Boston.
-Tom thought Mary wouldn't want to live away from her family in Boston.
+Tom thought John wouldn't want to live in Boston.
+Tom thought John wouldn't want to live away from her family in Boston.
 
 crowd:downward_monotone
 Tom doesn't pay attention in class.
@@ -6727,8 +6727,8 @@ Few of the books had typical or marginal readers.
 Few of the books had (some) typical readers.
 
 paper:downward_monotone
-Mary never ate pizza.
-Mary never ate pizza with anchovies.
+John never ate pizza.
+John never ate pizza with anchovies.
 
 paper:downward_monotone:disjunction:npi
 Almost no campers have ever had a sunburn or caught a cold.
