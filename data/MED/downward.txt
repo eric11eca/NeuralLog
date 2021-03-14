@@ -5779,8 +5779,8 @@ It is not tea but coffee that I want.
 It is not tea this afternoon but coffee that I want.
 
 crowd:downward_monotone:conjunction
-It isn't much fun going mountain climbing by yourself.
-It isn't much fun and exciting going mountain climbing by yourself.
+It isn't much fun climbing mountain by yourself.
+It isn't much fun and exciting climbing mountain by yourself.
 
 crowd:downward_monotone
 It isn't much fun going mountain climbing by yourself.
