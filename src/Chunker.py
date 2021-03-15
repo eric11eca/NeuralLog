@@ -400,7 +400,7 @@ class Chunker:
             result = self.chunk_from_nodes(nodeItem, results)
             if(result is not None):
                 if(nodeItem.cc != None):
-                    insert_byOrder([nodeItem.cc],tempList)
+                    self.insert_byOrder([nodeItem.cc],tempList)
                 self.insert_byOrder(result.nodeList, tempList)
         center = self.insert_byOrder([node], tempList)
         output = self.check_nodesForChunk(tempList, center, results)
