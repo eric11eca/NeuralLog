@@ -1,16 +1,21 @@
 import binarytree as bt
 from wordnet import find_relation, get_word_sets
+from PIL import Image, ImageDraw
+from nltk.tree import Tree
+from nltk.draw import TreeWidget
+from nltk.draw.util import CanvasFrame
+from IPython.display import Image, display
 
 nounModifiers = {"det", "nummod", "amod", "obl:tmod",
-                 "acl:relcl", "nmod", "case", "nmod:pass",  "acl", "Prime"}
-verbModifiers = {"advmod", "obl", "xcomp", "advcl", "mark"}
+                 "acl:relcl", "nmod", "case", "nmod:pass",  "acl", "Prime","cc"}
+verbModifiers = {"advmod", "obl","xcomp","advcl","mark","aux"}
 nounCategories = {"compound"}
 verbs = {"VBZ", "VBP", "VBD", "VBG"}
 modified = {"NN", "PRP", "JJ", "VB"}.union(verbs)
 modifiers = nounModifiers.union(verbModifiers)
 offFocus = {"expl"}
 contents = {"nsubj", "obj", "cop", "compound",
-            "conj", "cc", "aux", "nsubj:pass"}
+            "conj", "nsubj:pass"}
 cont_npos = {"nsubj": 'nn', "obj": 'nn', "cop": 'vbz', "verb": 'vbz'}
 mark_toProp = {"+": {"hyponym", "synonym"},
                "-": {"hypernym", "synonym"}, "=": {"synonym"}}
@@ -54,7 +59,7 @@ class Unode:
         self.start = -1
         self.end = -1
         self.nodes = set()
-
+        self.cc = None
     def add_Unode(self, node):
         # print(node.prop)
         if(self.isRoot):
@@ -140,7 +145,8 @@ class Unode:
     def getParts(self):
         # return verb-obj subParts now
         return self.pairParts["obj"]
-
+    def addCC(self,node):
+        self.cc = node
 
 class PairCounter:
     def __init__(self, initial=0):
@@ -250,7 +256,10 @@ class Ugraph:
                             if(pos != "nsubj"):
                                 G.addPair(newNode, counter.obj, "obj")
                         for node in mods:
-                            G.add_edge(newNode, node)
+                            if(node.npos == "CC"):
+                                newNode.addCC(node)
+                            else:
+                                G.add_edge(newNode, node)
                         return newNode
                     newNode = Unode(pos, sent_tree.val,
                                     sent_tree.pos, sent_tree.mark)
@@ -268,8 +277,10 @@ class Ugraph:
                                 if(pos == "verb"):
                                     counter.incrementO()
                         for node in mods:
-
-                            G.add_edge(newNode, node)
+                            if(node.npos == "CC"):
+                                newNode.addCC(node)
+                            else:
+                                G.add_edge(newNode, node)
                         return newNode
                     else:
                         mods.add(newNode)
@@ -388,12 +399,34 @@ class Chunker:
         for nodeItem in node.nexts["all"]:
             result = self.chunk_from_nodes(nodeItem, results)
             if(result is not None):
+                if(nodeItem.cc != None):
+                    insert_byOrder([nodeItem.cc],tempList)
                 self.insert_byOrder(result.nodeList, tempList)
         center = self.insert_byOrder([node], tempList)
         output = self.check_nodesForChunk(tempList, center, results)
 
         return output
+    def combine_conj_chunk(self, chunkList):
+        out_results = []
+        chunkList.sort(key=(lambda x: x.node.start))
+        size = len(chunkList)
+        splitIndex = 0
+        if(chunkList != []):
+            temp = Chunk(chunkList[0].node, chunkList[0].nodeList.copy())
+        else:
+            return []
 
+        for j in range(size -1):
+            if(chunkList[j+1].node.cc != None and chunkList[j].nodeList[-1].end + 1 == chunkList[j+1].node.cc.start):
+                temp.nodeList += [chunkList[j+1].node.cc]
+                temp.nodeList += chunkList[j+1].nodeList
+            else:
+                if(temp != []):
+                    out_results.append(temp)
+                temp = Chunk(chunkList[j+1].node, chunkList[j+1].nodeList.copy())
+        out_results.append(temp)
+
+        return out_results
     def make_chunks(self, graph_or_root, results):
         if(type(graph_or_root) is Ugraph):
             root = graph_or_root.root
@@ -408,23 +441,26 @@ class Chunker:
                 else:
                     cont_out[cont] = []
                     cont_out[cont].append(comp)
+            if(cont in cont_out):
+                cont_out[cont] = self.combine_conj_chunk(cont_out[cont])
+                results += cont_out[cont]           
         if("verb" in cont_out and "obj" in cont_out):
             for vbChunk in cont_out["verb"]:
                 for objChunk in cont_out["obj"]:
                     if(vbChunk.node.pair == objChunk.node.pair):
                         vb = vbChunk.nodeList
                         obj = objChunk.nodeList
-                        if(vb[-1].end + 1 == obj[0].start):
-                            results.append(Chunk(vbChunk.node, vb+obj))
-        outList = []
+                        if(vb[-1].end +1 == obj[0].start):
+                                results.append(Chunk(vbChunk.node, vb+obj))
+        outList = set()
         for nodeChunk in results:
             tempStr = ""
             for node in nodeChunk.nodeList:
                 tempStr += node.word
                 tempStr += " "
-            outList.append(tempStr.rstrip())
+            outList.add(tempStr.rstrip())
 
-        return outList
+        return list(outList)
 
     def get_chunks_byDepTree(self, tree):
         pipe1 = GraphPipeline()
