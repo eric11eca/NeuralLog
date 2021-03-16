@@ -13,6 +13,7 @@ depparse_gum_config = {
     'pos_model_path': '../model/en/pos/ewt.pt',
     'depparse_model_path': '../model/en/depparse/gum.pt',
     'lemma_model_path': '../model/en/lemma/gum.pt',
+    'tokenize_no_ssplit': True,
     'use_gpu': True,
     'pos_batch_size': 2000
 }
@@ -32,6 +33,7 @@ token_config = {
     'lang': "en",
     'processors': "tokenize",
     'tokenize_model_path': '../model/en/tokenize/gum.pt',
+    'tokenize_no_ssplit': True,
     'use_gpu': False,
     'pos_batch_size': 3000
 }
@@ -181,7 +183,7 @@ def stanza_parse(sentence, parser="gum"):
     head_log = {}
     depdent_log = {}
 
-    parsed = gum_depparse(sentence)
+    parsed = gum_depparse(sentence + "\n")
     """if parser == "ewt":
         parsed = ewt_depparse(sentence)"""
 
@@ -320,6 +322,7 @@ if __name__ == '__main__':
     print(tree)
     print(postags)'''
 
-    tree, postags, words = stanza_parse("A girl makes and eats an apple")
+    tree, postags, words = stanza_parse(
+        "Every one except Tom was wearing a red tie")
     print(tree)
     print(words)

@@ -202,7 +202,7 @@ class Polarizer:
         if left.val == "without":
             if right.is_tree:
                 self.polarize(right)
-            self.negate(tree, self.relation.index(left.key))
+            self.negate(tree.left, -1)
         elif right.pos == "CD":
             right.mark = "="
             if left.is_tree:
@@ -243,8 +243,8 @@ class Polarizer:
             self.polarize(right)
 
         if left.val == "but":
-            right.mark = "-"
-            tree.mark = "-"
+            right.mark = negate_mark[tree.mark]
+            tree.mark = negate_mark[tree.mark]
 
         if left.id == 1:
             self.equalize(right)
@@ -551,7 +551,7 @@ class Polarizer:
 
         if left.is_tree:
             self.polarize(left)
-        tree.mark = left.mark
+
         if right.is_tree:
             self.polarize(right)
 

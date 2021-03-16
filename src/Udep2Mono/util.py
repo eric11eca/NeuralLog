@@ -60,7 +60,7 @@ negtive_implicative = ["refuse", "reject", "oppose", "forget",
                        "disconnect", "discourage", "discredit", "discorporate",
                        "disengage", "disentangle", "dismiss", "disobeye",
                        "distrust", "disrupt", "suspen", "suspend ",
-                       "freeze",
+                       "freeze", "lack"
                        ]
 
 at_least_implicative = ["for", "buy", "drink", "take", "hold", "receive",
