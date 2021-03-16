@@ -23,7 +23,7 @@ At least three commissioners spend a lot of time at home.
 At least three commissioners spend time at home.
 
 paper:FraCaS_GQ:upward_monotone
-Some Irish delegates finished the survey on time.
+Some British delegates finished the survey on time.
 Some delegates finished the survey on time.
 
 paper:FraCaS_GQ:upward_monotone
@@ -79,7 +79,7 @@ The 15th tank corps was a corps of the soviet union's red army.
 The 15th tank corps was a tank corps of the soviet union's red army.
 
 paper:GLUE:Conjunction:upward_monotone
-Understanding a long document requires tracking how entities are introduced and evolve over time.
+Understanding a long document requires tracking how entities are introduced and evolve, over time.
 Understanding a long document requires understanding how entities are introduced.
 
 paper:GLUE:Intersectivity:upward_monotone
@@ -115,16 +115,16 @@ A squirrel in summer is taking a bath in the pond.
 A squirrel is taking a bath in the pond.
 
 crowd:upward_monotone:reverse
-Every one but lazy Jim came.
-Every one but Jim came.
+Every one, but lazy Jim, came.
+Every one, but Jim, came.
 
 crowd:upward_monotone:reverse
-Every one but Jim who was busy that day came.
-Every one but Jim came.
+Every one, but Jim who was busy that day, came.
+Every one, but Jim, came.
 
 crowd:upward_monotone:reverse:conjunction
-Every one but Jim and his wives came.
-Every one but Jim came.
+Every one, but Jim and his wife, came.
+Every one, but Jim, came.
 
 crowd:upward_monotone
 There is a beautiful glass sculpture in the play ground.
@@ -383,12 +383,12 @@ Tom was wearing a cowboy hat and a revolver.
 Tom was wearing a cowboy hat.
 
 crowd:upward_monotone
-A goose is an aggressive water bird.
-A goose is an water bird.
+A goose is an aggressive water-bird.
+A goose is an water-bird.
 
 crowd:upward_monotone
-A goose is a grey water bird.
-A goose is a water bird.
+A goose is a grey water-bird.
+A goose is a water-bird.
 
 crowd:upward_monotone:conjunction
 There are some oranges and clementines on the table.
@@ -423,11 +423,11 @@ He wiped his hands on a white handkerchief.
 He wiped his hands on a handkerchief.
 
 crowd:upward_monotone:conjunction
-He spent a few months of June and July in Scotland.
+He spent a few months of June and July, in Scotland.
 He spent a few months in Scotland.
 
 crowd:upward_monotone
-He spent a few months this year in Scotland.
+He spent a few months this year, in Scotland.
 He spent a few months in Scotland.
 
 crowd:upward_monotone
@@ -948,7 +948,7 @@ Tom gave his dog a bone.
 
 crowd:upward_monotone
 The young girl Lucy can't use chopsticks.
-Lucy can’s use chopsticks.
+Lucy canï¿½s use chopsticks.
 
 crowd:upward_monotone
 A fierce battle for the best seats took place at Monte Cassino.
@@ -1603,8 +1603,8 @@ He never lacked paper money.
 He never lacked money.
 
 paper:upward_monotone
-Fred’s tie is navy blue.
-Fred’s tie is blue.
+Fredï¿½s tie is navy blue.
+Fredï¿½s tie is blue.
 
 paper:upward_monotone
 All pachyderms are navy blue.

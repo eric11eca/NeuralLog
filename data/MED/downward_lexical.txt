@@ -1,0 +1,1336 @@
+paper:GLUE:downward_monotone:World knowledge:lexical_knowledge:npi
+Cruz has frequently derided as amnesty any plan that confers legal status or citizenship on people living in the country illegally.
+Cruz has frequently derided as amnesty any bill that confers legal status or citizenship on people living in the country illegally.
+
+paper:GLUE:lexical_knowledge:downward_monotone
+I have never seen a bird not flying.
+I have never seen a hummingbird not flying.
+
+paper:GLUE:lexical_knowledge:downward_monotone:Existential:Negation
+Regional governors could not rely on anyone for help in times of crisis, and the ensuing food shortages and political disputes escalated into famines and small-scale civil wars.
+Regional governors could not rely on the king for help in times of crisis, and the ensuing food shortages and political disputes escalated into famines and small-scale civil wars.
+
+paper:GLUE:lexical_knowledge:downward_monotone
+The timing of the meeting has not been considered, according to a starbucks spokesperson.
+The timing of the meeting has not been set, according to a starbucks spokesperson.
+
+crowd:downward_monotone:lexical_knowledge
+You can't separate language from culture.
+You can't separate language from dialect.
+
+crowd:downward_monotone:lexical_knowledge
+You don't need to say it in such derogatory terms.
+You don't need to say it in such derogatory conditions.
+
+crowd:downward_monotone:lexical_knowledge
+Humans can't live on Mars.
+Humans can't live on Martian soil.
+
+crowd:downward_monotone:lexical_knowledge
+I don't have a choice.
+I don't have a option.
+
+crowd:downward_monotone:lexical_knowledge
+I don't have a choice.
+I don't have an opportunity.
+
+crowd:downward_monotone:lexical_knowledge
+Tom is no longer a kid.
+Tom is no longer a child.
+
+crowd:downward_monotone:lexical_knowledge
+Tom doesn't want an IPad.
+Tom doesn't want an apple IPhone.
+
+crowd:downward_monotone:lexical_knowledge
+He has no interest in politics.
+He has no desire in politics.
+
+crowd:downward_monotone:lexical_knowledge
+Tom has no wish to study.
+Tom has no desire to study.
+
+crowd:downward_monotone:lexical_knowledge:conditionals
+If you have a question, please raise your right hand.
+If you want to ask a question, please raise your right hand.
+
+crowd:downward_monotone:lexical_knowledge
+Tom doesn't actually live within Boston city limits.
+Tom doesn't actually live within Boston city area.
+
+crowd:downward_monotone:lexical_knowledge
+You are no longer a baby.
+You are no longer an infant.
+
+crowd:downward_monotone:lexical_knowledge
+I don't want to get a full denture.
+I don't want to get a full teeth replacement.
+
+crowd:downward_monotone:lexical_knowledge
+The talk between labor and management yielded no definite results.
+The talk between labor and management yielded no definite final.
+
+crowd:downward_monotone:lexical_knowledge
+The talk between labor and management yielded no definite results.
+The talk between labor and management yielded no definite agreements.
+
+crowd:downward_monotone:lexical_knowledge
+The talk between labor and management yielded no definite results.
+The talk between labor and management yielded no definite earnings.
+
+crowd:downward_monotone:lexical_knowledge
+Petrol is no longer a cheap fuel.
+Petrol is no longer a cheap entity.
+
+crowd:downward_monotone:lexical_knowledge
+Petrol is no longer a cheap fuel.
+Petrol is no longer a cheap fossil.
+
+crowd:downward_monotone:lexical_knowledge
+Most people don't like hospitals.
+Most people don't like clinic.
+
+crowd:downward_monotone:lexical_knowledge
+My sister doesn't have a car.
+My sister doesn't have an auto.
+
+crowd:downward_monotone:lexical_knowledge
+I don't want to be a hero.
+I don't want to be a heroine.
+
+crowd:downward_monotone:lexical_knowledge
+No sound was to be heard.
+No murmur was to be heard.
+
+crowd:downward_monotone:lexical_knowledge
+No sound was to be heard.
+No noise was to be heard.
+
+crowd:downward_monotone:lexical_knowledge
+We didn't expect guests.
+We didn't expect visitors.
+
+crowd:downward_monotone:lexical_knowledge
+We didn't expect guests.
+We didn't expect aliens.
+
+crowd:downward_monotone:npi:lexical_knowledge
+I can't stand arugula or any bitter greens.
+I can't stand leafy vegetable or any bitter greens.
+
+crowd:downward_monotone:lexical_knowledge
+Tom wasn't allowed to visit his father in prison.
+Tom wasn't allowed to visit his father in jail.
+
+crowd:downward_monotone:lexical_knowledge
+I'd never wear a shell suit.
+I would never wear a shell costume.
+
+crowd:downward_monotone:lexical_knowledge:conditionals
+If you change a sentence that already has some translations, please warn the authors of the translations about it.
+If you change a meaning that already has some translations, please warn the authors of the translations about it.
+
+crowd:downward_monotone:lexical_knowledge
+Tom had no options left.
+Tom had no alternative left.
+
+crowd:downward_monotone:lexical_knowledge
+He had no place to live.
+He had no space to live.
+
+crowd:downward_monotone:lexical_knowledge
+I don't like other kinds of drinks.
+I don't like other kinds of beverages.
+
+crowd:downward_monotone:lexical_knowledge
+I can't talk to girls.
+I can't talk to her.
+
+crowd:downward_monotone:lexical_knowledge
+I can't talk to girls.
+I can't talk to women.
+
+crowd:downward_monotone:lexical_knowledge
+I have never been to that town.
+I have never been to that city.
+
+crowd:downward_monotone:lexical_knowledge
+I have never been to that town.
+I have never been to that place.
+
+crowd:downward_monotone:lexical_knowledge
+She has no real friends.
+She has no real partners.
+
+crowd:downward_monotone:lexical_knowledge
+She has no real friends.
+She has no real acquaintances.
+
+crowd:downward_monotone:lexical_knowledge
+I don't like meat.
+I don't like pork.
+
+crowd:downward_monotone:lexical_knowledge
+Cats don't wear collars.
+Cats don't wear chokers.
+
+crowd:downward_monotone:lexical_knowledge
+Mr. Thomas had no objection to mr. white being elected chairman.
+Mr. Thomas had no problems to mr. white being elected chairman.
+
+crowd:downward_monotone:lexical_knowledge
+You can't have a conversation without an interlocutor.
+You can't have a chat without an interlocutor.
+
+crowd:downward_monotone:lexical_knowledge
+Tom seldom eats Italian food.
+Tom seldom eats Italian cuisine.
+
+crowd:downward_monotone:lexical_knowledge
+I don't like spoiled children.
+I don't like spoiled kids.
+
+crowd:downward_monotone:lexical_knowledge
+I don't like spoiled children.
+I don't like spoiled offsprings.
+
+crowd:downward_monotone:lexical_knowledge
+It wasn't a joke.
+It wasn't a prank.
+
+crowd:downward_monotone:lexical_knowledge
+England expects that every man will do his duty.
+England expects that every male will do his duty.
+
+crowd:downward_monotone:lexical_knowledge
+Every body is busy except me.
+Every person is busy except me.
+
+crowd:downward_monotone:lexical_knowledge:npi
+Tom isn't a child anymore.
+Tom isn't a baby anymore.
+
+crowd:downward_monotone:lexical_knowledge:npi
+Tom isn't a child anymore.
+Tom isn't a kid anymore.
+
+crowd:downward_monotone:lexical_knowledge:npi
+Tom isn't a child anymore.
+Tom isn't a toddler anymore.
+
+crowd:downward_monotone:lexical_knowledge
+The world court has no power to enforce its orders but its decisions have traditionally carried some diplomatic weight.
+The world court has no assets to enforce its orders but its decisions have traditionally carried some diplomatic weight.
+
+crowd:downward_monotone:lexical_knowledge
+The world court has no power to enforce its orders but its decisions have traditionally carried some diplomatic weight.
+The world court has no watt to enforce its orders but its decisions have traditionally carried some diplomatic weight.
+
+crowd:downward_monotone:lexical_knowledge
+This soup has no substance.
+This soup has no vegetable.
+
+crowd:downward_monotone:lexical_knowledge
+I can't stand noisy children.
+I can't stand noisy babies.
+
+crowd:downward_monotone:lexical_knowledge
+You can not believe a word he says.
+You can not believe a thing he says.
+
+crowd:downward_monotone:lexical_knowledge
+You can not believe a word he says.
+You can not believe a stuff he says.
+
+crowd:downward_monotone:lexical_knowledge
+You're absolutely perfect, in every way.
+You're absolutely perfect, in every style.
+
+crowd:downward_monotone:lexical_knowledge
+Scientists haven't found a vaccine for cancer yet.
+Scientists haven't found a cure for cancer yet.
+
+crowd:downward_monotone:lexical_knowledge
+I have seen no body apart from you.
+I have seen no one apart from you.
+
+crowd:downward_monotone:lexical_knowledge
+I have seen no body apart from you.
+I have seen no person apart from you.
+
+crowd:downward_monotone:lexical_knowledge
+My father takes a walk every morning.
+My father takes a walk every day.
+
+crowd:downward_monotone:lexical_knowledge
+I don't want to make new friends!
+I don't want to make new chum!
+
+crowd:downward_monotone:lexical_knowledge
+He has no specific aim.
+He has no specific objective.
+
+crowd:downward_monotone:lexical_knowledge
+We couldn't have wished for a better start of things.
+We couldn't have wished for a better start of education.
+
+crowd:downward_monotone:lexical_knowledge
+I don't like to wash dishes.
+I don't like to wash plates.
+
+crowd:downward_monotone:lexical_knowledge
+I just want to live simply and happily, without troubles.
+I just want to live simply and happily, without difficulties.
+
+crowd:downward_monotone:lexical_knowledge
+I just want to live simply and happily, without troubles.
+I just want to live simply and happily, without big problems.
+
+crowd:downward_monotone:lexical_knowledge
+A car, you say! he can't even afford to buy a sack of onions.
+A car, you say! he can't even afford to buy a pouch of onions.
+
+crowd:downward_monotone:lexical_knowledge
+A car, you say! he can't even afford to buy a sack of onions.
+A car, you say! he can't even afford to buy a carrier bag of onions.
+
+crowd:downward_monotone:lexical_knowledge
+Every morning that woman used to go to the beach and run three miles.
+Every day that woman used to go to the beach and run three miles.
+
+crowd:downward_monotone:lexical_knowledge
+She has no sense of humor.
+She has no meaning of humor.
+
+crowd:downward_monotone:lexical_knowledge
+Tom doesn't like mathematics.
+Tom doesn't like math.
+
+crowd:downward_monotone:lexical_knowledge
+Every crime must be punished.
+Every criminals must be punished.
+
+crowd:downward_monotone:lexical_knowledge
+Every crime must be punished.
+Every felony must be punished.
+
+crowd:downward_monotone:lexical_knowledge
+I have no clothes to go to the party.
+I have no dress to go to the party.
+
+crowd:downward_monotone:lexical_knowledge
+It wasn't a fair fight.
+It wasn't a fair confrontation.
+
+crowd:downward_monotone:lexical_knowledge
+You shouldn't read useless books.
+You shouldn't read useless fairy tales.
+
+crowd:downward_monotone:lexical_knowledge
+Wolves don't eat salad.
+The wolves do not eat coleslaw.
+
+crowd:downward_monotone:lexical_knowledge
+I don't eat chicken skin.
+I don't eat chicken epidermis.
+
+crowd:downward_monotone:lexical_knowledge
+I don't like horror movies.
+I don't like horror film.
+
+crowd:downward_monotone:lexical_knowledge
+Tom couldn't find a job.
+Tom couldn't find a work.
+
+crowd:downward_monotone:lexical_knowledge
+I don't have enough storage space.
+I don't have enough storage resources.
+
+crowd:downward_monotone:lexical_knowledge
+Tom didn't have a weapon.
+Tom didn't have a gun.
+
+crowd:downward_monotone:lexical_knowledge
+Tom has no desire to study French.
+Tom has no wish to study French.
+
+crowd:downward_monotone:lexical_knowledge
+Tom has no desire to study French.
+Tom has no great desire to study French.
+
+crowd:downward_monotone:lexical_knowledge
+I'm bursting for a wee and I can't find a washroom.
+I'm bursting for a wee and I can't find a toilet.
+
+crowd:downward_monotone:lexical_knowledge
+I can't remember everyone.
+I can't remember everybody.
+
+crowd:downward_monotone:lexical_knowledge:disjunction
+Jack can't afford a new bicycle.
+Jack can't afford a new bicycle or motorbike.
+
+crowd:downward_monotone:lexical_knowledge
+We weren't given homework.
+We weren't given school assignments.
+
+crowd:downward_monotone:lexical_knowledge
+You don't have to go to an Ivy League school to get a good education.
+You don't have to go to an Ivy League college to get a good education.
+
+crowd:downward_monotone:lexical_knowledge
+You don't have to go to an Ivy League educational institution to get a good education.
+You don't have to go to an Ivy League college to get a good education.
+
+crowd:downward_monotone:lexical_knowledge
+Tom seems to have no sense of humor.
+Tom seems to have no feel of humor.
+
+crowd:downward_monotone:lexical_knowledge
+Tom seems to have no sense of humor.
+Tom seems to have no feeling of humor.
+
+crowd:downward_monotone:lexical_knowledge
+She can't assemble IKEA furniture.
+She can't assemble IKEA table.
+
+crowd:downward_monotone:conditionals:lexical_knowledge
+If i were a foreigner, i probably couldn't eat raw fish.
+If i were a tourist, i probably couldn't eat raw fish.
+
+crowd:downward_monotone:lexical_knowledge:npi
+Tom hardly ever listens to music.
+Tom hardly ever listens to classic.
+
+crowd:downward_monotone:lexical_knowledge:npi
+Tom hardly ever listens to music.
+Tom hardly ever listens to rock'n'roll.
+
+crowd:downward_monotone:lexical_knowledge
+Capitalism hasn't to be a monster.
+Capitalism hasn't to be a beast.
+
+crowd:downward_monotone:lexical_knowledge
+Capitalism hasn't to be a monster.
+Capitalism hasn't to be a monstrosity.
+
+crowd:downward_monotone:lexical_knowledge
+We can't use cellphones in here.
+We can't use use mobiles in here.
+
+crowd:downward_monotone:lexical_knowledge
+Tom can't drive a car.
+Tom can't drive an automobile.
+
+crowd:downward_monotone:lexical_knowledge
+Tom can't drive a car.
+Tom can't drive an auto.
+
+crowd:downward_monotone:lexical_knowledge
+Tom can't drive a car.
+Tom can't drive a motor vehicle.
+
+crowd:downward_monotone:lexical_knowledge:npi
+Please don't take pictures here.
+Please don't take any photos here.
+
+crowd:downward_monotone:lexical_knowledge
+You mustn't throw litter in the street.
+You mustn't throw rubbish in the street.
+
+crowd:downward_monotone:lexical_knowledge
+You mustn't throw litter in the street.
+You mustn't throw trash in the street.
+
+crowd:downward_monotone:lexical_knowledge
+You are not watching TV now.
+You are not watching television now.
+
+crowd:downward_monotone:lexical_knowledge
+Tom had no right to do that.
+Tom had no reason to do that.
+
+crowd:downward_monotone:lexical_knowledge
+I have never felt prouder in my whole life.
+I have never felt gratified in my whole life.
+
+crowd:downward_monotone:lexical_knowledge
+Scientists haven't found a vaccine for cancer yet.
+Scientists haven't found a vaccine for carcinoma yet.
+
+crowd:downward_monotone:lexical_knowledge
+In the village there are no thieves.
+In the village there are no burglars.
+
+crowd:downward_monotone:lexical_knowledge
+They had no alternative energy sources.
+They had no alternative power sources.
+
+crowd:downward_monotone:lexical_knowledge
+I hope you won't expect results immediately.
+I hope you won't expect solutions immediately.
+
+crowd:downward_monotone:lexical_knowledge
+I hope you won't expect results immediately.
+I hope you won't expect answers immediately.
+
+crowd:downward_monotone:lexical_knowledge
+Tom had no choice but to follow Mary.
+Tom had no way but to follow Mary.
+
+crowd:downward_monotone:lexical_knowledge
+Tom had no choice but to follow Mary.
+Tom had no opportunity but to follow Mary.
+
+crowd:downward_monotone:lexical_knowledge
+I never listen to dirty jokes.
+I never listen to dirty puns.
+
+crowd:downward_monotone:lexical_knowledge
+I've never had a traffic accident.
+I've never had a traffic wreck.
+
+crowd:downward_monotone:lexical_knowledge
+I've never had a traffic accident.
+I've never had a traffic mishap.
+
+crowd:downward_monotone:lexical_knowledge
+He had a fatal lack of ability to think logically.
+He had a fatal lack of capacity to think logically.
+
+crowd:downward_monotone:lexical_knowledge
+He had a fatal lack of ability to think logically.
+He had a fatal lack of skill to think logically.
+
+crowd:downward_monotone:lexical_knowledge
+Tom doesn't want to live in an apartment.
+Tom doesn't want to live in a condo.
+
+crowd:downward_monotone:lexical_knowledge
+I can't remember the melody of that song.
+I can't remember the melody of that lyrics.
+
+crowd:downward_monotone:lexical_knowledge
+I can't remember the melody of that song.
+I can't remember the melody of that music.
+
+crowd:downward_monotone:lexical_knowledge
+I can't remember the melody of that song.
+I can't remember the melody of that couplet.
+
+crowd:downward_monotone:lexical_knowledge
+She doesn't drive for fear of an accident.
+She doesn't drive for phobia of an accident.
+
+crowd:downward_monotone:lexical_knowledge
+Every harlot was a virgin once.
+Every prostitute was a virgin once.
+
+crowd:downward_monotone:lexical_knowledge
+Every harlot was a virgin once.
+Every hooker was a virgin once.
+
+crowd:downward_monotone:lexical_knowledge
+Bad weather is no obstacle.
+Bad weather is no problem.
+
+crowd:downward_monotone:lexical_knowledge
+Bad weather is no obstacle.
+Bad weather is no impediment.
+
+crowd:downward_monotone:lexical_knowledge
+I don't have a cell phone.
+I don't have a mobile phone.
+
+crowd:downward_monotone:lexical_knowledge
+She is not a good sailor.
+She is not a good mariner.
+
+crowd:downward_monotone:lexical_knowledge
+She is not a good sailor.
+She is not a good seafarer.
+
+crowd:downward_monotone:lexical_knowledge
+The inky night sky had no stars.
+The inky night sky had no blaze.
+
+crowd:downward_monotone:lexical_knowledge
+We've never been to that place.
+We've never been to that spot.
+
+crowd:downward_monotone:lexical_knowledge
+We've never been to that place.
+We've never been to that room.
+
+crowd:downward_monotone:lexical_knowledge
+You have no legal right to seize my property.
+You have no legal position to seize my property.
+
+crowd:downward_monotone:lexical_knowledge
+You have no legal right to seize my property.
+You have no legal authority to seize my property.
+
+crowd:downward_monotone:lexical_knowledge
+You have no legal right to seize my property.
+You have no legal freedom to seize my property.
+
+crowd:downward_monotone:lexical_knowledge
+You have no legal right to seize my property.
+You have no legal permission to seize my property.
+
+crowd:downward_monotone:lexical_knowledge
+You have no legal right to seize my property.
+You have no legal liberty to seize my property.
+
+crowd:downward_monotone:lexical_knowledge
+They don't have enough ground space to camp.
+They don't have enough surface space to camp.
+
+crowd:downward_monotone:lexical_knowledge
+They don't have enough ground space to camp.
+They don't have enough territory space to camp.
+
+crowd:downward_monotone:lexical_knowledge
+It is no wonder that a man of his ability is so successful.
+It is no wonder that a person of his ability is so successful.
+
+crowd:downward_monotone:lexical_knowledge
+I don't use birth control.
+I don't use pills.
+
+crowd:downward_monotone:lexical_knowledge
+I take my tea without sugar.
+I take my tea without sweetener.
+
+crowd:downward_monotone:conditionals:lexical_knowledge
+If your child drinks poison, rush him to the hospital.
+If your child drinks venom, rush him to the hospital.
+
+crowd:downward_monotone:lexical_knowledge
+We don't accept charity.
+We don't accept generosity.
+
+crowd:downward_monotone:lexical_knowledge
+We don't accept charity.
+We don't accept donation.
+
+crowd:downward_monotone:lexical_knowledge
+She was never heard speaking ill of others.
+She was never heard speaking ill of other actors.
+
+crowd:downward_monotone:lexical_knowledge
+I can't draw a bird.
+I can't draw a birdie.
+
+crowd:downward_monotone:lexical_knowledge
+That shouldn't be too much of a problem.
+That shouldn't be too much of a hurdle.
+
+crowd:downward_monotone:lexical_knowledge
+There are no other options.
+There are no other alternatives.
+
+crowd:downward_monotone:lexical_knowledge
+There are no other options.
+There are no other possibilities.
+
+crowd:downward_monotone:lexical_knowledge
+There are no other options.
+There are no other choices.
+
+crowd:downward_monotone:npi:lexical_knowledge
+Some people quarrel for no reason at all.
+Some people quarrel for no basis at all.
+
+crowd:downward_monotone:npi:lexical_knowledge
+Some people quarrel for no reason at all.
+Some people quarrel for no rationale at all.
+
+crowd:downward_monotone:lexical_knowledge
+Not a few houses were destroyed in the typhoon.
+Not a few homesteads were destroyed in the typhoon.
+
+crowd:downward_monotone:lexical_knowledge
+Cats don't like dogs.
+Cats don't like pups.
+
+crowd:downward_monotone:lexical_knowledge
+Cats don't like dogs.
+Cats don't like bitchs.
+
+crowd:downward_monotone:lexical_knowledge
+I can't imagine life without him.
+I can't imagine living without him.
+
+crowd:downward_monotone:lexical_knowledge
+The garrison saw no choice but to surrender.
+The garrison saw no chance but to surrender.
+
+crowd:downward_monotone:lexical_knowledge
+Every member of the cabinet was present.
+Every participant of the cabinet was present.
+
+crowd:downward_monotone:lexical_knowledge
+She doesn't always take a trip to France in summer.
+She doesn't always take a walk to France in summer.
+
+crowd:downward_monotone:conditionals:lexical_knowledge
+If I'd taken the plane, I wouldn't be alive now.
+If I'd taken the aeroplane, I wouldn't be alive now.
+
+crowd:downward_monotone:conditionals:lexical_knowledge
+If Esperanto were an easy language I wouldn't need a proofreader.
+If tamil were an easy language I wouldn't need a proofreader.
+
+crowd:downward_monotone:lexical_knowledge
+The word came to be used for all small heavenly bodies revolving about larger ones.
+The word came to be used for all small heavenly planets revolving about larger ones.
+
+crowd:downward_monotone:lexical_knowledge
+My mother doesn't like watching TV.
+My mother doesn't like watching soap operas.
+
+crowd:downward_monotone:lexical_knowledge
+The government are being criticised from all sides.
+The government are being criticised from all aspects.
+
+crowd:downward_monotone:lexical_knowledge:npi
+I'm not a little girl anymore.
+I'm not a little lass anymore.
+
+crowd:downward_monotone:lexical_knowledge:npi
+I'm not a little girl anymore.
+I'm not a little kid anymore.
+
+crowd:downward_monotone:conditionals:lexical_knowledge
+If Esperanto were an easy language, I wouldn't need a proofreader.
+If Esperanto was an easy translator, I would not need a proofreader.
+
+crowd:downward_monotone:lexical_knowledge
+Tom has no sense of humor.
+Tom has no ability of humor.
+
+crowd:downward_monotone:lexical_knowledge
+Tom has no sense of humor.
+Tom has no feel of humor.
+
+crowd:downward_monotone:lexical_knowledge
+Tom has no sense of humor.
+Tom has no feelings of humor.
+
+crowd:downward_monotone:lexical_knowledge:npi
+I don't watch that program anymore.
+I don't watch that show anymore.
+
+crowd:downward_monotone:lexical_knowledge
+Tom and Mary can't afford to buy a house.
+Tom and Mary can't afford to buy a residence.
+
+crowd:downward_monotone:lexical_knowledge
+I have not yet collected sufficient materials to write a book.
+I have not yet collected sufficient data to write a book.
+
+crowd:downward_monotone:lexical_knowledge
+You and I don't see eye-to-eye.
+You and I don't see in person.
+
+crowd:downward_monotone:npi:lexical_knowledge
+I won't ever talk in class again.
+I won't ever talk in lessons again.
+
+crowd:downward_monotone:lexical_knowledge
+We didn't have much trouble.
+We didn't have much hardship.
+
+crowd:downward_monotone:lexical_knowledge
+Tom was in no particular hurry to get back home.
+Tom was in no particular dash to get back home.
+
+crowd:downward_monotone:lexical_knowledge
+It didn't take a genius.
+It didn't take a thinker.
+
+crowd:downward_monotone:lexical_knowledge
+She doesn't mince words.
+She doesn't mince utterance.
+
+crowd:downward_monotone:lexical_knowledge
+He doesn't play soccer.
+He doesn't play football.
+
+crowd:downward_monotone:lexical_knowledge
+I don't have a landline.
+I don't have a home phone.
+
+crowd:downward_monotone:lexical_knowledge
+He dreams that every body in China speaks Esperanto.
+He dreams that every men in China speaks Esperanto.
+
+crowd:downward_monotone:lexical_knowledge
+She had no intention to quarrel with him.
+She had no aim to quarrel with him.
+
+crowd:downward_monotone:lexical_knowledge
+A trivial problem doesn't require long contemplation.
+A trivial problem doesn't require long review.
+
+crowd:downward_monotone:lexical_knowledge
+A trivial problem doesn't require long contemplation.
+A trivial problem doesn't require long time.
+
+crowd:downward_monotone:lexical_knowledge
+Tom didn't want to work overtime on Christmas Eve.
+Tom didn't want to work overtime on xmas eve.
+
+crowd:downward_monotone:lexical_knowledge
+Extraordinary things never happen in simple and ordinary ways.
+Extraordinary things never happen in simple and ordinary manner.
+
+crowd:downward_monotone:lexical_knowledge
+You're no longer children.
+You're no longer kids.
+
+crowd:downward_monotone:lexical_knowledge
+You're no longer teenagers.
+You're no longer children.
+
+crowd:downward_monotone:lexical_knowledge
+You're no longer children.
+You're no longer babies.
+
+crowd:downward_monotone:lexical_knowledge
+I don't want to have children.
+I don't want to have babies.
+
+crowd:downward_monotone:lexical_knowledge
+We shouldn't lose hope.
+We shouldn't lose faith.
+
+crowd:downward_monotone:lexical_knowledge
+This medicine has no side effects.
+This medicine has no side consequences.
+
+crowd:downward_monotone:lexical_knowledge
+I hope this isn't a mistake.
+I hope this isn't a foul.
+
+crowd:downward_monotone:lexical_knowledge
+I hope this isn't a mistake.
+I hope this isn't an error.
+
+crowd:downward_monotone:lexical_knowledge
+I don't like heavy makeup on a young girl.
+I don't like heavy makeup on a young lassie.
+
+crowd:downward_monotone:lexical_knowledge
+I don't like heavy makeup on a young girl.
+I don't like heavy makeup on a young woman.
+
+crowd:downward_monotone:lexical_knowledge
+I don't live in that city.
+I don't live in that town.
+
+crowd:downward_monotone:lexical_knowledge
+Tom doesn't have a home.
+Tom doesn't have a house.
+
+crowd:downward_monotone:lexical_knowledge
+I won't return to that terrible place.
+I won't return to that terrible city.
+
+crowd:downward_monotone:lexical_knowledge
+I won't return to that terrible place.
+I won't return to that terrible town.
+
+crowd:downward_monotone:lexical_knowledge
+I won't return to that terrible place.
+I won't return to that terrible area.
+
+crowd:downward_monotone:lexical_knowledge
+Picasso was no clown, and he was a sarcastic commentator on a confused age, a great archivist of humanity's foolishness.
+Picasso was no jester, and he was a sarcastic commentator on a confused age, a great archivist of humanity's foolishness.
+
+crowd:downward_monotone:lexical_knowledge
+Picasso was no clown, and he was a sarcastic commentator on a confused age, a great archivist of humanity's foolishness.
+Picasso was no comic figure, and he was a sarcastic commentator on a confused age, a great archivist of humanity's foolishness.
+
+crowd:downward_monotone:lexical_knowledge
+The world began without man and shall end without him.
+The world began without mankind and shall end without him.
+
+crowd:downward_monotone:lexical_knowledge
+I don't like novels without heroes.
+I don't like books without heroes.
+
+crowd:downward_monotone:lexical_knowledge
+I don't like novels without heroes.
+I don't like writings without heroes.
+
+crowd:downward_monotone:lexical_knowledge
+It isn't much fun going mountain climbing by yourself.
+It isn't much entertainment going mountain climbing by yourself.
+
+crowd:downward_monotone:lexical_knowledge
+It isn't much fun going mountain climbing by yourself.
+It isn't much joy going mountain climbing by yourself.
+
+crowd:downward_monotone:lexical_knowledge
+Prince Hamletwasn't a play-wright.
+Prince Hamletwasn't a dramatist.
+
+crowd:downward_monotone:lexical_knowledge
+Tom doesn't play soccer.
+Tom doesn't play football.
+
+crowd:downward_monotone:lexical_knowledge
+No creature can live without air.
+No animal can live without air.
+
+crowd:downward_monotone:lexical_knowledge
+I wouldn't mind a cup of coffee.
+I wouldn't mind a drink of coffee.
+
+crowd:downward_monotone:lexical_knowledge
+I wouldn't mind a cup of coffee.
+I wouldn't mind a mug of coffee.
+
+crowd:downward_monotone:lexical_knowledge
+I wouldn't mind a cup of coffee.
+Wouldn't mind a glass of coffee.
+
+crowd:downward_monotone:lexical_knowledge
+She had no tissues to wipe away her tears.
+She had no napkin to wipe away her tears.
+
+crowd:downward_monotone:lexical_knowledge
+He doesn't take vacations.
+He doesn't take summer holidays.
+
+crowd:downward_monotone:lexical_knowledge
+Pedro doesn't have a sister.
+Pedro doesn't have a female relative.
+
+crowd:downward_monotone:lexical_knowledge
+I wouldn't like to meet him in a dark place.
+I wouldn't like to meet him in a dark site.
+
+crowd:downward_monotone:lexical_knowledge
+I wouldn't like to meet him in a dark place.
+I wouldn't like to meet him in a dark area.
+
+crowd:downward_monotone:lexical_knowledge
+I wouldn't like to meet him in a dark place.
+I wouldn't like to meet him in a dark spot.
+
+crowd:downward_monotone:lexical_knowledge
+It's no use asking me for money.
+It's no good asking me for money.
+
+crowd:downward_monotone:lexical_knowledge
+I don't like to wear shoes without socks.
+I don't like to wear sandals without socks.
+
+crowd:downward_monotone:lexical_knowledge
+Honesty is no guarantee of success.
+Honesty is no assurance of success.
+
+crowd:downward_monotone:lexical_knowledge:npi
+This message doesn't make sense.
+This message doesn't make sense for me at all.
+
+crowd:downward_monotone:conditionals:lexical_knowledge
+If a dog bites you, wash the wound with soap and water.
+If a puppy bites you, wash the wound with soap and water.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens ate any meat.
+Few aliens ate pork.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens saw any birds.
+Few aliens saw doves.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens used any coins.
+Few aliens used quarters.
+
+paper:downward_monotone:lexical_knowledge
+The red alien did not eat any meat.
+The red alien did not eat pork.
+
+paper:downward_monotone:lexical_knowledge
+The red alien did not see any birds.
+The red alien did not see doves.
+
+paper:downward_monotone:lexical_knowledge
+The red alien did not use any coins.
+The red alien did not use quarters.
+
+paper:downward_monotone:lexical_knowledge
+No alien ate any meat.
+No alien ate pork.
+
+paper:downward_monotone:lexical_knowledge
+No alien saw any birds.
+No alien saw doves.
+
+paper:downward_monotone:lexical_knowledge
+No alien used any coins.
+No alien used quarters.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens watched sports matches.
+Few aliens watched baseball matches.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens bought clothes.
+Few aliens bought shirts.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens drove cars.
+Few aliens drove suvs.
+
+paper:downward_monotone:lexical_knowledge
+The purple alien did not watch sports matches.
+The purple alien did not watch baseball matches.
+
+paper:downward_monotone:lexical_knowledge
+The purple alien did not buy clothes.
+The purple alien did not buy shirts.
+
+paper:downward_monotone:lexical_knowledge
+The purple alien did not drive cars.
+The purple alien did not drive suvs.
+
+paper:downward_monotone:lexical_knowledge
+No alien watched sports matches.
+No alien watched baseball matches.
+
+paper:downward_monotone:lexical_knowledge
+No alien bought clothes.
+No alien bought shirts.
+
+paper:downward_monotone:lexical_knowledge
+No alien drove cars.
+No alien drove suvs.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens drank any soda.
+Few aliens drank coke.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens watched any sports matches.
+Few aliens watched baseball matches.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens played with any toys.
+Few aliens played with toy cars.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens drove any cars.
+Few aliens drove suvs.
+
+paper:downward_monotone:lexical_knowledge
+The red alien did not drink any soda.
+The red alien did not drink coke.
+
+paper:downward_monotone:lexical_knowledge
+The red alien did not watch any sports matches.
+The red alien did not watch baseball matches.
+
+paper:downward_monotone:lexical_knowledge
+The red alien did not play with any toys.
+The red alien did not play with toy cars.
+
+paper:downward_monotone:lexical_knowledge
+The red alien did not drive any cars.
+The red alien did not drive suvs.
+
+paper:downward_monotone:lexical_knowledge
+No alien drank any soda.
+No alien drank coke.
+
+paper:downward_monotone:lexical_knowledge
+No alien watched any sports matches.
+No alien watched baseball matches.
+
+paper:downward_monotone:lexical_knowledge
+No alien played with any toys.
+No alien played with toy cars.
+
+paper:downward_monotone:lexical_knowledge
+No alien drove any cars.
+No alien drove suvs.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens ate meat.
+Few aliens ate pork.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens read books.
+Few aliens read sci-fi novels.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens saw birds.
+Few aliens saw doves.
+
+paper:downward_monotone:lexical_knowledge
+The purple alien did not eat meat.
+The purple alien did not eat pork.
+
+paper:downward_monotone:lexical_knowledge
+The purple alien did not read books.
+The purple alien did not read sci-fi novels.
+
+paper:downward_monotone:lexical_knowledge
+The purple alien did not see birds.
+The purple alien did not see doves.
+
+paper:downward_monotone:lexical_knowledge
+No alien ate meat.
+No alien ate pork.
+
+paper:downward_monotone:lexical_knowledge
+No alien read books.
+No alien read sci-fi novels.
+
+paper:downward_monotone:lexical_knowledge
+No alien saw birds.
+No alien saw doves.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens read any books.
+Few aliens read any sci-fi novels.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens bought any clothes.
+Few aliens bought any shirts.
+
+paper:downward_monotone:lexical_knowledge
+The red alien did not read any books.
+The red alien did not read any sci-fi novels.
+
+paper:downward_monotone:lexical_knowledge
+The red alien did not buy any clothes.
+The red alien did not buy any shirts.
+
+paper:downward_monotone:lexical_knowledge
+No alien read any books.
+No alien read any sci-fi novels.
+
+paper:downward_monotone:lexical_knowledge
+No alien bought any clothes.
+No alien bought any shirts.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens drank soda.
+Few aliens drank coke.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens played with toys.
+Few aliens played with toy cars.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens used coins.
+Few aliens used quarters.
+
+paper:downward_monotone:lexical_knowledge
+The purple alien did not drink soda.
+The purple alien did not drink coke.
+
+paper:downward_monotone:lexical_knowledge
+The purple alien did not play with toys.
+The purple alien did not play with toy cars.
+
+paper:downward_monotone:lexical_knowledge
+The purple alien did not use coins.
+The purple alien did not use quarters.
+
+paper:downward_monotone:lexical_knowledge
+No alien drank soda.
+No alien drank coke.
+
+paper:downward_monotone:lexical_knowledge
+No alien played with toys.
+No alien played with toy cars.
+
+paper:downward_monotone:lexical_knowledge
+No alien used coins.
+No alien used quarters.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens ate any meat.
+Few aliens ate any pork.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens saw any birds.
+Few aliens saw any doves.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens used any coins.
+Few aliens used any quarters.
+
+paper:downward_monotone:lexical_knowledge
+The red alien did not eat any meat.
+The red alien did not eat any pork.
+
+paper:downward_monotone:lexical_knowledge
+The red alien did not see any birds.
+The red alien did not see any doves.
+
+paper:downward_monotone:lexical_knowledge
+The red alien did not use any coins.
+The red alien did not use any quarters.
+
+paper:downward_monotone:lexical_knowledge
+No alien ate any meat.
+No alien ate any pork.
+
+paper:downward_monotone:lexical_knowledge
+No alien saw any birds.
+No alien saw any doves.
+
+paper:downward_monotone:lexical_knowledge
+No alien used any coins.
+No alien used any quarters.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens drank any soda.
+Few aliens drank any coke.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens watched any sports matches.
+Few aliens watched any baseball matches.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens played with any toys.
+Few aliens played with any toy cars.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens drove any cars.
+Few aliens drove any suvs.
+
+paper:downward_monotone:lexical_knowledge
+The red alien did not drink any soda.
+The red alien did not drink any coke.
+
+paper:downward_monotone:lexical_knowledge
+The red alien did not watch any sports matches.
+The red alien did not watch any baseball matches.
+
+paper:downward_monotone:lexical_knowledge
+The red alien did not play with any toys.
+The red alien did not play with any toy cars.
+
+paper:downward_monotone:lexical_knowledge
+The red alien did not drive any cars.
+The red alien did not drive any suvs.
+
+paper:downward_monotone:lexical_knowledge
+No alien drank any soda.
+No alien drank any coke.
+
+paper:downward_monotone:lexical_knowledge
+No alien watched any sports matches.
+No alien watched any baseball matches.
+
+paper:downward_monotone:lexical_knowledge
+No alien played with any toys.
+No alien played with any toy cars.
+
+paper:downward_monotone:lexical_knowledge
+No alien drove any cars.
+No alien drove any suvs.
+
+paper:downward_monotone:lexical_knowledge
+The red alien did not buy any clothes.
+The red alien did not buy shirts.
+
+paper:downward_monotone:lexical_knowledge
+No alien bought any clothes.
+No alien bought shirts.
+
+paper:downward_monotone:lexical_knowledge
+Few aliens bought any clothes.
+Few aliens bought shirts.
+
+paper:downward_monotone:lexical_knowledge
+She did not give him a flower.
+She did not give him a rose.
+
+paper:downward_monotone:lexical_knowledge
+She never touched him.
+She never kissed him.
+
+paper:downward_monotone:lexical_knowledge
+Nobody here has a European car.
+Nobody here has a German car.
+
+paper:downward_monotone:lexical_knowledge
+Every mammal is striped.
+Every zebra is striped.
+
+paper:downward_monotone:lexical_knowledge
+Before she touched him, she brushed her teeth.
+Before she kissed him, she brushed her teeth.
+
+paper:downward_monotone:lexical_knowledge
+He touched no woman.
+He kissed no woman.
+
+paper:downward_monotone:lexical_knowledge
+She said less than three words.
+She whispered less than three words.
+
+paper:downward_monotone:lexical_knowledge
+Nobody moved.
+Nobody danced.
+
+paper:downward_monotone:lexical_knowledge
+We never touched.
+We never kissed.
+
+paper:downward_monotone:lexical_knowledge
+All philosophers are mortal.
+All hegelians are mortal.
+
+paper:downward_monotone:lexical_knowledge
+Betty doesn't live in Germany.
+Betty doesn't live in Berlin.
+
+paper:downward_monotone:lexical_knowledge
+It's not true that Betty lives in Germany.
+It's not true that Betty lives in Berlin.
+
+paper:downward_monotone:lexical_knowledge
+No dots are red.
+No dots are scarlet.
+
+paper:downward_monotone:lexical_knowledge
+Fewer than five dots are red.
+Fewer than five dots are scarlet.
+
+paper:downward_monotone:lexical_knowledge
+All pachyderms are navy blue.
+All elephants are navy blue.
+
+paper:downward_monotone:lexical_knowledge
+All pachyderms are pink.
+All elephants are pink.
+
+paper:downward_monotone:lexical_knowledge
+No pachyderms are pink.
+No elephants are pink.
+
+paper:downward_monotone:lexical_knowledge
+At most three pachyderms are pink.
+At most three elephants are pink.
+
+paper:downward_monotone:lexical_knowledge
+Every student whom Mary touched smiled.
+Every student whom Mary kissed smiled.
+
+paper:downward_monotone:lexical_knowledge:conjunction
+John does and Mary doesn't move.
+Mary doesn't walk.
+

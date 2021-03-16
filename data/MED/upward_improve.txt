@@ -1,0 +1,368 @@
+Premise: A few female committee members are from Scandinavia
+Hypothesis: At least a few committee members are from Scandinavia
+
+Premise: Both Alan and Bob took their vacations in California
+Hypothesis: Alan took his vacation in California
+
+Premise: Weird that you want to show this video to a stack of papers
+Hypothesis: Weird that you want to show something to a stack of papers
+
+Premise: The 15th tank corps was a corps of the soviet union's red army
+Hypothesis: The 15th tank corps was a tank corps of the soviet union's red army
+
+Premise: Every sentence in that syllabus book is important
+Hypothesis: Every sentence in that book is important
+
+Premise: Every one but lazy Jim came
+Hypothesis: Every one but Jim came
+
+Premise: Every one but Jim and his wives came
+Hypothesis: Every one but Jim came
+
+Premise: There is a beautiful glass sculpture in the play ground
+Hypothesis: There is a glass sculpture in the garden
+
+Premise: I had no sales today and this week
+Hypothesis: I had no sales today
+
+Premise: You've got some multicolored balls coming here like this
+Hypothesis: You've got some balls coming here like this
+
+Premise: It is not tea but coffee with milk that I want
+Hypothesis: It is not tea but coffee that I want
+
+Premise: I received a telegram that was about her boyfriend from her
+Hypothesis: I received a telegram from her
+
+Premise: I received a telegram and a gift from her
+Hypothesis: I received a telegram from her
+
+Premise: Aunt Millie is not eating an apple
+Hypothesis: Millie is not eating an apple
+
+Premise: A big fluffy cat was sleeping on the table
+Hypothesis: A cat was on the table
+
+Premise: Tom called a cab of elevation for me
+Hypothesis: Tom called a cab for me
+
+Premise: There is a cat sleeping on the chair
+Hypothesis: There is a cat on the chair
+
+Premise: I was in New York with my boyfriend for a few days
+Hypothesis: I was in New York city for a few days
+
+Premise: Vladivostok is a city in Russia nearby golden horn bay
+Hypothesis: Vladivostok is a city in Russia
+
+Premise: Thursday, we will go to a house with a swimming pool
+Hypothesis: Thursday, we will go to a swimming pool
+
+Premise: He did nothing yasterday but cry
+Hypothesis: He did nothing but cry
+
+Premise: Some important documents on criminal proceedings are missing from the files
+Hypothesis: Some important papers are missing from the files
+
+Premise: Every dog is a lion and a guard at home
+Hypothesis: Every dog in the house is a lion at home
+
+Premise: The spider is spinning a web on the wall of peter's room
+Hypothesis: The spider is spinning a net
+
+Premise: The spider is spinning a very large and well-worked network
+Hypothesis: The spider is spinning a web
+
+Premise: Tom is dialling a local emergency number
+Hypothesis: Tom is dialling a number
+
+Premise: The young girl Lucy can not use chopsticks
+Hypothesis: Lucy can�s use chopsticks
+
+Premise: There are some boys buying ice cream in the park
+Hypothesis: There are some guys in the park
+
+Premise: The hunter shot at a deer but missed
+Hypothesis: The hunter shot a deer
+
+Premise: The hunter shot at a medium size deer
+Hypothesis: The hunter shot at a deer
+
+Premise: I bought a gift and some flowers for Tom
+Hypothesis: I bought a gift for Tom
+
+Premise: I see a man and a tall woman with daughter
+Hypothesis: I see a man and a woman
+
+Premise: No wedding would be complete without a fight with a partner
+Hypothesis: No wedding would be complete without a fight
+
+Premise: You can not have a rainbow without a little rain
+Hypothesis: You can not have a colour spectrum without a little rain
+
+Premise: It's no secret that Tom does not agree with you
+Hypothesis: It's no secret that Tom disagrees with you after cheating
+
+Premise: At this school, there are no grades and students having no homework
+Hypothesis: At this school, there are no grades and students having no lecture to do at home
+
+Premise: All boys and girls like to play baseball
+Hypothesis: All boys like to play baseball
+
+Premise: No creature can live without air and water
+Hypothesis: No creature can live without air
+
+Premise: No creature can live without clean air
+Hypothesis: No creature can live without air
+
+Premise: No creature can live without air in the sea
+Hypothesis: No creature can live without air
+
+Premise: They've been looking for the plane for eight days, without success
+Hypothesis: They've been looking for the plane for eight days, without great success
+
+Premise: They've been looking for the plane for eight days, without success
+Hypothesis: They've been looking for the plane for eight days, without splendid success
+
+Premise: They've been looking for the plane for eight days, without success
+Hypothesis: They've been looking for the plane for eight days, without success and benefit
+
+Premise: I can not imagine life without him and his dog
+Hypothesis: I can not imagine life without him
+
+Premise: I can not imagine life without his family
+Hypothesis: I can not imagine our life without him
+
+Premise: If someone can not remember his past, he's doomed to experience it anew
+Hypothesis: If maria victoria can not remember his past, he's doomed to experience it anew
+
+Premise: If someone can not remember his past, he's doomed to experience it anew
+Hypothesis: If humans can not remember his past, he's doomed to experience it anew
+
+Premise: I can not imagine life without music
+Hypothesis: I can not imagine my daily life without nice music
+
+Premise: I can not imagine life without music
+Hypothesis: I can not imagine a long life without music and cooking
+
+Premise: I can not imagine life without music
+Hypothesis: I can not imagine existing without rock'n'roll music
+
+Premise: He is not a teacher but an excellent student
+Hypothesis: He is not a teacher but a student
+
+Premise: He is not a teacher but a student
+Hypothesis: He is not a teacher but an engineering student
+
+Premise: Every alien read news magazines
+Hypothesis: Every alien read magazines
+
+Premise: Every alien threw some tennis balls
+Hypothesis: Every alien threw balls
+
+Premise: Every alien read some news magazines
+Hypothesis: Every alien read magazines
+
+Premise: Every alien ate at some Mexican restaurants
+Hypothesis: Every alien ate at restaurants
+
+Premise: Many aliens read some news magazines
+Hypothesis: Many aliens read magazines
+
+Premise: Many aliens ate at some Mexican restaurants
+Hypothesis: Many aliens ate at restaurants
+
+Premise: The blue alien read some news magazines
+Hypothesis: The blue alien read magazines
+
+Premise: The blue alien ate at some Mexican restaurants
+Hypothesis: The blue alien ate at restaurants
+
+Premise: No alien died without throwing some tennis balls
+Hypothesis: No alien died without throwing balls
+
+Premise: Every alien who did not throw some tennis balls is hairy
+Hypothesis: Every alien who did not throw balls is hairy
+
+Premise: No alien died without eating at any Mexican restaurants
+Hypothesis: No alien died without eating at restaurants
+
+Premise: Every alien who did not eat at any Mexican restaurants is hairy
+Hypothesis: Every alien who did not eat at restaurants is hairy
+
+Premise: No alien died without reading news magazines
+Hypothesis: No alien died without reading magazines
+
+Premise: No alien died without reading some news magazines
+Hypothesis: No alien died without reading magazines
+
+Premise: No alien died without eating at some Mexican restaurants
+Hypothesis: No alien died without eating at restaurants
+
+Premise: Every alien who did not read some news magazines is hairy
+Hypothesis: Every alien who did not read magazines is hairy
+
+Premise: Every alien who did not eat at some Mexican restaurants is hairy
+Hypothesis: Every alien who did not eat at restaurants is hairy
+
+Premise: No alien died without throwing tennis balls
+Hypothesis: No alien died without throwing balls
+
+Premise: The red alien ate at some Mexican restaurants
+Hypothesis: The red alien ate at restaurants
+
+Premise: The red alien read some news magazines
+Hypothesis: The red alien read magazines
+
+Premise: No alien died without eating at Mexican restaurants
+Hypothesis: No alien died without eating at restaurants
+
+Premise: Every alien who did not throw any tennis balls is hairy
+Hypothesis: Every alien who did not throw balls is hairy
+
+Premise: Every cook who is not a tall man ran
+Hypothesis: Every cook who is not a man ran
+
+Premise: At least one man sang
+Hypothesis: At least one man sang or danced
+
+Premise: At least one man danced
+Hypothesis: At least one man sang or danced
+
+Premise: Every man sang
+Hypothesis: Every man sang or danced
+
+Premise: Every man danced
+Hypothesis: Every man sang or danced
+
+Premise: He never lacked paper money
+Hypothesis: He never lacked money
+
+Premise: Many of the books had typical readers
+Hypothesis: Many of the books had typical or marginal readers
+
+Premise: Almost every camper has caught a cold
+Hypothesis: Almost every camper has ever had a sunburn or caught a cold
+
+Premise: Almost every camper has caught a cold
+Hypothesis: Almost every camper has had a sunburn or caught a cold
+
+Premise: Almost every child decided on the cotton candy
+Hypothesis: Almost every child chose any mint chocolates or decided on the cotton candy
+
+Premise: Almost every child decided on the cotton candy
+Hypothesis: Almost every child chose mint chocolates or decided on the cotton candy
+
+Premise: Almost everybody has caught a cold
+Hypothesis: Almost everybody has ever had a sunburn or caught a cold
+
+Premise: Almost everybody has caught a cold
+Hypothesis: Almost everybody has had a sunburn or caught a cold
+
+Premise: Almost everybody decided on the cotton candy
+Hypothesis: Almost everybody chose any mint chocolates or decided on the cotton candy
+
+Premise: Almost everybody decided on the cotton candy
+Hypothesis: Almost everybody chose mint chocolates or decided on the cotton candy
+
+Premise: At least five campers have caught a cold
+Hypothesis: At least five campers have ever had a sunburn or caught a cold
+
+Premise: At least five campers have caught a cold
+Hypothesis: At least five campers have had a sunburn or caught a cold
+
+Premise: At least five children decided on the cotton candy
+Hypothesis: At least five children chose any mint chocolates or decided on the cotton candy
+
+Premise: At least five children decided on the cotton candy
+Hypothesis: At least five children chose mint chocolates or decided on the cotton candy
+
+Premise: At least half campers have caught a cold
+Hypothesis: At least half campers have ever had a sunburn or caught a cold
+
+Premise: At least half campers have caught a cold
+Hypothesis: At least half campers have had a sunburn or caught a cold
+
+Premise: At least half children decided on the cotton candy
+Hypothesis: At least half children chose any mint chocolates or decided on the cotton candy
+
+Premise: At least half children decided on the cotton candy
+Hypothesis: At least half children chose mint chocolates or decided on the cotton candy
+
+Premise: More than five campers have caught a cold
+Hypothesis: More than five campers have ever had a sunburn or caught a cold
+
+Premise: More than five campers have caught a cold
+Hypothesis: More than five campers have had a sunburn or caught a cold
+
+Premise: More than five children decided on the cotton candy
+Hypothesis: More than five children chose any mint chocolates or decided on the cotton candy
+
+Premise: More than five children decided on the cotton candy
+Hypothesis: More than five children chose mint chocolates or decided on the cotton candy
+
+Premise: More than five of campers have caught a cold
+Hypothesis: More than five of campers have ever had a sunburn or caught a cold
+
+Premise: More than five of campers have caught a cold
+Hypothesis: More than five of campers have had a sunburn or caught a cold
+
+Premise: More than five of the children decided on the cotton candy
+Hypothesis: More than five of the children chose any mint chocolates or decided on the cotton candy
+
+Premise: More than five of the children decided on the cotton candy
+Hypothesis: More than five of the children chose mint chocolates or decided on the cotton candy
+
+Premise: Many campers have caught a cold
+Hypothesis: Many campers have ever had a sunburn or caught a cold
+
+Premise: Many campers have caught a cold
+Hypothesis: Many campers have had a sunburn or caught a cold
+
+Premise: Many children decided on the cotton candy
+Hypothesis: Many children chose any mint chocolates or decided on the cotton candy
+
+Premise: Many children decided on the cotton candy
+Hypothesis: Many children chose mint chocolates or decided on the cotton candy
+
+Premise: Many of the campers have caught a cold
+Hypothesis: Many of the campers have ever had a sunburn or caught a cold
+
+Premise: Many of the campers have caught a cold
+Hypothesis: Many of the campers have had a sunburn or caught a cold
+
+Premise: Many of the children decided on the cotton candy
+Hypothesis: Many of the children chose any mint chocolates or decided on the cotton candy
+
+Premise: Many of the children decided on the cotton candy
+Hypothesis: Many of the children chose mint chocolates or decided on the cotton candy
+
+Premise: No less than fifty campers have caught a cold
+Hypothesis: No less than fifty campers have ever had a sunburn or caught a cold
+
+Premise: No less than fifty campers have caught a cold
+Hypothesis: No less than fifty campers have had a sunburn or caught a cold
+
+Premise: No less than fifty children decided on the cotton candy
+Hypothesis: No less than fifty children chose any mint chocolates or decided on the cotton candy
+
+Premise: No less than fifty children decided on the cotton candy
+Hypothesis: No less than fifty children chose mint chocolates or decided on the cotton candy
+
+Premise: No less than five campers have caught a cold
+Hypothesis: No less than five campers have ever had a sunburn or caught a cold
+
+Premise: No less than five campers have caught a cold
+Hypothesis: No less than five campers have had a sunburn or caught a cold
+
+Premise: No less than five children decided on the cotton candy
+Hypothesis: No less than five children chose any mint chocolates or decided on the cotton candy
+
+Premise: No less than five children decided on the cotton candy
+Hypothesis: No less than five children chose mint chocolates or decided on the cotton candy
+
+Premise: Some boy, the brother of whom Mary loves, walked
+Hypothesis: Some boy walked
+
+Premise: Many men farmers entered the race early
+Hypothesis: Many men entered the race
