@@ -1,8 +1,5 @@
-import urllib.request
-import requests
 import json
-import spacy
-import itertools
+import urllib.request
 from nltk.corpus import wordnet
 
 
@@ -42,55 +39,66 @@ class ConceptNet:
                 print(edge['rel']['label'])
 
     def relation(self, concept, rel='IsA'):
-        hypernyms = set([])
+        hypernyms = {}
         url_to_search = self.url + "query?start=/c/en/" + \
-            concept + "&rel=/r/" + rel + "&limit=500"
-        # print(url_to_search)
+            concept + "&rel=/r/" + "IsA" + "&limit=500"
+        print(url_to_search)
         data = urllib.request.urlopen(url_to_search)
         json_data = json.load(data)
         for edge in json_data["edges"]:
             surface_text = edge['surfaceText']
-            if surface_text and edge["weight"] > 1.0:
-                if 'a type of' in surface_text or 'a kind of' in surface_text:
-                    hypernyms.add(edge['end']['label'])
+            if edge["weight"] >= 1.0:
+                # if 'a type of' in surface_text or 'a kind of' in surface_text:
+                hypernyms[edge['end']['label']] = 1
 
+        hyponyms = {}
         url_to_search = self.url + "query?end=/c/en/" + \
-            concept + "&rel=/r/" + rel + "&limit=500"
+            concept + "&rel=/r/" + "IsA" + "&limit=500"
         # print(url_to_search)
         data = urllib.request.urlopen(url_to_search)
         json_data = json.load(data)
-        hyponyms = set([])
         for edge in json_data["edges"]:
-            if edge["weight"] > 1.0:
-                hyponyms.add(edge['start']['label'])
+            if edge["weight"] >= 1.0:
+                hyponyms[edge['start']['label']] = 1
 
-        return hypernyms, hyponyms
+        antonyms = {}
+        url_to_search = self.url + "query?end=/c/en/" + \
+            concept + "&rel=/r/" + "Antonym" + "&limit=20"
+        # print(url_to_search)
+        data = urllib.request.urlopen(url_to_search)
+        json_data = json.load(data)
+        for edge in json_data["edges"]:
+            if edge["weight"] >= 1.0 and edge['start']["language"] == 'en':
+                antonyms[edge['start']['label']] = 1
+
+        return hypernyms, hyponyms, antonyms
 
 
 def get_word_sets(word, pos):
-    synonyms = set([])
-    antonyms = set([])
-    hypernyms = set([])
-    hyponyms = set([])
+    synonyms = {}
+    antonyms = {}
+    hypernyms = {}
+    hyponyms = {}
 
     for syn in wordnet.synsets(word):
         for x in syn.hypernyms():
             for l in x.lemmas():
-                hypernyms.add(l.name().replace('_', ' '))
+                hypernyms[l.name().replace('_', ' ')] = 1
         for x in syn.hyponyms():
             for l in x.lemmas():
-                hyponyms.add(l.name().replace('_', ' '))
+                hyponyms[l.name().replace('_', ' ')] = 1
         for l in syn.lemmas():
-            synonyms.add(l.name().replace('_', ' '))
+            synonyms[l.name().replace('_', ' ')] = 1
             if l.antonyms():
-                antonyms.add(l.antonyms()[0].name().replace('_', ' '))
+                antonyms[l.antonyms()[0].name().replace('_', ' ')] = 1
 
     conceptNet = ConceptNet()
-    hyper, hypo = conceptNet.relation(word)
-    hypernyms = hypernyms.union(hyper)
-    hyponyms = hyponyms.union(hypo)
+    hyper, hypo, ant = conceptNet.relation(word)
+    hypernyms_full = {**hypernyms, **hyper}
+    hyponyms_full = {**hyponyms, **hypo}
+    antonyms_full = {**antonyms, **ant}
 
-    return hypernyms, hyponyms, synonyms, antonyms
+    return hypernyms_full, hyponyms_full, synonyms, antonyms_full
 
 
 def test():
@@ -99,6 +107,8 @@ def test():
 
 
 if __name__ == '__main__':
-    hypernyms, hyponyms, synonyms, antonyms = get_word_sets("dog", "nn")
+    hypernyms, hyponyms, synonyms, antonyms = get_word_sets("boy", "nn")
     print(list(hypernyms))
-    print(list(hyponyms))
+    # print(list(hyponyms))
+    print(list(synonyms))
+    print(list(antonyms))
