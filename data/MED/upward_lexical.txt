@@ -43,8 +43,8 @@ Every alien watched baseball matches.
 Every alien watched sports matches.
 
 paper:upward_monotone:lexical_knowledge
-Every alien bought shirts.
-Every alien bought clothes.
+Every alien bought some shirts.
+Every alien bought some clothes.
 
 paper:upward_monotone:lexical_knowledge
 Every alien drove suvs.

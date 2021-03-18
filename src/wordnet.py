@@ -32,7 +32,7 @@ class ConceptNet:
         data = urllib.request.urlopen(url_to_search)
         json_data = json.load(data)
         if verbose:
-            print(url_to_search)
+            # print(url_to_search)
             for edge in json_data["edges"]:
                 print("--------------")
                 print(edge['end']['label'])
@@ -41,8 +41,8 @@ class ConceptNet:
     def relation(self, concept, rel='IsA'):
         hypernyms = {}
         url_to_search = self.url + "query?start=/c/en/" + \
-            concept + "&rel=/r/" + "IsA" + "&limit=500"
-        print(url_to_search)
+            concept + "&rel=/r/" + "IsA" + "&limit=50"
+        # print(url_to_search)
         data = urllib.request.urlopen(url_to_search)
         json_data = json.load(data)
         for edge in json_data["edges"]:
@@ -53,7 +53,7 @@ class ConceptNet:
 
         hyponyms = {}
         url_to_search = self.url + "query?end=/c/en/" + \
-            concept + "&rel=/r/" + "IsA" + "&limit=500"
+            concept + "&rel=/r/" + "IsA" + "&limit=50"
         # print(url_to_search)
         data = urllib.request.urlopen(url_to_search)
         json_data = json.load(data)
@@ -68,13 +68,13 @@ class ConceptNet:
         data = urllib.request.urlopen(url_to_search)
         json_data = json.load(data)
         for edge in json_data["edges"]:
-            if edge["weight"] >= 1.0 and edge['start']["language"] == 'en':
+            if edge['start']["language"] == 'en':
                 antonyms[edge['start']['label']] = 1
 
         return hypernyms, hyponyms, antonyms
 
 
-def get_word_sets(word, pos):
+def get_word_sets(word):
     synonyms = {}
     antonyms = {}
     hypernyms = {}
@@ -107,7 +107,7 @@ def test():
 
 
 if __name__ == '__main__':
-    hypernyms, hyponyms, synonyms, antonyms = get_word_sets("boy", "nn")
+    hypernyms, hyponyms, synonyms, antonyms = get_word_sets("colorful")
     print(list(hypernyms))
     # print(list(hyponyms))
     print(list(synonyms))

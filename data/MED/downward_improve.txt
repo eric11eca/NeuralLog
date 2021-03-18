@@ -390,3 +390,7 @@ Hypothesis: He lied, without hesitation and uneasiness
 
 Premise: Not a day passes without traffic accidents
 Hypothesis: Not a day passes without scary traffic accidents
+
+
+# 254 out of 4837  94.4%
+# 502 lexical inference not acounted yet
