@@ -1,0 +1,335 @@
+ID: 7
+Premise: You know that some life-changing actions must be taken when grandma reacts with emoji
+Hypothesis: You know that some life changing actions must be taken when grandma reacts with the sad emoji
+
+ID: 44
+Premise: Tom does not want an apple product
+Hypothesis: Tom does not want an IPad
+
+ID: 47
+Premise: I have no more ideas
+Hypothesis: I have no better ideas anymore
+
+ID: 75
+Premise: You can not separate language from culture
+Hypothesis: You can not separate idiom and language speech from culture
+
+ID: 79
+Premise: She is no longer a baby
+Hypothesis: She is no longer a baby wearing diapers
+
+ID: 80
+Premise: She is no longer a baby
+Hypothesis: She is no longer a baby with a pacifier
+
+ID: 81
+Premise: She is no longer a baby
+Hypothesis: She is no longer a screaming baby
+
+ID: 82
+Premise: I do not want to get a full denture
+Hypothesis: I do not want to get a full teeth change
+
+ID: 168
+Premise: Tom was not allowed to visit his father in prison
+Hypothesis: Tom was not allowed to visit his father in prison, so he can not do anything about it
+
+ID: 185
+Premise: Tom did not want to work overtime on Christmas Eve
+Hypothesis: Tom did not want to work outside of your schedule on Christmas Eve
+
+ID: 270
+Premise: I do not want trouble
+Hypothesis: I want to avoid problems
+
+ID: 271
+Premise: We can talk here, no problem
+Hypothesis: We can talk here, no problem and start talking
+
+ID: 272
+Premise: We can talk here, no problem
+Hypothesis: We can talk here, no problem and i'm all ears
+
+ID: 330
+Premise: He runs to the station every morning
+Hypothesis: He runs to the station every morning with his friends
+
+ID: 429
+Premise: She reads the newspaper every morning
+Hypothesis: She reads the newspaper every morning at 8 am
+
+ID: 430
+Premise: She reads the newspaper every morning
+Hypothesis: She reads the newspaper every morning with a cup of tea
+
+ID: 436
+Premise: The civilian unrest is showing no signs of abating
+Hypothesis: The civilian unrest does not come down
+
+ID: 484
+Premise: Tom did not want to go to jail
+Hypothesis: Tom did not want to go to maricopa county 4th avenue jail
+
+ID: 516
+Premise: I can not make head or tail of this picture
+Hypothesis: I can not make head or tail of this big picture
+
+ID: 551
+Premise: The tanker has only a small crew on board
+Hypothesis: The tanker has only a small crew on board to move on
+
+ID: 556
+Premise: Tom did not have a weapon
+Hypothesis: Tom did not have a long range weapon
+
+ID: 587
+Premise: Farragut captured new orleans without a fight
+Hypothesis: Farragut captured new orleans without a single problem or any kind of dispute
+
+ID: 594
+Premise: We were not given homework
+Hypothesis: We were not given work to do at home
+
+ID: 606
+Premise: Little Sophie was not obedient
+Hypothesis: Sophie was not obedient in her dance class
+
+ID: 667
+Premise: He did not exactly cover himself in glory
+Hypothesis: He did not exactly cover himself in glory and applauses
+
+ID: 758
+Premise: My tree had a few blossoms but no fruit
+Hypothesis: My tree had a few blossoms but no fruits to eat
+
+ID: 779
+Premise: He had a fatal lack of ability to think logically
+Hypothesis: He had a fatal lack of ability and speed to think logically
+
+ID: 802
+Premise: She hasn't got a lot of food to give
+Hypothesis: She hasn't got a lot of chocolates to give
+
+ID: 803
+Premise: I want to avoid unnecessary risks
+Hypothesis: I want to avoid unnecessary risks and misfortunes
+
+ID: 833
+Premise: You do not speak English and Japanese
+Hypothesis: You do not speak English
+
+ID: 850
+Premise: George weighs not less than 70 kilograms
+Hypothesis: George weighs not under 70 kilograms
+
+ID: 853
+Premise: I do not drink coffee at all
+Hypothesis: I do not drink coffee with a lot of foam at all in the morning
+
+ID: 856
+Premise: I'm not nervous at all
+Hypothesis: I'm not nervous for the party at all
+
+ID: 946
+Premise: If your child drinks poison, rush him to the hospital
+Hypothesis: If your child drinks a bottle of poison, rush him to the hospital
+
+ID: 985
+Premise: He took no notice of me or my sister
+Hypothesis: He took no notice of me
+
+ID: 1007
+Premise: My brother and sister get up about seven-thirty every morning
+Hypothesis: My brother and sister get up about seven-thirty every morning in summer
+
+ID: 1029
+Premise: The weather forecast is not reliable at all
+Hypothesis: The weather forecast is not reliable at all in summer
+
+ID: 1072
+Premise: The word came to be used for all small heavenly bodies revolving about larger ones
+Hypothesis: The word came to be used for all the little celestials in heaven with god
+
+ID: 1091
+Premise: The government are being criticised from all sides
+Hypothesis: The government are being criticised from all sides, left and right
+
+ID: 1140
+Premise: You have to judge the case without bias
+Hypothesis: You have to judge the case without any bias of gender
+
+ID: 1141
+Premise: You have to judge the case without bias
+Hypothesis: You have to judge the case without bias towards a specific party
+
+ID: 1142
+Premise: You have to judge the case without bias
+Hypothesis: You have to judge the case without bias to your friend
+
+ID: 1143
+Premise: You have to judge the case without bias
+Hypothesis: You have to judge the case without bias and profanity
+
+ID: 1144
+Premise: You have to judge the case without bias
+Hypothesis: You have to judge the case without bias and with honesty
+
+ID: 1145
+Premise: You have to judge the case without bias
+Hypothesis: You have to judge the case without bias of ignorant people
+
+ID: 1189
+Premise: Tom does not take criticism well
+Hypothesis: Tom does not take any diferrent opinion well
+
+ID: 1219
+Premise: I can not speak Japanese and English
+Hypothesis: I can not speak Japanese
+
+ID: 1299
+Premise: If it is sunny tomorrow, we will go on a picnic
+Hypothesis: If it is sunny tomorrow in the mountain, we will go on a picnic
+
+ID: 1303
+Premise: You're no longer children
+Hypothesis: You're no longer small children
+
+ID: 1307
+Premise: If you and marco are well, paulo and i are well
+Hypothesis: If you and your boyfriend marco are well, paulo and i are well
+
+ID: 1308
+Premise: If you and marco are well, paulo and i are well
+Hypothesis: If you and your brother marco are well, paulo and i are well
+
+ID: 1310
+Premise: I did not actually want to go to college and canteen
+Hypothesis: I did not actually want to go to college
+
+ID: 1341
+Premise: We do not have a garden
+Hypothesis: We do not have a good ground
+
+ID: 1367
+Premise: You are no longer a child
+Hypothesis: You are no longer a hateful and pretentious child
+
+ID: 1385
+Premise: You'd better avoid discussion of religion and politics
+Hypothesis: You'd better avoid discussion of catholic religion and politics
+
+ID: 1391
+Premise: He lied, without hesitation
+Hypothesis: He lied, without hesitation and uneasiness
+
+ID: 1451
+Premise: No child should be left behind
+Hypothesis: No poor boy should be left behind
+
+ID: 1495
+Premise: I had no choice but to take the plane
+Hypothesis: I took the plane because I had no choice
+
+ID: 1519
+Premise: Darkness is the absence of light
+Hypothesis: Darkness is the absence of light that illuminates everything
+
+ID: 1613
+Premise: The ship left every Monday in the morning
+Hypothesis: The ship left every monday
+
+ID: 1614
+Premise: The ship left every monday
+Hypothesis: The ship left every Monday evening or afternoon
+
+ID: 1619
+Premise: Tom does not have a microwave oven
+Hypothesis: Tom does not have a philips microwave-oven
+
+ID: 1622
+Premise: I've never been to paris
+Hypothesis: I've never been to paris, the capital of france
+
+ID: 1676
+Premise: Few aliens read any magazines
+Hypothesis: Few aliens read news magazines
+
+ID: 1683
+Premise: Almost no campers have ever had a sunburn or caught a cold
+Hypothesis: Almost no campers have caught a cold
+
+ID: 1684
+Premise: Almost no campers have had a sunburn or caught a cold
+Hypothesis: Almost no campers have caught a cold
+
+ID: 1687
+Premise: Almost nobody has ever had a sunburn or caught a cold
+Hypothesis: Almost nobody has caught a cold
+
+ID: 1688
+Premise: Almost nobody has had a sunburn or caught a cold
+Hypothesis: Almost nobody has caught a cold
+
+ID: 1689
+Premise: Almost nobody chose any mint chocolates or decided on the cotton candy
+Hypothesis: Almost nobody decided on the cotton candy
+
+ID: 1691
+Premise: At most five campers have ever had a sunburn or caught a cold
+Hypothesis: At most five campers have caught a cold
+
+ID: 1692
+Premise: At most five campers have had a sunburn or caught a cold
+Hypothesis: At most five campers have caught a cold
+
+ID: 1695
+Premise: At most half campers have ever had a sunburn or caught a cold
+Hypothesis: At most half campers have caught a cold
+
+ID: 1696
+Premise: At most half campers have had a sunburn or caught a cold
+Hypothesis: At most half campers have caught a cold
+
+ID: 1699
+Premise: Less than five campers have ever had a sunburn or caught a cold
+Hypothesis: Less than five campers have caught a cold
+
+ID: 1700
+Premise: Less than five campers have had a sunburn or caught a cold
+Hypothesis: Less than five campers have caught a cold
+
+ID: 1707
+Premise: Not many campers have ever had a sunburn or caught a cold
+Hypothesis: Not many campers have caught a cold
+
+ID: 1708
+Premise: Not many campers have had a sunburn or caught a cold
+Hypothesis: Not many campers have caught a cold
+
+ID: 1711
+Premise: Not many of the campers have ever had a sunburn or caught a cold
+Hypothesis: Not many of the campers have caught a cold
+
+ID: 1715
+Premise: No more than fifty campers have ever had a sunburn or caught a cold
+Hypothesis: No more than fifty campers have caught a cold
+
+ID: 1716
+Premise: No more than fifty campers have had a sunburn or caught a cold
+Hypothesis: No more than fifty campers have caught a cold
+
+ID: 1719
+Premise: No more than five campers have ever had a sunburn or caught a cold
+Hypothesis: No more than five campers have caught a cold
+
+ID: 1720
+Premise: No more than five campers have had a sunburn or caught a cold
+Hypothesis: No more than five campers have caught a cold
+
+ID: 1732
+Premise: No teacher ran
+Hypothesis: No tall teacher ran yesterday
+
+ID: 1735
+Premise: No plumber entered the race
+Hypothesis: Many men entered the race early

@@ -366,3 +366,102 @@ Hypothesis: Some boy walked
 
 Premise: Many men farmers entered the race early
 Hypothesis: Many men entered the race
+
+Premise: Every alien watched baseball matches
+Hypothesis: Every alien watched sports matches
+
+Premise: Every alien bought shirts
+Hypothesis: Every alien bought clothes
+
+Premise: Every alien saw doves
+Hypothesis: Every alien saw birds
+
+Premise: Many aliens saw doves
+Hypothesis: Many aliens saw birds
+
+Premise: The yellow alien saw doves
+Hypothesis: The yellow alien saw birds
+
+Premise: Every alien bought some shirts
+Hypothesis: Every alien bought clothes
+
+Premise: The blue alien used some quarters
+Hypothesis: The blue alien used coins
+
+Premise: No alien died without watching baseball matches
+Hypothesis: No alien died without watching sports matches
+
+Premise: No alien died without watching any baseball matches
+Hypothesis: No alien died without watching sports matches
+
+Premise: No alien died without playing with any toy cars
+Hypothesis: No alien died without playing with toys
+
+Premise: No alien died without watching some baseball matches
+Hypothesis: No alien died without watching sports matches
+
+Premise: The red alien ate some pork
+Hypothesis: The red alien ate meat
+
+Premise: Every alien ate some pork
+Hypothesis: Every alien ate meat
+
+Premise: The red alien saw some doves
+Hypothesis: The red alien saw birds
+
+Premise: Every alien saw some doves
+Hypothesis: Every alien saw birds
+
+Premise: Many aliens ate some pork
+Hypothesis: Many aliens ate meat
+
+Premise: Many aliens saw some doves
+Hypothesis: Many aliens saw birds
+
+Premise: She gave him a rose
+Hypothesis: She gave him a flower
+
+Premise: She kissed him
+Hypothesis: She touched him
+
+Premise: Aldo kissed Nina
+Hypothesis: Aldo touched Nina
+
+Premise: He loves a woman
+Hypothesis: He loves a person
+
+Premise: She whispered more than three words
+Hypothesis: She said more than three words
+
+Premise: Betty lives in Berlin
+Hypothesis: Betty lives in Germany
+
+Premise: All dots are scarlet
+Hypothesis: All dots are red
+
+Premise: Most dots are scarlet
+Hypothesis: Most dots are red
+
+Premise: Some dots are scarlet
+Hypothesis: Some dots are red
+
+Premise: At least five dots are scarlet
+Hypothesis: At least five dots are red
+
+Premise: More than half of the tenors have the flu
+Hypothesis: More than half of the tenors are sick
+
+Premise: All the tenors have the flu
+Hypothesis: All the tenors are sick
+
+Premise: Some of the sopranos sang with more than three of the tenors
+Hypothesis: Some of the sopranos sang with more than three of the male singers
+
+Premise: Some elephants are pink
+Hypothesis: Some pachyderms are pink
+
+Premise: Some elephants are not pink
+Hypothesis: Some pachyderms are not pink
+
+Premise: John does and Mary does not walk
+Hypothesis: John moves

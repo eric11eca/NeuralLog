@@ -1,0 +1,365 @@
+ID: 12
+Premise: Socrates is rational
+
+Hypothesis: Someone is rational
+
+
+ID: 20
+Premise: Understanding a long document requires tracking how entities are introduced and evolve, over time
+
+Hypothesis: Understanding a long document requires understanding how entities are introduced
+
+
+ID: 25
+Premise: All the players were in defending position
+
+Hypothesis: All the players were in position
+
+
+ID: 29
+Premise: Every one, but lazy Jim, came
+
+Hypothesis: Every one, but Jim, came
+
+
+ID: 32
+Premise: There is a beautiful glass sculpture in the play ground
+
+Hypothesis: There is a glass sculpture in the garden
+
+
+ID: 37
+Premise: There is a big chubby cat on the desk
+
+Hypothesis: There is a cat on the desk
+
+
+ID: 59
+Premise: I bought a VW Japanese bus
+
+Hypothesis: I bought a VW bus
+
+
+ID: 86
+Premise: Winter does not look real without snow stones
+
+Hypothesis: Winter does not look real without snow
+
+
+ID: 141
+Premise: I had no sales today and this week
+
+Hypothesis: I had no sales today
+
+
+ID: 170
+Premise: A cute and chubby cat was on the table
+
+Hypothesis: A cat was on the table
+
+
+ID: 172
+Premise: A big fluffy cat was sleeping on the table
+
+Hypothesis: A cat was on the table
+
+
+ID: 182
+Premise: I was in New York with my boyfriend for a few days
+
+Hypothesis: I was in New York city for a few days
+
+
+ID: 196
+Premise: Vladivostok is a city in Russia nearby golden horn bay
+
+Hypothesis: Vladivostok is a city in Russia
+
+
+ID: 203
+Premise: He did nothing yasterday but cry
+
+Hypothesis: He did nothing but cry
+
+
+ID: 214
+Premise: Cold mayo is nothing but chemicals
+
+Hypothesis: Mayo is nothing but chemicals
+
+
+ID: 228
+Premise: Tom is dialling a local emergency number
+
+Hypothesis: Tom is dialling a number
+
+
+ID: 234
+Premise: Tom drinks warmed up milk every morning
+
+Hypothesis: Tom drinks milk every morning
+
+
+ID: 237
+Premise: The young girl Lucy can not use chopsticks
+
+Hypothesis: Lucy can�s use chopsticks
+
+
+ID: 250
+Premise: There are some boys buying ice cream in the park
+
+Hypothesis: There are some guys in the park
+
+
+ID: 251
+Premise: The hunter shot at a deer but missed
+
+Hypothesis: The hunter shot a deer
+
+
+ID: 282
+Premise: I see a man and a tall woman with daughter
+
+Hypothesis: I see a man and a woman
+
+
+ID: 326
+Premise: I can not imagine life without him and his dog
+
+Hypothesis: I can not imagine life without him
+
+
+ID: 393
+Premise: At least one man sang
+
+Hypothesis: At least one man sang or danced
+
+
+ID: 394
+Premise: At least one man danced
+
+Hypothesis: At least one man sang or danced
+
+
+ID: 397
+Premise: Every man sang
+
+Hypothesis: Every man sang or danced
+
+
+ID: 398
+Premise: Every man danced
+
+Hypothesis: Every man sang or danced
+
+
+ID: 407
+Premise: Many of the books had typical readers
+
+Hypothesis: Many of the books had typical or marginal readers
+
+
+ID: 408
+Premise: Almost every camper has caught a cold
+
+Hypothesis: Almost every camper has ever had a sunburn or caught a cold
+
+
+ID: 409
+Premise: Almost every camper has caught a cold
+
+Hypothesis: Almost every camper has had a sunburn or caught a cold
+
+
+ID: 410
+Premise: Almost every child decided on the cotton candy
+
+Hypothesis: Almost every child chose any mint chocolates or decided on the cotton candy
+
+
+ID: 411
+Premise: Almost every child decided on the cotton candy
+
+Hypothesis: Almost every child chose mint chocolates or decided on the cotton candy
+
+
+ID: 412
+Premise: Almost everybody has caught a cold
+
+Hypothesis: Almost everybody has ever had a sunburn or caught a cold
+
+
+ID: 413
+Premise: Almost everybody has caught a cold
+
+Hypothesis: Almost everybody has had a sunburn or caught a cold
+
+
+ID: 414
+Premise: Almost everybody decided on the cotton candy
+
+Hypothesis: Almost everybody chose any mint chocolates or decided on the cotton candy
+
+
+ID: 415
+Premise: Almost everybody decided on the cotton candy
+
+Hypothesis: Almost everybody chose mint chocolates or decided on the cotton candy
+
+
+ID: 416
+Premise: At least five campers have caught a cold
+
+Hypothesis: At least five campers have ever had a sunburn or caught a cold
+
+
+ID: 417
+Premise: At least five campers have caught a cold
+
+Hypothesis: At least five campers have had a sunburn or caught a cold
+
+
+ID: 418
+Premise: At least five children decided on the cotton candy
+
+Hypothesis: At least five children chose any mint chocolates or decided on the cotton candy
+
+
+ID: 419
+Premise: At least five children decided on the cotton candy
+
+Hypothesis: At least five children chose mint chocolates or decided on the cotton candy
+
+
+ID: 420
+Premise: At least half campers have caught a cold
+
+Hypothesis: At least half campers have ever had a sunburn or caught a cold
+
+
+ID: 421
+Premise: At least half campers have caught a cold
+
+Hypothesis: At least half campers have had a sunburn or caught a cold
+
+
+ID: 422
+Premise: At least half children decided on the cotton candy
+
+Hypothesis: At least half children chose any mint chocolates or decided on the cotton candy
+
+
+ID: 423
+Premise: At least half children decided on the cotton candy
+
+Hypothesis: At least half children chose mint chocolates or decided on the cotton candy
+
+
+ID: 424
+Premise: More than five campers have caught a cold
+
+Hypothesis: More than five campers have ever had a sunburn or caught a cold
+
+
+ID: 425
+Premise: More than five campers have caught a cold
+
+Hypothesis: More than five campers have had a sunburn or caught a cold
+
+
+ID: 426
+Premise: More than five children decided on the cotton candy
+
+Hypothesis: More than five children chose any mint chocolates or decided on the cotton candy
+
+
+ID: 427
+Premise: More than five children decided on the cotton candy
+
+Hypothesis: More than five children chose mint chocolates or decided on the cotton candy
+
+
+ID: 428
+Premise: More than five of campers have caught a cold
+
+Hypothesis: More than five of campers have ever had a sunburn or caught a cold
+
+
+ID: 429
+Premise: More than five of campers have caught a cold
+
+Hypothesis: More than five of campers have had a sunburn or caught a cold
+
+
+ID: 430
+Premise: More than five of the children decided on the cotton candy
+
+Hypothesis: More than five of the children chose any mint chocolates or decided on the cotton candy
+
+
+ID: 431
+Premise: More than five of the children decided on the cotton candy
+
+Hypothesis: More than five of the children chose mint chocolates or decided on the cotton candy
+
+
+ID: 432
+Premise: Many campers have caught a cold
+
+Hypothesis: Many campers have ever had a sunburn or caught a cold
+
+
+ID: 433
+Premise: Many campers have caught a cold
+
+Hypothesis: Many campers have had a sunburn or caught a cold
+
+
+ID: 434
+Premise: Many children decided on the cotton candy
+
+Hypothesis: Many children chose any mint chocolates or decided on the cotton candy
+
+
+ID: 435
+Premise: Many children decided on the cotton candy
+
+Hypothesis: Many children chose mint chocolates or decided on the cotton candy
+
+
+ID: 436
+Premise: Many of the campers have caught a cold
+
+Hypothesis: Many of the campers have ever had a sunburn or caught a cold
+
+
+ID: 437
+Premise: Many of the campers have caught a cold
+
+Hypothesis: Many of the campers have had a sunburn or caught a cold
+
+
+ID: 438
+Premise: Many of the children decided on the cotton candy
+
+Hypothesis: Many of the children chose any mint chocolates or decided on the cotton candy
+
+
+ID: 439
+Premise: Many of the children decided on the cotton candy
+
+Hypothesis: Many of the children chose mint chocolates or decided on the cotton candy
+
+
+ID: 452
+Premise: Some boy, the brother of whom Mary loves, walked
+
+Hypothesis: Some boy walked
+
+
+ID: 457
+Premise: Many men farmers entered the race early
+
+Hypothesis: Many men entered the race
+

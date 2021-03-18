@@ -391,6 +391,210 @@ Hypothesis: He lied, without hesitation and uneasiness
 Premise: Not a day passes without traffic accidents
 Hypothesis: Not a day passes without scary traffic accidents
 
+Premise: You can not separate language from culture
+Hypothesis: You can not separate language from dialect
+
+Premise: I do not have a choice
+Hypothesis: I do not have an opportunity
+
+Premise: Tom does not want an IPad
+Hypothesis: Tom does not want an apple IPhone
+
+Premise: I do not want to get a full denture
+Hypothesis: I do not want to get a full teeth replacement
+
+Premise: I do not want to be a hero
+Hypothesis: I do not want to be a heroine
+
+Premise: No sound was to be heard
+Hypothesis: No murmur was to be heard
+
+Premise: I have never been to that town
+Hypothesis: I have never been to that city
+
+Premise: I have never been to that town
+Hypothesis: I have never been to that place
+
+Premise: She has no real friends
+Hypothesis: She has no real partners
+
+Premise: Every crime must be punished
+Hypothesis: Every felony must be punished
+
+Premise: Wolves do not eat salad
+Hypothesis: The wolves do not eat coleslaw
+
+Premise: Capitalism hasn't to be a monster
+Hypothesis: Capitalism hasn't to be a beast
+
+Premise: Capitalism hasn't to be a monster
+Hypothesis: Capitalism hasn't to be a monstrosity
+
+Premise: I have never felt prouder in my whole life
+Hypothesis: I have never felt gratified in my whole life
+
+Premise: Every harlot was a virgin once
+Hypothesis: Every prostitute was a virgin once
+
+Premise: Every harlot was a virgin once
+Hypothesis: Every hooker was a virgin once
+
+Premise: We've never been to that place
+Hypothesis: We've never been to that spot
+
+Premise: We've never been to that place
+Hypothesis: We've never been to that room
+
+Premise: I do not use birth control
+Hypothesis: I do not use pills
+
+Premise: I take my tea without sugar
+Hypothesis: I take my tea without sweetener
+
+Premise: If your child drinks poison, rush him to the hospital
+Hypothesis: If your child drinks venom, rush him to the hospital
+
+Premise: We do not accept charity
+Hypothesis: We do not accept generosity
+
+Premise: Not a few houses were destroyed in the typhoon
+Hypothesis: Not a few homesteads were destroyed in the typhoon
+
+Premise: If Esperanto were an easy language I would not need a proofreader
+Hypothesis: If tamil were an easy language I would not need a proofreader
+
+Premise: He does not play soccer
+Hypothesis: He does not play football
+
+Premise: You're no longer teenagers
+Hypothesis: You're no longer children
+
+Premise: You're no longer children
+Hypothesis: You're no longer babies
+
+Premise: I hope this is not a mistake
+Hypothesis: I hope this is not a foul
+
+Premise: Picasso was no clown, and he was a sarcastic commentator on a confused age, a great archivist of humanity's foolishness
+Hypothesis: Picasso was no comic figure, and he was a sarcastic commentator on a confused age, a great archivist of humanity's foolishness
+
+Premise: Prince Hamletwas not a play-wright
+Hypothesis: Prince Hamletwas not a dramatist
+
+Premise: Tom does not play soccer
+Hypothesis: Tom does not play football
+
+Premise: No creature can live without air
+Hypothesis: No animal can live without air
+
+Premise: It's no use asking me for money
+Hypothesis: It's no good asking me for money
+
+Premise: Few aliens ate any meat
+Hypothesis: Few aliens ate pork
+
+Premise: Few aliens saw any birds
+Hypothesis: Few aliens saw doves
+
+Premise: Few aliens used any coins
+Hypothesis: Few aliens used quarters
+
+Premise: The red alien did not see any birds
+Hypothesis: The red alien did not see doves
+
+Premise: No alien saw any birds
+Hypothesis: No alien saw doves
+
+Premise: Few aliens drank any soda
+Hypothesis: Few aliens drank coke
+
+Premise: Few aliens watched any sports matches
+Hypothesis: Few aliens watched baseball matches
+
+Premise: Few aliens played with any toys
+Hypothesis: Few aliens played with toy cars
+
+Premise: Few aliens drove any cars
+Hypothesis: Few aliens drove suvs
+
+Premise: The red alien did not drink any soda
+Hypothesis: The red alien did not drink coke
+
+Premise: The red alien did not watch any sports matches
+Hypothesis: The red alien did not watch baseball matches
+
+Premise: No alien drank any soda
+Hypothesis: No alien drank coke
+
+Premise: No alien watched any sports matches
+Hypothesis: No alien watched baseball matches
+
+Premise: No alien saw birds
+Hypothesis: No alien saw doves
+
+Premise: Few aliens read any books
+Hypothesis: Few aliens read any sci-fi novels
+
+Premise: Few aliens used coins
+Hypothesis: Few aliens used quarters
+
+Premise: Few aliens saw any birds
+Hypothesis: Few aliens saw any doves
+
+Premise: Few aliens watched any sports matches
+Hypothesis: Few aliens watched any baseball matches
+
+Premise: Few aliens drove any cars
+Hypothesis: Few aliens drove any suvs
+
+Premise: No alien bought any clothes
+Hypothesis: No alien bought shirts
+
+Premise: Few aliens bought any clothes
+Hypothesis: Few aliens bought shirts
+
+Premise: She did not give him a flower
+Hypothesis: She did not give him a rose
+
+Premise: She never touched him
+Hypothesis: She never kissed him
+
+Premise: Every mammal is striped
+Hypothesis: Every zebra is striped
+
+Premise: She said less than three words
+Hypothesis: She whispered less than three words
+
+Premise: Nobody moved
+Hypothesis: Nobody danced
+
+Premise: We never touched
+Hypothesis: We never kissed
+
+Premise: All philosophers are mortal
+Hypothesis: All hegelians are mortal
+
+Premise: It's not true that Betty lives in Germany
+Hypothesis: It's not true that Betty lives in Berlin
+
+Premise: No dots are red
+Hypothesis: No dots are scarlet
+
+Premise: Fewer than five dots are red
+Hypothesis: Fewer than five dots are scarlet
+
+Premise: All pachyderms are navy blue
+Hypothesis: All elephants are navy blue
+
+Premise: All pachyderms are pink
+Hypothesis: All elephants are pink
+
+Premise: No pachyderms are pink
+Hypothesis: No elephants are pink
+
+Premise: John does and Mary does not move
+Hypothesis: Mary does not walk
+
 
 # 254 out of 4837  94.4%
 # 502 lexical inference not acounted yet

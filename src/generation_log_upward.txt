@@ -1,0 +1,197 @@
+ID: 10
+Premise: Every alien watched baseball matches
+
+Hypothesis: Every alien watched sports matches
+
+
+ID: 11
+Premise: Every alien bought shirts
+
+Hypothesis: Every alien bought clothes
+
+
+ID: 30
+Premise: Every alien saw doves
+
+Hypothesis: Every alien saw birds
+
+
+ID: 33
+Premise: Many aliens saw doves
+
+Hypothesis: Many aliens saw birds
+
+
+ID: 36
+Premise: The yellow alien saw doves
+
+Hypothesis: The yellow alien saw birds
+
+
+ID: 37
+Premise: Every alien bought some shirts
+
+Hypothesis: Every alien bought clothes
+
+
+ID: 42
+Premise: The blue alien used some quarters
+
+Hypothesis: The blue alien used coins
+
+
+ID: 91
+Premise: No alien died without watching baseball matches
+
+Hypothesis: No alien died without watching sports matches
+
+
+ID: 102
+Premise: No alien died without watching any baseball matches
+
+Hypothesis: No alien died without watching sports matches
+
+
+ID: 103
+Premise: No alien died without playing with any toy cars
+
+Hypothesis: No alien died without playing with toys
+
+
+ID: 116
+Premise: No alien died without watching some baseball matches
+
+Hypothesis: No alien died without watching sports matches
+
+
+ID: 121
+Premise: The red alien ate some pork
+
+Hypothesis: The red alien ate meat
+
+
+ID: 122
+Premise: Every alien ate some pork
+
+Hypothesis: Every alien ate meat
+
+
+ID: 125
+Premise: The red alien saw some doves
+
+Hypothesis: The red alien saw birds
+
+
+ID: 126
+Premise: Every alien saw some doves
+
+Hypothesis: Every alien saw birds
+
+
+ID: 135
+Premise: Many aliens ate some pork
+
+Hypothesis: Many aliens ate meat
+
+
+ID: 137
+Premise: Many aliens saw some doves
+
+Hypothesis: Many aliens saw birds
+
+
+ID: 141
+Premise: She gave him a rose
+
+Hypothesis: She gave him a flower
+
+
+ID: 142
+Premise: She kissed him
+
+Hypothesis: She touched him
+
+
+ID: 145
+Premise: Aldo kissed Nina
+
+Hypothesis: Aldo touched Nina
+
+
+ID: 147
+Premise: He loves a woman
+
+Hypothesis: He loves a person
+
+
+ID: 150
+Premise: She whispered more than three words
+
+Hypothesis: She said more than three words
+
+
+ID: 152
+Premise: Betty lives in Berlin
+
+Hypothesis: Betty lives in Germany
+
+
+ID: 154
+Premise: All dots are scarlet
+
+Hypothesis: All dots are red
+
+
+ID: 155
+Premise: Most dots are scarlet
+
+Hypothesis: Most dots are red
+
+
+ID: 156
+Premise: Some dots are scarlet
+
+Hypothesis: Some dots are red
+
+
+ID: 157
+Premise: At least five dots are scarlet
+
+Hypothesis: At least five dots are red
+
+
+ID: 158
+Premise: More than half of the tenors have the flu
+
+Hypothesis: More than half of the tenors are sick
+
+
+ID: 159
+Premise: All the tenors have the flu
+
+Hypothesis: All the tenors are sick
+
+
+ID: 161
+Premise: Some of the sopranos sang with more than three of the tenors
+
+Hypothesis: Some of the sopranos sang with more than three of the male singers
+
+
+ID: 162
+Premise: Some elephants are pink
+
+Hypothesis: Some pachyderms are pink
+
+
+ID: 163
+Premise: Some elephants are not pink
+
+Hypothesis: Some pachyderms are not pink
+
+
+ID: 165
+Premise: John does and Mary does not walk
+
+Hypothesis: John moves
+

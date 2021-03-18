@@ -1,0 +1,407 @@
+ID: 4
+Premise: You can not separate language from culture
+
+Hypothesis: You can not separate language from dialect
+
+
+ID: 8
+Premise: I do not have a choice
+
+Hypothesis: I do not have an opportunity
+
+
+ID: 10
+Premise: Tom does not want an IPad
+
+Hypothesis: Tom does not want an apple IPhone
+
+
+ID: 16
+Premise: I do not want to get a full denture
+
+Hypothesis: I do not want to get a full teeth replacement
+
+
+ID: 24
+Premise: I do not want to be a hero
+
+Hypothesis: I do not want to be a heroine
+
+
+ID: 25
+Premise: No sound was to be heard
+
+Hypothesis: No murmur was to be heard
+
+
+ID: 38
+Premise: I have never been to that town
+
+Hypothesis: I have never been to that city
+
+
+ID: 39
+Premise: I have never been to that town
+
+Hypothesis: I have never been to that place
+
+
+ID: 40
+Premise: She has no real friends
+
+Hypothesis: She has no real partners
+
+
+ID: 78
+Premise: Every crime must be punished
+
+Hypothesis: Every felony must be punished
+
+
+ID: 82
+Premise: Wolves do not eat salad
+
+Hypothesis: The wolves do not eat coleslaw
+
+
+ID: 102
+Premise: Capitalism hasn't to be a monster
+
+Hypothesis: Capitalism hasn't to be a beast
+
+
+ID: 103
+Premise: Capitalism hasn't to be a monster
+
+Hypothesis: Capitalism hasn't to be a monstrosity
+
+
+ID: 113
+Premise: I have never felt prouder in my whole life
+
+Hypothesis: I have never felt gratified in my whole life
+
+
+ID: 131
+Premise: Every harlot was a virgin once
+
+Hypothesis: Every prostitute was a virgin once
+
+
+ID: 132
+Premise: Every harlot was a virgin once
+
+Hypothesis: Every hooker was a virgin once
+
+
+ID: 139
+Premise: We've never been to that place
+
+Hypothesis: We've never been to that spot
+
+
+ID: 140
+Premise: We've never been to that place
+
+Hypothesis: We've never been to that room
+
+
+ID: 149
+Premise: I do not use birth control
+
+Hypothesis: I do not use pills
+
+
+ID: 150
+Premise: I take my tea without sugar
+
+Hypothesis: I take my tea without sweetener
+
+
+ID: 151
+Premise: If your child drinks poison, rush him to the hospital
+
+Hypothesis: If your child drinks venom, rush him to the hospital
+
+
+ID: 152
+Premise: We do not accept charity
+
+Hypothesis: We do not accept generosity
+
+
+ID: 162
+Premise: Not a few houses were destroyed in the typhoon
+
+Hypothesis: Not a few homesteads were destroyed in the typhoon
+
+
+ID: 170
+Premise: If Esperanto were an easy language I would not need a proofreader
+
+Hypothesis: If tamil were an easy language I would not need a proofreader
+
+
+ID: 189
+Premise: He does not play soccer
+
+Hypothesis: He does not play football
+
+
+ID: 198
+Premise: You're no longer teenagers
+
+Hypothesis: You're no longer children
+
+
+ID: 199
+Premise: You're no longer children
+
+Hypothesis: You're no longer babies
+
+
+ID: 203
+Premise: I hope this is not a mistake
+
+Hypothesis: I hope this is not a foul
+
+
+ID: 213
+Premise: Picasso was no clown, and he was a sarcastic commentator on a confused age, a great archivist of humanity's foolishness
+
+Hypothesis: Picasso was no comic figure, and he was a sarcastic commentator on a confused age, a great archivist of humanity's foolishness
+
+
+ID: 219
+Premise: Prince Hamletwas not a play-wright
+
+Hypothesis: Prince Hamletwas not a dramatist
+
+
+ID: 220
+Premise: Tom does not play soccer
+
+Hypothesis: Tom does not play football
+
+
+ID: 221
+Premise: No creature can live without air
+
+Hypothesis: No animal can live without air
+
+
+ID: 231
+Premise: It's no use asking me for money
+
+Hypothesis: It's no good asking me for money
+
+
+ID: 236
+Premise: Few aliens ate any meat
+
+Hypothesis: Few aliens ate pork
+
+
+ID: 237
+Premise: Few aliens saw any birds
+
+Hypothesis: Few aliens saw doves
+
+
+ID: 238
+Premise: Few aliens used any coins
+
+Hypothesis: Few aliens used quarters
+
+
+ID: 240
+Premise: The red alien did not see any birds
+
+Hypothesis: The red alien did not see doves
+
+
+ID: 243
+Premise: No alien saw any birds
+
+Hypothesis: No alien saw doves
+
+
+ID: 254
+Premise: Few aliens drank any soda
+
+Hypothesis: Few aliens drank coke
+
+
+ID: 255
+Premise: Few aliens watched any sports matches
+
+Hypothesis: Few aliens watched baseball matches
+
+
+ID: 256
+Premise: Few aliens played with any toys
+
+Hypothesis: Few aliens played with toy cars
+
+
+ID: 257
+Premise: Few aliens drove any cars
+
+Hypothesis: Few aliens drove suvs
+
+
+ID: 258
+Premise: The red alien did not drink any soda
+
+Hypothesis: The red alien did not drink coke
+
+
+ID: 259
+Premise: The red alien did not watch any sports matches
+
+Hypothesis: The red alien did not watch baseball matches
+
+
+ID: 262
+Premise: No alien drank any soda
+
+Hypothesis: No alien drank coke
+
+
+ID: 263
+Premise: No alien watched any sports matches
+
+Hypothesis: No alien watched baseball matches
+
+
+ID: 274
+Premise: No alien saw birds
+
+Hypothesis: No alien saw doves
+
+
+ID: 275
+Premise: Few aliens read any books
+
+Hypothesis: Few aliens read any sci-fi novels
+
+
+ID: 283
+Premise: Few aliens used coins
+
+Hypothesis: Few aliens used quarters
+
+
+ID: 291
+Premise: Few aliens saw any birds
+
+Hypothesis: Few aliens saw any doves
+
+
+ID: 300
+Premise: Few aliens watched any sports matches
+
+Hypothesis: Few aliens watched any baseball matches
+
+
+ID: 302
+Premise: Few aliens drove any cars
+
+Hypothesis: Few aliens drove any suvs
+
+
+ID: 312
+Premise: No alien bought any clothes
+
+Hypothesis: No alien bought shirts
+
+
+ID: 313
+Premise: Few aliens bought any clothes
+
+Hypothesis: Few aliens bought shirts
+
+
+ID: 314
+Premise: She did not give him a flower
+
+Hypothesis: She did not give him a rose
+
+
+ID: 315
+Premise: She never touched him
+
+Hypothesis: She never kissed him
+
+
+ID: 317
+Premise: Every mammal is striped
+
+Hypothesis: Every zebra is striped
+
+
+ID: 320
+Premise: She said less than three words
+
+Hypothesis: She whispered less than three words
+
+
+ID: 321
+Premise: Nobody moved
+
+Hypothesis: Nobody danced
+
+
+ID: 322
+Premise: We never touched
+
+Hypothesis: We never kissed
+
+
+ID: 323
+Premise: All philosophers are mortal
+
+Hypothesis: All hegelians are mortal
+
+
+ID: 325
+Premise: It's not true that Betty lives in Germany
+
+Hypothesis: It's not true that Betty lives in Berlin
+
+
+ID: 326
+Premise: No dots are red
+
+Hypothesis: No dots are scarlet
+
+
+ID: 327
+Premise: Fewer than five dots are red
+
+Hypothesis: Fewer than five dots are scarlet
+
+
+ID: 328
+Premise: All pachyderms are navy blue
+
+Hypothesis: All elephants are navy blue
+
+
+ID: 329
+Premise: All pachyderms are pink
+
+Hypothesis: All elephants are pink
+
+
+ID: 330
+Premise: No pachyderms are pink
+
+Hypothesis: No elephants are pink
+
+
+ID: 333
+Premise: John does and Mary does not move
+
+Hypothesis: Mary does not walk
+
