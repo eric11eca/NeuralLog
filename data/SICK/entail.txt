@@ -4171,7 +4171,7 @@ A dog is running
 A yellow dog is running down a sandy path
 A yellow dog is running down a path covered by sand
 
-A yellow dog is running down a sandy path
+A yellow dog is running, down a sandy path
 A dog is running
 
 A dog is standing on one leg and is waiting for a soccer ball

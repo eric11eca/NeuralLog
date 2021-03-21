@@ -333,3 +333,6 @@ Hypothesis: No tall teacher ran yesterday
 ID: 1735
 Premise: No plumber entered the race
 Hypothesis: Many men entered the race early
+
+
+84
