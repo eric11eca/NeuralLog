@@ -218,14 +218,23 @@ class Ugraph:
         os.system(
             'magick convert ../data/tree_img/tree.ps ../data/tree_img/tree.png')
         display(Image(filename='../data/tree_img/tree.png'))
-
+    
     def visualize_tree(self, tree):
         btree = Tree.fromstring(tree.replace('[', '(').replace(']', ')'))
         self.jupyter_draw_nltk_tree(btree)
 
     def printUgraph_inText(self, Ugraph):
         print(Ugraph.root.get_inText(1))
-
+        
+    def combine_comp(self, tree, node):
+        if(tree.right == None):
+            node.word = node.word + " " + tree.val
+            node.end = tree.id
+            return
+        else:
+            node.word = node.word + " " + tree.left.val
+            return self.combine_comp(tree.right, node)
+    
     def mono2Graph_recur(self, sent_tree, G, mods, pos=None, counter=-1):
         if(sent_tree is None):
             return
@@ -239,7 +248,12 @@ class Ugraph:
                     left_result = self.mono2Graph_recur(
                         sent_tree.left, G, set(), sent_tree.val, counter)
                     if(left_result is not None):
-                        mods.add(left_result)
+                        if(type(left_result) is set):
+                            for item_result in left_result:
+                                if(item_result is not None):
+                                    mods.add(item_result)
+                        else:
+                            mods.add(left_result)
 
                 return self.mono2Graph_recur(sent_tree.right, G, mods, pos, counter)
             else:
@@ -247,14 +261,16 @@ class Ugraph:
                     if(sent_tree.val == 'and'):
                         return
                     if(sent_tree.val == "compound"):
-                        newNode = Unode(pos, sent_tree.left.val + "-" + sent_tree.right.val,
+                        newNode = Unode(pos, sent_tree.left.val,
                                         sent_tree.pos, sent_tree.mark)
                         newNode.start = sent_tree.left.id
-                        newNode.end = sent_tree.right.id
+                        self.combine_comp(sent_tree.right, newNode)
                         if(pos in contents or pos == "verb"):
                             G.add_edge(G.root, newNode)
                             if(pos != "nsubj"):
                                 G.addPair(newNode, counter.obj, "obj")
+                                if(pos == "verb"  and sent_tree.parent.val != "cop"):
+                                    counter.incrementO()
                         for node in mods:
                             if(node.npos == "CC"):
                                 newNode.addCC(node)
@@ -274,7 +290,7 @@ class Ugraph:
                             G.add_edge(G.root, newNode)
                             if(pos != "nsubj"):
                                 G.addPair(newNode, counter.obj, "obj")
-                                if(pos == "verb"):
+                                if(pos == "verb"  and sent_tree.parent.val != "cop"):
                                     counter.incrementO()
                         for node in mods:
                             if(node.npos == "CC"):
@@ -295,12 +311,21 @@ class Ugraph:
                         if("cop" in sent_tree.val):
                             pos_left = "verb"
                             pos_right = "obj"
+                            self.mono2Graph_recur(sent_tree.left, G,set(),pos_left,counter)
+                            output = self.mono2Graph_recur(sent_tree.right, G, mods, pos_right,counter)
+                            counter.incrementO()
+                            return output
                         if('conj' in sent_tree.val):
-                            self.mono2Graph_recur(
-                                sent_tree.left, G, set(), pos, counter)
-
-                            self.mono2Graph_recur(
-                                sent_tree.right, G, mods, pos, counter)
+                            if (any(list(map(lambda x: pos is not None and x in pos, list(modifiers))))):
+                                results = set()
+                                results.add(self.mono2Graph_recur(sent_tree.left, G, set(), pos,counter))
+                                results.add(self.mono2Graph_recur(sent_tree.right, G, set(), pos,counter))
+                                return results
+                            else:
+                                self.mono2Graph_recur(sent_tree.left, G, set(), pos,counter)
+                            
+                                self.mono2Graph_recur(sent_tree.right, G, mods, pos,counter)
+                    
                         elif("aux" in sent_tree.val):
                             self.mono2Graph_recur(
                                 sent_tree.right, G, mods, "verb", counter)
@@ -337,6 +362,7 @@ class Chunk:
     def __init__(self, node, nodeList):
         self.node = node
         self.nodeList = nodeList
+        self.ifVP = False
 
 
 class Chunker:
@@ -451,13 +477,21 @@ class Chunker:
                         vb = vbChunk.nodeList
                         obj = objChunk.nodeList
                         if(vb[-1].end +1 == obj[0].start):
-                                results.append(Chunk(vbChunk.node, vb+obj))
+                                vpChunk = Chunk(vbChunk.node, vb+obj)
+                                vpChunk.ifVP = True
+                                results.append(vpChunk)
+        elif("verb" in cont_out and not "obj" in cont_out):
+            for vbChunk in cont_out["verb"]:
+                    vbChunk.ifVP = True
+            
         outList = set()
         for nodeChunk in results:
             tempStr = ""
             for node in nodeChunk.nodeList:
                 tempStr += node.word
                 tempStr += " "
+            if(nodeChunk.ifVP):
+                tempStr = "Somebody " + tempStr
             outList.add(tempStr.rstrip())
 
         return list(outList)

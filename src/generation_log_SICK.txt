@@ -1,7 +1,3 @@
-ID: 8
-Premise: Two people wearing snowsuits are on the ground making snow angels
-Hypothesis: Two people in snowsuits are lying in the snow and making snow angels
-
 ID: 11
 Premise: Four kids are doing backbends in the park
 Hypothesis: Four girls are doing backbends and playing outdoors
@@ -9,14 +5,6 @@ Hypothesis: Four girls are doing backbends and playing outdoors
 ID: 23
 Premise: Several people are in front of a building which is covered by colors
 Hypothesis: People are walking outside a building that has many murals on it
-
-ID: 26
-Premise: A family is watching a boy who is hitting a baseball
-Hypothesis: A child is hitting a baseball
-
-ID: 32
-Premise: Someone is on a black and white motorcycle and is standing on the seat
-Hypothesis: A rider is on a black and white bike and is standing on the seat
 
 ID: 36
 Premise: The blond girl is dancing in front of the sound equipment
@@ -30,45 +18,13 @@ ID: 47
 Premise: A man, a woman and two girls are walking on the beach
 Hypothesis: A group of people is near the sea
 
-ID: 51
-Premise: A group of scouts are hiking through the grass
-Hypothesis: People are walking
-
-ID: 52
-Premise: A group of explorers are walking through the grass
-Hypothesis: Some people are walking
-
-ID: 55
-Premise: Two men are standing near the water and are holding fishing poles
-Hypothesis: Two men are standing near the water and are holding tools used for fishing
-
 ID: 59
 Premise: Two children and an adult are standing next to a tree limb
 Hypothesis: Three people are standing next to a tree limb
 
-ID: 60
-Premise: Two children are hanging on a large branch
-Hypothesis: Two children are climbing a tree
-
-ID: 62
-Premise: A laughing child is holding a water gun and getting sprayed with water
-Hypothesis: A child is holding a squirt gun
-
-ID: 64
-Premise: A man is sitting comfortably at a table
-Hypothesis: A person is sitting comfortably at the table
-
 ID: 68
 Premise: A dog that has a brown and white coat is trotting through shallow water
 Hypothesis: A dog that has a white and brown colored coat is trotting through shallow water.
-
-ID: 71
-Premise: A group of boys are playing with a ball in front of a large door made of wood
-Hypothesis: The children are playing in front of a door, which is very large
-
-ID: 72
-Premise: A group of boys are playing with a ball in front of a large door made of wood
-Hypothesis: The children are playing in front of a large door
 
 ID: 74
 Premise: A black, red, white and pink dress is being worn by a woman
