@@ -490,8 +490,8 @@ class Chunker:
             for node in nodeChunk.nodeList:
                 tempStr += node.word
                 tempStr += " "
-            if(nodeChunk.ifVP):
-                tempStr = "Somebody " + tempStr
+            #if(nodeChunk.ifVP):
+            #    tempStr = "Somebody " + tempStr
             outList.add(tempStr.rstrip())
 
         return list(outList)
