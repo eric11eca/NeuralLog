@@ -1,0 +1,643 @@
+ID: 44
+Premise: A person is sitting in a field and is wearing a hat
+Hypothesis: A man is sitting in a field
+
+ID: 70
+Premise: The blond girl is dancing behind the sound equipment
+Hypothesis: The blond girl is dancing in front of the sound equipment
+
+ID: 135
+Premise: Two men with bikes are on the side of a snowy road
+Hypothesis: Two men are walking on a snowy road
+
+ID: 255
+Premise: A woman and a dog are standing near a tree stump
+Hypothesis: A woman and a dog are sitting on a tree stump
+
+ID: 264
+Premise: Two people are walking two dogs with golden coats in the snow
+Hypothesis: Two people are in the snow holding two dogs with golden coats
+
+ID: 294
+Premise: The man is getting off a motorcycle onto ground which is mostly barren
+Hypothesis: The man is doing a wheelie with a motorcycle on ground which is mostly barren
+
+ID: 379
+Premise: A man is speaking about the stage
+Hypothesis: A man is speaking on a stage
+
+ID: 392
+Premise: The woman is eating
+Hypothesis: The woman is drinking
+
+ID: 401
+Premise: A cat is stuck on a moving ceiling fan
+Hypothesis: A cat is playing on a moving ceiling fan
+
+ID: 423
+Premise: A man is laughing
+Hypothesis: A man is crying
+
+ID: 429
+Premise: A woman is brushing her hand
+Hypothesis: A woman is brushing her feet
+
+ID: 433
+Premise: A man is playing an electric guitar
+Hypothesis: A man is playing a keyboard
+
+ID: 457
+Premise: A woman is cutting some flowers
+Hypothesis: A woman is cutting some plants
+
+ID: 460
+Premise: A horse is standing
+Hypothesis: A horse is running
+
+ID: 478
+Premise: The man needs a stenograph to operate 
+Hypothesis: The man is operating a stenograph
+
+ID: 505
+Premise: The elephant is being ridden by the woman
+Hypothesis: The elephant is being ridden over a woman
+
+ID: 515
+Premise: A man is pushing the buttons of a microwave
+Hypothesis: One man is powering the microwave
+
+ID: 614
+Premise: Some meat is being stitched together by a woman
+Hypothesis: Some meat is being cut into pieces by a woman
+
+ID: 670
+Premise: A dog is opening a can of food
+Hypothesis: A dog is closing a can of food
+
+ID: 767
+Premise: A man is parking a car in a garage
+Hypothesis: A man is getting into a car in a garage
+
+ID: 830
+Premise: A woman is playing an electric guitar
+Hypothesis: A man is playing a guitar
+
+ID: 891
+Premise: The squirrel is not running in circles
+Hypothesis: An animal is running in circles
+
+ID: 919
+Premise: A man is unfolding a tortilla
+Hypothesis: A person is folding a tortilla
+
+ID: 934
+Premise: A woman is thinking of a man
+Hypothesis: A man is thinking
+
+ID: 946
+Premise: The woman is dancing
+Hypothesis: The man is dancing
+
+ID: 964
+Premise: The man is not doing floor exercises
+Hypothesis: A man is doing exercises
+
+ID: 986
+Premise: A man and a woman are sitting
+Hypothesis: A man and a woman are walking
+
+ID: 1063
+Premise: A man is breaking tiles with his hands
+Hypothesis: A man is repairing tiles with his hands
+
+ID: 1126
+Premise: The girl is riding the horse
+Hypothesis: The man is riding the horse
+
+ID: 1133
+Premise: An old woman is shaking hands with a man
+Hypothesis: A young woman is shaking hands with a man
+
+ID: 1138
+Premise: A woman is cutting a tomato
+Hypothesis: A man is cutting a tomato
+
+ID: 1216
+Premise: A man is cutting a big rope with a sword
+Hypothesis: A man is cutting a thick rope with a sword
+
+ID: 1225
+Premise: A man is holding a small animal in one hand
+Hypothesis: A man is holding a big animal in one hand
+
+ID: 1250
+Premise: A little girl is playing a guitar
+Hypothesis: A little boy is playing a guitar
+
+ID: 1251
+Premise: A woman is opening a soda and drinking it
+Hypothesis: A man is opening a soda and drinking it
+
+ID: 1299
+Premise: The man is talking about the telephone
+Hypothesis: The man is talking on the phone
+
+ID: 1329
+Premise: A man is petting two cats
+Hypothesis: A man is petting two dogs
+
+ID: 1342
+Premise: A cat is looking at a store counter
+Hypothesis: A dog is looking at a store counter
+
+ID: 1356
+Premise: A girl is playing a wind instrument
+Hypothesis: A boy is playing a wind instrument
+
+ID: 1365
+Premise: A man is riding a motorbike
+Hypothesis: A man is riding a scooter
+
+ID: 1390
+Premise: A woman is cutting a lemon
+Hypothesis: A man is cutting a lemon
+
+ID: 1404
+Premise: The boy is trotting on the horse
+Hypothesis: The girl is trotting on the horse
+
+ID: 1406
+Premise: The woman is using a sledgehammer to break a concrete block that is on another man
+Hypothesis: The man is using a sledgehammer to break a concrete block that is on another man
+
+ID: 1409
+Premise: A girl is eating a cupcake
+Hypothesis: A boy is eating a cupcake
+
+ID: 1410
+Premise: A woman is eating a cupcake
+Hypothesis: A woman is eating a cake
+
+ID: 1411
+Premise: A girl is eating a cupcake
+Hypothesis: A woman is eating a cake
+
+ID: 1413
+Premise: A girl is eating a cupcake
+Hypothesis: A woman is eating a cupcake
+
+ID: 1427
+Premise: A cat is playing with a small bottle
+Hypothesis: A cat is playing with a big bottle
+
+ID: 1431
+Premise: A small dog is lying on a bed
+Hypothesis: A small cat is lying on a bed
+
+ID: 1450
+Premise: A man is talking to a boy
+Hypothesis: A man is talking to a woman
+
+ID: 1455
+Premise: A person is riding an electric bicycle
+Hypothesis: A man is riding a bicycle
+
+ID: 1457
+Premise: A dog is jumping into a box
+Hypothesis: A cat is jumping into a box
+
+ID: 1458
+Premise: An old man is talking to a leaf
+Hypothesis: A young man is talking to a leaf
+
+ID: 1470
+Premise: A woman is dancing near a fire
+Hypothesis: A woman is dancing near a fireplace
+
+ID: 1478
+Premise: The woman is playing the guitar
+Hypothesis: The man is playing the guitar
+
+ID: 1482
+Premise: Two women are dancing and singing in front of a crowd
+Hypothesis: Two men are dancing and singing in front of a crowd
+
+ID: 1484
+Premise: A lemur is biting a person's finger
+Hypothesis: An animal is biting somebody's hand
+
+ID: 1485
+Premise: A boy is skateboarding on a half pipe
+Hypothesis: A man is skateboarding on a half pipe
+
+ID: 1500
+Premise: Two men are hugging
+Hypothesis: Two men are fighting
+
+ID: 1518
+Premise: A man in a hat is walking through a store
+Hypothesis: A man in a hat is walking past a store
+
+ID: 1522
+Premise: A large white crane is flying far above the water
+Hypothesis: A large white crane is flying near the water
+
+ID: 1548
+Premise: A person in a blue jacket is jumping off of a tall cement wall
+Hypothesis: A person in a blue jacket is jumping onto a tall cement wall
+
+ID: 1587
+Premise: Four people are standing on a low cement ledge
+Hypothesis: Four people are sitting on a low cement ledge
+
+ID: 1628
+Premise: A little boy in a pink shirt is running under a tree in the desert
+Hypothesis: The little girl in a pink shirt is running under a tree in the desert
+
+ID: 1716
+Premise: A small bee is landing on a bunch of yellow flowers
+Hypothesis: A bee is clinging to a yellow flower
+
+ID: 1728
+Premise: A woman in a white dress and a woman in a blue dress are standing beside a stage
+Hypothesis: A woman in a white dress and a woman in a blue dress are standing on a stage
+
+ID: 1767
+Premise: Two children are crouching under some metal bars
+Hypothesis: Two children are stretching over some metal bars
+
+ID: 1789
+Premise: Two small children are playing with a toy car in the street
+Hypothesis: Two small children are idling in the street
+
+ID: 1800
+Premise: A dog is running alongside a fence on a dirt track
+Hypothesis: A dog is sitting by a fence on a dirt track
+
+ID: 1815
+Premise: Two men, a woman, and two young boys are sitting in front of a large gathering of people outside a building
+Hypothesis: Two men, a woman, and two young boys are standing in front of a large gathering of people outside a building
+
+ID: 1833
+Premise: Two twin preteen boys are dueling with sticks
+Hypothesis: Two twin preteen boys are playing with cards
+
+ID: 1835
+Premise: Two girls are jumping inside a playing house
+Hypothesis: Two girls are playing inside a jumper house
+
+ID: 1860
+Premise: An oriental man and two women are in front of a camera
+Hypothesis: An oriental man and two women are facing a camera
+
+ID: 1869
+Premise: A woman and three men are posing for a photo
+Hypothesis: A woman and three men are denying a photo
+
+ID: 1880
+Premise: The black dog is not walking through the tall grass
+Hypothesis: The black dog is running through the grass
+
+ID: 1907
+Premise: A woman in a black shirt is sitting next to a fluorescent green bag
+Hypothesis: A woman in a black shirt is standing next to a fluorescent green bag
+
+ID: 1927
+Premise: Three men are looking into the distance
+Hypothesis: Three men are looking at something nearby
+
+ID: 1938
+Premise: A man is standing on the top of the rocks with clouds behind them
+Hypothesis: A person is lying on the top of the rocks with clouds behind them
+
+ID: 1974
+Premise: Two brown dogs are playing with the frisbee in the water
+Hypothesis: Two dogs are fighting for a frisbee in a lake
+
+ID: 2016
+Premise: A boy in blue is running away from a woman in blue
+Hypothesis: A boy in blue is running towards a woman in blue
+
+ID: 2028
+Premise: A boy under an umbrella is being let go by his father who is wearing a blue coat
+Hypothesis: A boy under an umbrella is being held by his father who is wearing a blue coat
+
+ID: 2040
+Premise: A snowboarding woman is jumping through the air
+Hypothesis: A snowboarding man is jumping through the air
+
+ID: 2048
+Premise: Two dogs are looking at something that is splashing in the water
+Hypothesis: Two cats are looking at something that is splashing in the water
+
+ID: 2053
+Premise: A black dog is jumping from n hay ball to another hay ball
+Hypothesis: A black dog is jumping from a cylindrical hay bale
+
+ID: 2055
+Premise: A black dog is jumping from n hay ball to another hay ball
+Hypothesis: A black dog is leaping from a cylindrical hay bale
+
+ID: 2067
+Premise: A man in a blue cowboy hat is riding a black horse
+Hypothesis: A man in a blue cowboy hat is riding a white horse
+
+ID: 2074
+Premise: A dog is jumping at a shiny blue soccer ball in a field of dry leaves
+Hypothesis: A dog is jumping at dry leaves in a field of shiny blue soccer balls
+
+ID: 2086
+Premise: A girl is running through the water at the beach
+Hypothesis: A boy is running through the water at the beach
+
+ID: 2096
+Premise: A man in a elegant dress is being surrounded by photographers
+Hypothesis: A man in a suit is being surrounded by photographers
+
+ID: 2099
+Premise: A blonde girl is hanging by gymnastic ropes
+Hypothesis: A blonde man is hanging by gymnastic ropes
+
+ID: 2107
+Premise: A brown and white cat is playing on the grass
+Hypothesis: A brown and white dog is playing on the grass
+
+ID: 2118
+Premise: A young girl is sitting in swimming gear
+Hypothesis: A young man is sitting in swimming gear
+
+ID: 2127
+Premise: A black and white dog is playing with a tattered volleyball in a brown field
+Hypothesis: A black and white dog is playing with a frisbee in a brown field
+
+ID: 2143
+Premise: A group of people is holding food and pointing at the camera
+Hypothesis: A group of people is holding drinks and pointing at the camera
+
+ID: 2151
+Premise: A woman in blue has a yellow ball in the mitt
+Hypothesis: A man in blue has a yellow ball in the mitt
+
+ID: 2152
+Premise: The girl in blue is chasing the base runner with a number on the jersey
+Hypothesis: The man in blue is chasing the base runner with a number on the jersey
+
+ID: 2176
+Premise: Two large dogs are frolicking in a grassy field
+Hypothesis: Two large dogs are frolicking in a parking lot
+
+ID: 2180
+Premise: A black dog is walking along rocky terrain
+Hypothesis: A black cat is walking along rocky terrain
+
+ID: 2183
+Premise: A black dog is running across a rocky landscape
+Hypothesis: A black dog is walking along rocky terrain
+
+ID: 2185
+Premise: Three dogs are resting on a couch
+Hypothesis: Three dogs are resting on a sidewalk
+
+ID: 2195
+Premise: A young man and a woman are riding bikes on the boardwalk near the ocean
+Hypothesis: An older man and a woman are riding bikes on the boardwalk near the ocean
+
+ID: 2199
+Premise: Pedestrians and cars are moving through a traffic jam in a small city
+Hypothesis: Pedestrians and cars are moving through a traffic jam in a big city
+
+ID: 2207
+Premise: A boy is wearing sunglasses
+Hypothesis: A girl is wearing sunglasses
+
+ID: 2209
+Premise: A young boy with painted face is standing next to some other children
+Hypothesis: A young girl with painted face is standing next to some other children
+
+ID: 2215
+Premise: A woman is doing a skateboard trick on an outdoor park porch
+Hypothesis: A man is doing a skateboard trick on an outdoor park porch
+
+ID: 2220
+Premise: People are sitting at round tables in a red room
+Hypothesis: People are sitting at square tables in a red room
+
+ID: 2223
+Premise: A boy in a striped shirt is playing in front of a water fountain
+Hypothesis: A boy in a striped shirt is jumping in front of a water fountain
+
+ID: 2243
+Premise: A girl in a white dress is running
+Hypothesis: A girl in a white dress is standing
+
+ID: 2254
+Premise: Two women are standing together and one is looking through binoculars
+Hypothesis: Two men are standing together and one is looking through binoculars
+
+ID: 2259
+Premise: A man on a motorcycle is going around a corner
+Hypothesis: A woman on a motorcycle is going around a corner
+
+ID: 2269
+Premise: A shirtless man is playing football on a lawn
+Hypothesis: A shirtless man is playing football on a field
+
+ID: 2274
+Premise: Two women dressed in white and black are sitting on a bench
+Hypothesis: Two men dressed in white and black are sitting on a bench
+
+ID: 2280
+Premise: A girl in gold and purple is holding a rainbow afghan
+Hypothesis: A man in gold and purple is holding a rainbow afghan
+
+ID: 2284
+Premise: A tan dog is splashing in the water on the bank of a pond
+Hypothesis: A tan dog is playing in the water on the bank of a pond
+
+ID: 2285
+Premise: A tan dog is splashing in the water on the bank of a pond
+Hypothesis: A tan dog is splashing in the water on the bank of a river
+
+ID: 2303
+Premise: A person on a yellow dirt bike is taking a jump
+Hypothesis: A person on a yellow clean bike is taking a jump
+
+ID: 2308
+Premise: People are sitting against a wall
+Hypothesis: People is standing against a wall
+
+ID: 2312
+Premise: A little girl in a pink shirt is playing t-ball and taking a swing
+Hypothesis: A little boy in a pink shirt is playing t-ball and taking a swing
+
+ID: 2317
+Premise: The people are standing at a carnival
+Hypothesis: The people are running at a carnival
+
+ID: 2320
+Premise: Rollerbladers are rolling in formation down a hill
+Hypothesis: Rollerbladers are running in formation down a hill
+
+ID: 2323
+Premise: A woman is standing with a pair of dogs
+Hypothesis: A woman is marching with a pair of dogs
+
+ID: 2336
+Premise: Two black puppies are playing near a pool
+Hypothesis: Two white puppies are playing near a pool
+
+ID: 2357
+Premise: Three hikers are standing on a mountainside and looking at the view with a pair of binoculars
+Hypothesis: Three hikers are sitting on a mountainside and looking at the view with a pair of binoculars
+
+ID: 2361
+Premise: A girl is jumping rope on a sidewalk near a parking garage
+Hypothesis: A boy is jumping rope on a sidewalk near a parking garage
+
+ID: 2369
+Premise: Two dogs are walking slowly through a park
+Hypothesis: Two dogs are running through the park
+
+ID: 2370
+Premise: Two dogs are running through the beach
+Hypothesis: Two dogs are running quickly through a park
+
+ID: 2371
+Premise: A boy is wearing all black and is sliding down a blow up yellow slide
+Hypothesis: A girl is wearing all black and is sliding down a blow up yellow slide
+
+ID: 2380
+Premise: A brown and white dog with a brown and black bandanna is running very fast
+Hypothesis: A brown and white cat with a brown and black bandanna is running very fast
+
+ID: 2391
+Premise: A boy is sitting in a seat
+Hypothesis: A girl is sitting in a seat
+
+ID: 2394
+Premise: A dog is catching a black frisbee
+Hypothesis: A dog is catching a white frisbee
+
+ID: 2408
+Premise: A woman is leaning against a pole and is surrounded by people
+Hypothesis: A man is leaning against a pole and is surrounded by people
+
+ID: 2411
+Premise: The dog is running across the dirty path
+Hypothesis: The dog is running across the gravel
+
+ID: 2412
+Premise: The cat is running across the gravel
+Hypothesis: The dog is running across the gravel
+
+ID: 2418
+Premise: A boy is playing a game with steel blocks
+Hypothesis: A boy is playing a game with wooden blocks
+
+ID: 2424
+Premise: A group of five old adults are lounging indoors
+Hypothesis: A group of five young adults are lounging indoors
+
+ID: 2435
+Premise: A boy is wearing a white hat and is running on the beach
+Hypothesis: A boy is wearing a white hat and is walking on the beach
+
+ID: 2446
+Premise: A brown dog is running after a black dog on a rocky shore
+Hypothesis: A brown dog is running after a white dog on a rocky shore
+
+ID: 2450
+Premise: A black dog is approaching a golden dog on pebbly beach
+Hypothesis: A white dog is approaching a golden dog on pebbly beach
+
+ID: 2451
+Premise: A small white dog is jumping up in the snow
+Hypothesis: A large white dog is jumping up in the snow
+
+ID: 2455
+Premise: A white dog is standing on a grassy hillside
+Hypothesis: A black dog is standing on a grassy hillside
+
+ID: 2481
+Premise: A man in a black dress is pulling a cart and is standing in front of two men who are seated on a park bench
+Hypothesis: A woman in a black dress is pulling a cart and is standing in front of two men who are seated on a park bench
+
+ID: 2497
+Premise: A girl in a strange outfit is riding the bike
+Hypothesis: A boy in a strange outfit is riding the bike
+
+ID: 2501
+Premise: A shirtless man is jumping over a log
+Hypothesis: A shirtless woman is jumping over a log
+
+ID: 2516
+Premise: Two people are standing on a bench
+Hypothesis: Two people are sitting on a bench
+
+ID: 2525
+Premise: Two women with dogs are walking on a forest path
+Hypothesis: Two men with dogs are walking on a forest path
+
+ID: 2528
+Premise: A woman is skiing down a hill and over a red obstacle
+Hypothesis: A man is skiing down a hill and over a red obstacle
+
+ID: 2548
+Premise: A man in a black wetsuit is riding a foamy wave
+Hypothesis: A surfer in a black wetsuit is riding a foamy wave
+
+ID: 2549
+Premise: A surfer in a black wetsuit is riding a foamy wave
+Hypothesis: A surfer in a white wetsuit is riding a foamy wave
+
+ID: 2567
+Premise: Two cats on a lawn are playing with a plastic toy
+Hypothesis: Two dogs on a lawn are playing with a plastic toy
+
+ID: 2576
+Premise: A dog is in a sandy area with the sand that is being stirred up into the air and several plants are in the background
+Hypothesis: A cat is in a sandy area with the sand that is being stirred up into the air and several plants are in the background
+
+ID: 2581
+Premise: A man on a green bike is performing tricks on a dirt ramp
+Hypothesis: A man on a green car is performing tricks on a dirt ramp
+
+ID: 2585
+Premise: A young swimmer is sitting in a bathing suit and waiting for the next race
+Hypothesis: A young swimmer is standing in a bathing suit and waiting for the next race
+
+ID: 2600
+Premise: A woman is petting a dog near a stone path
+Hypothesis: A man is petting a dog near a stone path
+
+ID: 2617
+Premise: The girl in the blue coverall is painting
+Hypothesis: The boy in the blue coverall is painting
+
+ID: 2647
+Premise: A little boy and a woman wearing a yellow shirt are getting splashed by a city fountain
+Hypothesis: A little girl and a woman wearing a yellow shirt are getting splashed by a city fountain
+
+ID: 2650
+Premise: A girl in an orange shirt and clown makeup is walking in a park and others are looking on
+Hypothesis: A girl in an orange shirt and clown makeup is standing in a park and others are looking on
+
+ID: 2651
+Premise: A girl is wearing an orange shirt and a striped tie
+Hypothesis: A boy is wearing an orange shirt and a striped tie
+
+ID: 2659
+Premise: A woman is leaning on a racing motorcycle
+Hypothesis: A man is leaning on a racing motorcycle
+
+ID: 2663
+Premise: A woman is wearing ear protection and is firing a gun at an outdoor shooting range
+Hypothesis: A woman is wearing ear protection and is firing a gun at an indoor shooting range
+
+ID: 2665
+Premise: Two young girl are looking up at the camera and one is sticking out his tongue
+Hypothesis: Two young boys are looking up at the camera and one is sticking out his tongue
+
+ID: 2666
+Premise: The small dog is walking outside and is carrying a colorful toy in its mouth
+Hypothesis: The large dog is walking outside and is carrying a colorful toy in its mouth

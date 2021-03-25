@@ -39,6 +39,18 @@ class ConceptNet:
                 print(edge['rel']['label'])
 
     def relation(self, concept, rel='IsA'):
+        synonyms = {}
+        url_to_search = self.url + "query?end=/c/en/" + \
+            concept + "&rel=/r/" + "RelatedTo" + "&limit=50"
+        # print(url_to_search)
+        data = urllib.request.urlopen(url_to_search)
+        json_data = json.load(data)
+        for edge in json_data["edges"]:
+            surface_text = edge['surfaceText']
+            if edge['start']["language"] == 'en':
+                # if 'a type of' in surface_text or 'a kind of' in surface_text:
+                synonyms[edge['start']['label']] = 1
+
         hypernyms = {}
         url_to_search = self.url + "query?start=/c/en/" + \
             concept + "&rel=/r/" + "IsA" + "&limit=50"
@@ -71,7 +83,7 @@ class ConceptNet:
             if edge['start']["language"] == 'en':
                 antonyms[edge['start']['label']] = 1
 
-        return hypernyms, hyponyms, antonyms
+        return hypernyms, hyponyms, synonyms, antonyms
 
 
 def get_word_sets(word):
@@ -93,12 +105,13 @@ def get_word_sets(word):
                 antonyms[l.antonyms()[0].name().replace('_', ' ')] = 1
 
     conceptNet = ConceptNet()
-    hyper, hypo, ant = conceptNet.relation(word)
+    hyper, hypo, syn, ant = conceptNet.relation(word)
     hypernyms_full = {**hypernyms, **hyper}
     hyponyms_full = {**hyponyms, **hypo}
+    synonyms_full = {**synonyms, **syn}
     antonyms_full = {**antonyms, **ant}
 
-    return hypernyms_full, hyponyms_full, synonyms, antonyms_full
+    return hypernyms_full, hyponyms_full, synonyms_full, antonyms_full
 
 
 def test():

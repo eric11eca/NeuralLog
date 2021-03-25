@@ -2,12 +2,12 @@ ID: 11
 Premise: Four kids are doing backbends in the park
 Hypothesis: Four girls are doing backbends and playing outdoors
 
-ID: 36
+ID: 36 [NEUTRAL]
 Premise: The blond girl is dancing in front of the sound equipment
 Hypothesis: The equipment in front of the blond dancing girl is sound
 
 ID: 46
-Premise: A man, a woman and two girls are sitting on the beach
+Premise: A man, a woman, and two girls are sitting on the beach
 Hypothesis: A group of people is on a beach
 
 ID: 47
@@ -42,13 +42,9 @@ ID: 93
 Premise: The presentation is being watched by a classroom of students
 Hypothesis: A classroom is full of students
 
-ID: 97
+ID: 97 [NEUTRAL]
 Premise: A girl is looking on surprised from a front window in a house in Asia.
 Hypothesis: A girl from Asia, in front of a brick window, looks surprised
-
-ID: 106
-Premise: A bunch of guys is on the shore
-Hypothesis: A bunch of people is on the shore
 
 ID: 117
 Premise: A man in a shirt dyed purple is looking at a man in a black shirt who is doing a face which looks funny
@@ -70,20 +66,12 @@ ID: 173
 Premise: The machine is shaving the end of a pencil
 Hypothesis: A pencil is being sharpened
 
-ID: 176
-Premise: A pianist is playing the keyboard
-Hypothesis: A person is playing the keyboard
-
 ID: 189
 Premise: Three young men are furiously running, jumping and kicking near a vending machine
 Hypothesis: Three young men are running, jumping and kicking near a vending machine
 
 ID: 197
 Premise: A tree is being picked up by a man
-Hypothesis: A man is carrying a tree
-
-ID: 198
-Premise: A man is picking up a tree
 Hypothesis: A man is carrying a tree
 
 ID: 203
@@ -270,10 +258,6 @@ ID: 664
 Premise: A man and a woman are running together and holding hands
 Hypothesis: A couple is running and holding hands
 
-ID: 675
-Premise: Two men are battling
-Hypothesis: Some men are fighting
-
 ID: 676
 Premise: A group of men is fighting
 Hypothesis: Two men are fighting
@@ -358,14 +342,6 @@ ID: 868
 Premise: A man is talking to a woman
 Hypothesis: A man and a woman are speaking
 
-ID: 875
-Premise: Two women are dancing and singing in front of a crowd
-Hypothesis: The persons are singing and dancing
-
-ID: 876
-Premise: Two women are dancing and singing in front of a crowd
-Hypothesis: The women are singing and dancing
-
 ID: 884
 Premise: A man is putting vegetables into a pot
 Hypothesis: Vegetables are being put into a pot by a man
@@ -398,14 +374,6 @@ ID: 950
 Premise: A woman is wearing a blue helmet and is riding a bicycle in a parking lot
 Hypothesis: The bicyclist is not riding on a city street
 
-ID: 954
-Premise: Four boys are kneeling next to each other in front of a ball
-Hypothesis: Some boys are kneeling next to each other in front of a ball
-
-ID: 962
-Premise: Three boys are jumping off a platform
-Hypothesis: Some boys are jumping off a platform
-
 ID: 964
 Premise: The grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy
 Hypothesis: A group of kids is playing on a colorful structure
@@ -413,10 +381,6 @@ Hypothesis: A group of kids is playing on a colorful structure
 ID: 965
 Premise: Four middle eastern children, three girls and one boy, are climbing on the grotto with a pink interior
 Hypothesis: A group of kids is playing on a structure which is colorful
-
-ID: 969
-Premise: Three people are sitting on a bench under some palm trees
-Hypothesis: A few people are sitting on a bench under some palm trees
 
 ID: 1000
 Premise: A snowboarder is doing a flip over a mound of snow
@@ -522,10 +486,6 @@ ID: 1298
 Premise: A man and a woman are standing in front of an art gallery and are looking at a map
 Hypothesis: A couple is looking at a map
 
-ID: 1318
-Premise: Two little boys are playing outside with a soccer ball on the green grass
-Hypothesis: Children are playing outside with a soccer ball on the green grass
-
 ID: 1326
 Premise: A brown and white animal is jumping on the sidewalk
 Hypothesis: A brown and white dog is jumping on the sidewalk
@@ -541,10 +501,6 @@ Hypothesis: Two dogs are playing with each other
 ID: 1344
 Premise: Two girl with dogs are walking on a forest path
 Hypothesis: Two dogs and two people are walking in the woods
-
-ID: 1350
-Premise: Three friends are making faces for the camera
-Hypothesis: The friends are making faces for the camera
 
 ID: 1353
 Premise: Four people are walking along a city sidewalk and the one in the green hat is talking on a cell phone
