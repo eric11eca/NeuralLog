@@ -55,7 +55,7 @@ Premise: A horse is standing
 Hypothesis: A horse is running
 
 ID: 478
-Premise: The man needs a stenograph to operate 
+Premise: The man needs a stenograph to operate
 Hypothesis: The man is operating a stenograph
 
 ID: 505
