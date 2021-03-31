@@ -2143,8 +2143,8 @@ No race car is on a road in front of a grassy parking area
 A brown dog is running in the snow
 No dog is running through the snow
 
-The lady is holding the paintbrush next to the artist's easel 
-There is no lady holding the paintbrush next to the artist's easel 
+The lady is holding the paintbrush next to the artist's easel
+There is no lady holding the paintbrush next to the artist's easel
 
 A golden retriever is running
 A golden retriever is not running

@@ -1,0 +1,571 @@
+ID: 0
+Premise: Two people wearing snowsuits are on the ground making snow angels
+Hypothesis: Two people in snowsuits are lying in the snow and making snow angels
+
+ID: 1
+Premise: Four kids are doing backbends in the park
+Hypothesis: Four girls are doing backbends and playing outdoors
+
+ID: 2
+Premise: Two groups of people are playing football
+Hypothesis: Two teams are competing in a football match
+
+ID: 3
+Premise: The blond girl is dancing in front of the sound equipment
+Hypothesis: The equipment in front of the blond dancing girl is sound
+
+ID: 4
+Premise: A person has blonde and flyaway hair and is playing a guitar
+Hypothesis: A guitarist has blonde and flyaway hair
+
+ID: 5
+Premise: A man is in a parking lot and is playing tennis against a large wall
+Hypothesis: A lone man is in a parking lot and is playing tennis against a large wall
+
+ID: 6
+Premise: A group of scouts are hiking through the grass
+Hypothesis: People are walking
+
+ID: 7
+Premise: Two children and an adult are standing next to a tree limb
+Hypothesis: Three people are standing next to a tree limb
+
+ID: 8
+Premise: A dog that has a brown and white coat is trotting through shallow water
+Hypothesis: A dog that has a white and brown colored coat is trotting through shallow water.
+
+ID: 9
+Premise: A black, red, white and pink dress is being worn by a woman
+Hypothesis: A dress, which is black, red, white and pink is being worn by a woman
+
+ID: 10
+Premise: One man is doing a trick with a bicycle in midair
+Hypothesis: The cyclist is performing a trick in the air
+
+ID: 11
+Premise: One man is doing a bicycle trick in midair
+Hypothesis: The cyclist is performing a trick in the air
+
+ID: 12
+Premise: A man and a woman are sitting comfortably on the bench
+Hypothesis: Two people are sitting comfortably on the bench
+
+ID: 13
+Premise: A married couple is walking down the aisle
+Hypothesis: A couple who have just got married are walking down the isle
+
+ID: 14
+Premise: A couple who have just got married are walking down the isle
+Hypothesis: The bride and the groom are leaving after the wedding
+
+ID: 15
+Premise: The students are filling the classroom
+Hypothesis: A classroom is full of students
+
+ID: 16
+Premise: A girl is looking on surprised from a front window in a house in Asia.
+Hypothesis: A girl from Asia, in front of a brick window, looks surprised
+
+ID: 17
+Premise: A black and a white dog are joyfully running on the grass
+Hypothesis: A dog, which has a black coat, and a white dog are running on the grass
+
+ID: 18
+Premise: Many people are skating in an ice park
+Hypothesis: An ice skating rink placed outdoors is full of people
+
+ID: 19
+Premise: People are on a beach full of sand by the ocean and are enjoying a day full of sun
+Hypothesis: A bunch of people is on the shore
+
+ID: 20
+Premise: A man in a shirt dyed purple is looking at a man in a black shirt who is doing a face which looks funny
+Hypothesis: A man doing a pose is being watched by another man
+
+ID: 21
+Premise: The snowboarder is leaping over white snow
+Hypothesis: One person who is practicing snowboarding jumps into the air
+
+ID: 22
+Premise: The machine is shaving the end of a pencil
+Hypothesis: A pencil is being sharpened
+
+ID: 23
+Premise: A machine is sharpening a pencil
+Hypothesis: The machine is shaving the end of a pencil
+
+ID: 24
+Premise: Three young men are furiously running, jumping and kicking near a vending machine
+Hypothesis: Three young men are running, jumping and kicking near a vending machine
+
+ID: 25
+Premise: Three boys in karate uniform are sparring
+Hypothesis: Three boys in karate costumes are fighting
+
+ID: 26
+Premise: The man is cautiously feeding a mouse to the snake
+Hypothesis: A snake is being fed a mouse by a man
+
+ID: 27
+Premise: A guy is cheerfully playing with a footbag
+Hypothesis: The man isn't playing the piano
+
+ID: 28
+Premise: Someone is feeding an animal
+Hypothesis: Someone is giving food to an animal
+
+ID: 29
+Premise: A lion is pacing tiredly in a pen
+Hypothesis: A lion is slowly walking
+
+ID: 30
+Premise: The microphone in front of the talking parrot is being muted
+Hypothesis: A parrot is speaking
+
+ID: 31
+Premise: The woman is playing a guitar, which is acoustic, and singing
+Hypothesis: One person is playing the guitar and singing
+
+ID: 32
+Premise: The woman is playing a guitar, which is acoustic, and singing
+Hypothesis: A person is playing a guitar and singing
+
+ID: 33
+Premise: A few men are playing cricket
+Hypothesis: Some people are playing cricket
+
+ID: 34
+Premise: People are playing cricket
+Hypothesis: A few men are playing cricket
+
+ID: 35
+Premise: Two kids are playing in a swimming pool with a crocodile float that is green
+Hypothesis: Two kids are pushing an inflatable crocodile in a pool
+
+ID: 36
+Premise: The man is abruptly knocked off of a horse
+Hypothesis: Someone is falling off a horse
+
+ID: 37
+Premise: The man is being knocked off of a horse
+Hypothesis: Someone is falling off a horse
+
+ID: 38
+Premise: A man is pouring a plate of shredded cheese into a pot of sauce
+Hypothesis: A man is pouring a plate of cheese which is shredded into a pot of sauce
+
+ID: 39
+Premise: A man is pouring a plate of cheese which is shredded into a pot of sauce
+Hypothesis: The lady is adding cheese to the sauce
+
+ID: 40
+Premise: A person is burning some cameras with a blow torch
+Hypothesis: The person is setting fire to the cameras
+
+ID: 41
+Premise: A man at the keyboard is playing with his nose
+Hypothesis: A man is playing the keyboard with his nose
+
+ID: 42
+Premise: A baby rhino is following an adult rhino
+Hypothesis: A rhino, which is little, is following an adult rhino
+
+ID: 43
+Premise: A baby rhino is following an adult rhino
+Hypothesis: A rhino, which is a youngling, is walking around a pen with its mother
+
+ID: 44
+Premise: A little girl is playing a grand piano on stage
+Hypothesis: A little girl is playing a piano, which is very big, on stage
+
+ID: 45
+Premise: The lady is dicing onions
+Hypothesis: A woman is cutting an onion
+
+ID: 46
+Premise: The woman is dicing onions
+Hypothesis: A woman is cutting an onion
+
+ID: 47
+Premise: Soccer players are kicking a soccer ball into the goal
+Hypothesis: A soccer player is scoring a goal
+
+ID: 48
+Premise: The lady is penciling on eyeshadow
+Hypothesis: The girl is using an eye pencil on her eyelid
+
+ID: 49
+Premise: A woman is penciling on eyeshadow
+Hypothesis: A woman is putting cosmetics on her eyelid
+
+ID: 50
+Premise: The woman is penciling on eyeshadow
+Hypothesis: A woman is putting cosmetics on her eyelid
+
+ID: 51
+Premise: Different teams are playing football on the field
+Hypothesis: Two teams are playing soccer
+
+ID: 52
+Premise: The man is eating
+Hypothesis: A man is eating some food
+
+ID: 53
+Premise: A woman is squeezing a lemon
+Hypothesis: The woman is squeezing juice out of a lemon
+
+ID: 54
+Premise: A kitten is playing with a blue rope toy
+Hypothesis: The little cat is playing with a toy
+
+ID: 55
+Premise: A man is walking a woman through the woods
+Hypothesis: A man and a woman are walking through the woods
+
+ID: 56
+Premise: The plane, which is south African, is flying in a blue sky
+Hypothesis: An airplane is flying through the air
+
+ID: 57
+Premise: A woman is clumsily putting meat in a pan
+Hypothesis: The meat is being dropped into a pan
+
+ID: 58
+Premise: Racers are running down a track
+Hypothesis: Some racers are running down a track
+
+ID: 59
+Premise: Runners are racing down a track
+Hypothesis: Racers are running down a track
+
+ID: 60
+Premise: A woman is slicing a pepper which is green
+Hypothesis: The woman with a knife is slicing a pepper
+
+ID: 61
+Premise: A woman is slicing a green pepper
+Hypothesis: The woman with a knife is slicing a pepper
+
+ID: 62
+Premise: A man is rising from a swamp
+Hypothesis: A man is coming out of the water
+
+ID: 63
+Premise: The boy is riding a bike on the top of a metal fence
+Hypothesis: A biker is riding along the top of a fence
+
+ID: 64
+Premise: A woman is cutting an onion
+Hypothesis: A woman is not cutting meat
+
+ID: 65
+Premise: A lemur is eating quickly
+Hypothesis: The animal with big eyes is eating
+
+ID: 66
+Premise: An old woman is shaking hands with a man
+Hypothesis: Two persons are shaking hands
+
+ID: 67
+Premise: The woman is cutting cooked octopus
+Hypothesis: A woman is chopping up an octopus
+
+ID: 68
+Premise: Someone is playing a piano
+Hypothesis: A piano is being played by someone
+
+ID: 69
+Premise: A man is riding a horse in the desert
+Hypothesis: A man is riding a horse in a sandy land
+
+ID: 70
+Premise: A rhino is grazing in a field
+Hypothesis: A animal is grazing in a field
+
+ID: 71
+Premise: A man and a woman are running together and holding hands
+Hypothesis: A couple is running and holding hands
+
+ID: 72
+Premise: A group of men is fighting
+Hypothesis: Two men are fighting
+
+ID: 73
+Premise: A man is drilling a hole in a piece of wood
+Hypothesis: Someone is making a hole in a strip of wood with a drill
+
+ID: 74
+Premise: A man on a motorcycle is riding on one wheel
+Hypothesis: A man on a motorcycle is doing a trick
+
+ID: 75
+Premise: A man on a motorcycle is riding on one wheel
+Hypothesis: A person is performing tricks on a motorcycle
+
+ID: 76
+Premise: A man is slicing a potato
+Hypothesis: A man is slicing a potato into pieces
+
+ID: 77
+Premise: A tiger cub is roaring
+Hypothesis: A tiger cub is making a sound
+
+ID: 78
+Premise: The man is sprinkling cheese on the pizza
+Hypothesis: A man is putting some cheese on a pizza
+
+ID: 79
+Premise: A cow is eating hay
+Hypothesis: A cow is grazing
+
+ID: 80
+Premise: A man is talking to a woman
+Hypothesis: A man and a woman are speaking
+
+ID: 81
+Premise: Two women are dancing and singing in front of a crowd
+Hypothesis: The women are singing and dancing
+
+ID: 82
+Premise: Someone is pouring ingredients into a pot
+Hypothesis: Someone is adding ingredients to a pot
+
+ID: 83
+Premise: A man is putting vegetables into a pot
+Hypothesis: Someone is pouring ingredients into a pot
+
+ID: 84
+Premise: A brown and white dog is holding a baseball in its mouth
+Hypothesis: A dog, which has a brown and white coat, is holding a baseball in its mouth
+
+ID: 85
+Premise: Two people are wading through the water
+Hypothesis: A couple or people are wading through the water
+
+ID: 86
+Premise: Two women are wearing bikinis and are walking on the sand
+Hypothesis: Two women are wearing bikinis on the beach which is sandy
+
+ID: 87
+Premise: A black dog is running in the grass and its tongue is hanging out
+Hypothesis: A black dog is hanging out in the grass and running with its tongue out
+
+ID: 88
+Premise: A white dog is wearing a Christmas reindeer headband and is playing with a dog with a brown coat in the grass
+Hypothesis: The white dog wearing reindeer ears is near a brown dog
+
+ID: 89
+Premise: The man is taking a picture of himself and another guy
+Hypothesis: A man is holding up an electronic device
+
+ID: 90
+Premise: Women are wearing bunny ears and race numbers and are curiously pointing at something in the distance
+Hypothesis: Several women are wearing pink bunny ears and are pointing to the right
+
+ID: 91
+Premise: A woman is wearing a blue helmet and is riding a bicycle in a parking lot
+Hypothesis: The bicyclist is not riding on a city street
+
+ID: 92
+Premise: Four middle eastern children, three girls and one boy, are climbing on the grotto with a pink interior
+Hypothesis: The grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy
+
+ID: 93
+Premise: The grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy
+Hypothesis: A group of kids is playing on a colorful structure
+
+ID: 94
+Premise: Four middle eastern children, three girls and one boy, are climbing on the grotto with a pink interior
+Hypothesis: A group of kids is playing on a structure which is colorful
+
+ID: 95
+Premise: A man on a bicycle is riding on the beach
+Hypothesis: A person is riding a bicycle in the sand beside the ocean
+
+ID: 96
+Premise: A duck, which is large, is flying over a rocky stream
+Hypothesis: A seabird is flying over some rocks
+
+ID: 97
+Premise: A dog is running up a hill full of grass
+Hypothesis: A dog is running up a grassy hill
+
+ID: 98
+Premise: A snowboarder is doing a flip over a mound of snow
+Hypothesis: Somebody is leaping in the air on a board
+
+ID: 99
+Premise: A biker with a blue jacket, black pants and a white helmet is driving recklessly on dirt and people watch
+Hypothesis: A biker with a blue jacket, black pants and a white helmet is driving on dirt and people are watching
+
+ID: 100
+Premise: A biker with a blue jacket, black pants and a white helmet is driving on dirt and people are watching
+Hypothesis: Blue and black pants are being worn by the motocross rider
+
+ID: 101
+Premise: Orange juice is being drunk by a man who is walking on a sunny day
+Hypothesis: A man is drinking orange juice and walking
+
+ID: 102
+Premise: A brown dog and a black dog are playing in the sand
+Hypothesis: A black dog is playing with a brown dog on the sand
+
+ID: 103
+Premise: A child is holding a camera in front of his face
+Hypothesis: A camera is being held in front of the face of a child
+
+ID: 104
+Premise: Two small boys dressed in tuxedos are standing on a red carpeted floor
+Hypothesis: Two little boys are wearing tuxedos
+
+ID: 105
+Premise: A furry brown dog is running through the grassy area
+Hypothesis: The brown dog is playing outdoors
+
+ID: 106
+Premise: A young child is running down a gravel road that is covered with dead leaves
+Hypothesis: A young child is running outside over the fallen leaves
+
+ID: 107
+Premise: Small children are climbing a statue in a park
+Hypothesis: Some children are playing on a statue
+
+ID: 108
+Premise: A smiling boy in winter clothes is waving his mittened hands outside a building in the snow
+Hypothesis: A young child dressed for cold weather is standing outside
+
+ID: 109
+Premise: A person on a bike is jumping through the air and the sun is flaring through the bike frame
+Hypothesis: The person is flying through the air on a bicycle
+
+ID: 110
+Premise: It is snowing on two playing dogs
+Hypothesis: Two dogs are playing in the snow
+
+ID: 111
+Premise: The brown dog and the gray dog are playing in the snow
+Hypothesis: Two dogs are playing in the snow
+
+ID: 112
+Premise: A brown dog and a gray dog are playing in the snow
+Hypothesis: Two dogs are playing in the snow
+
+ID: 113
+Premise: A little boy is proudly wearing a green soccer strip and is running on the grass
+Hypothesis: A child in a green and white sports uniform is running over the grass
+
+ID: 114
+Premise: A little boy with brown hair is jumping off of a brown chair onto the floor
+Hypothesis: A young boy is quickly jumping off a chair
+
+ID: 115
+Premise: A man on a motorcycle is riding on a track and waving happily
+Hypothesis: A man on a motorcycle is riding on a track and waving
+
+ID: 116
+Premise: Three people are driving ATVs
+Hypothesis: Three people are driving four wheel vehicles in a field
+
+ID: 117
+Premise: A basketball player is on the court floor and the ball is being grabbed by another one
+Hypothesis: Two basketball players are scrambling for the ball on the court
+
+ID: 118
+Premise: A basketball player is on the court floor and another one is grabbing the ball
+Hypothesis: Two basketball players are scrambling for the ball on the court
+
+ID: 119
+Premise: Two men are carrying colorful baskets and blankets and walking near a building
+Hypothesis: Two people are walking with laden baskets and blankets
+
+ID: 120
+Premise: Two people are carrying colorful baskets and blankets and walking near a building
+Hypothesis: Two people are walking with laden baskets and blankets
+
+ID: 121
+Premise: Mud is covering a topless woman
+Hypothesis: A topless woman is being covered in mud
+
+ID: 122
+Premise: A brown and white dog is jumping over a red, yellow and white barrier
+Hypothesis: A brown and white dog is jumping over a red, yellow and white hurdle
+
+ID: 123
+Premise: An older man and a woman are riding bikes on the boardwalk near the water
+Hypothesis: A middle aged man and woman are riding bikes down a road beside the water
+
+ID: 124
+Premise: Pedestrians and cars are moving through a traffic jam in a big city
+Hypothesis: Some people and cars are on a crowded street
+
+ID: 125
+Premise: Pedestrians and cars are moving through a traffic jam in a big city
+Hypothesis: Some people and vehicles are on a crowded street
+
+ID: 126
+Premise: Two brown and white dogs are fighting on a grassy area in front of a tree
+Hypothesis: Two animals are playing outside
+
+ID: 127
+Premise: A toddler is making a splash inside a blue paddling pool
+Hypothesis: The child is splashing water in a pool
+
+ID: 128
+Premise: A man is standing on a black jeep on a dirt hill
+Hypothesis: A man is standing on a dirt hill next to a black jeep
+
+ID: 129
+Premise: A black dog and a small white and black dog are looking up at a kitchen countertop
+Hypothesis: Two dogs are looking up at a kitchen countertop
+
+ID: 130
+Premise: A large dog and a small dog are standing next to the kitchen counter and are sniffing
+Hypothesis: A large dog and a small dog are standing next to the kitchen counter and are investigating
+
+ID: 131
+Premise: A dirty tan dog is rolling in the dirt and looking right at the camera
+Hypothesis: A dog is playing on the ground
+
+ID: 132
+Premise: A person on a yellow dirt bike is taking a jump
+Hypothesis: A cyclist on a yellow bike is airborne
+
+ID: 133
+Premise: People are clustered around a bonfire at night
+Hypothesis: Several people are gathered around a fire at night
+
+ID: 134
+Premise: A middle eastern man is standing with the back against a lamp post near to other people
+Hypothesis: A man is leaning against a pole and is surrounded
+
+ID: 135
+Premise: A man and a woman are standing in front of an art gallery and are looking at a map
+Hypothesis: A couple is looking at a map
+
+ID: 136
+Premise: A large white dog is jumping up in the snow
+Hypothesis: A large white dog is jumping in the air over a snowy area
+
+ID: 137
+Premise: A woman is wearing paint and costume pieces and is riding a bike on a empty street
+Hypothesis: A girl in a strange outfit is riding the bike
+
+ID: 138
+Premise: A black dog and a yellow dog are playing with each other
+Hypothesis: Two dogs are playing with each other
+
+ID: 139
+Premise: Two girl with dogs are walking on a forest path
+Hypothesis: Two dogs and two people are walking in the woods
+
+ID: 140
+Premise: A woman wearing a blue shirt and high heels is standing on the sidewalk next to a man
+Hypothesis: A man and a woman are standing on the curb
+
+ID: 141
+Premise: A black dog and a tan dog are fighting
+Hypothesis: Two dogs are fighting
+
+ID: 142
+Premise: A black dog and a white dog are wrestling on the ground
+Hypothesis: Two dogs are fighting
