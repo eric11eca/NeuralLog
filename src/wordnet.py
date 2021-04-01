@@ -80,7 +80,7 @@ class ConceptNet:
         data = urllib.request.urlopen(url_to_search)
         json_data = json.load(data)
         for edge in json_data["edges"]:
-            if edge['start']["language"] == 'en':
+            if edge['start']["language"] == 'en' and edge["weight"] >= 1.0:
                 antonyms[edge['start']['label']] = 1
 
         return hypernyms, hyponyms, synonyms, antonyms
