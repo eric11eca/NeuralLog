@@ -38,6 +38,14 @@ class ConceptNet:
                 print(edge['end']['label'])
                 print(edge['rel']['label'])
 
+    def get_sense_label(self, concept):
+        url_to_search = self.url + "query?end=/c/en/" + concept
+        data = urllib.request.urlopen(url_to_search)
+        json_data = json.load(data)
+        for edge in json_data["edges"]:
+            if "sense_label" in edge["end"]:
+                return edge["end"]["sense_label"]
+
     def relation(self, concept, rel='IsA'):
         synonyms = {}
         url_to_search = self.url + "query?end=/c/en/" + \
@@ -66,7 +74,7 @@ class ConceptNet:
         hyponyms = {}
         url_to_search = self.url + "query?end=/c/en/" + \
             concept + "&rel=/r/" + "IsA" + "&limit=50"
-        # print(url_to_search)
+        print(url_to_search)
         data = urllib.request.urlopen(url_to_search)
         json_data = json.load(data)
         for edge in json_data["edges"]:
@@ -111,7 +119,9 @@ def get_word_sets(word):
     synonyms_full = {**synonyms, **syn}
     antonyms_full = {**antonyms, **ant}
 
-    return hypernyms_full, hyponyms_full, synonyms_full, antonyms_full
+    sense_label = conceptNet.get_sense_label(word)
+
+    return hypernyms_full, hyponyms_full, synonyms_full, antonyms_full, sense_label
 
 
 def test():
@@ -120,8 +130,10 @@ def test():
 
 
 if __name__ == '__main__':
-    hypernyms, hyponyms, synonyms, antonyms = get_word_sets("colorful")
+    hypernyms, hyponyms, synonyms, antonyms, sense_label = get_word_sets(
+        "cyclist")
     print(list(hypernyms))
     # print(list(hyponyms))
     print(list(synonyms))
     print(list(antonyms))
+    print(sense_label)
