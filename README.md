@@ -1,7 +1,7 @@
 
 # NeuralLog: Natural Language Inference with Joint Neural and Logical Reasoning
 
-This framework provides an easy and accurate method to annotate monotonicity information (polarity arrows) on natural English sentences based on Universal Dependency parse trees.  
+Deep learning (DL) based language models achieve high performance on various benchmarks for Natural Language Inference (NLI). And at this time, symbolic approaches to NLI are receiving less attention. Both approaches (symbolic and DL) have their advantages and weaknesses. However, currently, no method combines them in a system to solve the task of NLI. To merge symbolic and deep learning methods, we propose an inference framework called NeuralLog, which utilizes both a monotonicity-based logical inference engine and a neural network language model for phrase alignment. Our framework models the NLI task as a classic search problem and uses the beam search algorithm to search for optimal inference paths. Experiments show that our joint logic and neural inference system improves accuracy on the NLI task and can achieve state-of-art accuracy on the SICK and MED datasets.
 
 The following publications are integrated in this framework:
 - [NeuralLog: Natural Language Inference with Joint Neural and Logical Reasoning] (*SEM2021 @ ACL2021)
