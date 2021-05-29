@@ -5,6 +5,7 @@ Deep learning (DL) based language models achieve high performance on various ben
 
 The following publications are integrated in this framework:
 - [NeuralLog: Natural Language Inference with Joint Neural and Logical Reasoning] (*SEM2021 @ ACL2021)
+- [Monotonicity Marking from Universal Dependency Trees](https://arxiv.org/abs/1908.10084) (IWCS 2021)
 
 ## Installation
 The recoomanded environment include **Python 3.6** or higher , **[Stanza v1.2.0](https://github.com/stanfordnlp/stanza)** or higher, and **[ImageMagick v7.0.11](https://imagemagick.org/script/download.php). The code does **not** work with Python 2.7.
