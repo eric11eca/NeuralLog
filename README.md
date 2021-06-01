@@ -1,5 +1,7 @@
 
 # NeuralLog: Natural Language Inference with Joint Neural and Logical Reasoning
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/neurallog-natural-language-inference-with/natural-language-inference-on-med)](https://paperswithcode.com/sota/natural-language-inference-on-med?p=neurallog-natural-language-inference-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/neurallog-natural-language-inference-with/natural-language-inference-on-sick)](https://paperswithcode.com/sota/natural-language-inference-on-sick?p=neurallog-natural-language-inference-with)
 
 Deep learning (DL) based language models achieve high performance on various benchmarks for Natural Language Inference (NLI). And at this time, symbolic approaches to NLI are receiving less attention. Both approaches (symbolic and DL) have their advantages and weaknesses. However, currently, no method combines them in a system to solve the task of NLI. To merge symbolic and deep learning methods, we propose an inference framework called NeuralLog, which utilizes both a monotonicity-based logical inference engine and a neural network language model for phrase alignment. Our framework models the NLI task as a classic search problem and uses the beam search algorithm to search for optimal inference paths. Experiments show that our joint logic and neural inference system improves accuracy on the NLI task and can achieve state-of-art accuracy on the SICK and MED datasets.
 
