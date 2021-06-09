@@ -33,7 +33,7 @@ We provide two [UD Parser Models](https://drive.google.com/drive/folders/1XHCHA2
 For training new UD parser models, see [Stanza's training dcumentation](https://stanfordnlp.github.io/stanza/training.html#setting-environment-variables) for an introduction how to train your own UD parser. 
 
 ## Citing & Authors
-If you find this repository helpful, feel free to cite our publication [Monotonicity Marking from Universal Dependency Trees](https://arxiv.org/abs/1908.10084):
+If you find this repository helpful, feel free to cite our publication [NeuralLog: Natural Language Inference with Joint Neural and Logical Reasoning](https://arxiv.org/abs/2105.14167):
 ```bibtex 
 @misc{chen2021neurallog,
       title={NeuralLog: Natural Language Inference with Joint Neural and Logical Reasoning}, 
